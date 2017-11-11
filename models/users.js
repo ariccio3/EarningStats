@@ -3,55 +3,63 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/mentorlist" || "mongodb://admin:admin@ds161194.mlab.com:61194/heroku_p9xxsj90",
+  process.env.MONGODB_URI || "mongodb://localhost/earnings_data" || "mongodb://admin:admin@ds161194.mlab.com:61194/heroku_p9xxsj90",
   {
     useMongoClient: true
   }
 );
 
-const UsersSchema = new Schema({
-  firstName: { 
+const StockSchema = new Schema({
+  stock: { 
         type: String, 
         required: true 
       },
-  lastName: { 
+  quarter: { 
         type: String, 
         required: true 
       },
-  password: { 
+  date: { 
         type: String, 
         required: true 
       },
-  photo: { 
+  priceBeforeEarnings: { 
         type: String,
         required: false 
       },
-  city: {
+  openPriceAfterEarnings: {
         type: String, 
         required: true 
       },
-  state: { 
+  expectedMove: { 
         type: String,
         required: true 
       },
-  zipcode: { 
+  actualMove: { 
         type: String,
         required: true 
       },
-  aboutMe: { 
+  absValActualMove: { 
         type: String, 
         required: false 
       },
-  skills: { 
+  actualPercentOfExpectedMove: { 
         type: String, 
         required: false 
       },
-  cost: { 
+  insideOutside: { 
+        type: String, 
+        required: false 
+      },
+  expectedPercentMove: { 
+        type: String, 
+        required: false 
+      },
+  actualPercentMove: { 
         type: String, 
         required: false 
       }
 });
 
-const Users = mongoose.model("Users", UsersSchema);
+const Stocks = mongoose.model("Stocks", StockSchema);
 
-module.exports = Users;
+module.exports = Stocks;

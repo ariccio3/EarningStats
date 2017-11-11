@@ -11,5 +11,4 @@ const NoMatch = () =>
           </h1>
         </div>
 
-
 export default NoMatch;

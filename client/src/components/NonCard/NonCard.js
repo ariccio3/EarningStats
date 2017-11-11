@@ -1,31 +1,50 @@
 import React from "react";
-import {Thumbnail} from "react-bootstrap";
+// import {Thumbnail} from "react-bootstrap";
 import "./NonCard.css";
 
 
 const NonCard = props => (
   <div>
-      <Thumbnail src={props.photo} alt="User Photo" className="card-border">
       <ul>
         <li className="text-center">
-           <strong>{props.firstName} {props.lastName}</strong>
+           <strong>{props.stock}</strong>
         </li>
         <div className="skill">
         <li>
-          <strong>Skill(s): </strong>{props.skills.replace(/,/g, ", ")}
+          <strong>quarter: </strong>{props.quarter.replace(/,/g, ", ")}
         </li>
         <li>
-          <strong>Location:</strong> {props.city}, {props.state}
+          <strong>date:</strong> {props.date}, {props.state}
         </li>
         <li>
-          <strong>Cost:</strong> {props.cost}
+          <strong>priceBeforeEarnings:</strong> {props.priceBeforeEarnings}
+        </li>
+        <li>
+          <strong>openPriceAfterEarnings:</strong> {props.openPriceAfterEarnings}
+        </li>
+        <li>
+          <strong>expectedMove:</strong> {props.expectedMove}
+        </li>
+        <li>
+          <strong>actualMove:</strong> {props.actualMove}
+        </li>
+        <li>
+          <strong>absValActualMove:</strong> {props.absValActualMove}
+        </li>
+        <li>
+          <strong>actualPercentOfExpectedMove:</strong> {props.actualPercentOfExpectedMove}
+        </li>
+        <li>
+          <strong>insideOutside:</strong> {props.insideOutside}
+        </li>
+        <li>
+          <strong>expectedPercentMove:</strong> {props.expectedPercentMove}
         </li>
         </div>
         <li><br></br>
-          <strong>About Me:</strong> <em>{props.aboutMe}.</em>
+          <strong>actualPercentMove:</strong> <em>{props.actualPercentMove}.</em>
         </li>
       </ul>
-      </Thumbnail>
   </div>
 );
 

@@ -5,11 +5,11 @@ import {Grid} from "react-bootstrap";
 import {Row} from "react-bootstrap";
 import {Col} from "react-bootstrap";
 import "./cardStyle.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 class NonResults extends Component {
   state = {
-    skills: []
+    stocks: []
   };
 
   componentDidMount() {
@@ -21,8 +21,8 @@ class NonResults extends Component {
   }
 
   loadResults = () => {
-    API.getUserSkill(this.props.match.params.skill)
-    .then(res => this.setState({ skills: res.data }))
+    API.getStats(this.props.match.params.stock)
+    .then(res => this.setState({ stocks: res.data }))
     .catch(err => console.log(err));
   };
 
@@ -30,33 +30,33 @@ class NonResults extends Component {
       return (
         <div>
           <div className="container">
-          <div className="panel text-center">
-            <h3>To see more info about Mentors, please login <Link to="/login">here.</Link></h3>
-          </div>
         </div>
         <Grid>
           <Row>
-              {this.state.skills.length ? (
+              {this.state.stocks.length ? (
                 <div>
-                {this.state.skills.map(result => (
+                {this.state.stocks.map(result => (
                   <Col xs={6} md={4} lg={3}>
 
                   <NonCard
                     key={result._id}
-                    firstName={result.firstName}
-                    lastName={result.lastName}
-                    photo={result.photo}
-                    city={result.city}
-                    state={result.state}
-                    skills={result.skills} 
-                    aboutMe={result.aboutMe}
-                    cost={result.cost}
-                    email={result.email}
+                    stock={result.stock}
+                    quarter={result.quarter}
+                    date={result.date}
+                    priceBeforeEarnings={result.priceBeforeEarnings}
+                    openPriceAfterEarnings={result.openPriceAfterEarnings}
+                    expectedMove={result.expectedMove} 
+                    actualMove={result.actualMove}
+                    absValActualMove={result.absValActualMove}
+                    actualPercentOfExpectedMove={result.actualPercentOfExpectedMove}
+                    insideOutside={result.insideOutside}
+                    expectedPercentMove={result.expectedPercentMove}
+                    actualPercentMove={result.actualPercentMove}
                   /></Col>
                 ))}
                 </div>
             ) : (
-              <h3>No mentors for that skill yet!</h3>
+              <h3>No earningStats for that stock yet!</h3>
             )}           
           </Row>
         </Grid>
@@ -65,5 +65,4 @@ class NonResults extends Component {
   }
 }
           
-
 export default NonResults;

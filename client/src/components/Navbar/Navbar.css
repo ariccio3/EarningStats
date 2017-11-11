@@ -1,6 +1,13 @@
-.navbar-fixed {
-    height: 30px;
+* {
+    border: solid red 1px;
 }
+
 .navbar {
     border-bottom: 1px solid black;
+    color: black;
+}
+
+.form-inline {
+	display: block;
+	float: left;
 }

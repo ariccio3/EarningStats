@@ -9,7 +9,7 @@ const queryInput = placeHolderInput[1]
 class Navbar extends Component {
   // Setting the component's initial state
   state = {
-    skills: ""
+    stocks: ""
   };
 
   handleInputChange = event => {
@@ -28,16 +28,16 @@ class Navbar extends Component {
     event.preventDefault();
 
   if(queryInput) {
-    window.location.href = "/results/" + this.state.skills + "/#" +  queryInput
+    window.location.href = "/results/" + this.state.stocks + "/#" +  queryInput
   }else {
-    window.location.href = "/results/nonuser/" + this.state.skills }
-console.log(window.location.href);
-    if (!this.state.skills) {
+    window.location.href = "/results/nonuser/" + this.state.stocks }
+
+    if (!this.state.stocks) {
       alert("Please enter a skill you'd like to search for");
     } else {
 
       this.setState({
-        skills: ""
+        stocks: ""
         
       });
     }
@@ -45,7 +45,7 @@ console.log(window.location.href);
 
   render() {
     return (
-      <nav className="navbar navbar-default navbar-fixed">
+      <nav className="navbar navbar-light bg-light ">
         <div className="container-fluid">
           <div className="navbar-header">
             <Link className="navbar-brand" to="/">
@@ -54,14 +54,14 @@ console.log(window.location.href);
           </div>
 
           <form className="navbar-form navbar-left">
-            <div className="form-group">
+            <div className="form-inline">
               <input
                 className="form-control"
-                value={this.state.skills}
-                name="skills"
+                value={this.state.stocks}
+                name="stocks"
                 onChange={this.handleInputChange}
                 type="text"
-                placeholder="Search for a Skill"
+                placeholder="Search for a Stock"
               />
             </div>
           

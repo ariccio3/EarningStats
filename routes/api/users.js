@@ -2,9 +2,9 @@ const router = require("express").Router();
 const usersController = require("../../controllers/usersController");
 
 
-// Matches with "/api/users/:skill"
+// Matches with "/api/stocks/:stock"
 router
-  .route("/:skill")
+  .route("/:stock")
   .get(usersController.findAll)
 
 // // matches with "api/users/signIn/:email"

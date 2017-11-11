@@ -9,7 +9,7 @@ const queryInput = placeHolderInput[1]
 class Home extends Component {
   // Setting the component's initial state
   state = {
-    skills: ""
+    stocks: ""
   };
 
   handleInputChange = event => {
@@ -29,14 +29,14 @@ class Home extends Component {
 
 
     if(queryInput) {
-      window.location.href = "/results/nonuser/" + this.state.skills 
+      window.location.href = "/results/nonuser/" + this.state.stocks 
     }
         
-    if (!this.state.skills) {
+    if (!this.state.stocks) {
       alert("Please enter a stock you'd like to search for");
     } else {
       this.setState({
-        skills: ""
+        stocks: ""
       });
     }
   };
