@@ -29,7 +29,7 @@ class Home extends Component {
 
 
     if(queryInput) {
-      window.location.href = "/results/nonuser/" + this.state.stocks 
+      window.location.href = "/results/" + this.state.stocks 
     }
         
     if (!this.state.stocks) {

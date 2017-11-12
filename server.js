@@ -2,10 +2,12 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const routes = require("./routes");
+const logger = require("morgan");
 const app = express();
 const PORT = process.env.PORT || 3001;
 
 // Configure body parser for AJAX requests
+app.use(logger("dev"));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 // Serve up static assets
@@ -22,6 +24,15 @@ mongoose.connect(
     	useMongoClient: true
   }
 );
+var db = mongoose.connection;
+
+db.on("error", function(error) {
+	console.log("Mongoose Error: ", error);
+});
+
+db.once("open", function() {
+	console.log("Mongoose connection successful.");
+});
 
 // Start the API server
 app.listen(PORT, function() {

@@ -28,9 +28,9 @@ class Navbar extends Component {
     event.preventDefault();
 
   if(queryInput) {
-    window.location.href = "/results/" + this.state.stocks + "/#" +  queryInput
+    window.location.href = "/results/nonuser/" + this.state.stocks + "/#" +  queryInput
   }else {
-    window.location.href = "/results/nonuser/" + this.state.stocks }
+    window.location.href = "/results/" + this.state.stocks }
 
     if (!this.state.stocks) {
       alert("Please enter a skill you'd like to search for");
