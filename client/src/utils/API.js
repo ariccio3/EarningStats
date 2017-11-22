@@ -1,8 +1,8 @@
 import axios from "axios";
 
 export default {
-  // Gets the User with the given stock
+  // Gets the Stock with the given stock ticker
   getStats: function(stock) {
-    return axios.get("/api/stocks/" + stock);
+    return axios.get("/api/users/" + stock);
   }    
 }; 

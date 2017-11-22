@@ -15,7 +15,7 @@ class NonResults extends Component {
   componentDidMount() {
     this.loadResults();
   }
-
+  //Gets called after Render and holds previous props & state for comparing to current
   componentDidUpdate() {
     this.loadResults();
   }
@@ -24,13 +24,12 @@ class NonResults extends Component {
     API.getStats(this.props.match.params.stock)
     .then(res => this.setState({ stocks: res.data }))
     .catch(err => console.log(err));
-  };
+  }
 
     render() {
       return (
-        <div>
-          <div className="container">
-        </div>
+        
+      <div className="container"> 
         <Grid>
           <Row>
               {this.state.stocks.length ? (
@@ -60,7 +59,7 @@ class NonResults extends Component {
             )}           
           </Row>
         </Grid>
-        </div>
+      </div>
     );
   }
 }

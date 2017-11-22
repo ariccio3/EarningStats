@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const placeHolderInput= window.location.href.split("#");
-const queryInput = placeHolderInput[1]
+const queryInput = placeHolderInput[1];
 // console.log(queryInput)
 
 class Navbar extends Component {
   // Setting the component's initial state
   state = {
     stocks: ""
-  };
+  }
 
   handleInputChange = event => {
     // Getting the value and name of the input which triggered the change
@@ -21,7 +21,7 @@ class Navbar extends Component {
     this.setState({
       [name]: value
     });
-  };
+  }
 
   handleFormSubmit = event => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
@@ -29,7 +29,7 @@ class Navbar extends Component {
 
   if(queryInput) {
     window.location.href = "/results/nonuser/" + this.state.stocks + "/#" +  queryInput
-  }else {
+  } else {
     window.location.href = "/results/" + this.state.stocks }
 
     if (!this.state.stocks) {
@@ -41,7 +41,7 @@ class Navbar extends Component {
         
       });
     }
-  };
+  }
 
   render() {
     return (

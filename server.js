@@ -24,15 +24,15 @@ mongoose.connect(
     	useMongoClient: true
   }
 );
-var db = mongoose.connection;
+// var db = mongoose.connection;
 
-db.on("error", function(error) {
-	console.log("Mongoose Error: ", error);
-});
+// db.on("error", function(error) {
+// 	console.log("Mongoose Error: ", error);
+// });
 
-db.once("open", function() {
-	console.log("Mongoose connection successful.");
-});
+// db.once("open", function() {
+// 	console.log("Mongoose connection successful.");
+// });
 
 // Start the API server
 app.listen(PORT, function() {
