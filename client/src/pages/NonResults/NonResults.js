@@ -110,14 +110,13 @@ class NonResults extends Component {
     return count;
   };
   //***
-  stockTotalDoubleEM = () => {
+  stockDoubleEM = () => {
     let count = 0;
     for (let i = 0; i < this.state.stocks.length; i++) {
       if (this.state.stocks[i].actualPercentOfExpectedMove >= 2) {
         count++;
       } 
     } 
-    console.log(count);
     return count;
   };
 
@@ -128,10 +127,31 @@ class NonResults extends Component {
         count++;
       } 
     } 
+    return count;
+  };
+  //***
+  stockNumHalfEM = () => {
+    let count = 0;
+    for (let i = 0; i < this.state.stocks.length; i++) {
+      if (this.state.stocks[i].actualPercentOfExpectedMove <= .5) {
+        count++;
+      } 
+    } 
     console.log(count);
     return count;
   };
 
+  watchListNumHalfEM = () => {
+    let count = 0;
+    for (let i = 0; i < this.state.watchList.length; i++) {
+      if (this.state.watchList[i].actualPercentOfExpectedMove <= .5) {
+        count++;
+      } 
+    } 
+    console.log(count);
+    return count;
+  };
+  //***
 
   render() {
       console.log(this.state.watchList);
@@ -182,22 +202,54 @@ class NonResults extends Component {
               <td><strong>{Math.floor(this.watchListInsideEM() / this.state.watchList.length *100)}%</strong></td>
             </tr>
             <tr>
-              <td># Double (2x) Expected Move</td>
-              <td>{this.stockTotalDoubleEM()}</td>
+              <td># ±.5 Expected Move</td>
+              <td>{this.stockNumHalfEM()}</td>
+              <td>{this.watchListNumHalfEM()}</td>
+            </tr>
+            <tr>
+              <td><strong>% ±.5 Expected Move</strong></td>
+              <td><strong>{Math.floor(this.stockNumHalfEM() / this.state.stocks.length *100)}%</strong></td>
+              <td><strong>{Math.floor(this.watchListNumHalfEM() / this.state.watchList.length *100)}%</strong></td>
+            </tr>                                                                      
+          </tbody>
+        </table><br/>
+
+        <table className="table table-striped table-hover table-bordered">
+          <thead className="thead-dark">
+            <tr>
+              <th>Occurences Outside the Expected Move</th>
+              <th>{this.props.match.params.stock}</th>
+              <th>Watchlist</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td># Double the Expected Move</td>
+              <td>{this.stockDoubleEM()}</td>
               <td>{this.watchListDoubleEM()}</td>
             </tr>
             <tr>
-              <td>% Down - Outside Expected Move</td>
+              <td># Up</td>
+              <td>{}</td>
+              <td>{}</td>
+            </tr>            
+            <tr>
+              <td>% Up</td>
               <td>{}</td>
               <td>{}</td>
             </tr>
             <tr>
-              <td>% ± .5 Expected Move</td>
+              <td># Down</td>
               <td>{}</td>
               <td>{}</td>
-            </tr>                                                          
+            </tr>            
+            <tr>
+              <td>% Down</td>
+              <td>{}</td>
+              <td>{}</td>
+            </tr>            
           </tbody>
-        </table><br/>
+        </table><br/>                  
 
         <table className="table table-striped table-hover table-bordered">
           <thead className="thead-dark">
