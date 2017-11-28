@@ -23,27 +23,27 @@ const StockSchema = new Schema({
         required: true 
       },
   priceBeforeEarnings: { 
-        type: String,
+        type: Number,
         required: false 
       },
   openPriceAfterEarnings: {
-        type: String, 
+        type: Number, 
         required: true 
       },
   expectedMove: { 
-        type: String,
+        type: Number,
         required: true 
       },
   actualMove: { 
-        type: String,
+        type: Number,
         required: true 
       },
   absValActualMove: { 
-        type: String, 
+        type: Number, 
         required: false 
       },
   actualPercentOfExpectedMove: { 
-        type: String, 
+        type: Number, 
         required: false 
       },
   insideOutside: { 
@@ -51,11 +51,11 @@ const StockSchema = new Schema({
         required: false 
       },
   expectedPercentMove: { 
-        type: String, 
+        type: Number, 
         required: false 
       },
   actualPercentMove: { 
-        type: String, 
+        type: Number, 
         required: false 
       }
 });

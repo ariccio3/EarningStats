@@ -1,65 +1,263 @@
 import React, { Component } from "react";
 import API from "../../utils/API";
-import NonCard from "../../components/NonCard";
-import {Grid} from "react-bootstrap";
-import {Row} from "react-bootstrap";
-import {Col} from "react-bootstrap";
+// import NonCard from "../../components/NonCard";
+// import {Grid} from "react-bootstrap";
+// import {Row} from "react-bootstrap";
+// import {Col} from "react-bootstrap";
 import "./cardStyle.css";
 // import { Link } from "react-router-dom";
 
 class NonResults extends Component {
   state = {
-    stocks: []
+    stocks: [],
+    watchList: []
   };
 
   componentDidMount() {
     this.loadResults();
-  }
-  //Gets called after Render and holds previous props & state for comparing to current
-  componentDidUpdate() {
-    this.loadResults();
+    this.loadWatchList();
   }
 
   loadResults = () => {
     API.getStats(this.props.match.params.stock)
     .then(res => this.setState({ stocks: res.data }))
     .catch(err => console.log(err));
-  }
+  };
 
-    render() {
-      return (
-        
-      <div className="container"> 
-        <Grid>
-          <Row>
-              {this.state.stocks.length ? (
-                <div>
-                {this.state.stocks.map(result => (
-                  <Col xs={6} md={4} lg={3}>
+  loadWatchList = () => {
+    API.getWatchList()
+    .then(res => this.setState({ watchList: res.data }))
+    .catch(err => console.log(err));
+  };
+  //***
+  stockTotalUp = () => {
+    let count = 0;
+    for (let i = 0; i < this.state.stocks.length; i++) {
+      if (this.state.stocks[i].actualMove >= 0) {
+        count++;
+      } 
+    } 
+    return count;
+  };
 
-                  <NonCard
-                    key={result._id}
-                    stock={result.stock}
-                    quarter={result.quarter}
-                    date={result.date}
-                    priceBeforeEarnings={result.priceBeforeEarnings}
-                    openPriceAfterEarnings={result.openPriceAfterEarnings}
-                    expectedMove={result.expectedMove} 
-                    actualMove={result.actualMove}
-                    absValActualMove={result.absValActualMove}
-                    actualPercentOfExpectedMove={result.actualPercentOfExpectedMove}
-                    insideOutside={result.insideOutside}
-                    expectedPercentMove={result.expectedPercentMove}
-                    actualPercentMove={result.actualPercentMove}
-                  /></Col>
-                ))}
-                </div>
-            ) : (
-              <h3>No earningStats for that stock yet!</h3>
-            )}           
-          </Row>
-        </Grid>
-      </div>
+  watchListTotalUp = () => {
+    let count = 0;
+    for (let i = 0; i < this.state.watchList.length; i++) {
+      if (this.state.watchList[i].actualMove >= 0) {
+        count++;
+      } 
+    } 
+    return count;
+  };
+  //***
+  stockTotalDown = () => {
+    let count = 0;
+    for (let i = 0; i < this.state.stocks.length; i++) {
+      if (this.state.stocks[i].actualMove < 0) {
+        count++;
+      } 
+    } 
+    return count;
+  };
+  
+  watchListTotalDown = () => {
+    let count = 0;
+    for (let i = 0; i < this.state.watchList.length; i++) {
+      if (this.state.watchList[i].actualMove < 0) {
+        count++;
+      } 
+    } 
+    return count;
+  };
+  //***
+  stockTotalInsideEM = () => {
+    let count = 0;
+    for (let i = 0; i < this.state.stocks.length; i++) {
+      if (this.state.stocks[i].insideOutside === 'INSIDE') {
+        count++;
+      } 
+    } 
+    return count;
+  };
+
+  watchListInsideEM = () => {
+    let count = 0;
+    for (let i = 0; i < this.state.watchList.length; i++) {
+      if (this.state.watchList[i].insideOutside === 'INSIDE') {
+        count++;
+      } 
+    } 
+    return count;
+  };
+  //***
+  stockTotalOutsideEM = () => {
+    let count = 0;
+    for (let i = 0; i < this.state.stocks.length; i++) {
+      if (this.state.stocks[i].insideOutside === 'OUTSIDE') {
+        count++;
+      } 
+    } 
+    return count;
+  };
+
+  watchListOutsideEM = () => {
+    let count = 0;
+    for (let i = 0; i < this.state.watchList.length; i++) {
+      if (this.state.watchList[i].insideOutside === 'OUTSIDE') {
+        count++;
+      } 
+    } 
+    return count;
+  };
+  //***
+  stockTotalDoubleEM = () => {
+    let count = 0;
+    for (let i = 0; i < this.state.stocks.length; i++) {
+      if (this.state.stocks[i].actualPercentOfExpectedMove >= 2) {
+        count++;
+      } 
+    } 
+    console.log(count);
+    return count;
+  };
+
+  watchListDoubleEM = () => {
+    let count = 0;
+    for (let i = 0; i < this.state.watchList.length; i++) {
+      if (this.state.watchList[i].actualPercentOfExpectedMove >= 2) {
+        count++;
+      } 
+    } 
+    console.log(count);
+    return count;
+  };
+
+
+  render() {
+      console.log(this.state.watchList);
+    return (
+      <div>  
+        <table className="table table-striped table-hover table-bordered">
+          <thead className="thead-dark">
+            <tr>
+              <th>Totals</th>
+              <th>{this.props.match.params.stock}</th>
+              <th>Watchlist</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Total Earnings Reports Analyzed</td>
+              <td>{this.state.stocks.length}</td>
+              <td>{this.state.watchList.length}</td>
+            </tr>
+            <tr>
+              <td>Total # Up</td>
+              <td>{this.stockTotalUp()}</td>
+              <td>{this.watchListTotalUp()}</td>
+            </tr>
+            <tr>
+              <td>Total # Down</td>
+              <td>{this.stockTotalDown()}</td>
+              <td>{this.watchListTotalDown()}</td>
+            </tr>
+            <tr>
+              <td><strong>Total % Up</strong></td>
+              <td><strong>{Math.floor(this.stockTotalUp() / this.state.stocks.length *100)}%</strong></td>
+              <td><strong>{Math.floor(this.watchListTotalUp() / this.state.watchList.length *100)}%</strong></td>
+            </tr>
+            <tr>
+              <td>Total # Inside Expected Move</td>
+              <td>{this.stockTotalInsideEM()}</td>
+              <td>{this.watchListInsideEM()}</td>
+            </tr>
+            <tr>
+              <td>Total # Outside Expected Move</td>
+              <td>{this.stockTotalOutsideEM()}</td>
+              <td>{this.watchListOutsideEM()}</td>
+            </tr>
+            <tr>
+              <td><strong>Total % Inside Expected Move</strong></td>
+              <td><strong>{Math.floor(this.stockTotalInsideEM() / this.state.stocks.length *100)}%</strong></td>
+              <td><strong>{Math.floor(this.watchListInsideEM() / this.state.watchList.length *100)}%</strong></td>
+            </tr>
+            <tr>
+              <td># Double (2x) Expected Move</td>
+              <td>{this.stockTotalDoubleEM()}</td>
+              <td>{this.watchListDoubleEM()}</td>
+            </tr>
+            <tr>
+              <td>% Down - Outside Expected Move</td>
+              <td>{}</td>
+              <td>{}</td>
+            </tr>
+            <tr>
+              <td>% ± .5 Expected Move</td>
+              <td>{}</td>
+              <td>{}</td>
+            </tr>                                                          
+          </tbody>
+        </table><br/>
+
+        <table className="table table-striped table-hover table-bordered">
+          <thead className="thead-dark">
+            <tr>
+              <th>Average Expected Move %</th>
+              <th>{this.props.match.params.stock}</th>
+              <th>Watchlist</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Above Average Expected Move % Inside</td>
+              <td>{this.state.stocks.length}</td>
+              <td>{this.state.watchList.length}</td>
+            </tr>
+            <tr>
+              <td>Average Expected Move</td>
+              <td>{this.stockTotalUp()}</td>
+              <td>{this.watchListTotalUp()}</td>
+            </tr>
+            <tr>
+              <td>Below Average Expected Move % Inside</td>
+              <td>{this.stockTotalDown()}</td>
+              <td>{this.watchListTotalDown()}</td>
+            </tr>
+          </tbody>
+        </table><br/>
+
+        <table className="table table-striped table-hover table-bordered">
+          <thead className="thead-dark">
+            <tr>
+              <th>Quarterly</th>
+              <th>{this.props.match.params.stock}</th>
+              <th>Watchlist</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Q1 % Inside Expected Move</td>
+              <td>{this.state.stocks.length}</td>
+              <td>{this.state.watchList.length}</td>
+            </tr>
+            <tr>
+              <td>Q2 % Inside Expected Move</td>
+              <td>{this.stockTotalUp()}</td>
+              <td>{this.watchListTotalUp()}</td>
+            </tr>
+            <tr>
+              <td>Q3 % Inside Expected Move</td>
+              <td>{this.stockTotalDown()}</td>
+              <td>{this.watchListTotalDown()}</td>
+            </tr>
+            <tr>
+              <td>Q4 % Inside Expected Move</td>
+              <td>{this.stockTotalDown()}</td>
+              <td>{this.watchListTotalDown()}</td>
+            </tr>            
+          </tbody>
+        </table>
+      </div>         
     );
   }
 }
