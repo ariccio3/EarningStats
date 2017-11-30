@@ -201,7 +201,6 @@ class NonResults extends Component {
         quarterCount++;
       } 
     } 
-    console.log(insideCount);
     return insideCount / quarterCount *100;
   };
 
@@ -216,7 +215,6 @@ class NonResults extends Component {
         quarterCount++;
       } 
     } 
-    console.log(insideCount);
     return insideCount / quarterCount *100;
   };
   //***
@@ -231,7 +229,6 @@ class NonResults extends Component {
         quarterCount++;
       } 
     } 
-    console.log(insideCount);
     return insideCount / quarterCount *100;
   };
 
@@ -246,11 +243,10 @@ class NonResults extends Component {
         quarterCount++;
       } 
     } 
-    console.log(insideCount);
     return insideCount / quarterCount *100;
   };
   //***
-    stockQthree = () => {
+  stockQthree = () => {
     let insideCount = 0;
     let quarterCount = 0;
     for (let i = 0; i < this.state.stocks.length; i++) {
@@ -261,7 +257,6 @@ class NonResults extends Component {
         quarterCount++;
       } 
     } 
-    console.log(insideCount);
     return insideCount / quarterCount *100;
   };
 
@@ -276,11 +271,10 @@ class NonResults extends Component {
         quarterCount++;
       } 
     } 
-    console.log(insideCount);
     return insideCount / quarterCount *100;
   };
   //***
-    stockQfour = () => {
+  stockQfour = () => {
     let insideCount = 0;
     let quarterCount = 0;
     for (let i = 0; i < this.state.stocks.length; i++) {
@@ -291,7 +285,6 @@ class NonResults extends Component {
         quarterCount++;
       } 
     } 
-    console.log(insideCount);
     return insideCount / quarterCount *100;
   };
 
@@ -306,10 +299,126 @@ class NonResults extends Component {
         quarterCount++;
       } 
     } 
-    console.log(insideCount);
     return insideCount / quarterCount *100;
   };
   //***
+  stockAvgExpectedMove = () => {
+    let sum = 0;    
+    for (let i = 0; i < this.state.stocks.length; i++) {
+      if (this.state.stocks[i].expectedPercentMove) {
+        sum += this.state.stocks[i].expectedPercentMove;
+      } 
+    }
+    let average = sum / this.state.stocks.length;
+    return average.toFixed(2);
+  };
+
+  watchListAvgExpectedMove = () => {
+    let sum = 0;    
+    for (let i = 0; i < this.state.watchList.length; i++) {
+      if (this.state.watchList[i].expectedPercentMove) {
+        sum += this.state.watchList[i].expectedPercentMove;
+      } 
+    }
+    let average = sum / this.state.watchList.length;
+    return average.toFixed(2);
+  };
+  //***
+  stockAvgActualMove = () => {
+    let sum = 0;    
+    for (let i = 0; i < this.state.stocks.length; i++) {
+      if (this.state.stocks[i].actualPercentMove) {
+        sum += Math.abs(this.state.stocks[i].actualPercentMove);
+      } 
+    }
+    let average = sum / this.state.stocks.length;
+    return average.toFixed(2);
+  };
+
+  watchListAvgActualMove = () => {
+    let sum = 0;    
+    for (let i = 0; i < this.state.watchList.length; i++) {
+      if (this.state.watchList[i].actualPercentMove) {
+        sum += Math.abs(this.state.watchList[i].actualPercentMove);
+      } 
+    }
+    let average = sum / this.state.watchList.length;
+    return average.toFixed(2);
+  };
+
+  stockAboveAvgExpectedMove = () => {
+    let avgEM = this.stockAvgExpectedMove();
+    let allCount = 0;
+    let insideCount = 0;
+    for (let i = 0; i < this.state.stocks.length; i++) {
+      if (this.state.stocks[i].expectedPercentMove > avgEM) {
+        allCount++;
+      }
+    }
+    for (let i = 0; i < this.state.stocks.length; i++) {
+      if (this.state.stocks[i].expectedPercentMove > avgEM && this.state.stocks[i].insideOutside === 'INSIDE') {
+        insideCount++;
+      }
+    }
+    let aboveAvgEMPercentInside = Math.floor(insideCount / allCount * 100);
+    return aboveAvgEMPercentInside;
+  };
+
+  watchListAboveAvgExpectedMove = () => {
+    let avgEM = this.watchListAvgExpectedMove();
+    let allCount = 0;
+    let insideCount = 0;
+    for (let i = 0; i < this.state.watchList.length; i++) {
+      if (this.state.watchList[i].expectedPercentMove > avgEM) {
+        allCount++;
+      }
+    }
+    for (let i = 0; i < this.state.watchList.length; i++) {
+      if (this.state.watchList[i].expectedPercentMove > avgEM && this.state.watchList[i].insideOutside === 'INSIDE') {
+        insideCount++;
+      }
+    }
+    let aboveAvgEMPercentInside = Math.floor(insideCount / allCount * 100);
+    return aboveAvgEMPercentInside;
+  };
+  // //***
+  stockBelowAvgExpectedMove = () => {
+    let avgEM = this.stockAvgExpectedMove();
+    let allCount = 0;
+    let insideCount = 0;
+    for (let i = 0; i < this.state.stocks.length; i++) {
+      if (this.state.stocks[i].expectedPercentMove < avgEM) {
+        allCount++;
+      }
+    }
+    for (let i = 0; i < this.state.stocks.length; i++) {
+      if (this.state.stocks[i].expectedPercentMove < avgEM && this.state.stocks[i].insideOutside === 'INSIDE') {
+        insideCount++;
+      }
+    }
+    let aboveAvgEMPercentInside = Math.floor(insideCount / allCount * 100);
+    return aboveAvgEMPercentInside;
+  };
+
+  watchListBelowAvgExpectedMove = () => {
+    let avgEM = this.watchListAvgExpectedMove();
+    let allCount = 0;
+    let insideCount = 0;
+    for (let i = 0; i < this.state.watchList.length; i++) {
+      if (this.state.watchList[i].expectedPercentMove < avgEM) {
+        allCount++;
+      }
+    }
+    for (let i = 0; i < this.state.watchList.length; i++) {
+      if (this.state.watchList[i].expectedPercentMove < avgEM && this.state.watchList[i].insideOutside === 'INSIDE') {
+        insideCount++;
+      }
+    }
+    let aboveAvgEMPercentInside = Math.floor(insideCount / allCount * 100);
+    return aboveAvgEMPercentInside;
+  };
+  //***
+
 
   render() {
       console.log(this.state.watchList);
@@ -412,26 +521,31 @@ class NonResults extends Component {
         <table className="table table-striped table-hover table-bordered">
           <thead className="thead-dark">
             <tr>
-              <th>Average Expected Move %</th>
+              <th>Average Expected vs. Actual Move %</th>
               <th>{this.props.match.params.stock}</th>
               <th>Watchlist</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Above Average Expected Move % Inside</td>
-              <td>{this.state.stocks.length}</td>
-              <td>{this.state.watchList.length}</td>
+              <td>Above Average % Expected Move % Inside</td>
+              <td>{this.stockAboveAvgExpectedMove()}%</td>
+              <td>{this.watchListAboveAvgExpectedMove()}%</td>
             </tr>
             <tr>
-              <td>Average Expected Move</td>
-              <td>{this.stockTotalUp()}</td>
-              <td>{this.watchListTotalUp()}</td>
+              <td>Average % Expected Move</td>
+              <td>{this.stockAvgExpectedMove()}%</td>
+              <td>{this.watchListAvgExpectedMove()}%</td>
             </tr>
             <tr>
-              <td>Below Average Expected Move % Inside</td>
-              <td>{this.stockTotalDown()}</td>
-              <td>{this.watchListTotalDown()}</td>
+              <td>Average % Actual Move</td>
+              <td>{this.stockAvgActualMove()}%</td>
+              <td>{this.watchListAvgActualMove()}%</td>
+            </tr>            
+            <tr>
+              <td>Below Average % Expected Move % Inside</td>
+              <td>{this.stockBelowAvgExpectedMove()}%</td>
+              <td>{this.watchListBelowAvgExpectedMove()}%</td>
             </tr>
           </tbody>
         </table><br/>
