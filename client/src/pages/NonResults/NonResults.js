@@ -560,22 +560,22 @@ class NonResults extends Component {
           </thead>
           <tbody>
             <tr>
-              <td>Q1 % Inside Expected Move</td>
+              <td>Q1 - % Inside Expected Move</td>
               <td>{Math.floor(this.stockQone())}%</td>
               <td>{Math.floor(this.watchListQone())}%</td>
             </tr>
             <tr>
-              <td>Q2 % Inside Expected Move</td>
+              <td>Q2 - % Inside Expected Move</td>
               <td>{Math.floor(this.stockQtwo())}%</td>
               <td>{Math.floor(this.watchListQtwo())}%</td>
             </tr>
             <tr>
-              <td>Q3 % Inside Expected Move</td>
+              <td>Q3 - % Inside Expected Move</td>
               <td>{Math.floor(this.stockQthree())}%</td>
               <td>{Math.floor(this.watchListQthree())}%</td>
             </tr>
             <tr>
-              <td>Q4 % Inside Expected Move</td>
+              <td>Q4 - % Inside Expected Move</td>
               <td>{Math.floor(this.stockQfour())}%</td>
               <td>{Math.floor(this.watchListQfour())}%</td>
             </tr>            

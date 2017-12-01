@@ -3,11 +3,28 @@
 }
 
 .navbar {
-    border-bottom: 1px solid black;
-    color: black;
+    height: 50px;
 }
 
 .form-inline {
 	display: block;
 	float: left;
+	margin-left: 48px;
+}
+
+.form-control {
+	height: 48px;
+}
+
+button {
+	display: block;
+	float: left;
+	height: 48px;
+	background-color: black;
+}
+
+.navbar-brand {
+	display: block;
+	float: left;
+	color: white;
 }

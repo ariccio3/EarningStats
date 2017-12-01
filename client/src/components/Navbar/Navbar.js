@@ -30,10 +30,10 @@ class Navbar extends Component {
   if(queryInput) {
     window.location.href = "/results/nonuser/" + this.state.stocks + "/#" +  queryInput
   } else {
-    window.location.href = "/results/" + this.state.stocks }
+    window.location.href = "/results/" + this.state.stocks.toUpperCase() }
 
     if (!this.state.stocks) {
-      alert("Please enter a skill you'd like to search for");
+      alert("Please enter a stock you'd like to search for");
     } else {
 
       this.setState({
@@ -45,31 +45,28 @@ class Navbar extends Component {
 
   render() {
     return (
-      <nav className="navbar navbar-light bg-light ">
+      <nav className="navbar navbar-dark bg-primary">
         <div className="container-fluid">
-          <div className="navbar-header">
             <Link className="navbar-brand" to="/">
               <strong>EarningStats</strong>
             </Link>
-          </div>
-
-          <form className="navbar-form navbar-left">
-            <div className="form-inline">
-              <input
-                className="form-control"
-                value={this.state.stocks}
-                name="stocks"
-                onChange={this.handleInputChange}
-                type="text"
-                placeholder="Search for a Stock"
-              />
-            </div>
-          
-            <button 
-              className="btn btn-primary btn-md" 
-              onClick={this.handleFormSubmit}><i className="fa fa-search" aria-hidden="true"></i></button>
-          </form>
-          </div>
+            <form>
+              <div className="form-inline">
+                <input
+                  className="form-control"
+                  value={this.state.stocks}
+                  name="stocks"
+                  onChange={this.handleInputChange}
+                  type="text"
+                  placeholder="Search for a Stock"
+                />
+              </div>
+              <button 
+                className="btn btn-dark btn-md" 
+                onClick={this.handleFormSubmit}><i className="fa fa-search" aria-hidden="true"></i>
+              </button>
+            </form>
+        </div>
       </nav>
     )
   }
