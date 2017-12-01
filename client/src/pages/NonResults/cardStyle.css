@@ -1,18 +1,11 @@
+body {
+/*	background-image: url('./escheresque.png');
+*/}
 
-.thumbnail {
-	display: inline-block;
-	float: left;
+.titleCol {
+	width: 70%;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-button {
-	float: right;
-}
-h3 {
-    padding: 10px;
+.numCol {
+	width: 15%;
 }

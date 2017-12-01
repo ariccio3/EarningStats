@@ -427,9 +427,9 @@ class NonResults extends Component {
         <table className="table table-striped table-hover table-bordered">
           <thead className="thead-dark">
             <tr>
-              <th>Totals</th>
-              <th>{this.props.match.params.stock}</th>
-              <th>Watchlist</th>
+              <th className="titleCol">Totals</th>
+              <th className="numCol">{this.props.match.params.stock}</th>
+              <th className="numCol">Watchlist</th>
             </tr>
           </thead>
           <tbody>
@@ -484,9 +484,9 @@ class NonResults extends Component {
         <table className="table table-striped table-hover table-bordered">
           <thead className="thead-dark">
             <tr>
-              <th>Occurences Outside the Expected Move</th>
-              <th>{this.props.match.params.stock}</th>
-              <th>Watchlist</th>
+              <th className="titleCol">Occurences Outside the Expected Move</th>
+              <th className="numCol">{this.props.match.params.stock}</th>
+              <th className="numCol">Watchlist</th>
             </tr>
           </thead>
           <tbody>
@@ -521,9 +521,9 @@ class NonResults extends Component {
         <table className="table table-striped table-hover table-bordered">
           <thead className="thead-dark">
             <tr>
-              <th>Average Expected vs. Actual Move %</th>
-              <th>{this.props.match.params.stock}</th>
-              <th>Watchlist</th>
+              <th className="titleCol">Average Expected vs. Actual Move %</th>
+              <th className="numCol">{this.props.match.params.stock}</th>
+              <th className="numCol">Watchlist</th>
             </tr>
           </thead>
           <tbody>
@@ -553,9 +553,9 @@ class NonResults extends Component {
         <table className="table table-striped table-hover table-bordered">
           <thead className="thead-dark">
             <tr>
-              <th>Quarterly</th>
-              <th>{this.props.match.params.stock}</th>
-              <th>Watchlist</th>
+              <th className="titleCol">Quarterly</th>
+              <th className="numCol">{this.props.match.params.stock}</th>
+              <th className="numCol">Watchlist</th>
             </tr>
           </thead>
           <tbody>
