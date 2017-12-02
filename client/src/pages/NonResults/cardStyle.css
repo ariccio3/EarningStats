@@ -1,6 +1,8 @@
 body {
 /*	background-image: url('./escheresque.png');
-*/}
+*/
+margin-top: 70px;
+}
 
 .titleCol {
 	width: 70%;

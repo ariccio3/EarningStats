@@ -418,7 +418,13 @@ class NonResults extends Component {
     return aboveAvgEMPercentInside;
   };
   //***
-
+  watchListCount = () => {
+    var counts = {};
+    for (var i = 0; i < this.state.watchList.length; i++) {
+      counts[this.state.watchList[i].stock] = 1 + (counts[this.state.watchList[i].stock] || 0);
+    }
+    return Object.keys(counts).length;
+    };
 
   render() {
       console.log(this.state.watchList);
@@ -429,7 +435,7 @@ class NonResults extends Component {
             <tr>
               <th className="titleCol">Totals</th>
               <th className="numCol">{this.props.match.params.stock}</th>
-              <th className="numCol">Watchlist</th>
+              <th className="numCol">EarningStats {this.watchListCount()}</th>
             </tr>
           </thead>
           <tbody>
@@ -486,7 +492,7 @@ class NonResults extends Component {
             <tr>
               <th className="titleCol">Occurences Outside the Expected Move</th>
               <th className="numCol">{this.props.match.params.stock}</th>
-              <th className="numCol">Watchlist</th>
+              <th className="numCol">EarningStats {this.watchListCount()}</th>
             </tr>
           </thead>
           <tbody>
@@ -523,7 +529,7 @@ class NonResults extends Component {
             <tr>
               <th className="titleCol">Average Expected vs. Actual Move %</th>
               <th className="numCol">{this.props.match.params.stock}</th>
-              <th className="numCol">Watchlist</th>
+              <th className="numCol">EarningStats {this.watchListCount()}</th>
             </tr>
           </thead>
           <tbody>
@@ -555,7 +561,7 @@ class NonResults extends Component {
             <tr>
               <th className="titleCol">Quarterly</th>
               <th className="numCol">{this.props.match.params.stock}</th>
-              <th className="numCol">Watchlist</th>
+              <th className="numCol">EarningStats {this.watchListCount()}</th>
             </tr>
           </thead>
           <tbody>
