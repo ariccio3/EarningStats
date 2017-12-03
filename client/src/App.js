@@ -5,7 +5,6 @@ import Results from "./pages/Results";
 import Navbar from "./components/Navbar";
 import NoMatch from "./pages/NoMatch";
 
-
 const App = () =>
   <Router>
     <div>
