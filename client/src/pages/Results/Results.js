@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import API from "../../utils/API";
-// import NonCard from "../../components/NonCard";
+// import Navbar from "../../components/Navbar";
 // import {Grid} from "react-bootstrap";
 // import {Row} from "react-bootstrap";
 // import {Col} from "react-bootstrap";

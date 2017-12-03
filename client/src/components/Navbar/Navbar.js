@@ -1,10 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-
-const placeHolderInput= window.location.href.split("#");
-const queryInput = placeHolderInput[1];
-// console.log(queryInput)
+// import {Alert} from "react-bootstrap";
 
 class Navbar extends Component {
   // Setting the component's initial state
@@ -17,32 +14,24 @@ class Navbar extends Component {
     let value = event.target.value;
     const name = event.target.name;
 
-    // Updating the input's state
     this.setState({
       [name]: value
     });
   }
 
   handleFormSubmit = event => {
-    // Preventing the default behavior of the form submit (which is to refresh the page)
     event.preventDefault();
-
-  if(queryInput) {
-    window.location.href = "/results/nonuser/" + this.state.stocks + "/#" +  queryInput
-  } else {
-    window.location.href = "/results/" + this.state.stocks.toUpperCase() }
 
     if (!this.state.stocks) {
       alert("Please enter a stock you'd like to search for");
     } else {
-
+      window.location.href = "/results/" + this.state.stocks.toUpperCase()
+    }
       this.setState({
         stocks: ""
-        
       });
-    }
   }
-
+  
   render() {
     return (
       <nav className="navbar navbar-dark bg-primary navbar-fixed-top">
@@ -71,4 +60,5 @@ class Navbar extends Component {
     )
   }
 }
+
 export default Navbar;
