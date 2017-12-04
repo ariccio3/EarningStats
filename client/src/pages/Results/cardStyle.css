@@ -1,13 +1,30 @@
+* {
+    /*border: solid red 1px;*/
+}
+
 body {
-/*	background-image: url('./escheresque.png');
-*/
-margin-top: 70px;
+	/*background-color: #f8fbfc;*/
+	z-index: -1;
+	margin-top: 70px;
+}
+
+table {
+	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+thead {
+	background-color: #d3e1ee;	
 }
 
 .titleCol {
-	width: 70%;
+	width: 60%;
 }
 
-.numCol {
-	width: 15%;
+.stockNumCol {
+	width: 13%;
+}
+
+.esNumCol {
+	width: 27%;
 }

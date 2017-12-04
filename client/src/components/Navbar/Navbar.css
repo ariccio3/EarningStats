@@ -4,27 +4,35 @@
 
 .navbar {
     height: 50px;
+    background-color: #92B6D5;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
 }
 
 .form-inline {
 	display: block;
 	float: left;
-	margin-left: 40px;
 }
 
 .form-control {
-	height: 48px;
+	height: 46px;
+	margin-top: 2px;
+	border-width: 1.5px;
+	border-color: #838487;
 }
 
 button {
 	display: block;
 	float: left;
-	height: 48px;
-	background-color: black;
+	height: 46px;
+	margin-top: 2px;
+	background-color: #838487;
 }
 
 .navbar-brand {
 	display: block;
 	float: left;
 	color: white;
+	font-size: 1.9em;
+	text-decoration: none;
 }
+

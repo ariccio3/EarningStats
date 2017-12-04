@@ -37,7 +37,7 @@ class Navbar extends Component {
       <nav className="navbar navbar-dark bg-primary navbar-fixed-top">
         <div className="container-fluid">
             <Link className="navbar-brand" to="/">
-              <strong>EarningStats</strong>
+              EarningStats
             </Link>
             <form>
               <div className="form-inline">

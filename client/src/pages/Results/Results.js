@@ -427,15 +427,15 @@ class NonResults extends Component {
     };
 
   render() {
-      console.log(this.state.watchList);
+      // console.log(this.state.watchList);
     return (
       <div>  
         <table className="table table-striped table-hover table-bordered">
-          <thead className="thead-dark">
+          <thead>
             <tr>
               <th className="titleCol">Totals</th>
-              <th className="numCol">{this.props.match.params.stock}</th>
-              <th className="numCol">EarningStats {this.watchListCount()}</th>
+              <th className="stockNumCol">{this.props.match.params.stock}</th>
+              <th className="esNumCol">EarningStats {this.watchListCount()}</th>
             </tr>
           </thead>
           <tbody>
@@ -491,8 +491,8 @@ class NonResults extends Component {
           <thead className="thead-dark">
             <tr>
               <th className="titleCol">Occurences Outside the Expected Move</th>
-              <th className="numCol">{this.props.match.params.stock}</th>
-              <th className="numCol">EarningStats {this.watchListCount()}</th>
+              <th className="stockNumCol">{this.props.match.params.stock}</th>
+              <th className="esNumCol">EarningStats {this.watchListCount()}</th>
             </tr>
           </thead>
           <tbody>
@@ -528,8 +528,8 @@ class NonResults extends Component {
           <thead className="thead-dark">
             <tr>
               <th className="titleCol">Average Expected vs. Actual Move %</th>
-              <th className="numCol">{this.props.match.params.stock}</th>
-              <th className="numCol">EarningStats {this.watchListCount()}</th>
+              <th className="stockNumCol">{this.props.match.params.stock}</th>
+              <th className="esNumCol">EarningStats {this.watchListCount()}</th>
             </tr>
           </thead>
           <tbody>
@@ -560,8 +560,8 @@ class NonResults extends Component {
           <thead className="thead-dark">
             <tr>
               <th className="titleCol">Quarterly</th>
-              <th className="numCol">{this.props.match.params.stock}</th>
-              <th className="numCol">EarningStats {this.watchListCount()}</th>
+              <th className="stockNumCol">{this.props.match.params.stock}</th>
+              <th className="esNumCol">EarningStats {this.watchListCount()}</th>
             </tr>
           </thead>
           <tbody>
