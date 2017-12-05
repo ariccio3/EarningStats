@@ -23,7 +23,7 @@ class Navbar extends Component {
     event.preventDefault();
 
     if (!this.state.stocks) {
-      alert("Please enter a stock you'd like to search for");
+      alert("Please enter a stock ticker you'd like to search for");
     } else {
       window.location.href = "/results/" + this.state.stocks.toUpperCase()
     }
@@ -47,7 +47,7 @@ class Navbar extends Component {
                   name="stocks"
                   onChange={this.handleInputChange}
                   type="text"
-                  placeholder="Search for a Stock"
+                  placeholder="Enter Stock Ticker"
                 />
               </div>
               <button 

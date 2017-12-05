@@ -4,7 +4,7 @@ import API from "../../utils/API";
 // import {Grid} from "react-bootstrap";
 // import {Row} from "react-bootstrap";
 // import {Col} from "react-bootstrap";
-import "./cardStyle.css";
+import "./results.css";
 // import { Link } from "react-router-dom";
 
 class NonResults extends Component {
@@ -419,8 +419,8 @@ class NonResults extends Component {
   };
   //***
   watchListCount = () => {
-    var counts = {};
-    for (var i = 0; i < this.state.watchList.length; i++) {
+    let counts = {};
+    for (let i = 0; i < this.state.watchList.length; i++) {
       counts[this.state.watchList[i].stock] = 1 + (counts[this.state.watchList[i].stock] || 0);
     }
     return Object.keys(counts).length;
