@@ -1,0 +1,35 @@
+import React from "react";
+import "./Article.css";
+
+const Article = props => (
+  <div>
+  	<p>
+		Do you like to trade earnings events? Leading up to a company releasing its earnings report its stock’s implied volatility will usually increase to price in the uncertainty around this event. There is the potential for the stock price to have a big move after the announcement and EarningStats.com is a great resource to give you information about how the stock has behaved in the past. We focus only on the stocks with the most liquid options markets and higher priced stocks whose options offer larger premiums.  We are most interested in the stock’s expected move vs. the actual move. 
+		Expected Move – there are three basic ways of calculating an expected range for an asset like stocks. The formula, the delta or the ballpark estimate using option prices.
+	</p>
+	<p>	
+		<b>The formula: </b>if you take the Price of the stock X the stock’s Implied Volatility X Days until expiration/365 you will get the stocks expected range above and below the current price. 
+	</p>
+	<p>	
+		<b>Delta: </b>the one standard deviation area of a normal distribution curve is where given enough occurrences a stock price will fall within this range 68% of the time. In fact it usually falls within this range more often than theory suggests. So if you were trading a short strangle you would sell the 16 delta call and the 16 delta put. 
+	</p>
+	<p>	
+		<b>The Ballpark: </b>when the implied volatility and delta aren’t available like when we go further back in history you can use a percentage of the at-the-money straddle. We have found that this can be unique for each stock so for accuracy we take the recent 5 year average for weekly and monthly options for each stock when calculating the expected move further back in history.  
+		Other factors used to determine which stocks to follow:
+	</p>
+	<p>	
+		<b>Liquidity: </b>since the late-90’s option liquidity has gotten better with the rise in Online Brokerages. We define liquidity as a tight bid-ask spread. 
+	</p>
+	<p>	
+		<b>High Implied Volatility Rank: </b>The innovative creators of tastytrade.com brought us IVR which is simply a stock’s Implied Volatility measured against itself over the last year. This gives us a way to quickly gauge if the option premium is high (preferable for option sellers) or low (preferable for option buyers). 
+	</p>
+	<p>	
+		<b>Weekly vs. Monthly options: </b>Shortly after a stock reports its earnings the implied volatility will quickly fall especially if the stock price stays within its expected move. This phenomenon is what peaked our curiosity about how often individual stocks stay inside their expected move after their earnings are reported. We usually default to the weekly options for earnings trades when selling options because implied volatility is higher. Monthly options are good for getting further away from the current stock price. Sometimes we trade both.  
+	</p>
+	<p>	
+		<b>Premiums: </b>IVR can give us an idea how rich the options premium is compared to the last year but we also need to consider the actual amount of premium available and if it’s worth the risk.
+  	</p>
+  </div>
+);
+
+export default Article;

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import API from "../../utils/API";
+import Article from "../../components/Article";
 import Sidebar from "../../components/Sidebar";
 import "./Home.css";
 
@@ -39,9 +40,9 @@ class Home extends Component {
         <ul className="list-group">Current Watchlist
           {list}
         </ul>
-
-
-        
+        <div className="article">
+          <Article />
+        </div>
       </div>
     );
   }
