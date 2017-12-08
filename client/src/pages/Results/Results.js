@@ -2,10 +2,7 @@ import React, { Component } from "react";
 import API from "../../utils/API";
 // import Navbar from "../../components/Navbar";
 // import {Grid} from "react-bootstrap";
-// import {Row} from "react-bootstrap";
-// import {Col} from "react-bootstrap";
 import "./results.css";
-// import { Link } from "react-router-dom";
 
 class NonResults extends Component {
   state = {

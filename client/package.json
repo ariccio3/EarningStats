@@ -15,5 +15,12 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "engines": {
+    "node": "8.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ariccio3/EarningStats.git"
   }
 }
