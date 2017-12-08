@@ -27,3 +27,5 @@ mongoose.connect(
 app.listen(PORT, function() {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });
+
+// mongoimport -h ds133876.mlab.com:33876 -d heroku_bqh4kgg0 -c earnings_data -u heroku_bqh4kgg0 -p ksue5hj0s6vham9a6nmhbdom6r --file earnings_data.csv --type csv --headerline
