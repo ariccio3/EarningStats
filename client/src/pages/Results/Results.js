@@ -424,7 +424,7 @@ class NonResults extends Component {
     };
 
   render() {
-      // console.log(this.state.watchList);
+      console.log(this.state.watchList);
     return (
       <div>  
         <table className="table table-striped table-hover table-bordered">

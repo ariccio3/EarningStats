@@ -35,7 +35,7 @@ class Home extends Component {
     let uniqueStocks = this.watchList();
     let list = uniqueStocks.map((result) => 
       <Sidebar key={result.toString()} stock={result} />
-    );
+    ); 
     return (
       <div>
         <ul className="list-group">Current Watchlist
