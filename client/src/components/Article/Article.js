@@ -3,9 +3,17 @@ import "./Article.css";
 
 const Article = props => (
   <div>
-  	<p>
-		Do you like to trade earnings events? Leading up to a company releasing its earnings report its stock’s implied volatility will usually increase to price in the uncertainty around this event. There is the potential for the stock price to have a big move after the announcement and EarningStats.com is a great resource to give you information about how the stock has behaved in the past. We focus only on the stocks with the most liquid options markets and higher priced stocks whose options offer larger premiums.  We are most interested in the stock’s expected move vs. the actual move. 
-		Expected Move – there are three basic ways of calculating an expected range for an asset like stocks. The formula, the delta or the ballpark estimate using option prices.
+  	<h3>
+		Do you like to trade earnings events? 
+	</h3>
+	<p>
+		Leading up to a company releasing its earnings report its stock’s implied volatility will usually increase to price in the uncertainty around this event. There is the potential for the stock price to have a big move after the announcement and EarningStats.com is a great resource to give you information about how the stock has behaved in the past. 
+	</p>
+	<p>
+		We focus only on the stocks with the most liquid options markets and higher priced stocks whose options offer larger premiums.  We are most interested in the stock’s expected move vs. the actual move. 
+	</p>
+	<p>	
+		<b>Expected Move: </b>there are three basic ways of calculating an expected range for an asset like stocks: the formula, the delta or the ballpark estimate using option prices.
 	</p>
 	<p>	
 		<b>The formula: </b>if you take the Price of the stock X the stock’s Implied Volatility X Days until expiration/365 you will get the stocks expected range above and below the current price. 
