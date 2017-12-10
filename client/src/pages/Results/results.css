@@ -30,6 +30,6 @@ thead {
 
 @media screen and (max-width: 768px) {
 	body {
-		font-size: 1.05em;
+		font-size: .95em;
 	}
 }
