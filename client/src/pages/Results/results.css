@@ -28,7 +28,7 @@ thead {
 	width: 27%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-device-width:768px), screen and (max-width:786px) {
 	.table {
 		font-size: 50%;
 	}
