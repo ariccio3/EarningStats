@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import API from "../../utils/API";
-// import {Alert} from "react-bootstrap";
 
 class Navbar extends Component {
   // Setting the component's initial state

@@ -12,6 +12,6 @@ ul {
 @media screen and (max-width: 768px) {
 	ul {
 		margin-right: 10px;
-		width: 80px;
+		width: 70px;
 	}
 }

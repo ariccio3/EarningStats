@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import API from "../../utils/API";
-// import Navbar from "../../components/Navbar";
-// import {Grid} from "react-bootstrap";
 import "./results.css";
 
 class NonResults extends Component {
