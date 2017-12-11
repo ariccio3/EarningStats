@@ -432,7 +432,7 @@ class NonResults extends Component {
             <tr>
               <th className="titleCol">Totals</th>
               <th className="stockNumCol">{this.props.match.params.stock}</th>
-              <th className="esNumCol">EarningStats {this.watchListCount()}</th>
+              <th className="esNumCol">ES{this.watchListCount()}</th>
             </tr>
           </thead>
           <tbody>
@@ -489,7 +489,7 @@ class NonResults extends Component {
             <tr>
               <th className="titleCol">Occurences Outside the Expected Move</th>
               <th className="stockNumCol">{this.props.match.params.stock}</th>
-              <th className="esNumCol">EarningStats {this.watchListCount()}</th>
+              <th className="esNumCol">ES{this.watchListCount()}</th>
             </tr>
           </thead>
           <tbody>
@@ -526,7 +526,7 @@ class NonResults extends Component {
             <tr>
               <th className="titleCol">Average Expected vs. Actual Move %</th>
               <th className="stockNumCol">{this.props.match.params.stock}</th>
-              <th className="esNumCol">EarningStats {this.watchListCount()}</th>
+              <th className="esNumCol">ES{this.watchListCount()}</th>
             </tr>
           </thead>
           <tbody>
@@ -558,7 +558,7 @@ class NonResults extends Component {
             <tr>
               <th className="titleCol">Quarterly</th>
               <th className="stockNumCol">{this.props.match.params.stock}</th>
-              <th className="esNumCol">EarningStats {this.watchListCount()}</th>
+              <th className="esNumCol">ES{this.watchListCount()}</th>
             </tr>
           </thead>
           <tbody>

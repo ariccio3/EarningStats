@@ -42,6 +42,6 @@ button {
 	}
 
 	.form-control {
-		max-width: 152px;
+		max-width: 152px !important;
 	}
 }
