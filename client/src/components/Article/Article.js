@@ -16,17 +16,20 @@ const Article = props => (
 		<b>Expected Move: </b>There are three basic ways of calculating an expected range for an asset like stocks: the formula, the delta or the ballpark estimate using option prices.
 	</p>
 	<p>	
-		<b>The formula: </b>If you take the Price of the stock X the stock’s Implied Volatility X Days until expiration/365 you will get the stocks expected range above and below the current price. 
+		<b>The formula: </b>If you take the Price of the stock times the stock’s Implied Volatility (IV) multiplied by the quotient of the Days until Expiration (DTE)/365 you will get the stocks expected range above and below the current price. 
+	</p>
+	<p className="formula">
+		<b>Price x IV x (DTE/365) = Expected Move</b>
 	</p>
 	<p>	
 		<b>Delta: </b>The one standard deviation area of a normal distribution curve is where given enough occurrences a stock price will fall within this range 68% of the time. In fact it usually falls within this range more often than theory suggests. So if you were trading a short strangle you would sell the 16 delta call and the 16 delta put. 
 	</p>
 	<p>	
-		<b>The Ballpark: </b>When the implied volatility and delta aren’t available like when we go further back in history you can use a percentage of the at-the-money straddle. We have found that this can be unique for each stock so for accuracy we take the recent 5 year average for weekly and monthly options for each stock when calculating the expected move further back in history.  
+		<b>The Ballpark: </b>When we go further back in history and the Implied Volatility and Delta aren’t available, you can use a percentage of the at-the-money straddle premium. We have found that this can be unique for each stock so for accuracy we take the recent 5 year average for weekly and monthly options for each stock when calculating the expected move further back in history.  
 		Other factors used to determine which stocks to follow:
 	</p>
 	<p>	
-		<b>Liquidity: </b>Since the late-90’s option liquidity has gotten better with the rise in Online Brokerages. We define liquidity as a tight bid-ask spread. 
+		<b>Liquidity: </b>Since the late-90’s option liquidity has gotten better with the rise of Online Brokerages. We define liquidity as a tight Bid-Ask spread. 
 	</p>
 	<p>	
 		<b>High Implied Volatility Rank: </b>The innovative creators of tastytrade.com brought us IVR which is simply a stock’s Implied Volatility measured against itself over the last year. This gives us a way to quickly gauge if the option premium is high (preferable for option sellers) or low (preferable for option buyers). 
