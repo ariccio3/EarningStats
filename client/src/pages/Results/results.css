@@ -29,7 +29,7 @@ thead {
 }
 
 @media screen and (max-width: 768px) {
-	table {
+	.table {
 		font-size: 50%;
 	}
 }
