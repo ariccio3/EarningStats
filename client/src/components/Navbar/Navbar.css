@@ -1,5 +1,5 @@
 * {
-    border: solid red 1px;
+    /*border: solid red 1px;*/
 }
 
 .navbar {
@@ -39,6 +39,7 @@ button {
 @media screen and (max-width: 768px) {
 	.navbar-brand {
 		padding-left: 2px;
+		font-size: 115%;
 	}
 
 	.form-control {
