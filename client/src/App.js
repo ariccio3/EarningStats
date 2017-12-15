@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import Results from "./pages/Results";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import NoMatch from "./pages/NoMatch";
 
 const App = () =>
@@ -14,6 +15,7 @@ const App = () =>
           <Route exact path="/results/:stock" component={Results} />
           <Route component={NoMatch} />
         </Switch>
+  
     </div>
   </Router>;
 

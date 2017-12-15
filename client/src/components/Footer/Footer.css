@@ -1,3 +1,10 @@
+* {
+    /*border: solid red 1px;*/
+}
+
+body {
+	margin-bottom: 50px;
+}
 
 .footer {
   position: fixed;
@@ -6,8 +13,6 @@
   left: 0;
   right: 0;
   padding: 10px;
-  background: #4e5d6c;
+  background: #92b6d5;
   text-align: center;
-  border: 1px solid black;
-
 }
