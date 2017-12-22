@@ -39,3 +39,11 @@ thead {
 		font-size: 13px !important;
 	}
 }
+
+@media screen and (min-width: 768px) {
+	.tableContainer {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+}
