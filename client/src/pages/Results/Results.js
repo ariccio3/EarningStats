@@ -470,12 +470,12 @@ class NonResults extends Component {
               <td><strong>{Math.floor(this.watchListInsideEM() / this.state.watchList.length *100)}%</strong></td>
             </tr>
             <tr>
-              <td># ±.5 Expected Move</td>
+              <td># Actual Move was half Expected Move</td>
               <td>{this.stockNumHalfEM()}</td>
               <td>{this.watchListNumHalfEM()}</td>
             </tr>
             <tr>
-              <td><strong>% ±.5 Expected Move</strong></td>
+              <td><strong>% Actual Move was half Expected Move</strong></td>
               <td><strong>{Math.floor(this.stockNumHalfEM() / this.state.stocks.length *100)}%</strong></td>
               <td><strong>{Math.floor(this.watchListNumHalfEM() / this.state.watchList.length *100)}%</strong></td>
             </tr>                                                                      

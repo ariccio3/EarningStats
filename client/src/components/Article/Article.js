@@ -19,7 +19,7 @@ const Article = props => (
 		<b>The Formula: </b>If you take the Price of the stock times the stock’s Implied Volatility (IV) multiplied by the quotient of the Days until Expiration (DTE)/365 you will get the stocks expected range above and below the current price. 
 	</p>
 	<p className="formula">
-		<b>Price x IV x (DTE/365) = Expected Move</b>
+		<b>Price × IV × (DTE/365) = Expected Move</b>
 	</p>
 	<p>	
 		<b>The Delta: </b>The one standard deviation area of a normal distribution curve is where given enough occurrences a stock price will fall within this range 68% of the time. In fact it usually falls within this range more often than theory suggests. So if you were trading a short strangle you would sell the 16 delta call and the 16 delta put. 
@@ -29,7 +29,7 @@ const Article = props => (
 		Other factors used to determine which stocks to follow:
 	</p>
 	<p>	
-		<b>Liquidity: </b>Since the late-90’s option liquidity has gotten better with the rise of Online Brokerages. We define liquidity as a tight Bid-Ask spread. 
+		<b>Liquidity: </b>Since the late-90’s option liquidity has gotten better with the rise of Online Brokerages. We define liquidity as a tight Bid-Ask spread and the ability to get our order filled at the mid-price. 
 	</p>
 	<p>	
 		<b>High Implied Volatility Rank: </b>The innovative creators of tastytrade.com brought us IVR which is simply a stock’s Implied Volatility measured against itself over the last year. This gives us a way to quickly gauge if the option premium is high (preferable for option sellers) or low (preferable for option buyers). 
