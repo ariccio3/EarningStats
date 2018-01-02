@@ -22,16 +22,16 @@ thead {
 	background-color: #d3e1ee;	
 }
 
-.titleCol {
+.titleColumn {
+	width: 10%;
+}
+
+.stockNumColumn {
+	width: 20%;
+}
+
+.esNumColumn {
 	width: 70%;
-}
-
-.stockNumCol {
-	width: 15%;
-}
-
-.esNumCol {
-	width: 15%;
 }
 
 @media screen and (max-width: 768px) {

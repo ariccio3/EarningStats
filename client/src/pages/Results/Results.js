@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import API from "../../utils/API";
 import "./results.css";
+import { Link } from "react-router-dom";
 
-class NonResults extends Component {
+class Results extends Component {
   state = {
     stocks: [],
     watchList: []
@@ -450,7 +451,7 @@ class NonResults extends Component {
               <td>{this.watchListTotalDown()}</td>
             </tr>
             <tr>
-              <td><strong>Total % Up</strong></td>
+              <td><strong><Link to="/sorted/totalpercentup"  style={{ textDecoration: 'none' }}>Total % Up &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
               <td><strong>{Math.floor(this.stockTotalUp() / this.state.stocks.length *100)}%</strong></td>
               <td><strong>{Math.floor(this.watchListTotalUp() / this.state.watchList.length *100)}%</strong></td>
             </tr>
@@ -587,4 +588,4 @@ class NonResults extends Component {
   }
 }
           
-export default NonResults;
+export default Results;

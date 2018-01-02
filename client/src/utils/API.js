@@ -7,5 +7,8 @@ export default {
   },
   getWatchList: function() {
     return axios.get("/api/users");
+  },
+  getSorted: function() {
+    return axios.get("/api/sorted")
   }
-}; 
+};
