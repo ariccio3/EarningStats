@@ -513,7 +513,7 @@ class Results extends Component {
               <td>{this.watchListOutsideNumDown()}</td>
             </tr>            
             <tr>
-              <td><strong>% Down</strong></td>
+              <td><strong><Link to="/sorted/outsidepercentdown" style={{ textDecoration: 'none' }}>% Down &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
               <td><strong>{Math.floor(this.stockOutsideNumDown() / this.state.stocks.length *100)}%</strong></td>
               <td><strong>{Math.floor(this.watchListOutsideNumDown() / this.state.watchList.length *100)}%</strong></td>
             </tr>            
@@ -535,7 +535,7 @@ class Results extends Component {
               <td>{this.watchListAboveAvgExpectedMove()}%</td>
             </tr>
             <tr>
-              <td>Average % Expected Move</td>
+              <td><strong><Link to="/sorted/avgpercentem" style={{ textDecoration: 'none' }}>Average % Expected Move &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
               <td>{this.stockAvgExpectedMove()}%</td>
               <td>{this.watchListAvgExpectedMove()}%</td>
             </tr>
@@ -562,22 +562,22 @@ class Results extends Component {
           </thead>
           <tbody>
             <tr>
-              <td>Q1 - % Inside Expected Move</td>
+              <td><strong><Link to="/sorted/q1percentinside" style={{ textDecoration: 'none' }}>Q1 - % Inside Expected Move &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
               <td>{Math.floor(this.stockQone())}%</td>
               <td>{Math.floor(this.watchListQone())}%</td>
             </tr>
             <tr>
-              <td>Q2 - % Inside Expected Move</td>
+              <td><strong><Link to="/sorted/q2percentinside" style={{ textDecoration: 'none' }}>Q2 - % Inside Expected Move &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
               <td>{Math.floor(this.stockQtwo())}%</td>
               <td>{Math.floor(this.watchListQtwo())}%</td>
             </tr>
             <tr>
-              <td>Q3 - % Inside Expected Move</td>
+              <td><strong><Link to="/sorted/q3percentinside" style={{ textDecoration: 'none' }}>Q3 - % Inside Expected Move &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
               <td>{Math.floor(this.stockQthree())}%</td>
               <td>{Math.floor(this.watchListQthree())}%</td>
             </tr>
             <tr>
-              <td>Q4 - % Inside Expected Move</td>
+              <td><strong><Link to="/sorted/q4percentinside" style={{ textDecoration: 'none' }}>Q4 - % Inside Expected Move &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
               <td>{Math.floor(this.stockQfour())}%</td>
               <td>{Math.floor(this.watchListQfour())}%</td>
             </tr>            
