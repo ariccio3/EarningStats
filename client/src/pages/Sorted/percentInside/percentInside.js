@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import API from "../../../utils/API";
-import "./totalPercentUp.css";
+import "./percentInside.css";
 
-class TotalPercentUp extends Component {
+class PercentInside extends Component {
   state = {
     sorted: []
   };
@@ -12,7 +12,7 @@ class TotalPercentUp extends Component {
   }
 
   loadSorted = () => {
-    API.getTotalpercentup()
+    API.getPercentInside()
     .then(res => this.setState({ sorted: res.data }))
     .catch(err => console.log(err));
   };
@@ -26,7 +26,7 @@ class TotalPercentUp extends Component {
             <tr>
               <th className="titleColumn">Rank</th>
               <th className="stockNumColumn">Stock</th>
-              <th className="esNumColumn">Total % Up</th>
+              <th className="esNumColumn">Total % Inside the Expected Move</th>
             </tr>
           </thead>
           <tbody>
@@ -34,7 +34,7 @@ class TotalPercentUp extends Component {
             <tr key={i}>
               <td>{i + 1}</td>
               <td>{this.state.sorted[i].stock}</td>
-              <td>{this.state.sorted[i].totalPercentUp}%</td>
+              <td>{this.state.sorted[i].percentInside}%</td>
             </tr>  
             ))}                                                                   
           </tbody>
@@ -44,4 +44,4 @@ class TotalPercentUp extends Component {
   }
 }
           
-export default TotalPercentUp;
+export default PercentInside;

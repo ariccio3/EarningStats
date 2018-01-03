@@ -451,7 +451,7 @@ class Results extends Component {
               <td>{this.watchListTotalDown()}</td>
             </tr>
             <tr>
-              <td><strong><Link to="/sorted/totalpercentup"  style={{ textDecoration: 'none' }}>Total % Up &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
+              <td><strong><Link to="/sorted/totalpercentup" style={{ textDecoration: 'none' }}>Total % Up &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
               <td><strong>{Math.floor(this.stockTotalUp() / this.state.stocks.length *100)}%</strong></td>
               <td><strong>{Math.floor(this.watchListTotalUp() / this.state.watchList.length *100)}%</strong></td>
             </tr>
@@ -466,7 +466,7 @@ class Results extends Component {
               <td>{this.watchListOutsideEM()}</td>
             </tr>
             <tr>
-              <td><strong>Total % Inside Expected Move</strong></td>
+              <td><strong><Link to="/sorted/percentinside" style={{ textDecoration: 'none' }}>Total % Inside Expected Move &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
               <td><strong>{Math.floor(this.stockTotalInsideEM() / this.state.stocks.length *100)}%</strong></td>
               <td><strong>{Math.floor(this.watchListInsideEM() / this.state.watchList.length *100)}%</strong></td>
             </tr>
@@ -476,7 +476,7 @@ class Results extends Component {
               <td>{this.watchListNumHalfEM()}</td>
             </tr>
             <tr>
-              <td><strong>% Actual Move was half Expected Move</strong></td>
+              <td><strong><Link to="/sorted/percenthalfem" style={{ textDecoration: 'none' }}>% Actual Move was half Expected Move &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
               <td><strong>{Math.floor(this.stockNumHalfEM() / this.state.stocks.length *100)}%</strong></td>
               <td><strong>{Math.floor(this.watchListNumHalfEM() / this.state.watchList.length *100)}%</strong></td>
             </tr>                                                                      
@@ -493,7 +493,7 @@ class Results extends Component {
           </thead>
           <tbody>
             <tr>
-              <td># Double the Expected Move</td>
+              <td><strong><Link to="/sorted/doubleem" style={{ textDecoration: 'none' }}># Double the Expected Move &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
               <td>{this.stockDoubleEM()}</td>
               <td>{this.watchListDoubleEM()}</td>
             </tr>
@@ -503,7 +503,7 @@ class Results extends Component {
               <td>{this.watchListOutsideNumUp()}</td>
             </tr>            
             <tr>
-              <td><strong>% Up</strong></td>
+              <td><strong><Link to="/sorted/outsidepercentup" style={{ textDecoration: 'none' }}>% Up &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
               <td><strong>{Math.floor(this.stockOutsideNumUp() / this.state.stocks.length *100)}%</strong></td>
               <td><strong>{Math.floor(this.watchListOutsideNumUp() / this.state.watchList.length *100)}%</strong></td>
             </tr>

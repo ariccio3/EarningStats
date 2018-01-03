@@ -3,6 +3,16 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import Results from "./pages/Results";
 import TotalPercentUp from "./pages/Sorted/totalPercentUp";
+import PercentInside from "./pages/Sorted/percentInside";
+import PercentHalfEM from "./pages/Sorted/percentHalfEM";
+import DoubleEM from "./pages/Sorted/doubleEM";
+import OutsidePercentUp from "./pages/Sorted/outsidePercentUp";
+// import OutsidePercentDown from "./pages/Sorted/outsidePercentDown";
+// import AvgPercentEM from "./pages/Sorted/avgPercentEM";
+// import Q1PercentInside from "./pages/Sorted/q1PercentInside";
+// import Q2PercentInside from "./pages/Sorted/q2PercentInside";
+// import Q3PercentInside from "./pages/Sorted/q3PercentInside";
+// import Q4PercentInside from "./pages/Sorted/q4PercentInside";
 import Navbar from "./components/Navbar";
 // import Footer from "./components/Footer";
 import NoMatch from "./pages/NoMatch";
@@ -14,6 +24,10 @@ const App = () =>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/sorted/totalpercentup" component={TotalPercentUp} />
+          <Route exact path="/sorted/percentinside" component={PercentInside} />
+          <Route exact path="/sorted/percenthalfem" component={PercentHalfEM} />
+          <Route exact path="/sorted/doubleem" component={DoubleEM} />
+          <Route exact path="/sorted/outsidepercentup" component={OutsidePercentUp} />
           <Route exact path="/results/:stock" component={Results} />
           <Route component={NoMatch} />
         </Switch>
