@@ -30,8 +30,8 @@ app.listen(PORT, function() {
 
 // Heroku database update import CSV
 // mongoimport -h ds133876.mlab.com:33876 -d heroku_bqh4kgg0 -c stocks -u heroku_bqh4kgg0 -p ksue5hj0s6vham9a6nmhbdom6r --file stocks.csv --type csv --headerline
-// mongoimport -h ds133876.mlab.com:33876 -d heroku_bqh4kgg0 -c sorted -u heroku_bqh4kgg0 -p ksue5hj0s6vham9a6nmhbdom6r --file sorted.csv --type csv --headerline
+// mongoimport -h ds133876.mlab.com:33876 -d heroku_bqh4kgg0 -c sorts -u heroku_bqh4kgg0 -p ksue5hj0s6vham9a6nmhbdom6r --file sorts.csv --type csv --headerline
 
 // Robo 3T database update import CSV
 // mongoimport -d earnings_data -c stocks --type csv --file stocks.csv --headerline
-// mongoimport -d earnings_data -c sorted --type csv --file sorted.csv --headerline
+// mongoimport -d earnings_data -c sorts --type csv --file sorts.csv --headerline
