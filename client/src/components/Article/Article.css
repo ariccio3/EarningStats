@@ -10,6 +10,10 @@
 	text-align: center;
 }
 
+h3 {
+	text-align: center;
+}
+
 @media screen and (max-width: 768px) {
 	.article {
 		margin-right: 5px;
