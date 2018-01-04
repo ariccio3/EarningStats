@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import API from "../../utils/API";
 import Article from "../../components/Article";
 import Sidebar from "../../components/Sidebar";
-import PayPal from "../../components/PayPal";
 import "./Home.css";
 
 class Home extends Component {
@@ -41,9 +40,6 @@ class Home extends Component {
         <ul className="list-group">Current Watchlist
           {list}
         </ul>
-        <div className="paypal">
-          <PayPal />
-        </div>
         <div className="article">
           <Article />
         </div>

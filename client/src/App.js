@@ -14,7 +14,7 @@ import Q2PercentInside from "./pages/Sorted/q2PercentInside";
 import Q3PercentInside from "./pages/Sorted/q3PercentInside";
 import Q4PercentInside from "./pages/Sorted/q4PercentInside";
 import Navbar from "./components/Navbar";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 import NoMatch from "./pages/NoMatch";
 
 const App = () =>
@@ -37,7 +37,7 @@ const App = () =>
           <Route exact path="/results/:stock" component={Results} />
           <Route component={NoMatch} />
         </Switch>
-  
+      <Footer />
     </div>
   </Router>;
 
