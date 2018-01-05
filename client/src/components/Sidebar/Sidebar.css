@@ -3,15 +3,25 @@
 }
 
 ul {
-	width: 150px;
+	width: 125px;
 	display: block;
 	float: left;
 	margin-right: 20px;
+}
+
+.list-group-item {
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
 	ul {
 		margin-right: 10px;
 		width: 70px;
+	}
+
+	.list-group-item {
+		padding-top: 5px;
+		padding-bottom: 5px;
 	}
 }

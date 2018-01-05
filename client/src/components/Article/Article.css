@@ -2,10 +2,6 @@
     /*border: solid red 1px;*/
 }
 
-.article {
-	margin-right: 200px;
-}
-
 .formula {
 	text-align: center;
 }
@@ -18,5 +14,11 @@ h3 {
 	.article {
 		margin-right: 5px;
 		margin-left: 5px;
+	}
+}
+
+@media screen and (min-width: 769px) {
+	.article {
+		padding-bottom:50px
 	}
 }

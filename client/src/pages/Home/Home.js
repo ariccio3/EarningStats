@@ -36,7 +36,7 @@ class Home extends Component {
       <Sidebar key={result.toString()} stock={result} />
     ); 
     return (
-      <div>
+      <div className="container">
         <ul className="list-group">Current Watchlist
           {list}
         </ul>
