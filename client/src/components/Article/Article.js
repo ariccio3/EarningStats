@@ -16,7 +16,7 @@ const Article = props => (
 		<b>Expected Move: </b>There are three basic ways of calculating an expected range for an asset like stocks: the formula, the delta or the ballpark estimate using option prices.
 	</p>
 	<p>	
-		<b>The Formula: </b>If you take the Price of the stock times the stock’s Implied Volatility (IV) multiplied by the quotient of the Days until Expiration (DTE)/365 you will get the stocks expected range above and below the current price. 
+		<b>The Formula: </b>If you take the Price of the stock times the stock’s Implied Volatility (IV) multiplied by the square root of the Days until Expiration (DTE)/365 you will get the stocks expected range above and below the current price. 
 	</p>
 	<p className="formula">
 		<b>Price × IV × √(DTE/365) = Expected Move</b>
