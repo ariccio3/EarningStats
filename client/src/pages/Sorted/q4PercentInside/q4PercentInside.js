@@ -18,7 +18,7 @@ class Q4PercentInside extends Component {
   };
 
   render() {
-      console.log(this.state.sorted);
+      // console.log(this.state.sorted);
     return (
       <div className="tableContainer">  
         <table className="table table-striped table-hover table-bordered">

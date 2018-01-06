@@ -431,7 +431,7 @@ class Results extends Component {
             <tr>
               <th className="titleCol">Totals</th>
               <th className="stockNumCol">{this.props.match.params.stock}</th>
-              <th className="esNumCol">ES{this.watchListCount()}</th>
+              <th className="esNumCol"><Link to="/annual" style={{ textDecoration: 'none' }}>ES{this.watchListCount()}</Link></th>
             </tr>
           </thead>
           <tbody>

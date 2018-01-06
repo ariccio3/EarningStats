@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import Results from "./pages/Results";
+import Annual from "./pages/Annual";
 import TotalPercentUp from "./pages/Sorted/totalPercentUp";
 import PercentInside from "./pages/Sorted/percentInside";
 import PercentHalfEM from "./pages/Sorted/percentHalfEM";
@@ -23,6 +24,8 @@ const App = () =>
       <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/results/:stock" component={Results} />
+          <Route exact path="/annual" component={Annual} />          
           <Route exact path="/sorted/totalpercentup" component={TotalPercentUp} />
           <Route exact path="/sorted/percentinside" component={PercentInside} />
           <Route exact path="/sorted/percenthalfem" component={PercentHalfEM} />
@@ -34,7 +37,6 @@ const App = () =>
           <Route exact path="/sorted/q2percentinside" component={Q2PercentInside} />
           <Route exact path="/sorted/q3percentinside" component={Q3PercentInside} />
           <Route exact path="/sorted/q4percentinside" component={Q4PercentInside} />
-          <Route exact path="/results/:stock" component={Results} />
           <Route component={NoMatch} />
         </Switch>
       <Footer />
