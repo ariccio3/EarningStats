@@ -69,6 +69,7 @@ class Navbar extends Component {
             <Link className="navbar-brand" to="/">
               EarningStats
             </Link>
+          <div className="formBox">
             <form>
               <div className="form-inline">
                 <input
@@ -85,6 +86,7 @@ class Navbar extends Component {
                 onClick={this.handleFormSubmit}><i className="fa fa-search" aria-hidden="true"></i>
               </button>
             </form>
+          </div>  
         </div>
       </nav>
     )

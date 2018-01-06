@@ -22,17 +22,22 @@ thead {
 	background-color: #d3e1ee;	
 }
 
-/*.titleColumn {
+.yearCol {
 	width: 10%;
 }
 
-.stockNumColumn {
-	width: 20%;
+.insideCol {
+	width: 30%;
 }
 
-.esNumColumn {
-	width: 70%;
-}*/
+.outsideCol {
+	width: 30%;
+}
+
+.percentInsideCol {
+	width: 30%;
+
+}
 
 @media screen and (max-width: 768px) {
 	table {
@@ -42,7 +47,7 @@ thead {
 
 @media screen and (min-width: 768px) {
 	.tableContainer {
-		margin-left: 20%;
-		margin-right: 20%;
+		padding-left: 5%;
+		padding-right: 5%;
 	}
 }

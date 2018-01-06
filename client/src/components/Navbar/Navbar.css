@@ -25,6 +25,7 @@ button {
 	display: block;
 	float: left;
 	height: 46px;
+	width: 50px;
 	margin-top: 2px;
 	background-color: #838487;
 }
@@ -44,6 +45,16 @@ button {
 	}
 
 	.form-control {
-		max-width: 152px !important;
+		max-width: 110px !important;
+		padding-right: 0;
+		padding-left: 5px;
+		font-size: 85%;
+	}
+}
+
+@media screen and (min-width: 640px) {
+	.formBox {
+		margin: 0 auto;
+		width:260px;
 	}
 }
