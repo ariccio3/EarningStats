@@ -431,7 +431,7 @@ class Results extends Component {
             <tr>
               <th className="titleCol">Totals</th>
               <th className="stockNumCol">{this.props.match.params.stock}</th>
-              <th className="esNumCol"><Link to="/annual" style={{ textDecoration: 'none' }}>ES{this.watchListCount()}</Link></th>
+              <th title="EarningStats Watchlist" className="esNumCol"><Link to="/annual" style={{ textDecoration: 'none', color:'black'}}>ES{this.watchListCount()} <i className="fa fa-info-circle" aria-hidden="true"></i></Link></th>
             </tr>
           </thead>
           <tbody>
@@ -488,7 +488,7 @@ class Results extends Component {
             <tr>
               <th className="titleCol">Occurences Outside the Expected Move</th>
               <th className="stockNumCol">{this.props.match.params.stock}</th>
-              <th className="esNumCol">ES{this.watchListCount()}</th>
+              <th title="EarningStats Watchlist" className="esNumCol"><Link to="/annual" style={{ textDecoration: 'none', color:'black'}}>ES{this.watchListCount()} <i className="fa fa-info-circle" aria-hidden="true"></i></Link></th>
             </tr>
           </thead>
           <tbody>
@@ -525,7 +525,7 @@ class Results extends Component {
             <tr>
               <th className="titleCol">Average Expected vs. Actual Move %</th>
               <th className="stockNumCol">{this.props.match.params.stock}</th>
-              <th className="esNumCol">ES{this.watchListCount()}</th>
+              <th title="EarningStats Watchlist" className="esNumCol"><Link to="/annual" style={{ textDecoration: 'none', color:'black'}}>ES{this.watchListCount()} <i className="fa fa-info-circle" aria-hidden="true"></i></Link></th>
             </tr>
           </thead>
           <tbody>
@@ -557,7 +557,7 @@ class Results extends Component {
             <tr>
               <th className="titleCol">Quarterly</th>
               <th className="stockNumCol">{this.props.match.params.stock}</th>
-              <th className="esNumCol">ES{this.watchListCount()}</th>
+              <th title="EarningStats Watchlist" className="esNumCol"><Link to="/annual" style={{ textDecoration: 'none', color:'black'}}>ES{this.watchListCount()} <i className="fa fa-info-circle" aria-hidden="true"></i></Link></th>
             </tr>
           </thead>
           <tbody>

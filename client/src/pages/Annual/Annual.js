@@ -50,7 +50,8 @@ class Annual extends Component {
   render() {
       // console.log(this.state.watchList);
     return (
-      <div className="tableContainer">  
+      <div className="tableContainer"> 
+        <h3>EarningStats Watchlist</h3> 
         <table className="table table-striped table-hover table-bordered">
           <thead>
             <tr>
