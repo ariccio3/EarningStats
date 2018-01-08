@@ -17,7 +17,7 @@ app.use(routes);
 mongoose.Promise = global.Promise;
 // Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/earnings_data" || "mongodb://heroku_bqh4kgg0:ksue5hj0s6vham9a6nmhbdom6r@ds133876.mlab.com:33876/heroku_bqh4kgg0",
+  process.env.MONGODB_URI || "mongodb://localhost/earnings_data",
     {
     	useMongoClient: true
   }
@@ -27,11 +27,3 @@ mongoose.connect(
 app.listen(PORT, function() {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });
-
-// Heroku database update import CSV
-// mongoimport -h ds133876.mlab.com:33876 -d heroku_bqh4kgg0 -c stocks -u heroku_bqh4kgg0 -p ksue5hj0s6vham9a6nmhbdom6r --file stocks.csv --type csv --headerline
-// mongoimport -h ds133876.mlab.com:33876 -d heroku_bqh4kgg0 -c sorts -u heroku_bqh4kgg0 -p ksue5hj0s6vham9a6nmhbdom6r --file sorts.csv --type csv --headerline
-
-// Robo 3T database update import CSV
-// mongoimport -d earnings_data -c stocks --type csv --file stocks.csv --headerline
-// mongoimport -d earnings_data -c sorts --type csv --file sorts.csv --headerline

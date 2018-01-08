@@ -2,13 +2,6 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-// mongoose.connect(
-//   process.env.MONGODB_URI || "mongodb://localhost/earnings_data" || "mongodb://heroku_bqh4kgg0:ksue5hj0s6vham9a6nmhbdom6r@ds133876.mlab.com:33876/heroku_bqh4kgg0",
-//   {
-//     useMongoClient: true
-//   }
-// );
-
 const StockSchema = new Schema({
   stock: { 
         type: String, 
