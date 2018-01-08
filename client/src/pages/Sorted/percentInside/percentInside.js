@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import API from "../../../utils/API";
 import "./percentInside.css";
+import { Link } from "react-router-dom";
 
 class PercentInside extends Component {
   state = {
@@ -33,7 +34,7 @@ class PercentInside extends Component {
         {this.state.sorted.map((row, i) => (            
             <tr key={i}>
               <td>{i + 1}</td>
-              <td>{this.state.sorted[i].stock}</td>
+              <td><Link to={`/results/${this.state.sorted[i].stock}`}>{this.state.sorted[i].stock}</Link></td>
               <td>{this.state.sorted[i].percentInside}%</td>
             </tr>  
             ))}                                                                   

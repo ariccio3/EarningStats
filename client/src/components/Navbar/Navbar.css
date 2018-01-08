@@ -46,7 +46,7 @@ button {
 
 	.form-control {
 		max-width: 110px !important;
-		padding-right: 0;
+		padding-right: 5px;
 		padding-left: 5px;
 		font-size: 85%;
 	}
