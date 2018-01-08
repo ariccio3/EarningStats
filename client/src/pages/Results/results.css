@@ -27,11 +27,11 @@ thead {
 }
 
 .stockNumCol {
-	width: 15%;
+	width: 13%;
 }
 
 .esNumCol {
-	width: 15%;
+	width: 17%;
 }
 
 @media screen and (max-width: 768px) {
