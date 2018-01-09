@@ -608,7 +608,7 @@ class Results extends Component {
               <td><strong>{Math.floor(this.watchListDoubleEM() / this.state.watchList.length *100)}%</strong></td>
             </tr> 
             <tr>
-              <td><strong><Link to="/sorted/amunder2xem" style={{ textDecoration: 'none' }}>Actual ≤ 2x Expected &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
+              <td><strong><Link to="/sorted/amunder2xempercent" style={{ textDecoration: 'none' }}>Actual ≤ 2x Expected &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
               <td><strong>{Math.floor(this.stockUnder2EM() / this.state.stocks.length *100)}%</strong></td>
               <td><strong>{Math.floor(this.watchListUnder2EM() / this.state.watchList.length *100)}%</strong></td>
             </tr>

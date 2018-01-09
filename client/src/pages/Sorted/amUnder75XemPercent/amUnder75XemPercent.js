@@ -27,7 +27,7 @@ class AmUnder75XemPercent extends Component {
             <tr>
               <th className="titleColumn">Rank</th>
               <th className="stockNumColumn">Stock</th>
-              <th className="esNumColumn">Actual ≤ .75x Expected</th>
+              <th className="esNumColumn">Actual ≤ .75x Expected Move</th>
             </tr>
           </thead>
           <tbody>

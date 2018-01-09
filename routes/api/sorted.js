@@ -46,4 +46,32 @@ const sortedController = require("../../controllers/sortedController");
   .route("/q4percentinside")
   .get(sortedController.findQ4PercentInside) 
 
+ router
+  .route("/amover2xempercent")
+  .get(sortedController.findAmOver2XemPercent) 
+
+ router
+  .route("/amunder2xempercent")
+  .get(sortedController.findAmUnder2XemPercent) 
+
+ router
+  .route("/amunder150xempercent")
+  .get(sortedController.findAmUnder150XemPercent) 
+
+ router
+  .route("/amunder125xempercent")
+  .get(sortedController.findAmUnder125XemPercent) 
+
+ router
+  .route("/amunder175xempercent")
+  .get(sortedController.findAmUnder175XemPercent) 
+
+ router
+  .route("/amunder75xempercent")
+  .get(sortedController.findAmUnder75XemPercent) 
+
+ router
+  .route("/underempercent")
+  .get(sortedController.findunderEMPercent) 
+
 module.exports = router;

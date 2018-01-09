@@ -78,5 +78,54 @@ module.exports = {
       		.sort({ q4PercentInside: -1 })
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
+	},
+	findAmOver2XemPercent: function(req, res) {
+		db.Sorted
+		   	.find(req.query)
+      		.sort({ amOver2XemPercent: -1 })
+	      	.then(dbModel => res.json(dbModel))
+	      	.catch(err => res.status(422).json(err));
+	},
+	findAmUnder2XemPercent: function(req, res) {
+		db.Sorted
+		   	.find(req.query)
+      		.sort({ amUnder2XemPercent: -1 })
+	      	.then(dbModel => res.json(dbModel))
+	      	.catch(err => res.status(422).json(err));
+	},
+	findAmUnder150XemPercent: function(req, res) {
+		db.Sorted
+		   	.find(req.query)
+      		.sort({ amUnder150XemPercent: -1 })
+	      	.then(dbModel => res.json(dbModel))
+	      	.catch(err => res.status(422).json(err));
+	},
+	findAmUnder125XemPercent: function(req, res) {
+		db.Sorted
+		   	.find(req.query)
+      		.sort({ amUnder125XemPercent: -1 })
+	      	.then(dbModel => res.json(dbModel))
+	      	.catch(err => res.status(422).json(err));
+	},
+	findAmUnder175XemPercent: function(req, res) {
+		db.Sorted
+		   	.find(req.query)
+      		.sort({ amUnder175XemPercent: -1 })
+	      	.then(dbModel => res.json(dbModel))
+	      	.catch(err => res.status(422).json(err));
+	},
+	findAmUnder75XemPercent: function(req, res) {
+		db.Sorted
+		   	.find(req.query)
+      		.sort({ amUnder75XemPercent: -1 })
+	      	.then(dbModel => res.json(dbModel))
+	      	.catch(err => res.status(422).json(err));
+	},
+	findunderEMPercent: function(req, res) {
+		db.Sorted
+		   	.find(req.query)
+      		.sort({ underEMPercent: -1 })
+	      	.then(dbModel => res.json(dbModel))
+	      	.catch(err => res.status(422).json(err));
 	}									
 };
