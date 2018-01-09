@@ -52,9 +52,9 @@ button {
 	}
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 768px) {
 	.formBox {
 		margin: 0 auto;
-		width:260px;
+		width:270px;
 	}
 }
