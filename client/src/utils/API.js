@@ -40,5 +40,26 @@ export default {
   },
   getQ4PercentInside: function() {
     return axios.get("/api/sorted/q4PercentInside")
+  },
+  getAmOver2XemPercent: function() {
+    return axios.get("/api/sorted/amOver2XemPercent")
+  },
+  getAmUnder2XemPercent: function() {
+    return axios.get("/api/sorted/amUnder2XemPercent")
+  },
+  getAmUnder175XemPercent: function() {
+    return axios.get("/api/sorted/amUnder175XemPercent")
+  },
+  getAmUnder150XemPercent: function() {
+    return axios.get("/api/sorted/amUnder150XemPercent")
+  },
+  getAmUnder125XemPercent: function() {
+    return axios.get("/api/sorted/amUnder125XemPercent")
+  },
+  getUnderEMPercent: function() {
+    return axios.get("/api/sorted/underEMPercent")
+  },
+  getAmUnder75XemPercent: function() {
+    return axios.get("/api/sorted/amUnder75XemPercent")
   }
 };

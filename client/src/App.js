@@ -14,6 +14,13 @@ import Q1PercentInside from "./pages/Sorted/q1PercentInside";
 import Q2PercentInside from "./pages/Sorted/q2PercentInside";
 import Q3PercentInside from "./pages/Sorted/q3PercentInside";
 import Q4PercentInside from "./pages/Sorted/q4PercentInside";
+import AmOver2XemPercent from "./pages/Sorted/amOver2XemPercent";
+import AmUnder2XemPercent from "./pages/Sorted/amUnder2XemPercent";
+import AmUnder175XemPercent from "./pages/Sorted/amUnder175XemPercent";
+import AmUnder150XemPercent from "./pages/Sorted/amUnder150XemPercent";
+import AmUnder125XemPercent from "./pages/Sorted/amUnder125XemPercent";
+import UnderEMPercent from "./pages/Sorted/underEMPercent";
+import AmUnder75XemPercent from "./pages/Sorted/amUnder75XemPercent";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import NoMatch from "./pages/NoMatch";
@@ -37,6 +44,13 @@ const App = () =>
           <Route exact path="/sorted/q2percentinside" component={Q2PercentInside} />
           <Route exact path="/sorted/q3percentinside" component={Q3PercentInside} />
           <Route exact path="/sorted/q4percentinside" component={Q4PercentInside} />
+          <Route exact path="/sorted/amover2xempercent" component={AmOver2XemPercent} />
+          <Route exact path="/sorted/amunder2xempercent" component={AmUnder2XemPercent} />
+          <Route exact path="/sorted/amunder175xempercent" component={AmUnder175XemPercent} />
+          <Route exact path="/sorted/amunder150xempercent" component={AmUnder150XemPercent} />
+          <Route exact path="/sorted/amunder125xempercent" component={AmUnder125XemPercent} />
+          <Route exact path="/sorted/underempercent" component={UnderEMPercent} />
+          <Route exact path="/sorted/amunder75xempercent" component={AmUnder75XemPercent} />
           <Route component={NoMatch} />
         </Switch>
       <Footer />

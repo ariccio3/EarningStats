@@ -35,14 +35,6 @@ const sortedSchema = new Schema({
         type: Number, 
         required: false 
       },
-  numHalfEM: { 
-        type: Number, 
-        required: false 
-      },
-  percentHalfEM: { 
-        type: Number, 
-        required: false 
-      },
   doubleEM: { 
         type: Number, 
         required: false 
@@ -64,14 +56,6 @@ const sortedSchema = new Schema({
         required: false 
       },
   avgPercentEM: { 
-        type: Number, 
-        required: false 
-      },
-  numBelowAvgEM: { 
-        type: Number, 
-        required: false 
-      },
-  numAboveAvgEM: { 
         type: Number, 
         required: false 
       },
@@ -122,7 +106,71 @@ const sortedSchema = new Schema({
   q4PercentInside: { 
         type: Number, 
         required: false 
-      }                                                                                                            
+      },
+  amOver2Xem: { 
+        type: Number, 
+        required: false 
+      }, 
+  amUnder2Xem: { 
+        type: Number, 
+        required: false 
+      }, 
+  amUnder175Xem: { 
+        type: Number, 
+        required: false 
+      }, 
+  amUnder150Xem: { 
+        type: Number, 
+        required: false 
+      }, 
+  amUnder125Xem: { 
+        type: Number, 
+        required: false 
+      }, 
+  underEM: { 
+        type: Number, 
+        required: false 
+      }, 
+  amUnder75Xem: { 
+        type: Number, 
+        required: false 
+      },     
+  numHalfEM: { 
+        type: Number, 
+        required: false 
+      },
+  amOver2XemPercent: { 
+        type: Number, 
+        required: false 
+      }, 
+  amUnder2XemPercent: { 
+        type: Number, 
+        required: false 
+      }, 
+  amUnder175XemPercent: { 
+        type: Number, 
+        required: false 
+      }, 
+  amUnder150XemPercent: { 
+        type: Number, 
+        required: false 
+      }, 
+  amUnder125XemPercent: { 
+        type: Number, 
+        required: false 
+      }, 
+  underEMPercent: { 
+        type: Number, 
+        required: false 
+      }, 
+  amUnder75XemPercent: { 
+        type: Number, 
+        required: false 
+      },         
+  percentHalfEM: { 
+        type: Number, 
+        required: false 
+      }                                                                                                               
 });
 
 const Sorted = mongoose.model("Sorts", sortedSchema);

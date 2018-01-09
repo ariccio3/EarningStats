@@ -126,6 +126,126 @@ class Results extends Component {
     return count;
   };
   //***
+  stockUnder2EM = () => {
+    let count = 0;
+    for (let i = 0; i < this.state.stocks.length; i++) {
+      if (this.state.stocks[i].actualPercentOfExpectedMove <= 2) {
+        count++;
+      } 
+    } 
+    return count;
+  };
+
+  watchListUnder2EM = () => {
+    let count = 0;
+    for (let i = 0; i < this.state.watchList.length; i++) {
+      if (this.state.watchList[i].actualPercentOfExpectedMove <= 2) {
+        count++;
+      } 
+    } 
+    return count;
+  };
+  //***
+  stockUnder175EM = () => {
+    let count = 0;
+    for (let i = 0; i < this.state.stocks.length; i++) {
+      if (this.state.stocks[i].actualPercentOfExpectedMove <= 1.75) {
+        count++;
+      } 
+    } 
+    return count;
+  };
+
+  watchListUnder175EM = () => {
+    let count = 0;
+    for (let i = 0; i < this.state.watchList.length; i++) {
+      if (this.state.watchList[i].actualPercentOfExpectedMove <= 1.75) {
+        count++;
+      } 
+    } 
+    return count;
+  };
+  //***
+  stockUnder15EM = () => {
+    let count = 0;
+    for (let i = 0; i < this.state.stocks.length; i++) {
+      if (this.state.stocks[i].actualPercentOfExpectedMove <= 1.5) {
+        count++;
+      } 
+    } 
+    return count;
+  };
+
+  watchListUnder15EM = () => {
+    let count = 0;
+    for (let i = 0; i < this.state.watchList.length; i++) {
+      if (this.state.watchList[i].actualPercentOfExpectedMove <= 1.5) {
+        count++;
+      } 
+    } 
+    return count;
+  };
+  //***
+  stockUnder125EM = () => {
+    let count = 0;
+    for (let i = 0; i < this.state.stocks.length; i++) {
+      if (this.state.stocks[i].actualPercentOfExpectedMove <= 1.25) {
+        count++;
+      } 
+    } 
+    return count;
+  };
+
+  watchListUnder125EM = () => {
+    let count = 0;
+    for (let i = 0; i < this.state.watchList.length; i++) {
+      if (this.state.watchList[i].actualPercentOfExpectedMove <= 1.25) {
+        count++;
+      } 
+    } 
+    return count;
+  };
+  //***
+  stockUnderEM = () => {
+    let count = 0;
+    for (let i = 0; i < this.state.stocks.length; i++) {
+      if (this.state.stocks[i].actualPercentOfExpectedMove <= 1) {
+        count++;
+      } 
+    } 
+    return count;
+  };
+
+  watchListUnderEM = () => {
+    let count = 0;
+    for (let i = 0; i < this.state.watchList.length; i++) {
+      if (this.state.watchList[i].actualPercentOfExpectedMove <= 1) {
+        count++;
+      } 
+    } 
+    return count;
+  };
+  //***
+  stockUnder75EM = () => {
+    let count = 0;
+    for (let i = 0; i < this.state.stocks.length; i++) {
+      if (this.state.stocks[i].actualPercentOfExpectedMove <= .75) {
+        count++;
+      } 
+    } 
+    return count;
+  };
+
+  watchListUnder75EM = () => {
+    let count = 0;
+    for (let i = 0; i < this.state.watchList.length; i++) {
+      if (this.state.watchList[i].actualPercentOfExpectedMove <= .75) {
+        count++;
+      } 
+    } 
+    return count;
+  };      
+  //***
   stockNumHalfEM = () => {
     let count = 0;
     for (let i = 0; i < this.state.stocks.length; i++) {
@@ -470,16 +590,58 @@ class Results extends Component {
               <td><strong>{Math.floor(this.stockTotalInsideEM() / this.state.stocks.length *100)}%</strong></td>
               <td><strong>{Math.floor(this.watchListInsideEM() / this.state.watchList.length *100)}%</strong></td>
             </tr>
+          </tbody>
+        </table><br/>
+
+        <table className="table table-striped table-hover table-bordered">
+          <thead className="thead-dark">
             <tr>
-              <td># Actual Move was half Expected Move</td>
-              <td>{this.stockNumHalfEM()}</td>
-              <td>{this.watchListNumHalfEM()}</td>
+              <th className="titleCol">Actual vs. Expected Move Frequencies</th>
+              <th className="stockNumCol">{this.props.match.params.stock}</th>
+              <th title="EarningStats Watchlist" className="esNumCol"><Link to="/annual" style={{ textDecoration: 'none', color:'black'}}>ES{this.watchListCount()} <i className="fa fa-info-circle" aria-hidden="true"></i></Link></th>
+            </tr>
+          </thead>
+          <tbody>        
+            <tr>
+              <td><strong><Link to="/sorted/amover2xempercent" style={{ textDecoration: 'none' }}>Actual ≥ 2x Expected &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
+              <td><strong>{Math.floor(this.stockDoubleEM() / this.state.stocks.length *100)}%</strong></td>
+              <td><strong>{Math.floor(this.watchListDoubleEM() / this.state.watchList.length *100)}%</strong></td>
+            </tr> 
+            <tr>
+              <td><strong><Link to="/sorted/amunder2xem" style={{ textDecoration: 'none' }}>Actual ≤ 2x Expected &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
+              <td><strong>{Math.floor(this.stockUnder2EM() / this.state.stocks.length *100)}%</strong></td>
+              <td><strong>{Math.floor(this.watchListUnder2EM() / this.state.watchList.length *100)}%</strong></td>
             </tr>
             <tr>
-              <td><strong><Link to="/sorted/percenthalfem" style={{ textDecoration: 'none' }}>% Actual Move was half Expected Move &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
+              <td><strong><Link to="/sorted/amunder175xempercent" style={{ textDecoration: 'none' }}>Actual ≤ 1.75x Expected &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
+              <td><strong>{Math.floor(this.stockUnder175EM() / this.state.stocks.length *100)}%</strong></td>
+              <td><strong>{Math.floor(this.watchListUnder175EM() / this.state.watchList.length *100)}%</strong></td>
+            </tr> 
+            <tr>
+              <td><strong><Link to="/sorted/amunder150xempercent" style={{ textDecoration: 'none' }}>Actual ≤ 1.5x Expected &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
+              <td><strong>{Math.floor(this.stockUnder15EM() / this.state.stocks.length *100)}%</strong></td>
+              <td><strong>{Math.floor(this.watchListUnder15EM() / this.state.watchList.length *100)}%</strong></td>
+            </tr> 
+            <tr>
+              <td><strong><Link to="/sorted/amunder125xempercent" style={{ textDecoration: 'none' }}>Actual ≤ 1.25x Expected &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
+              <td><strong>{Math.floor(this.stockUnder125EM() / this.state.stocks.length *100)}%</strong></td>
+              <td><strong>{Math.floor(this.watchListUnder125EM() / this.state.watchList.length *100)}%</strong></td>
+            </tr> 
+            <tr>
+              <td><strong><Link to="/sorted/underempercent" style={{ textDecoration: 'none' }}>≤ The Expected Move &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
+              <td><strong>{Math.floor(this.stockUnderEM() / this.state.stocks.length *100)}%</strong></td>
+              <td><strong>{Math.floor(this.watchListUnderEM() / this.state.watchList.length *100)}%</strong></td>
+            </tr> 
+            <tr>
+              <td><strong><Link to="/sorted/amunder75xempercent" style={{ textDecoration: 'none' }}>Actual ≤ .75x Expected &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
+              <td><strong>{Math.floor(this.stockUnder75EM() / this.state.stocks.length *100)}%</strong></td>
+              <td><strong>{Math.floor(this.watchListUnder75EM() / this.state.watchList.length *100)}%</strong></td>
+            </tr> 
+            <tr>
+              <td><strong><Link to="/sorted/percenthalfem" style={{ textDecoration: 'none' }}>Actual ≤ .5x Expected &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
               <td><strong>{Math.floor(this.stockNumHalfEM() / this.state.stocks.length *100)}%</strong></td>
               <td><strong>{Math.floor(this.watchListNumHalfEM() / this.state.watchList.length *100)}%</strong></td>
-            </tr>                                                                      
+            </tr>                                                                                                                                                 
           </tbody>
         </table><br/>
 
