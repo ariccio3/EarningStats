@@ -1,0 +1,60 @@
+* {
+    /*border: solid red 1px;*/
+}
+
+h4 {
+	text-align: center;
+}
+
+body {
+	z-index: -1;
+	margin-top: 70px;
+	-webkit-text-size-adjust:none;
+    -moz-text-size-adjust:none;
+    -ms-text-size-adjust:none;
+    -webkit-text-size-adjust:100%;
+    -moz-text-size-adjust:100%;
+    -ms-text-size-adjust:100%;
+}
+
+table {
+	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+thead {
+	background-color: #d3e1ee;	
+}
+
+.stock {
+	width: 15%;
+}
+
+.company {
+	width: 50%;
+}
+
+.date {
+	width: 20%;
+}
+
+.time {
+	width: 15%;
+}
+
+.passed {
+	text-decoration: line-through;
+}
+
+@media screen and (max-width: 768px) {
+	table {
+		font-size: 13px !important;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.tableContainer {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}

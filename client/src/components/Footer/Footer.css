@@ -22,3 +22,7 @@ a {
   text-decoration: none;
   color: #92b6d5;  
 }
+
+.resourceText {
+  float: left;
+}

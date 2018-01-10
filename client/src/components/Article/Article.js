@@ -26,10 +26,13 @@ const Article = props => (
 	</p>
 	<p>	
 		<b>The Ballpark: </b>When we go further back in history and the Implied Volatility and Delta aren’t available, you can use a percentage of the at-the-money straddle premium. We have found that this can be unique for each stock so for accuracy we take the recent 5 year average for weekly and monthly options for each stock when calculating the expected move further back in history.  
-		Other factors used to determine which stocks to follow:
+		
+	</p>
+	<p>
+		Factors used to determine which stocks to follow:
 	</p>
 	<p>	
-		<b>Liquidity: </b>Since the late-90’s option liquidity has gotten better with the rise of Online Brokerages. We define liquidity as a tight Bid-Ask spread and the ability to get our order filled at the mid-price. 
+		<b>Liquidity: </b>Since the late-90’s option liquidity has gotten better with the rise of Online Brokerages. We define liquidity as a tight Bid-Ask spread and/or the ability to get our order filled at the mid-price. 
 	</p>
 	<p>	
 		<b>High Implied Volatility Rank: </b>The innovative creators of tastytrade.com brought us IVR which is simply a stock’s Implied Volatility measured against itself over the last year. This gives us a way to quickly gauge if the option premium is high (preferable for option sellers) or low (preferable for option buyers). 
