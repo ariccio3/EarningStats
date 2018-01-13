@@ -24,7 +24,7 @@ class EarningsCalendar extends Component {
               <td>1/5/2018</td>
               <td>bmo</td>
             </tr>
-            <tr>
+            <tr className="passed">
               <td><Link to="/results/JPM">JPM</Link></td>
               <td>JPMorgan Chase</td>
               <td>1/12/2018</td>
