@@ -54,6 +54,7 @@ const App = () =>
           <Route exact path="/sorted/underempercent" component={UnderEMPercent} />
           <Route exact path="/sorted/amunder75xempercent" component={AmUnder75XemPercent} />
           <Route component={NoMatch} />
+          <Route exact path="sitemap.xml" />
         </Switch>
       <Footer />
     </div>
