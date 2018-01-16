@@ -28,7 +28,7 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-  table {
+  footerText {
     font-size: 11px !important;
   }
 }
