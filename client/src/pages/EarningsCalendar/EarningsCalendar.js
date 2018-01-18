@@ -36,7 +36,7 @@ class EarningsCalendar extends Component {
               <td>1/17/2018</td>
               <td>bmo</td>
             </tr>
-            <tr>
+            <tr className="passed">
               <td><Link to="/results/IBM">IBM</Link></td>
               <td>International Business Machines</td>
               <td>1/18/2018</td>
@@ -47,12 +47,6 @@ class EarningsCalendar extends Component {
               <td>Netflix</td>
               <td>1/22/2018</td>
               <td>amc</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/BABA">BABA</Link></td>
-              <td>Alibaba</td>
-              <td>1/23/2018</td>
-              <td>bmo</td>
             </tr>
             <tr>
               <td><Link to="/results/CAT">CAT</Link></td>
@@ -103,10 +97,10 @@ class EarningsCalendar extends Component {
               <td>amc</td>
             </tr>
             <tr>
-              <td><Link to="/results/CMG">CMG</Link></td>
-              <td>Chipotle Mexican Grill</td>
+              <td><Link to="/results/BABA">BABA</Link></td>
+              <td>Alibaba</td>
               <td>2/1/2018</td>
-              <td>amc</td>
+              <td>bmo</td>
             </tr>
             <tr>
               <td><Link to="/results/GOOG">GOOG</Link></td>
@@ -121,6 +115,12 @@ class EarningsCalendar extends Component {
               <td>bmo</td>
             </tr>
             <tr>
+              <td><Link to="/results/CMG">CMG</Link></td>
+              <td>Chipotle Mexican Grill</td>
+              <td>2/6/2018</td>
+              <td>amc</td>
+            </tr>
+            <tr>
               <td><Link to="/results/DIS">DIS</Link></td>
               <td>Disney</td>
               <td>2/6/2018</td>
@@ -129,25 +129,25 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/GILD">GILD</Link></td>
               <td>Gilead Sciences</td>
-              <td>2/6/201/</td>
+              <td>2/6/2018/</td>
+              <td>amc</td>
+            </tr>
+            <tr>
+              <td><Link to="/results/NTES">NTES</Link></td>
+              <td>NetEase</td>
+              <td>2/7/2018</td>
               <td>amc</td>
             </tr>
             <tr>
               <td><Link to="/results/NVDA">NVDA</Link></td>
               <td>NVIDIA</td>
-              <td>2/8/201/</td>
+              <td>2/8/2018/</td>
               <td>amc</td>
             </tr>
             <tr>
               <td><Link to="/results/PEP">PEP</Link></td>
               <td>Pepsi</td>
               <td>2/13/2018</td>
-              <td>bmo</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/NTES">NTES</Link></td>
-              <td>NetEase</td>
-              <td>2/14/2018</td>
               <td>bmo</td>
             </tr>
             <tr>
