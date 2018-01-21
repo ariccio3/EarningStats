@@ -5,6 +5,7 @@ module.exports = {
 	findStock: function(req, res) {
 		db.Sorted
 		   	.find(req.params.stock)
+		   	.select('stock')
       		.sort({ stock: 1 })
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));

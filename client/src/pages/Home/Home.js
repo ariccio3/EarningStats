@@ -29,7 +29,8 @@ class Home extends Component {
     return arr; 
   };  
 
-  render() { console.log(this.state.watchList)
+  render() { 
+    console.log(this.state.watchList)
     let uniqueStocks = this.watchList();
     let list = uniqueStocks.map((result) => 
       <Sidebar key={result.toString()} stock={result} />
