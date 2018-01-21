@@ -8,6 +8,9 @@ export default {
   getWatchList: function() {
     return axios.get("/api/users");
   },
+  getStocks: function() {
+    return axios.get("/api/sorted/")
+  },
   getTotalpercentup: function() {
     return axios.get("/api/sorted/totalpercentup")
   },

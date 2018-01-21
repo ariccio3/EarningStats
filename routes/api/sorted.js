@@ -3,6 +3,10 @@ const sortedController = require("../../controllers/sortedController");
 
 // Matches with "/api/sorted"
  router
+  .route("/")
+  .get(sortedController.findStock)
+
+ router
   .route("/totalpercentup")
   .get(sortedController.findTotalPercentUp)
 

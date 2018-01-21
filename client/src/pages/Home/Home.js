@@ -14,7 +14,7 @@ class Home extends Component {
   }
 
   loadWatchList = () => {
-    API.getWatchList()
+    API.getStocks()
     .then(res => this.setState({ watchList: res.data }))
     .catch(err => console.log(err));
   };
@@ -26,11 +26,10 @@ class Home extends Component {
         arr.push(this.state.watchList[i].stock);
       }
     }  
-    let watchListArray = arr.reverse();
-    return watchListArray; 
+    return arr; 
   };  
 
-  render() {
+  render() { console.log(this.state.watchList)
     let uniqueStocks = this.watchList();
     let list = uniqueStocks.map((result) => 
       <Sidebar key={result.toString()} stock={result} />
