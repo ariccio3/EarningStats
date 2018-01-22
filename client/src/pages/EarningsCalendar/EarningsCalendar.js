@@ -42,7 +42,7 @@ class EarningsCalendar extends Component {
               <td>1/18/2018</td>
               <td>amc</td>
             </tr>            
-            <tr>
+            <tr className="passed">
               <td><Link to="/results/NFLX">NFLX</Link></td>
               <td>Netflix</td>
               <td>1/22/2018</td>
