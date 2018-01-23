@@ -38,6 +38,13 @@ module.exports = {
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
 	},
+	findBackToBack: function(req, res) {
+		db.Sorted
+		   	.find(req.query)
+      		.sort({ btbPercent: 1 })
+	      	.then(dbModel => res.json(dbModel))
+	      	.catch(err => res.status(422).json(err));
+	},
 	findOutsidePercentUp: function(req, res) {
 		db.Sorted
 		   	.find(req.query)

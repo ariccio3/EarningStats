@@ -8,6 +8,7 @@ import TotalPercentUp from "./pages/Sorted/totalPercentUp";
 import PercentInside from "./pages/Sorted/percentInside";
 import PercentHalfEM from "./pages/Sorted/percentHalfEM";
 import DoubleEM from "./pages/Sorted/doubleEM";
+import BackToBack from "./pages/Sorted/backToBack";
 import OutsidePercentUp from "./pages/Sorted/outsidePercentUp";
 import OutsidePercentDown from "./pages/Sorted/outsidePercentDown";
 import AvgPercentEM from "./pages/Sorted/avgPercentEM";
@@ -39,6 +40,7 @@ const App = () =>
           <Route exact path="/sorted/percentinside" component={PercentInside} />
           <Route exact path="/sorted/percenthalfem" component={PercentHalfEM} />
           <Route exact path="/sorted/doubleem" component={DoubleEM} />
+          <Route exact path="/sorted/backtoback" component={BackToBack} />
           <Route exact path="/sorted/outsidepercentup" component={OutsidePercentUp} />
           <Route exact path="/sorted/outsidepercentdown" component={OutsidePercentDown} />
           <Route exact path="/sorted/avgpercentem" component={AvgPercentEM} />

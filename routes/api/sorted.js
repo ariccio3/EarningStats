@@ -20,7 +20,11 @@ const sortedController = require("../../controllers/sortedController");
 
  router
   .route("/doubleem")
-  .get(sortedController.findDoubleEM) 
+  .get(sortedController.findDoubleEM)
+
+ router
+  .route("/backtoback")
+  .get(sortedController.findBackToBack) 
 
   router
   .route("/outsidepercentup")

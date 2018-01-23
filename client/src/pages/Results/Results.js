@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 class Results extends Component {
   state = {
     stocks: [],
-    watchList: []
+    watchList: [],
   };
 
   componentDidMount() {
@@ -25,6 +25,7 @@ class Results extends Component {
     .then(res => this.setState({ watchList: res.data }))
     .catch(err => console.log(err));
   };
+
   //***
   stockTotalUp = () => {
     let count = 0;
@@ -126,6 +127,31 @@ class Results extends Component {
     return count;
   };
   //***
+  stockBackToBack = () => {
+    let count = 0;
+    let total = this.state.stocks.length;
+    for (let i = 0; i < this.state.stocks.length; i++) {
+      if (this.state.stocks[i].helper === 'OUTSIDEOUTSIDE') {
+        count++;
+      }
+    } 
+    let percent = count/total*100;
+    return Math.round(percent*10)/10;
+  };
+
+  watchListBackToBack = () => {
+    let count = 0;
+    let total = this.state.watchList.length;
+
+    for (let i = 0; i < this.state.watchList.length; i++) {
+      if (this.state.watchList[i].helper === 'OUTSIDEOUTSIDE') {
+        count++;
+      } 
+    } 
+    let percent = count/total*100;
+    return Math.round(percent*10)/10;
+  };
+  //***  
   stockUnder2EM = () => {
     let count = 0;
     for (let i = 0; i < this.state.stocks.length; i++) {
@@ -658,6 +684,11 @@ class Results extends Component {
               <td><strong><Link to="/sorted/doubleem" style={{ textDecoration: 'none' }}># Double the Expected Move &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
               <td>{this.stockDoubleEM()}</td>
               <td>{this.watchListDoubleEM()}</td>
+            </tr>
+            <tr>
+              <td><strong><Link to="/sorted/backToBack" style={{ textDecoration: 'none' }}>% of Back-to-back Outside Moves &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
+              <td><strong>{this.stockBackToBack()}%</strong></td>
+              <td><strong>{this.watchListBackToBack()}%</strong></td>
             </tr>
             <tr>
               <td># Up</td>

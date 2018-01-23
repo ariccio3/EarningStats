@@ -23,6 +23,9 @@ export default {
   getDoubleEM: function() {
     return axios.get("/api/sorted/doubleEM")
   },
+  getBackToBack: function() {
+    return axios.get("/api/sorted/backToBack")
+  },
   getOutsidePercentUp: function() {
     return axios.get("/api/sorted/outsidePercentUp")
   },

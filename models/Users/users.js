@@ -43,6 +43,10 @@ const StockSchema = new Schema({
         type: String, 
         required: false 
       },
+  helper: { 
+        type: String, 
+        required: false 
+      },    
   expectedPercentMove: { 
         type: Number, 
         required: false 

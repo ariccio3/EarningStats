@@ -170,6 +170,22 @@ const sortedSchema = new Schema({
   percentHalfEM: { 
         type: Number, 
         required: false 
+      },
+  backToBack: { 
+        type: Number, 
+        required: false 
+      }, 
+  btbPercent: { 
+        type: Number, 
+        required: false 
+      }, 
+  maxDate: { 
+        type: String, 
+        required: false 
+      },         
+  insideOutside: { 
+        type: String, 
+        required: false 
       }                                                                                                               
 });
 
