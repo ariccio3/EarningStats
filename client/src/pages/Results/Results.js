@@ -724,7 +724,7 @@ class Results extends Component {
           </thead>
           <tbody>
             <tr>
-              <td>Above Average % Expected Move % Inside</td>
+              <td><strong><Link to="/sorted/aboveavgem" style={{ textDecoration: 'none' }}>Above Average % Expected Move % Inside &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
               <td>{this.stockAboveAvgExpectedMove()}%</td>
               <td>{this.watchListAboveAvgExpectedMove()}%</td>
             </tr>
@@ -739,7 +739,7 @@ class Results extends Component {
               <td>{this.watchListAvgActualMove()}%</td>
             </tr>            
             <tr>
-              <td>Below Average % Expected Move % Inside</td>
+              <td><strong><Link to="/sorted/belowavgem" style={{ textDecoration: 'none' }}>Below Average % Expected Move % Inside &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
               <td>{this.stockBelowAvgExpectedMove()}%</td>
               <td>{this.watchListBelowAvgExpectedMove()}%</td>
             </tr>

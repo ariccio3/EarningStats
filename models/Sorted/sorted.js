@@ -186,7 +186,15 @@ const sortedSchema = new Schema({
   insideOutside: { 
         type: String, 
         required: false 
-      }                                                                                                               
+      },
+  aboveAvgEM: { 
+        type: Number, 
+        required: false 
+      },         
+  belowAvgEM: { 
+        type: Number, 
+        required: false 
+      }                                                                                                                   
 });
 
 const Sorted = mongoose.model("Sorts", sortedSchema);

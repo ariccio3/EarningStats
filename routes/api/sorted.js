@@ -80,6 +80,14 @@ const sortedController = require("../../controllers/sortedController");
 
  router
   .route("/underempercent")
-  .get(sortedController.findunderEMPercent) 
+  .get(sortedController.findUnderEMPercent) 
+
+ router
+  .route("/aboveavgem")
+  .get(sortedController.findAboveAvgEM) 
+
+ router
+  .route("/belowavgem")
+  .get(sortedController.findBelowAvgEM) 
 
 module.exports = router;

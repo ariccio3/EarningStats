@@ -67,5 +67,11 @@ export default {
   },
   getAmUnder75XemPercent: function() {
     return axios.get("/api/sorted/amUnder75XemPercent")
+  },
+  getAboveAvgEM: function() {
+    return axios.get("/api/sorted/aboveAvgEM")
+  },
+  getBelowAvgEM: function() {
+    return axios.get("/api/sorted/belowAvgEM")
   }
 };

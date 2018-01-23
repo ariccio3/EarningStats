@@ -136,10 +136,24 @@ module.exports = {
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
 	},
-	findunderEMPercent: function(req, res) {
+	findUnderEMPercent: function(req, res) {
 		db.Sorted
 		   	.find(req.query)
       		.sort({ underEMPercent: -1 })
+	      	.then(dbModel => res.json(dbModel))
+	      	.catch(err => res.status(422).json(err));
+	},
+	findAboveAvgEM: function(req, res) {
+		db.Sorted
+		   	.find(req.query)
+      		.sort({ aboveAvgEM: -1 })
+	      	.then(dbModel => res.json(dbModel))
+	      	.catch(err => res.status(422).json(err));
+	},
+	findBelowAvgEM: function(req, res) {
+		db.Sorted
+		   	.find(req.query)
+      		.sort({ belowAvgEM: -1 })
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
 	}									
