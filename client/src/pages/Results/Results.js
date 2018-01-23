@@ -10,6 +10,7 @@ class Results extends Component {
   };
 
   componentDidMount() {
+    window.scrollTo(0, 0);
     this.loadResults();
     this.loadWatchList();
   }
@@ -686,7 +687,7 @@ class Results extends Component {
               <td>{this.watchListDoubleEM()}</td>
             </tr>
             <tr>
-              <td><strong><Link to="/sorted/backToBack" style={{ textDecoration: 'none' }}>% of Back-to-back Outside Moves &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
+              <td><strong><Link to="/sorted/backToBack" style={{ textDecoration: 'none' }}>% of Back-to-Back Outside Moves &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
               <td><strong>{this.stockBackToBack()}%</strong></td>
               <td><strong>{this.watchListBackToBack()}%</strong></td>
             </tr>
