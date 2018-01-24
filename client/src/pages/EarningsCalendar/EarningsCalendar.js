@@ -51,13 +51,13 @@ class EarningsCalendar extends Component {
               <td>1/22/2018</td>
               <td>amc</td>
             </tr>
-            <tr>
+            <tr className="passed">
               <td><Link to="/results/CAT">CAT</Link></td>
-              <td>Caterpiller</td>
+              <td>Caterpillar</td>
               <td>1/25/2018</td>
               <td>bmo</td>
             </tr>
-            <tr>
+            <tr className="passed">
               <td><Link to="/results/CELG">CELG</Link></td>
               <td>Celgene</td>
               <td>1/25/2018</td>
@@ -210,8 +210,8 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/LULU">LULU</Link></td>
               <td>lululemon</td>
-              <td>TBD</td>
-              <td>TBD</td>
+              <td>3/28/2018</td>
+              <td>amc</td>
             </tr>                                                                                                                                                                                                                                                            
           </tbody>            
        </table><br/>

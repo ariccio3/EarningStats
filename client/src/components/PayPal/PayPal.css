@@ -5,3 +5,11 @@
 .paypal {
 	float: right;
 }
+
+#icon {
+	width: 100px;
+}
+
+#icon:hover {
+	cursor:pointer;
+}
