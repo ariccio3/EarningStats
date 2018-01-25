@@ -9,6 +9,7 @@ class AmUnder150XemPercent extends Component {
   };
 
   componentDidMount() {
+    window.scrollTo(0, 0);
     this.loadSorted();
   }
 
@@ -19,7 +20,7 @@ class AmUnder150XemPercent extends Component {
   };
 
   render() {
-      console.log(this.state.sorted);
+      // console.log(this.state.sorted);
     return (
       <div className="tableContainer">  
         <table className="table table-striped table-hover table-bordered">

@@ -13,6 +13,7 @@ module.exports = {
 	findTotalPercentUp: function(req, res) {
 		db.Sorted
 		   	.find(req.query)
+		   	.select('stock totalPercentUp')		   	
       		.sort({ totalPercentUp: -1 })
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
@@ -20,6 +21,7 @@ module.exports = {
 	findPercentInside: function(req, res) {
 		db.Sorted
 		   	.find(req.query)
+		   	.select('stock percentInside')		   	
       		.sort({ percentInside: -1 })
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
@@ -27,6 +29,7 @@ module.exports = {
 	findPercentHalfEM: function(req, res) {
 		db.Sorted
 		   	.find(req.query)
+		   	.select('stock percentHalfEM')		   	
       		.sort({ percentHalfEM: -1 })
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
@@ -34,6 +37,7 @@ module.exports = {
 	findDoubleEM: function(req, res) {
 		db.Sorted
 		   	.find(req.query)
+		   	.select('stock doubleEM')		   	
       		.sort({ doubleEM: -1 })
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
@@ -41,6 +45,7 @@ module.exports = {
 	findBackToBack: function(req, res) {
 		db.Sorted
 		   	.find(req.query)
+		   	.select('stock btbPercent insideOutside')		   	
       		.sort({ btbPercent: 1 })
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
@@ -48,6 +53,7 @@ module.exports = {
 	findOutsidePercentUp: function(req, res) {
 		db.Sorted
 		   	.find(req.query)
+		   	.select('stock outsidePercentUp')		   	
       		.sort({ outsidePercentUp: -1 })
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
@@ -55,6 +61,7 @@ module.exports = {
 	findOutsidePercentDown: function(req, res) {
 		db.Sorted
 		   	.find(req.query)
+		   	.select('stock outsidePercentDown')		   	
       		.sort({ outsidePercentDown: -1 })
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
@@ -62,6 +69,7 @@ module.exports = {
 	findAvgPercentEM: function(req, res) {
 		db.Sorted
 		   	.find(req.query)
+		   	.select('stock avgPercentEM')		   	
       		.sort({ avgPercentEM: -1 })
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
@@ -69,6 +77,7 @@ module.exports = {
 	findQ1PercentInside: function(req, res) {
 		db.Sorted
 		   	.find(req.query)
+		   	.select('stock q1PercentInside')		   	
       		.sort({ q1PercentInside: -1 })
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
@@ -76,6 +85,7 @@ module.exports = {
 	findQ2PercentInside: function(req, res) {
 		db.Sorted
 		   	.find(req.query)
+		   	.select('stock q2PercentInside')		   	
       		.sort({ q2PercentInside: -1 })
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
@@ -83,6 +93,7 @@ module.exports = {
 	findQ3PercentInside: function(req, res) {
 		db.Sorted
 		   	.find(req.query)
+		   	.select('stock q3PercentInside')		   	
       		.sort({ q3PercentInside: -1 })
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
@@ -90,6 +101,7 @@ module.exports = {
 	findQ4PercentInside: function(req, res) {
 		db.Sorted
 		   	.find(req.query)
+		   	.select('stock q4PercentInside')		   	
       		.sort({ q4PercentInside: -1 })
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
@@ -97,6 +109,7 @@ module.exports = {
 	findAmOver2XemPercent: function(req, res) {
 		db.Sorted
 		   	.find(req.query)
+		   	.select('stock amOver2XemPercent')		   	
       		.sort({ amOver2XemPercent: -1 })
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
@@ -104,6 +117,7 @@ module.exports = {
 	findAmUnder2XemPercent: function(req, res) {
 		db.Sorted
 		   	.find(req.query)
+		   	.select('stock amUnder2XemPercent')		   	
       		.sort({ amUnder2XemPercent: -1 })
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
@@ -111,6 +125,7 @@ module.exports = {
 	findAmUnder150XemPercent: function(req, res) {
 		db.Sorted
 		   	.find(req.query)
+		   	.select('stock amUnder150XemPercent')		   	
       		.sort({ amUnder150XemPercent: -1 })
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
@@ -118,6 +133,7 @@ module.exports = {
 	findAmUnder125XemPercent: function(req, res) {
 		db.Sorted
 		   	.find(req.query)
+		   	.select('stock amUnder125XemPercent')		   	
       		.sort({ amUnder125XemPercent: -1 })
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
@@ -125,6 +141,7 @@ module.exports = {
 	findAmUnder175XemPercent: function(req, res) {
 		db.Sorted
 		   	.find(req.query)
+		   	.select('stock amUnder175XemPercent')		   	
       		.sort({ amUnder175XemPercent: -1 })
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
@@ -132,6 +149,7 @@ module.exports = {
 	findAmUnder75XemPercent: function(req, res) {
 		db.Sorted
 		   	.find(req.query)
+		   	.select('stock amUnder75XemPercent')		   	
       		.sort({ amUnder75XemPercent: -1 })
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
@@ -139,6 +157,7 @@ module.exports = {
 	findUnderEMPercent: function(req, res) {
 		db.Sorted
 		   	.find(req.query)
+		   	.select('stock underEMPercent')		   	
       		.sort({ underEMPercent: -1 })
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
@@ -146,6 +165,7 @@ module.exports = {
 	findAboveAvgEM: function(req, res) {
 		db.Sorted
 		   	.find(req.query)
+		   	.select('stock aboveAvgEM')		   	
       		.sort({ aboveAvgEM: -1 })
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
@@ -153,6 +173,7 @@ module.exports = {
 	findBelowAvgEM: function(req, res) {
 		db.Sorted
 		   	.find(req.query)
+		   	.select('stock belowAvgEM')		   	
       		.sort({ belowAvgEM: -1 })
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
