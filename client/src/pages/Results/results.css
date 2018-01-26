@@ -34,15 +34,15 @@ thead {
 	width: 17%;
 }
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 830px) {
 	table {
 		font-size: 13px !important;
 	}
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 830px) {
 	.tableContainer {
-		margin-left: 15%;
-		margin-right: 15%;
+		/*margin-left: 5%;*/
+		/*margin-right: 5%;*/
 	}
 }
