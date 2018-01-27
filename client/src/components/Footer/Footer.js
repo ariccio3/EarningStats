@@ -15,6 +15,7 @@ const Footer = () =>
     </div>
     <div className="resourceText">
     	<p><Link to="/earningscalendar">Earnings Calendar</Link></p>
+        <p><Link to="/glossary">Stats Glossary</Link></p>
     </div>
   </footer>;
 

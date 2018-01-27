@@ -25,6 +25,7 @@ a {
 
 .resourceText {
   float: left;
+  text-align: left;
 }
 
 .icons {

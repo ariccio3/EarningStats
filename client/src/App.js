@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import Results from "./pages/Results";
 import Annual from "./pages/Annual";
+import Glossary from "./pages/Glossary";
 import EarningsCalendar from "./pages/EarningsCalendar";
 import TotalPercentUp from "./pages/Sorted/totalPercentUp";
 import PercentInside from "./pages/Sorted/percentInside";
@@ -36,7 +37,8 @@ const App = () =>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/results/:stock" component={Results} />
-          <Route exact path="/annual" component={Annual} />          
+          <Route exact path="/annual" component={Annual} />
+          <Route exact path="/glossary" component={Glossary} />          
           <Route exact path="/earningscalendar" component={EarningsCalendar} />          
           <Route exact path="/sorted/totalpercentup" component={TotalPercentUp} />
           <Route exact path="/sorted/percentinside" component={PercentInside} />
