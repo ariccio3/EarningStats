@@ -33,6 +33,11 @@ a {
   height: 25px;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
 @media screen and (max-width: 768px) {
   .footerText {
     font-size: 13px !important;

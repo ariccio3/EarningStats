@@ -11,4 +11,7 @@ h3 {
 		margin: 0 auto;
 		border: 1px solid #92b6d5;
 	}
+	h3 {
+	margin-top: 10px;
+}
 }

@@ -10,7 +10,7 @@ class Glossary extends Component {
   render() {
     return (
       <div className="container">
-        <h3>EarningStats Glossary</h3>
+        <h3>EarningStats Glossary<hr /></h3>
         <p><b>EarningStats Watch List (ES32)</b> – Are the current stocks that we follow for trading their earnings events. 
           We look for stocks that have liquid option markets as represented by reasonably tight bid-ask spreads and/or 
           higher priced underlings that offer more premium. If you would like to suggest a stock added to our watch list, 

@@ -35,7 +35,7 @@ const Article = props => (
 		<b>Liquidity: </b>Since the late-90’s option liquidity has gotten better with the rise of Online Brokerages. We define liquidity as a tight Bid-Ask spread and/or the ability to get our order filled at the mid-price. 
 	</p>
 	<p>	
-		<b>High Implied Volatility Rank: </b>The innovative creators of tastytrade.com brought us IVR which is simply a stock’s Implied Volatility measured against itself over the last year. This gives us a way to quickly gauge if the option premium is high (preferable for option sellers) or low (preferable for option buyers). 
+		<b>High Implied Volatility Rank: </b>The innovative creators of <a href="https://www.tastytrade.com/tt/home" className="link" target="_blank" rel="noopener noreferrer">tastytrade.com</a> brought us IVR which is simply a stock’s Implied Volatility measured against itself over the last year. This gives us a way to quickly gauge if the option premium is high (preferable for option sellers) or low (preferable for option buyers). 
 	</p>
 	<p>	
 		<b>Weekly vs. Monthly options: </b>Shortly after a stock reports its earnings the implied volatility will quickly fall especially if the stock price stays within its expected move. This phenomenon is what peaked our curiosity about how often individual stocks stay inside their expected move after their earnings are reported. We usually default to the weekly options for earnings trades when selling options because implied volatility is higher. Monthly options are good for getting further away from the current stock price. Sometimes we trade both.  

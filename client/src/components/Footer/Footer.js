@@ -14,8 +14,9 @@ const Footer = () =>
         <PayPal />
     </div>
     <div className="resourceText">
-    	<p><Link to="/earningscalendar">Earnings Calendar</Link></p>
+        <p><Link to="/earningscalendar">Earnings Calendar</Link></p>
         <p><Link to="/glossary">Stats Glossary</Link></p>
+        <p><a href="https://start.tastyworks.com#/login?referralCode=6V6M2885JH" target="_blank" rel="noopener noreferrer">Open Brokerage Acct</a></p>
     </div>
   </footer>;
 
