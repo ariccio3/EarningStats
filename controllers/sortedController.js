@@ -2,6 +2,13 @@ const db = require("../models/Sorted");
 
 module.exports = {
 
+	findAll: function(req, res) {
+		db.Sorted
+		   	.find(req.params.stock)
+      		.sort({ stock: 1 })
+	      	.then(dbModel => res.json(dbModel))
+	      	.catch(err => res.status(422).json(err));
+	},
 	findStock: function(req, res) {
 		db.Sorted
 		   	.find(req.params.stock)
@@ -14,7 +21,7 @@ module.exports = {
 		db.Sorted
 		   	.find(req.query)
 		   	.select('stock totalPercentUp')		   	
-      		.sort({ totalPercentUp: -1 })
+      		.sort({ totalPercentUp: -1 })   		
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
 	},
@@ -22,7 +29,7 @@ module.exports = {
 		db.Sorted
 		   	.find(req.query)
 		   	.select('stock percentInside')		   	
-      		.sort({ percentInside: -1 })
+      		.sort({ percentInside: -1 })     		
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
 	},

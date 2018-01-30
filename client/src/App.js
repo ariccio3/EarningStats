@@ -26,6 +26,7 @@ import UnderEMPercent from "./pages/Sorted/underEMPercent";
 import AmUnder75XemPercent from "./pages/Sorted/amUnder75XemPercent";
 import AboveAvgEM from "./pages/Sorted/aboveAvgEM";
 import BelowAvgEM from "./pages/Sorted/belowAvgEM";
+import ProsCons from "./pages/ProsCons";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import NoMatch from "./pages/NoMatch";
@@ -61,6 +62,7 @@ const App = () =>
           <Route exact path="/sorted/amunder75xempercent" component={AmUnder75XemPercent} />
           <Route exact path="/sorted/aboveavgem" component={AboveAvgEM} />
           <Route exact path="/sorted/belowavgem" component={BelowAvgEM} />
+          <Route exact path="/proscons/:stock" component={ProsCons}  {...this.props}/>
           <Route component={NoMatch} />
           <Route exact path="sitemap.xml" />
         </Switch>

@@ -5,6 +5,9 @@ export default {
   getStats: function(stock) {
     return axios.get("/api/users/" + stock);
   },
+  getSortedData: function(stock) {
+    return axios.get("/api/sorted/proscons");
+  },
   getWatchList: function() {
     return axios.get("/api/users");
   },

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import API from "../../utils/API";
-import "./results.css";
+import "./Results.css";
 import { Link } from "react-router-dom";
 
 class Results extends Component {
@@ -570,7 +570,7 @@ class Results extends Component {
     };
 
   render() {
-      // console.log(this.state.watchList);
+      // console.log(this.state.stocks);
     return (
       <div className="tableContainer">  
         <table className="table table-striped table-hover table-bordered">
