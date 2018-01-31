@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import API from "../../utils/API";
 import "./ProsCons.css";
-import Table from "../../components/Table";
 // import { Link } from "react-router-dom";
 
   let prosArray = [];
@@ -59,6 +58,14 @@ class ProsCons extends Component {
     }
   };
 
+  renderTable(category, stat) {     
+    return (
+      <tr key={category._id}>
+        <td>{Object.keys(category)[2]}</td>
+        <td>{Object.values(category)[2]}%</td>
+      </tr>
+    )};
+
   render() {
 this.totalPercentUp();
 this.percentInside();
@@ -67,16 +74,6 @@ this.percentInside();
       // console.log(this.props.match.params.stock);
       console.log(prosArray);
       console.log(consArray);
-
-      // let uniqueStocks = this.watchList();
-    let proList = prosArray.map((result) => 
-      <Table key={result.toString()} stock={result} />
-    ); 
-
-          // let uniqueStocks = this.watchList();
-    let conList = consArray.map((result) => 
-      <Table key={result.toString()} stock={result} />
-    ); 
 
     return (
       <div className="tableContainer">
@@ -88,10 +85,7 @@ this.percentInside();
             </tr>
           </thead>
           <tbody>
-            <tr>
-              {proList}
-              <td></td>
-            </tr>
+            {prosArray.map(this.renderTable)}
           </tbody>
         </table><br/>
 
@@ -102,11 +96,8 @@ this.percentInside();
               <th></th>
             </tr>
           </thead>
-          <tbody>        
-            <tr>
-              {conList}
-              <td></td>
-            </tr>         
+          <tbody>
+            {consArray.map(this.renderTable)}    
           </tbody>
         </table>
       </div>         

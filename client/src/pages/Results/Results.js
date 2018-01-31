@@ -577,7 +577,7 @@ class Results extends Component {
           <thead>
             <tr>
               <th className="titleCol">Totals</th>
-              <th className="stockNumCol">{this.props.match.params.stock}</th>
+              <th className="stockNumCol"><Link to={`/proscons/${this.props.match.params.stock}`}>{this.props.match.params.stock}</Link></th>
               <th title="EarningStats Watchlist" className="esNumCol"><Link to="/annual" style={{ textDecoration: 'none', color:'black'}}>ES{this.watchListCount()} <i className="fa fa-info-circle" aria-hidden="true"></i></Link></th>
             </tr>
           </thead>
