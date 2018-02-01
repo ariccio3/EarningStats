@@ -69,18 +69,30 @@ class EarningsCalendar extends Component {
               <td>1/30/2018</td>
               <td>bmo</td>
             </tr>
-            <tr>
+            <tr className="passed">
               <td><Link to="/results/BA">BA</Link></td>
               <td>Boeing</td>
               <td>1/31/2018</td>
               <td>bmo</td>
             </tr>
-            <tr>
+            <tr className="passed">
               <td><Link to="/results/FB">FB</Link></td>
               <td>Facebook</td>
               <td>1/31/2018</td>
               <td>amc</td>
             </tr>
+            <tr className="passed">
+              <td><Link to="/results/BABA">BABA</Link></td>
+              <td>Alibaba</td>
+              <td>2/1/2018</td>
+              <td>bmo</td>
+            </tr> 
+            <tr className="passed">
+              <td><Link to="/results/UPS">UPS</Link></td>
+              <td>United Parcel Service</td>
+              <td>2/1/2018</td>
+              <td>bmo</td>
+            </tr>          
             <tr>
               <td><Link to="/results/AAPL">AAPL</Link></td>
               <td>Apple</td>
@@ -100,22 +112,10 @@ class EarningsCalendar extends Component {
               <td>amc</td>
             </tr>
             <tr>
-              <td><Link to="/results/BABA">BABA</Link></td>
-              <td>Alibaba</td>
-              <td>2/1/2018</td>
-              <td>bmo</td>
-            </tr>
-            <tr>
               <td><Link to="/results/GOOG">GOOG</Link></td>
               <td>Google</td>
               <td>2/1/2018</td>
               <td>amc</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/UPS">UPS</Link></td>
-              <td>United Parcel Service</td>
-              <td>2/1/2018</td>
-              <td>bmo</td>
             </tr>
             <tr>
               <td><Link to="/results/CMG">CMG</Link></td>

@@ -577,7 +577,7 @@ class Results extends Component {
           <thead>
             <tr>
               <th className="titleCol">Totals</th>
-              <th className="stockNumCol"><Link to={`/proscons/${this.props.match.params.stock}`}>{this.props.match.params.stock}</Link></th>
+              <th className="stockNumCol"><Link style={{ textDecoration: 'none', color:'black'}} to={`/proscons/${this.props.match.params.stock}`}>{this.props.match.params.stock}</Link></th>
               <th title="EarningStats Watchlist" className="esNumCol"><Link to="/annual" style={{ textDecoration: 'none', color:'black'}}>ES{this.watchListCount()} <i className="fa fa-info-circle" aria-hidden="true"></i></Link></th>
             </tr>
           </thead>
@@ -624,7 +624,7 @@ class Results extends Component {
           <thead className="thead-dark">
             <tr>
               <th className="titleCol">Actual vs. Expected Move Frequencies</th>
-              <th className="stockNumCol">{this.props.match.params.stock}</th>
+              <th className="stockNumCol"><Link style={{ textDecoration: 'none', color:'black'}} to={`/proscons/${this.props.match.params.stock}`}>{this.props.match.params.stock}</Link></th>
               <th title="EarningStats Watchlist" className="esNumCol"><Link to="/annual" style={{ textDecoration: 'none', color:'black'}}>ES{this.watchListCount()} <i className="fa fa-info-circle" aria-hidden="true"></i></Link></th>
             </tr>
           </thead>
@@ -676,7 +676,7 @@ class Results extends Component {
           <thead className="thead-dark">
             <tr>
               <th className="titleCol">Occurrences Outside the Expected Move</th>
-              <th className="stockNumCol">{this.props.match.params.stock}</th>
+              <th className="stockNumCol"><Link style={{ textDecoration: 'none', color:'black'}} to={`/proscons/${this.props.match.params.stock}`}>{this.props.match.params.stock}</Link></th>
               <th title="EarningStats Watchlist" className="esNumCol"><Link to="/annual" style={{ textDecoration: 'none', color:'black'}}>ES{this.watchListCount()} <i className="fa fa-info-circle" aria-hidden="true"></i></Link></th>
             </tr>
           </thead>
@@ -718,7 +718,7 @@ class Results extends Component {
           <thead className="thead-dark">
             <tr>
               <th className="titleCol">Average Expected vs. Actual Move %</th>
-              <th className="stockNumCol">{this.props.match.params.stock}</th>
+              <th className="stockNumCol"><Link style={{ textDecoration: 'none', color:'black'}} to={`/proscons/${this.props.match.params.stock}`}>{this.props.match.params.stock}</Link></th>
               <th title="EarningStats Watchlist" className="esNumCol"><Link to="/annual" style={{ textDecoration: 'none', color:'black'}}>ES{this.watchListCount()} <i className="fa fa-info-circle" aria-hidden="true"></i></Link></th>
             </tr>
           </thead>
@@ -750,7 +750,7 @@ class Results extends Component {
           <thead className="thead-dark">
             <tr>
               <th className="titleCol">Quarterly</th>
-              <th className="stockNumCol">{this.props.match.params.stock}</th>
+              <th className="stockNumCol"><Link style={{ textDecoration: 'none', color:'black'}} to={`/proscons/${this.props.match.params.stock}`}>{this.props.match.params.stock}</Link></th>
               <th title="EarningStats Watchlist" className="esNumCol"><Link to="/annual" style={{ textDecoration: 'none', color:'black'}}>ES{this.watchListCount()} <i className="fa fa-info-circle" aria-hidden="true"></i></Link></th>
             </tr>
           </thead>

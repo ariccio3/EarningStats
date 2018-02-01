@@ -45,7 +45,7 @@ module.exports = {
 		db.Sorted
 		   	.find(req.query)
 		   	.select('stock doubleEM')		   	
-      		.sort({ doubleEM: -1 })
+      		.sort({ doubleEM: 1 })
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
 	},
@@ -117,7 +117,7 @@ module.exports = {
 		db.Sorted
 		   	.find(req.query)
 		   	.select('stock amOver2XemPercent')		   	
-      		.sort({ amOver2XemPercent: -1 })
+      		.sort({ amOver2XemPercent: 1 })
 	      	.then(dbModel => res.json(dbModel))
 	      	.catch(err => res.status(422).json(err));
 	},
