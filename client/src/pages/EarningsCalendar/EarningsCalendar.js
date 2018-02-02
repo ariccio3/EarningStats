@@ -93,25 +93,25 @@ class EarningsCalendar extends Component {
               <td>2/1/2018</td>
               <td>bmo</td>
             </tr>          
-            <tr>
+            <tr className="passed">
               <td><Link to="/results/AAPL">AAPL</Link></td>
               <td>Apple</td>
               <td>2/1/2018</td>
               <td>amc</td>
             </tr>
-            <tr>
+            <tr className="passed">
               <td><Link to="/results/AMGN">AMGN</Link></td>
               <td>Amgen</td>
               <td>2/1/2018</td>
               <td>amc</td>
             </tr>
-            <tr>
+            <tr className="passed">
               <td><Link to="/results/AMZN">AMZN</Link></td>
               <td>Amazon</td>
               <td>2/1/2018</td>
               <td>amc</td>
             </tr>
-            <tr>
+            <tr className="passed">
               <td><Link to="/results/GOOG">GOOG</Link></td>
               <td>Google</td>
               <td>2/1/2018</td>
