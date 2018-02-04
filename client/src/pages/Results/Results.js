@@ -618,7 +618,7 @@ class Results extends Component {
               <td><strong>{Math.floor(this.watchListInsideEM() / this.state.watchList.length *100)}%</strong></td>
             </tr>
           </tbody>
-        </table><br/>
+        </table>
 
         <table className="table table-striped table-hover table-bordered">
           <thead className="thead-dark">
@@ -670,7 +670,7 @@ class Results extends Component {
               <td><strong>{Math.floor(this.watchListNumHalfEM() / this.state.watchList.length *100)}%</strong></td>
             </tr>                                                                                                                                                 
           </tbody>
-        </table><br/>
+        </table>
 
         <table className="table table-striped table-hover table-bordered">
           <thead className="thead-dark">
@@ -712,7 +712,7 @@ class Results extends Component {
               <td><strong>{Math.floor(this.watchListOutsideNumDown() / this.state.watchList.length *100)}%</strong></td>
             </tr>            
           </tbody>
-        </table><br/>                  
+        </table>                 
 
         <table className="table table-striped table-hover table-bordered">
           <thead className="thead-dark">
@@ -744,7 +744,7 @@ class Results extends Component {
               <td>{this.watchListBelowAvgExpectedMove()}%</td>
             </tr>
           </tbody>
-        </table><br/>
+        </table>
 
         <table className="table table-striped table-hover table-bordered">
           <thead className="thead-dark">

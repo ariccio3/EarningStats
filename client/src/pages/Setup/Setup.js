@@ -80,24 +80,24 @@ class Setup extends Component {
           <tbody>
             <tr>
               <td className="titleCol"><b>Enter Stock Ticker &ensp; →</b></td>
-              <td className="dataCol"><input type="text" name="stock1" className="form-control userInput" value={this.state.stock1} onChange={this.handleInputChange} /></td>
-              <td className="dataCol"><input type="text" name="stock2" className="form-control userInput" value={this.state.stock2} onChange={this.handleInputChange} /></td>
-              <td className="dataCol"><input type="text" name="stock3" className="form-control userInput" value={this.state.stock3} onChange={this.handleInputChange} /></td>
-              <td className="dataCol"><input type="text" name="stock4" className="form-control userInput" value={this.state.stock4} onChange={this.handleInputChange} /></td>
+              <td className="dataInputCol"><input type="text" name="stock1" className="form-control userInput" value={this.state.stock1} onChange={this.handleInputChange} /></td>
+              <td className="dataInputCol"><input type="text" name="stock2" className="form-control userInput" value={this.state.stock2} onChange={this.handleInputChange} /></td>
+              <td className="dataInputCol"><input type="text" name="stock3" className="form-control userInput" value={this.state.stock3} onChange={this.handleInputChange} /></td>
+              <td className="dataInputCol"><input type="text" name="stock4" className="form-control userInput" value={this.state.stock4} onChange={this.handleInputChange} /></td>
             </tr>
             <tr>
               <td className="titleCol"><b>Enter Current Price &ensp; →</b></td>
-              <td className="dataCol"><input type="text" name="price1" className="form-control userInput" value={this.state.price1} onChange={this.handleInputChange} /></td>
-              <td className="dataCol"><input type="text" name="price2" className="form-control userInput" value={this.state.price2} onChange={this.handleInputChange} /></td>
-              <td className="dataCol"><input type="text" name="price3" className="form-control userInput" value={this.state.price3} onChange={this.handleInputChange} /></td>
-              <td className="dataCol"><input type="text" name="price4" className="form-control userInput" value={this.state.price4} onChange={this.handleInputChange} /></td>
+              <td className="dataInputCol"><input type="text" name="price1" className="form-control userInput" value={this.state.price1} onChange={this.handleInputChange} /></td>
+              <td className="dataInputCol"><input type="text" name="price2" className="form-control userInput" value={this.state.price2} onChange={this.handleInputChange} /></td>
+              <td className="dataInputCol"><input type="text" name="price3" className="form-control userInput" value={this.state.price3} onChange={this.handleInputChange} /></td>
+              <td className="dataInputCol"><input type="text" name="price4" className="form-control userInput" value={this.state.price4} onChange={this.handleInputChange} /></td>
             </tr>
             <tr>
-              <td className="titleCol"><b>Enter Expected Move &ensp; →</b></td>
-              <td className="dataCol"><input type="text" name="em1" className="form-control userInput" value={this.state.em1} onChange={this.handleInputChange} /></td>
-              <td className="dataCol"><input type="text" name="em2" className="form-control userInput" value={this.state.em2} onChange={this.handleInputChange} /></td>
-              <td className="dataCol"><input type="text" name="em3" className="form-control userInput" value={this.state.em3} onChange={this.handleInputChange} /></td>
-              <td className="dataCol"><input type="text" name="em4" className="form-control userInput" value={this.state.em4} onChange={this.handleInputChange} /></td>
+              <td className="titleCol"><b>Enter Expected Move &nbsp; →</b></td>
+              <td className="dataInputCol"><input type="text" name="em1" className="form-control userInput" value={this.state.em1} onChange={this.handleInputChange} /></td>
+              <td className="dataInputCol"><input type="text" name="em2" className="form-control userInput" value={this.state.em2} onChange={this.handleInputChange} /></td>
+              <td className="dataInputCol"><input type="text" name="em3" className="form-control userInput" value={this.state.em3} onChange={this.handleInputChange} /></td>
+              <td className="dataInputCol"><input type="text" name="em4" className="form-control userInput" value={this.state.em4} onChange={this.handleInputChange} /></td>
             </tr>
             <tr>
               <td className="titleCol">Expected % Move</td>
@@ -107,77 +107,7 @@ class Setup extends Component {
               <td className="dataCol">{!isNaN(Math.round(this.state.em4 / this.state.price4 *100)) ? (Math.round(this.state.em4 / this.state.price4 *10000)/100 + '%') : ""}</td>
             </tr> 
           </tbody>            
-        </table><br/>
-
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="header"></th> 
-              <th className="header">#1</th> 
-              <th className="header">#2</th> 
-              <th className="header">#3</th> 
-              <th className="header">#4</th> 
-            </tr>
-           </thead> 
-          <tbody>            
-            <tr>
-              <td className="titleCol">Times Stock Has Moved This Much</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr> 
-            <tr>
-              <td className="titleCol">Upside % of Expected Move</td>
-              <td className="dataCol">{!isNaN(Math.round((this.state.price1 - this.state.call1)/this.state.em1*100)/100) ? (Math.round((this.state.call1 - this.state.price1)/this.state.em1*100)/100) + '%' : ""}</td>
-              <td className="dataCol">{!isNaN(Math.round((this.state.price2 - this.state.call2)/this.state.em2*100)/100) ? (Math.round((this.state.call2 - this.state.price2)/this.state.em2*100)/100) + '%' : ""}</td>
-              <td className="dataCol">{!isNaN(Math.round((this.state.price3 - this.state.call3)/this.state.em3*100)/100) ? (Math.round((this.state.call3 - this.state.price3)/this.state.em3*100)/100) + '%' : ""}</td>
-              <td className="dataCol">{!isNaN(Math.round((this.state.price4 - this.state.call4)/this.state.em4*100)/100) ? (Math.round((this.state.call4 - this.state.price4)/this.state.em4*100)/100) + '%' : ""}</td>
-            </tr> 
-            <tr>
-              <td className="titleCol">Upside % Change</td>
-              <td className="dataCol">{!isNaN(Math.round(this.state.call1 / this.state.price1 *100)) ? (Math.round(((this.state.call1 / this.state.price1)-1) *10000)/100 + '%') : ""}</td>
-              <td className="dataCol">{!isNaN(Math.round(this.state.call2 / this.state.price2 *100)) ? (Math.round(((this.state.call2 / this.state.price2)-1) *10000)/100 + '%') : ""}</td>
-              <td className="dataCol">{!isNaN(Math.round(this.state.call3 / this.state.price3 *100)) ? (Math.round(((this.state.call3 / this.state.price3)-1) *10000)/100 + '%') : ""}</td>
-              <td className="dataCol">{!isNaN(Math.round(this.state.call4 / this.state.price4 *100)) ? (Math.round(((this.state.call4 / this.state.price4)-1) *10000)/100 + '%') : ""}</td>
-            </tr>                                                                               
-            <tr>
-              <td className="titleCol"><b>Enter Call Strike &ensp; →</b></td>
-              <td className="dataCol"><input type="text" name="call1" className="form-control userInput" value={this.state.call1} onChange={this.handleInputChange} /></td>
-              <td className="dataCol"><input type="text" name="call2" className="form-control userInput" value={this.state.call2} onChange={this.handleInputChange} /></td>
-              <td className="dataCol"><input type="text" name="call3" className="form-control userInput" value={this.state.call3} onChange={this.handleInputChange} /></td>
-              <td className="dataCol"><input type="text" name="call4" className="form-control userInput" value={this.state.call4} onChange={this.handleInputChange} /></td>
-            </tr>
-            <tr>
-              <td className="titleCol"><b>Enter Put Strike &ensp; →</b></td>
-              <td className="dataCol"><input type="text" name="put1" className="form-control userInput" value={this.state.put1} onChange={this.handleInputChange} /></td>
-              <td className="dataCol"><input type="text" name="put2" className="form-control userInput" value={this.state.put2} onChange={this.handleInputChange} /></td>
-              <td className="dataCol"><input type="text" name="put3" className="form-control userInput" value={this.state.put3} onChange={this.handleInputChange} /></td>
-              <td className="dataCol"><input type="text" name="put4" className="form-control userInput" value={this.state.put4} onChange={this.handleInputChange} /></td>
-            </tr>
-            <tr>
-              <td className="titleCol">Downside % Change</td>
-              <td className="dataCol">{!isNaN(Math.round(this.state.put1 / this.state.price1 *100)) ? (Math.round(((this.state.put1 / this.state.price1)-1) *10000)/100 + '%') : ""}</td>
-              <td className="dataCol">{!isNaN(Math.round(this.state.put2 / this.state.price2 *100)) ? (Math.round(((this.state.put2 / this.state.price2)-1) *10000)/100 + '%') : ""}</td>
-              <td className="dataCol">{!isNaN(Math.round(this.state.put3 / this.state.price3 *100)) ? (Math.round(((this.state.put3 / this.state.price3)-1) *10000)/100 + '%') : ""}</td>
-              <td className="dataCol">{!isNaN(Math.round(this.state.put4 / this.state.price4 *100)) ? (Math.round(((this.state.put4 / this.state.price4)-1) *10000)/100 + '%') : ""}</td>
-            </tr> 
-            <tr>
-              <td className="titleCol">Downside % of Expected Move</td>
-              <td className="dataCol">{!isNaN(Math.round((this.state.price1 - this.state.put1)/this.state.em1*100)/100) ? (Math.round((this.state.price1 - this.state.put1)/this.state.em1*100)/100) + '%' : ""}</td>
-              <td className="dataCol">{!isNaN(Math.round((this.state.price2 - this.state.put2)/this.state.em2*100)/100) ? (Math.round((this.state.price2 - this.state.put2)/this.state.em2*100)/100) + '%' : ""}</td>
-              <td className="dataCol">{!isNaN(Math.round((this.state.price3 - this.state.put3)/this.state.em3*100)/100) ? (Math.round((this.state.price3 - this.state.put3)/this.state.em3*100)/100) + '%' : ""}</td>
-              <td className="dataCol">{!isNaN(Math.round((this.state.price4 - this.state.put4)/this.state.em4*100)/100) ? (Math.round((this.state.price4 - this.state.put4)/this.state.em4*100)/100) + '%' : ""}</td>
-            </tr> 
-            <tr>
-              <td className="titleCol">Times Stock Has Moved This Much</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr> 
-          </tbody>            
-       </table><br/>
+        </table>
 
         <table className="table table-striped table-hover table-bordered">
           <thead>
@@ -261,7 +191,78 @@ class Setup extends Component {
               <td className="dataCol">{!isNaN(parseInt((this.state.em4*2)*100,10)/100)-(parseInt(this.state.price4,10)) ? ((parseInt((this.state.em4*2)*100,10)/100)-(parseInt(this.state.price4,10))).toFixed(2) : ""}</td> 
             </tr> 
           </tbody>            
-       </table><br/>       
+       </table>
+
+        <table className="table table-striped table-hover table-bordered">
+          <thead>
+            <tr>
+              <th className="header"></th> 
+              <th className="header">#1</th> 
+              <th className="header">#2</th> 
+              <th className="header">#3</th> 
+              <th className="header">#4</th> 
+            </tr>
+           </thead> 
+          <tbody>            
+            <tr>
+              <td className="titleCol">Times Stock Has Moved This Much</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr> 
+            <tr>
+              <td className="titleCol">Upside % of Expected Move</td>
+              <td className="dataCol">{!isNaN(Math.round((this.state.price1 - this.state.call1)/this.state.em1*100)/100) ? (Math.round((this.state.call1 - this.state.price1)/this.state.em1*100)/100) + '%' : ""}</td>
+              <td className="dataCol">{!isNaN(Math.round((this.state.price2 - this.state.call2)/this.state.em2*100)/100) ? (Math.round((this.state.call2 - this.state.price2)/this.state.em2*100)/100) + '%' : ""}</td>
+              <td className="dataCol">{!isNaN(Math.round((this.state.price3 - this.state.call3)/this.state.em3*100)/100) ? (Math.round((this.state.call3 - this.state.price3)/this.state.em3*100)/100) + '%' : ""}</td>
+              <td className="dataCol">{!isNaN(Math.round((this.state.price4 - this.state.call4)/this.state.em4*100)/100) ? (Math.round((this.state.call4 - this.state.price4)/this.state.em4*100)/100) + '%' : ""}</td>
+            </tr> 
+            <tr>
+              <td className="titleCol">Upside % Change</td>
+              <td className="dataCol">{!isNaN(Math.round(this.state.call1 / this.state.price1 *100)) ? (Math.round(((this.state.call1 / this.state.price1)-1) *10000)/100 + '%') : ""}</td>
+              <td className="dataCol">{!isNaN(Math.round(this.state.call2 / this.state.price2 *100)) ? (Math.round(((this.state.call2 / this.state.price2)-1) *10000)/100 + '%') : ""}</td>
+              <td className="dataCol">{!isNaN(Math.round(this.state.call3 / this.state.price3 *100)) ? (Math.round(((this.state.call3 / this.state.price3)-1) *10000)/100 + '%') : ""}</td>
+              <td className="dataCol">{!isNaN(Math.round(this.state.call4 / this.state.price4 *100)) ? (Math.round(((this.state.call4 / this.state.price4)-1) *10000)/100 + '%') : ""}</td>
+            </tr>                                                                               
+            <tr>
+              <td className="titleCol"><b>Enter Call Strike &ensp; →</b></td>
+              <td className="dataInputCol"><input type="text" name="call1" className="form-control userInput" value={this.state.call1} onChange={this.handleInputChange} /></td>
+              <td className="dataInputCol"><input type="text" name="call2" className="form-control userInput" value={this.state.call2} onChange={this.handleInputChange} /></td>
+              <td className="dataInputCol"><input type="text" name="call3" className="form-control userInput" value={this.state.call3} onChange={this.handleInputChange} /></td>
+              <td className="dataInputCol"><input type="text" name="call4" className="form-control userInput" value={this.state.call4} onChange={this.handleInputChange} /></td>
+            </tr>
+            <tr>
+              <td className="titleCol"><b>Enter Put Strike &ensp; →</b></td>
+              <td className="dataInputCol"><input type="text" name="put1" className="form-control userInput" value={this.state.put1} onChange={this.handleInputChange} /></td>
+              <td className="dataInputCol"><input type="text" name="put2" className="form-control userInput" value={this.state.put2} onChange={this.handleInputChange} /></td>
+              <td className="dataInputCol"><input type="text" name="put3" className="form-control userInput" value={this.state.put3} onChange={this.handleInputChange} /></td>
+              <td className="dataInputCol"><input type="text" name="put4" className="form-control userInput" value={this.state.put4} onChange={this.handleInputChange} /></td>
+            </tr>
+            <tr>
+              <td className="titleCol">Downside % Change</td>
+              <td className="dataCol">{!isNaN(Math.round(this.state.put1 / this.state.price1 *100)) ? (Math.round(((this.state.put1 / this.state.price1)-1) *10000)/100 + '%') : ""}</td>
+              <td className="dataCol">{!isNaN(Math.round(this.state.put2 / this.state.price2 *100)) ? (Math.round(((this.state.put2 / this.state.price2)-1) *10000)/100 + '%') : ""}</td>
+              <td className="dataCol">{!isNaN(Math.round(this.state.put3 / this.state.price3 *100)) ? (Math.round(((this.state.put3 / this.state.price3)-1) *10000)/100 + '%') : ""}</td>
+              <td className="dataCol">{!isNaN(Math.round(this.state.put4 / this.state.price4 *100)) ? (Math.round(((this.state.put4 / this.state.price4)-1) *10000)/100 + '%') : ""}</td>
+            </tr> 
+            <tr>
+              <td className="titleCol">Downside % of Expected Move</td>
+              <td className="dataCol">{!isNaN(Math.round((this.state.price1 - this.state.put1)/this.state.em1*100)/100) ? (Math.round((this.state.price1 - this.state.put1)/this.state.em1*100)/100) + '%' : ""}</td>
+              <td className="dataCol">{!isNaN(Math.round((this.state.price2 - this.state.put2)/this.state.em2*100)/100) ? (Math.round((this.state.price2 - this.state.put2)/this.state.em2*100)/100) + '%' : ""}</td>
+              <td className="dataCol">{!isNaN(Math.round((this.state.price3 - this.state.put3)/this.state.em3*100)/100) ? (Math.round((this.state.price3 - this.state.put3)/this.state.em3*100)/100) + '%' : ""}</td>
+              <td className="dataCol">{!isNaN(Math.round((this.state.price4 - this.state.put4)/this.state.em4*100)/100) ? (Math.round((this.state.price4 - this.state.put4)/this.state.em4*100)/100) + '%' : ""}</td>
+            </tr> 
+            <tr>
+              <td className="titleCol">Times Stock Has Moved This Much</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr> 
+          </tbody>            
+       </table>
+
       </div>         
     );
   }
