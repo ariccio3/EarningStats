@@ -176,73 +176,73 @@ class Setup extends Component {
           <tbody>            
             <tr>
               <td className="titleCol">2x Upside Move</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em1*2)*100,10)/100)+(parseInt(this.state.price1,10)) ? ((parseInt((this.state.em1*2)*100,10)/100)+(parseInt(this.state.price1,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em2*2)*100,10)/100)+(parseInt(this.state.price2,10)) ? ((parseInt((this.state.em2*2)*100,10)/100)+(parseInt(this.state.price2,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em3*2)*100,10)/100)+(parseInt(this.state.price3,10)) ? ((parseInt((this.state.em3*2)*100,10)/100)+(parseInt(this.state.price3,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em4*2)*100,10)/100)+(parseInt(this.state.price4,10)) ? ((parseInt((this.state.em4*2)*100,10)/100)+(parseInt(this.state.price4,10))).toFixed(2) : ""}</td>
             </tr> 
             <tr>
               <td className="titleCol">1.75x Upside Move</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em1*1.75)*100,10)/100)+(parseInt(this.state.price1,10)) ? ((parseInt((this.state.em1*1.75)*100,10)/100)+(parseInt(this.state.price1,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em2*1.75)*100,10)/100)+(parseInt(this.state.price2,10)) ? ((parseInt((this.state.em2*1.75)*100,10)/100)+(parseInt(this.state.price2,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em3*1.75)*100,10)/100)+(parseInt(this.state.price3,10)) ? ((parseInt((this.state.em3*1.75)*100,10)/100)+(parseInt(this.state.price3,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em4*1.75)*100,10)/100)+(parseInt(this.state.price4,10)) ? ((parseInt((this.state.em4*1.75)*100,10)/100)+(parseInt(this.state.price4,10))).toFixed(2) : ""}</td>
             </tr> 
             <tr>
               <td className="titleCol">1.5x Upside Move</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em1*1.5)*100,10)/100)+(parseInt(this.state.price1,10)) ? ((parseInt((this.state.em1*1.5)*100,10)/100)+(parseInt(this.state.price1,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em2*1.5)*100,10)/100)+(parseInt(this.state.price2,10)) ? ((parseInt((this.state.em2*1.5)*100,10)/100)+(parseInt(this.state.price2,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em3*1.5)*100,10)/100)+(parseInt(this.state.price3,10)) ? ((parseInt((this.state.em3*1.5)*100,10)/100)+(parseInt(this.state.price3,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em4*1.5)*100,10)/100)+(parseInt(this.state.price4,10)) ? ((parseInt((this.state.em4*1.5)*100,10)/100)+(parseInt(this.state.price4,10))).toFixed(2) : ""}</td>
             </tr>                                                                                
             <tr>
               <td className="titleCol">1.25x Upside Move</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em1*1.25)*100,10)/100)+(parseInt(this.state.price1,10)) ? ((parseInt((this.state.em1*1.25)*100,10)/100)+(parseInt(this.state.price1,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em2*1.25)*100,10)/100)+(parseInt(this.state.price2,10)) ? ((parseInt((this.state.em2*1.25)*100,10)/100)+(parseInt(this.state.price2,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em3*1.25)*100,10)/100)+(parseInt(this.state.price3,10)) ? ((parseInt((this.state.em3*1.25)*100,10)/100)+(parseInt(this.state.price3,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em4*1.25)*100,10)/100)+(parseInt(this.state.price4,10)) ? ((parseInt((this.state.em4*1.25)*100,10)/100)+(parseInt(this.state.price4,10))).toFixed(2) : ""}</td>
             </tr> 
             <tr>
               <td className="titleCol">Expected Move Up ↑</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em1)*100,10)/100)+(parseInt(this.state.price1,10)) ? ((parseInt((this.state.em1)*100,10)/100)+(parseInt(this.state.price1,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em2)*100,10)/100)+(parseInt(this.state.price2,10)) ? ((parseInt((this.state.em2)*100,10)/100)+(parseInt(this.state.price2,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em3)*100,10)/100)+(parseInt(this.state.price3,10)) ? ((parseInt((this.state.em3)*100,10)/100)+(parseInt(this.state.price3,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em4)*100,10)/100)+(parseInt(this.state.price4,10)) ? ((parseInt((this.state.em4)*100,10)/100)+(parseInt(this.state.price4,10))).toFixed(2) : ""}</td>
             </tr> 
             <tr>
               <td className="titleCol">Expected Move Down ↓</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr> 
+              <td className="dataCol">{!isNaN(parseInt((this.state.em1)*100,10)/100)-(parseInt(this.state.price1,10)) ? ((parseInt((this.state.em1)*100,10)/100)-(parseInt(this.state.price1,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em2)*100,10)/100)-(parseInt(this.state.price2,10)) ? ((parseInt((this.state.em2)*100,10)/100)-(parseInt(this.state.price2,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em3)*100,10)/100)-(parseInt(this.state.price3,10)) ? ((parseInt((this.state.em3)*100,10)/100)-(parseInt(this.state.price3,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em4)*100,10)/100)-(parseInt(this.state.price4,10)) ? ((parseInt((this.state.em4)*100,10)/100)-(parseInt(this.state.price4,10))).toFixed(2) : ""}</td> 
+            </tr>
             <tr>
               <td className="titleCol">1.25x Downside Move</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em1*1.25)*100,10)/100)-(parseInt(this.state.price1,10)) ? ((parseInt((this.state.em1*1.25)*100,10)/100)-(parseInt(this.state.price1,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em2*1.25)*100,10)/100)-(parseInt(this.state.price2,10)) ? ((parseInt((this.state.em2*1.25)*100,10)/100)-(parseInt(this.state.price2,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em3*1.25)*100,10)/100)-(parseInt(this.state.price3,10)) ? ((parseInt((this.state.em3*1.25)*100,10)/100)-(parseInt(this.state.price3,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em4*1.25)*100,10)/100)-(parseInt(this.state.price4,10)) ? ((parseInt((this.state.em4*1.25)*100,10)/100)-(parseInt(this.state.price4,10))).toFixed(2) : ""}</td> 
             </tr> 
             <tr>
               <td className="titleCol">1.5x Downside Move</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em1*1.5)*100,10)/100)-(parseInt(this.state.price1,10)) ? ((parseInt((this.state.em1*1.5)*100,10)/100)-(parseInt(this.state.price1,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em2*1.5)*100,10)/100)-(parseInt(this.state.price2,10)) ? ((parseInt((this.state.em2*1.5)*100,10)/100)-(parseInt(this.state.price2,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em3*1.5)*100,10)/100)-(parseInt(this.state.price3,10)) ? ((parseInt((this.state.em3*1.5)*100,10)/100)-(parseInt(this.state.price3,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em4*1.5)*100,10)/100)-(parseInt(this.state.price4,10)) ? ((parseInt((this.state.em4*1.5)*100,10)/100)-(parseInt(this.state.price4,10))).toFixed(2) : ""}</td> 
             </tr> 
             <tr>
               <td className="titleCol">1.75x Downside Move</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em1*1.75)*100,10)/100)-(parseInt(this.state.price1,10)) ? ((parseInt((this.state.em1*1.75)*100,10)/100)-(parseInt(this.state.price1,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em2*1.75)*100,10)/100)-(parseInt(this.state.price2,10)) ? ((parseInt((this.state.em2*1.75)*100,10)/100)-(parseInt(this.state.price2,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em3*1.75)*100,10)/100)-(parseInt(this.state.price3,10)) ? ((parseInt((this.state.em3*1.75)*100,10)/100)-(parseInt(this.state.price3,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em4*1.75)*100,10)/100)-(parseInt(this.state.price4,10)) ? ((parseInt((this.state.em4*1.75)*100,10)/100)-(parseInt(this.state.price4,10))).toFixed(2) : ""}</td> 
             </tr> 
             <tr>
               <td className="titleCol">2x Downside Move</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em1*2)*100,10)/100)-(parseInt(this.state.price1,10)) ? ((parseInt((this.state.em1*2)*100,10)/100)-(parseInt(this.state.price1,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em2*2)*100,10)/100)-(parseInt(this.state.price2,10)) ? ((parseInt((this.state.em2*2)*100,10)/100)-(parseInt(this.state.price2,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em3*2)*100,10)/100)-(parseInt(this.state.price3,10)) ? ((parseInt((this.state.em3*2)*100,10)/100)-(parseInt(this.state.price3,10))).toFixed(2) : ""}</td>
+              <td className="dataCol">{!isNaN(parseInt((this.state.em4*2)*100,10)/100)-(parseInt(this.state.price4,10)) ? ((parseInt((this.state.em4*2)*100,10)/100)-(parseInt(this.state.price4,10))).toFixed(2) : ""}</td> 
             </tr> 
           </tbody>            
        </table><br/>       
