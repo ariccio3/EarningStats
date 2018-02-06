@@ -286,14 +286,14 @@ this.stockPut4();
            </thead> 
           <tbody>
             <tr>
-              <td className="titleCol">Times Stock Has Moved This Much</td>
+              <td className="titleCol">Times Stock Moved This Much</td>
               <td className="dataCol" id="timesCall1"></td>
               <td className="dataCol" id="timesCall2"></td>
               <td className="dataCol" id="timesCall3"></td>
               <td className="dataCol" id="timesCall4"></td>
             </tr> 
             <tr>
-              <td className="titleCol">Upside % of Expected Move</td>
+              <td className="titleCol">Spread ÷ Expected Move</td>
               <td className="dataCol" name="dataCol1">{!isNaN(Math.round((this.state.price1 - this.state.call1)/this.state.em2*100)/100) ? (Math.round((this.state.call1 - this.state.price1)/this.state.em1*100)/100) + 'x' : ""}</td>
               <td className="dataCol" name="dataCol2">{!isNaN(Math.round((this.state.price2 - this.state.call2)/this.state.em2*100)/100) ? (Math.round((this.state.call2 - this.state.price2)/this.state.em2*100)/100) + 'x' : ""}</td>
               <td className="dataCol" name="dataCol3">{!isNaN(Math.round((this.state.price3 - this.state.call3)/this.state.em3*100)/100) ? (Math.round((this.state.call3 - this.state.price3)/this.state.em3*100)/100) + 'x' : ""}</td>
@@ -328,14 +328,14 @@ this.stockPut4();
               <td className="dataCol">{!isNaN(Math.round(this.state.put4 / this.state.price4 *100)) ? (Math.round(((this.state.put4 / this.state.price4)-1) *10000)/100 + '%') : ""}</td>
             </tr> 
             <tr>
-              <td className="titleCol">Downside % of Expected Move</td>
-              <td className="dataCol">{!isNaN(Math.round((this.state.price1 - this.state.put1)/this.state.em1*100)/100) ? (Math.round((this.state.price1 - this.state.put1)/this.state.em1*100)/100) + '%' : ""}</td>
-              <td className="dataCol">{!isNaN(Math.round((this.state.price2 - this.state.put2)/this.state.em2*100)/100) ? (Math.round((this.state.price2 - this.state.put2)/this.state.em2*100)/100) + '%' : ""}</td>
-              <td className="dataCol">{!isNaN(Math.round((this.state.price3 - this.state.put3)/this.state.em3*100)/100) ? (Math.round((this.state.price3 - this.state.put3)/this.state.em3*100)/100) + '%' : ""}</td>
-              <td className="dataCol">{!isNaN(Math.round((this.state.price4 - this.state.put4)/this.state.em4*100)/100) ? (Math.round((this.state.price4 - this.state.put4)/this.state.em4*100)/100) + '%' : ""}</td>
+              <td className="titleCol">Spread ÷ Expected Move</td>
+              <td className="dataCol">{!isNaN(Math.round((this.state.price1 - this.state.put1)/this.state.em1*100)/100) ? (Math.round((this.state.price1 - this.state.put1)/this.state.em1*100)/100) + 'x' : ""}</td>
+              <td className="dataCol">{!isNaN(Math.round((this.state.price2 - this.state.put2)/this.state.em2*100)/100) ? (Math.round((this.state.price2 - this.state.put2)/this.state.em2*100)/100) + 'x' : ""}</td>
+              <td className="dataCol">{!isNaN(Math.round((this.state.price3 - this.state.put3)/this.state.em3*100)/100) ? (Math.round((this.state.price3 - this.state.put3)/this.state.em3*100)/100) + 'x' : ""}</td>
+              <td className="dataCol">{!isNaN(Math.round((this.state.price4 - this.state.put4)/this.state.em4*100)/100) ? (Math.round((this.state.price4 - this.state.put4)/this.state.em4*100)/100) + 'x' : ""}</td>
             </tr> 
             <tr>
-              <td className="titleCol">Times Stock Has Moved This Much</td>
+              <td className="titleCol">Times Stock Moved This Much</td>
               <td className="dataCol" id="timesPut1"></td>
               <td className="dataCol" id="timesPut2"></td>
               <td className="dataCol" id="timesPut3"></td>
