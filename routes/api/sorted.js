@@ -1,12 +1,6 @@
 const router = require("express").Router();
 const sortedController = require("../../controllers/sortedController");
 
-// Matches with "/api/sorted"
- // router
- //  .route("/proscons")
- //  .get(sortedController.findTotalPercentUp)
- //  .get(sortedController.findPercentInside)
-
 
   router
   .route("/")

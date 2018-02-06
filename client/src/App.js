@@ -64,7 +64,7 @@ const App = () =>
           <Route exact path="/sorted/aboveavgem" component={AboveAvgEM} />
           <Route exact path="/sorted/belowavgem" component={BelowAvgEM} />
           <Route exact path="/proscons/:stock" component={ProsCons}  {...this.props}/>
-          <Route exact path="/setup/" component={Setup} />
+          <Route exact path="/setup" component={Setup} />
           <Route component={NoMatch} />
           <Route exact path="sitemap.xml" />
         </Switch>

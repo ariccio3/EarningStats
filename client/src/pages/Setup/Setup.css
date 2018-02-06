@@ -26,11 +26,6 @@ body {
 	text-align: center;
 }
 
-/*td {
-	margin: 0 !important; 
-	padding: 0 !important;
-}*/
-
 table {
 	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
 	z-index: 1;

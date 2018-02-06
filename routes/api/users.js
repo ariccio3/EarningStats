@@ -11,4 +11,9 @@ router
   .route("/")
   .get(usersController.findAll)
 
+// Matches with "/api/users"
+router
+  .route("/setup")
+  .get(usersController.findActualPercentOfEM)
+
 module.exports = router;

@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-// import API from "../../utils/API";
+import API from "../../utils/API";
 import "./Setup.css";
 
 class Setup extends Component {
   state = {
-    watchList: [],
+    setupList: [],
     stock1: "",
     stock2: "",
     stock3: "",
@@ -29,41 +29,122 @@ class Setup extends Component {
 
   componentDidMount() {
     window.scrollTo(0, 0);    
-    // this.loadWatchList();
+    this.loadActualPercentOfExpected();
   }
+
+  loadActualPercentOfExpected = () => {
+    API.getActualPercentOfExpected()
+    .then(res => this.setState({ setupList: res.data }))
+    .catch(err => console.log(err));
+  };
 
   handleInputChange = event => {
     // Getting the value and name of the input which triggered the change
     const value = event.target.value;
     const name = event.target.name;
+this.stockCall1();
+this.stockCall2();
+this.stockCall3();
+this.stockCall4();
+this.stockPut1();
+this.stockPut2();
+this.stockPut3();
+this.stockPut4();
 
     this.setState({
       [name]: value
     });
   };
 
+  stockCall1 = () => {
+    let count = 0;
+    let dataCol1 = Math.round((this.state.call1 - this.state.price1)/this.state.em1*100)/100;
+    for (let i = 0; i < this.state.setupList.length; i++) {
+      if (this.state.setupList[i].stock === this.state.stock1.toUpperCase() && this.state.setupList[i].actualPercentOfExpectedMove >= dataCol1) {
+        count++;
+      } 
+    } 
+    return document.getElementById("timesCall1").innerHTML = count;
+  };
+
+  stockCall2 = () => {
+    let count = 0;
+    let dataCol2 = Math.round((this.state.call2 - this.state.price2)/this.state.em2*100)/100;
+    for (let i = 0; i < this.state.setupList.length; i++) {
+      if (this.state.setupList[i].stock === this.state.stock2.toUpperCase() && this.state.setupList[i].actualPercentOfExpectedMove >= dataCol2) {
+        count++;
+      } 
+    } 
+    return document.getElementById("timesCall2").innerHTML = count;
+  };  
+
+  stockCall3 = () => {
+    let count = 0;
+    let dataCol3 = Math.round((this.state.call3 - this.state.price3)/this.state.em3*100)/100;
+    for (let i = 0; i < this.state.setupList.length; i++) {
+      if (this.state.setupList[i].stock === this.state.stock3.toUpperCase() && this.state.setupList[i].actualPercentOfExpectedMove >= dataCol3) {
+        count++;
+      } 
+    } 
+    return document.getElementById("timesCall3").innerHTML = count;
+  };  
+
+  stockCall4 = () => {
+    let count = 0;
+    let dataCol4 = Math.round((this.state.call4 - this.state.price4)/this.state.em4*100)/100;
+    for (let i = 0; i < this.state.setupList.length; i++) {
+      if (this.state.setupList[i].stock === this.state.stock4.toUpperCase() && this.state.setupList[i].actualPercentOfExpectedMove >= dataCol4) {
+        count++;
+      } 
+    } 
+    return document.getElementById("timesCall4").innerHTML = count;
+  };  
+
+  stockPut1 = () => {
+    let count = 0;
+    let dataCol1 = Math.round((this.state.price1 - this.state.put1)/this.state.em1*100)/100;
+    for (let i = 0; i < this.state.setupList.length; i++) {
+      if (this.state.setupList[i].stock === this.state.stock1.toUpperCase() && this.state.setupList[i].actualPercentOfExpectedMove >= dataCol1) {
+        count++;
+      } 
+    } 
+    return document.getElementById("timesPut1").innerHTML = count;
+  };
+
+  stockPut2 = () => {
+    let count = 0;
+    let dataCol2 = Math.round((this.state.price2 - this.state.put2)/this.state.em2*100)/100;
+    for (let i = 0; i < this.state.setupList.length; i++) {
+      if (this.state.setupList[i].stock === this.state.stock2.toUpperCase() && this.state.setupList[i].actualPercentOfExpectedMove >= dataCol2) {
+        count++;
+      } 
+    }
+    return document.getElementById("timesPut2").innerHTML = count;
+  };  
+
+  stockPut3 = () => {
+    let count = 0;
+    let dataCol3 = Math.round((this.state.price3 - this.state.put3)/this.state.em3*100)/100;
+    for (let i = 0; i < this.state.setupList.length; i++) {
+      if (this.state.setupList[i].stock === this.state.stock3.toUpperCase() && this.state.setupList[i].actualPercentOfExpectedMove >= dataCol3) {
+        count++;
+      } 
+    } 
+    return document.getElementById("timesPut3").innerHTML = count;
+  };  
+
+  stockPut4 = () => {
+    let count = 0;
+    let dataCol4 = Math.round((this.state.price4 - this.state.put4)/this.state.em4*100)/100;
+    for (let i = 0; i < this.state.setupList.length; i++) {
+      if (this.state.setupList[i].stock === this.state.stock4.toUpperCase() && this.state.setupList[i].actualPercentOfExpectedMove >= dataCol4) {
+        count++;
+      } 
+    } 
+    return document.getElementById("timesPut4").innerHTML = count;
+  };  
+
   render() {
-      // console.log(this.state.watchList);
-      console.log(this.state.stock1);
-      console.log(this.state.stock2);
-      console.log(this.state.stock3);
-      console.log(this.state.stock4);
-      console.log(this.state.price1);
-      console.log(this.state.price2);
-      console.log(this.state.price3);
-      console.log(this.state.price4);
-      console.log(this.state.em1);
-      console.log(this.state.em2);
-      console.log(this.state.em3);
-      console.log(this.state.em4);
-      console.log(this.state.call1);
-      console.log(this.state.call2);
-      console.log(this.state.call3);
-      console.log(this.state.call4);
-      console.log(this.state.put1);
-      console.log(this.state.put2);
-      console.log(this.state.put3);
-      console.log(this.state.put4);
 
     return (
       <div className="tableContainer"> 
@@ -203,21 +284,21 @@ class Setup extends Component {
               <th className="header">#4</th> 
             </tr>
            </thead> 
-          <tbody>            
+          <tbody>
             <tr>
               <td className="titleCol">Times Stock Has Moved This Much</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td className="dataCol" id="timesCall1"></td>
+              <td className="dataCol" id="timesCall2"></td>
+              <td className="dataCol" id="timesCall3"></td>
+              <td className="dataCol" id="timesCall4"></td>
             </tr> 
             <tr>
               <td className="titleCol">Upside % of Expected Move</td>
-              <td className="dataCol">{!isNaN(Math.round((this.state.price1 - this.state.call1)/this.state.em1*100)/100) ? (Math.round((this.state.call1 - this.state.price1)/this.state.em1*100)/100) + '%' : ""}</td>
-              <td className="dataCol">{!isNaN(Math.round((this.state.price2 - this.state.call2)/this.state.em2*100)/100) ? (Math.round((this.state.call2 - this.state.price2)/this.state.em2*100)/100) + '%' : ""}</td>
-              <td className="dataCol">{!isNaN(Math.round((this.state.price3 - this.state.call3)/this.state.em3*100)/100) ? (Math.round((this.state.call3 - this.state.price3)/this.state.em3*100)/100) + '%' : ""}</td>
-              <td className="dataCol">{!isNaN(Math.round((this.state.price4 - this.state.call4)/this.state.em4*100)/100) ? (Math.round((this.state.call4 - this.state.price4)/this.state.em4*100)/100) + '%' : ""}</td>
-            </tr> 
+              <td className="dataCol" name="dataCol1">{!isNaN(Math.round((this.state.price1 - this.state.call1)/this.state.em2*100)/100) ? (Math.round((this.state.call1 - this.state.price1)/this.state.em1*100)/100) + 'x' : ""}</td>
+              <td className="dataCol" name="dataCol2">{!isNaN(Math.round((this.state.price2 - this.state.call2)/this.state.em2*100)/100) ? (Math.round((this.state.call2 - this.state.price2)/this.state.em2*100)/100) + 'x' : ""}</td>
+              <td className="dataCol" name="dataCol3">{!isNaN(Math.round((this.state.price3 - this.state.call3)/this.state.em3*100)/100) ? (Math.round((this.state.call3 - this.state.price3)/this.state.em3*100)/100) + 'x' : ""}</td>
+              <td className="dataCol" name="dataCol4">{!isNaN(Math.round((this.state.price4 - this.state.call4)/this.state.em4*100)/100) ? (Math.round((this.state.call4 - this.state.price4)/this.state.em4*100)/100) + 'x' : ""}</td>
+            </tr>
             <tr>
               <td className="titleCol">Upside % Change</td>
               <td className="dataCol">{!isNaN(Math.round(this.state.call1 / this.state.price1 *100)) ? (Math.round(((this.state.call1 / this.state.price1)-1) *10000)/100 + '%') : ""}</td>
@@ -255,10 +336,10 @@ class Setup extends Component {
             </tr> 
             <tr>
               <td className="titleCol">Times Stock Has Moved This Much</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td className="dataCol" id="timesPut1"></td>
+              <td className="dataCol" id="timesPut2"></td>
+              <td className="dataCol" id="timesPut3"></td>
+              <td className="dataCol" id="timesPut4"></td>
             </tr> 
           </tbody>            
        </table>

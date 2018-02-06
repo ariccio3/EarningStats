@@ -76,5 +76,8 @@ export default {
   },
   getBelowAvgEM: function() {
     return axios.get("/api/sorted/belowAvgEM")
-  }
+  },
+  getActualPercentOfExpected: function() {
+    return axios.get("/api/users");
+  }  
 };
