@@ -23,7 +23,7 @@ thead {
 }
 
 .titleCol {
-	width: 72%;
+	width: 74%;
 }
 
 .stockNumCol {
@@ -31,10 +31,10 @@ thead {
 }
 
 .esNumCol {
-	width: 15%;
+	width: 13%;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 768px) {
 	table {
 		font-size: 13px !important;
 	}
