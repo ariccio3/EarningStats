@@ -675,7 +675,7 @@ class Results extends Component {
         <table className="table table-striped table-hover table-bordered">
           <thead className="thead-dark">
             <tr>
-              <th className="titleCol">Occurrences Outside the Expected Move</th>
+              <th className="titleCol">Outside the Expected Move Stats</th>
               <th className="stockNumCol"><Link style={{ textDecoration: 'none', color:'black'}} to={`/proscons/${this.props.match.params.stock}`}>{this.props.match.params.stock}</Link></th>
               <th title="EarningStats Watchlist" className="esNumCol"><Link to="/annual" style={{ textDecoration: 'none', color:'black'}}>ES{this.watchListCount()} <i className="fa fa-info-circle" aria-hidden="true"></i></Link></th>
             </tr>
