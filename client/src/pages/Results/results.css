@@ -35,7 +35,18 @@ thead {
 }
 
 @media screen and (max-width: 860px) {
-	table {
+	.titleCol {
+		width: 73%;
+		font-size: 12px !important;
+	}
+
+	.stockNumCol {
+		width: 12%;
+		font-size: 13px !important;
+	}
+
+	.esNumCol {
+		width: 15%;
 		font-size: 13px !important;
 	}
 }
