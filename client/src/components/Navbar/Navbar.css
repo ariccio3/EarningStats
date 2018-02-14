@@ -16,6 +16,7 @@
 
 .form-control {
 	height: 46px;
+	max-width: 160px;		
 	margin-top: 2px;
 	border-width: 1.5px;
 	border-color: #838487;
@@ -45,6 +46,11 @@ button {
 .navbar-brand:visited {
 	color: white;
 }
+
+.formBox {
+		margin: 0 auto;
+		width:270px;
+ }
 
 @media screen and (max-width: 768px) {
 	.navbar-brand {
