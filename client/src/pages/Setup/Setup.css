@@ -40,16 +40,16 @@ thead {
 }
 
 .titleCol {
-	width: 46% !important;
+	width: 49% !important;
 }
 
 .dataCol {
-	width: 18% !important;
+	width: 17% !important;
 	text-align: center;
 }
 
 .dataInputCol {
-	width: 18% !important;
+	width: 17% !important;
 	text-align: center;	
 	padding-left: 0 !important;
 	padding-right: 0 !important;			
