@@ -35,19 +35,8 @@ thead {
 }
 
 /*@media screen and (max-width: 750px) {
-	.titleCol {
-		width: 73% !important;
-		font-size: 12px !important;
-	}
-
-	.stockNumCol {
-		width: 12% !important;
-		font-size: 13px !important;
-	}
-
-	.esNumCol {
-		width: 15% !important;
-		font-size: 13px !important;
+	.tableContainer {
+		font-size: 14px;
 	}
 }*/
 

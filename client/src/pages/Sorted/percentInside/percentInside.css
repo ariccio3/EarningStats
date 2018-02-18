@@ -38,9 +38,9 @@ thead {
 	width: 70%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
 	table {
-		font-size: 13px !important;
+		/*font-size: 13px !important;*/
 	}
 	.tableContainer {
 		margin-left: 2.5%;
@@ -48,9 +48,9 @@ thead {
 	}
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 700px) {
 	.tableContainer {
-		margin-left: 20%;
-		margin-right: 20%;
+		margin-left: 25%;
+		margin-right: 25%;
 	}
 }
