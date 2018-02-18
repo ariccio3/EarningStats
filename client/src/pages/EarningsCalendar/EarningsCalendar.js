@@ -22,18 +22,6 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>
             <tr>
-              <td><Link to="/results/DE">DE</Link></td>
-              <td>Deere &amp; Company</td>
-              <td>2/16/2018</td>
-              <td>bmo</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/HD">HD</Link></td>
-              <td>Home Depot</td>
-              <td>2/20/2018</td>
-              <td>bmo</td>
-            </tr>
-            <tr>
               <td><Link to="/results/PCLN">PCLN</Link></td>
               <td>Priceline</td>
               <td>2/27/2018</td>
@@ -218,7 +206,19 @@ class EarningsCalendar extends Component {
               <td>Baidu</td>
               <td>2/13/2018</td>
               <td>amc</td>
-            </tr>                                                                                                                                                                                                                                                                   
+            </tr>
+            <tr>
+              <td className="passed"><Link to="/results/DE">DE</Link></td>
+              <td>Deere &amp; Company</td>
+              <td>2/16/2018</td>
+              <td>bmo</td>
+            </tr>
+            <tr>
+              <td className="passed"><Link to="/results/HD">HD</Link></td>
+              <td>Home Depot</td>
+              <td>2/20/2018</td>
+              <td>bmo</td>
+            </tr>                                                                                                                                                                                                                                                               
           </tbody>            
        </table><br/>
       </div>         
