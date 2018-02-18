@@ -40,24 +40,24 @@ thead {
 }
 
 .titleCol {
-	width: 40% !important;
+	width: 46% !important;
 }
 
 .dataCol {
-	width: 20% !important;
+	width: 18% !important;
 	text-align: center;
 }
 
 .dataInputCol {
-	width: 20% !important;
+	width: 18% !important;
 	text-align: center;	
-	/*padding-left: 0 !important;*/
-	/*padding-right: 0 !important;			*/
+	padding-left: 0 !important;
+	padding-right: 0 !important;			
 }
 
 @media screen and (max-width: 768px) {
 	table {
-		/*font-size: 12px !important;*/
+		font-size: 12px !important;
 	}
 }
 
