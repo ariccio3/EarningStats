@@ -20,27 +20,13 @@ a {
 table {
 	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
 	z-index: 1;
-	/*table-layout: fixed;*/
-    /*word-wrap: break-word;*/
 }
 
 thead {
 	background-color: #d3e1ee;	
 }
 
-/*.titleColumn {
-	width: 20%;
-}
-
-.stockNumColumn {
-	width: 30%;
-}
-
-.esNumColumn {
-	width: 50%;
-}*/
-
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
 	.tableContainer {
 		margin-left: 15% !important;
 		margin-right: 15% !important;
@@ -59,4 +45,4 @@ thead {
 		margin-left: 30% !important;
 		margin-right: 30% !important;
 	}
-}
+}*/
