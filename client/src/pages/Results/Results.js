@@ -576,9 +576,9 @@ class Results extends Component {
         <table className="table table-striped table-hover table-bordered">
           <thead>
             <tr>
-              <th className="titleCol">Totals</th>
-              <th className="stockNumCol"><Link style={{ textDecoration: 'none', color:'black'}} to={`/proscons/${this.props.match.params.stock}`}>{this.props.match.params.stock}</Link></th>
-              <th title="EarningStats Watchlist" className="esNumCol"><Link to="/annual" style={{ textDecoration: 'none', color:'black'}}>ES{this.watchListCount()}</Link></th>
+              <th className="col-xs-10">Totals</th>
+              <th className="col-xs-1"><Link style={{ textDecoration: 'none', color:'black'}} to={`/proscons/${this.props.match.params.stock}`}>{this.props.match.params.stock}</Link></th>
+              <th title="EarningStats Watchlist" className="col-xs-1"><Link to="/annual" style={{ textDecoration: 'none', color:'black'}}>ES{this.watchListCount()}</Link></th>
             </tr>
           </thead>
           <tbody>
@@ -623,9 +623,9 @@ class Results extends Component {
         <table className="table table-striped table-hover table-bordered">
           <thead className="thead-dark">
             <tr>
-              <th className="titleCol">Actual vs. Expected Move Frequency</th>
-              <th className="stockNumCol"><Link style={{ textDecoration: 'none', color:'black'}} to={`/proscons/${this.props.match.params.stock}`}>{this.props.match.params.stock}</Link></th>
-              <th title="EarningStats Watchlist" className="esNumCol"><Link to="/annual" style={{ textDecoration: 'none', color:'black'}}>ES{this.watchListCount()}</Link></th>
+              <th className="col-xs-8">Actual vs. Expected Move Frequency</th>
+              <th className="col-xs-2"><Link style={{ textDecoration: 'none', color:'black'}} to={`/proscons/${this.props.match.params.stock}`}>{this.props.match.params.stock}</Link></th>
+              <th title="EarningStats Watchlist" className="col-xs-2"><Link to="/annual" style={{ textDecoration: 'none', color:'black'}}>ES{this.watchListCount()}</Link></th>
             </tr>
           </thead>
           <tbody>        
