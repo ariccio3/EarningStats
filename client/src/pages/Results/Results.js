@@ -576,9 +576,9 @@ class Results extends Component {
         <table className="table table-striped table-hover table-bordered">
           <thead>
             <tr>
-              <th className="col-xs-10">Totals</th>
-              <th className="col-xs-1"><Link style={{ textDecoration: 'none', color:'black'}} to={`/proscons/${this.props.match.params.stock}`}>{this.props.match.params.stock}</Link></th>
-              <th title="EarningStats Watchlist" className="col-xs-1"><Link to="/annual" style={{ textDecoration: 'none', color:'black'}}>ES{this.watchListCount()}</Link></th>
+              <th className="col-xs-8">Totals</th>
+              <th className="col-xs-2"><Link style={{ textDecoration: 'none', color:'black'}} to={`/proscons/${this.props.match.params.stock}`}>{this.props.match.params.stock}</Link></th>
+              <th title="EarningStats Watchlist" className="col-xs-2"><Link to="/annual" style={{ textDecoration: 'none', color:'black'}}>ES{this.watchListCount()}</Link></th>
             </tr>
           </thead>
           <tbody>
@@ -675,9 +675,9 @@ class Results extends Component {
         <table className="table table-striped table-hover table-bordered">
           <thead className="thead-dark">
             <tr>
-              <th className="titleCol">Outside the Expected Move Stats</th>
-              <th className="stockNumCol"><Link style={{ textDecoration: 'none', color:'black'}} to={`/proscons/${this.props.match.params.stock}`}>{this.props.match.params.stock}</Link></th>
-              <th title="EarningStats Watchlist" className="esNumCol"><Link to="/annual" style={{ textDecoration: 'none', color:'black'}}>ES{this.watchListCount()}</Link></th>
+              <th className="col-xs-8">Outside the Expected Move Stats</th>
+              <th className="col-xs-2"><Link style={{ textDecoration: 'none', color:'black'}} to={`/proscons/${this.props.match.params.stock}`}>{this.props.match.params.stock}</Link></th>
+              <th title="EarningStats Watchlist" className="col-xs-2"><Link to="/annual" style={{ textDecoration: 'none', color:'black'}}>ES{this.watchListCount()}</Link></th>
             </tr>
           </thead>
           <tbody>
@@ -717,9 +717,9 @@ class Results extends Component {
         <table className="table table-striped table-hover table-bordered">
           <thead className="thead-dark">
             <tr>
-              <th className="titleCol">Average Expected vs. Actual Move %</th>
-              <th className="stockNumCol"><Link style={{ textDecoration: 'none', color:'black'}} to={`/proscons/${this.props.match.params.stock}`}>{this.props.match.params.stock}</Link></th>
-              <th title="EarningStats Watchlist" className="esNumCol"><Link to="/annual" style={{ textDecoration: 'none', color:'black'}}>ES{this.watchListCount()}</Link></th>
+              <th className="col-xs-8">Average Expected vs. Actual Move %</th>
+              <th className="col-xs-2"><Link style={{ textDecoration: 'none', color:'black'}} to={`/proscons/${this.props.match.params.stock}`}>{this.props.match.params.stock}</Link></th>
+              <th title="EarningStats Watchlist" className="col-xs-2"><Link to="/annual" style={{ textDecoration: 'none', color:'black'}}>ES{this.watchListCount()}</Link></th>
             </tr>
           </thead>
           <tbody>
@@ -749,9 +749,9 @@ class Results extends Component {
         <table className="table table-striped table-hover table-bordered">
           <thead className="thead-dark">
             <tr>
-              <th className="titleCol">Quarterly</th>
-              <th className="stockNumCol"><Link style={{ textDecoration: 'none', color:'black'}} to={`/proscons/${this.props.match.params.stock}`}>{this.props.match.params.stock}</Link></th>
-              <th title="EarningStats Watchlist" className="esNumCol"><Link to="/annual" style={{ textDecoration: 'none', color:'black'}}>ES{this.watchListCount()}</Link></th>
+              <th className="col-xs-8">Quarterly</th>
+              <th className="col-xs-2"><Link style={{ textDecoration: 'none', color:'black'}} to={`/proscons/${this.props.match.params.stock}`}>{this.props.match.params.stock}</Link></th>
+              <th title="EarningStats Watchlist" className="col-xs-2"><Link to="/annual" style={{ textDecoration: 'none', color:'black'}}>ES{this.watchListCount()}</Link></th>
             </tr>
           </thead>
           <tbody>

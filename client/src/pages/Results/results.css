@@ -21,28 +21,3 @@ table {
 thead {
 	background-color: #d3e1ee;	
 }
-
-/*.titleCol {
-	width: 75% !important;
-}
-
-.stockNumCol {
-	width: 12.5% !important;
-}
-
-.esNumCol {
-	width: 12.5% !important;
-}*/
-
-@media screen and (max-width: 768px) {
-	.tableContainer {
-		font-size: 14px;
-	}
-}
-
-@media screen and (min-width: 768px) {
-	.tableContainer {
-		margin-left: 5%;
-		margin-right: 5%;
-	}
-}
