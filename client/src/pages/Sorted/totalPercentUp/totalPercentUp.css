@@ -20,37 +20,43 @@ a {
 table {
 	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
 	z-index: 1;
+	/*table-layout: fixed;*/
+    /*word-wrap: break-word;*/
 }
 
 thead {
 	background-color: #d3e1ee;	
 }
 
-.titleColumn {
-	width: 10%;
-}
-
-.stockNumColumn {
+/*.titleColumn {
 	width: 20%;
 }
 
-.esNumColumn {
-	width: 70%;
+.stockNumColumn {
+	width: 30%;
 }
 
+.esNumColumn {
+	width: 50%;
+}*/
+
 @media screen and (max-width: 768px) {
-	table {
-		font-size: 13px !important;		
-	}
 	.tableContainer {
-		margin-left: 2.5%;
-		margin-right: 2.5%;
+		margin-left: 15% !important;
+		margin-right: 15% !important;
 	}
 }
 
 @media screen and (min-width: 768px) {
 	.tableContainer {
-		margin-left: 20%;
-		margin-right: 20%;
+		margin-left: 20% !important;
+		margin-right: 20% !important;
+	}
+}
+
+@media screen and (min-width: 1100px) {
+	.tableContainer {
+		margin-left: 30% !important;
+		margin-right: 30% !important;
 	}
 }

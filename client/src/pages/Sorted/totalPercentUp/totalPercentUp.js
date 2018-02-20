@@ -26,9 +26,9 @@ class TotalPercentUp extends Component {
         <table className="table table-striped table-hover table-bordered">
           <thead>
             <tr>
-              <th className="titleColumn">Rank</th>
-              <th className="stockNumColumn">Stock</th>
-              <th className="esNumColumn">Total % Up</th>
+              <th className="col-xs-2">Rank</th>
+              <th className="col-xs-4">Stock</th>
+              <th className="col-xs-6">Total % Up</th>
             </tr>
           </thead>
           <tbody>
