@@ -34,7 +34,7 @@ class EarningsCalendar extends Component {
               <td>amc</td>
             </tr>
             <tr>
-              <td><Link to="/results/TGT">COST</Link></td>
+              <td><Link to="/results/TGT">TGT</Link></td>
               <td>Target</td>
               <td>3/6/2018</td>
               <td>bmo</td>
