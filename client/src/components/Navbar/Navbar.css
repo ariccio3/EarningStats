@@ -48,8 +48,8 @@ button {
 }
 
 .formBox {
-		margin: 0 auto;
-		width:270px;
+		margin: auto;
+		width:210px;
  }
 
 @media screen and (max-width: 768px) {
@@ -68,7 +68,7 @@ button {
 
 @media screen and (min-width: 768px) {
 	.formBox {
-		margin: 0 auto;
+		margin: auto;
 		width:270px;
 	}
 }

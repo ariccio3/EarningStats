@@ -26,12 +26,8 @@ thead {
 	width: 70%;
 }
 
-.stockNumCol {
-	width: 13%;
-}
-
-.esNumCol {
-	width: 17%;
+.blankCol {
+	width: 30% !important;
 }
 
 .tableContainer {

@@ -400,6 +400,9 @@ class ProsCons extends Component {
         if (prosArray.indexOf(this.state.q3PercentInside[i]) > -1) {
           break;
         } else {
+          // // eslint-disable-next-line
+          // this.state.q3PercentInside[i]['Q3 - % Inside Expected Move'] = this.state.q3PercentInside[i].q3PercentInside;
+          // delete this.state.q3PercentInside[i].q3PercentInside;
           return prosArray.push(this.state.q3PercentInside[i]); 
         }
       } else if (this.state.q3PercentInside[i].stock === this.props.match.params.stock && i > (this.state.q3PercentInside.length - 10)) {
@@ -434,10 +437,27 @@ class ProsCons extends Component {
     return Math.floor(Math.random() * Math.floor(max));
   }
 
-  renderTable(category, stat) {     
+  renderTable(category, stat) {
     return (
       <tr key={Math.random()}>
-        <td><a href={"/sorted/"+ Object.keys(category)[2]}>{Object.keys(category)[2]}</a></td>
+        <td><a href={"/sorted/"+ Object.keys(category)[2]}>{Object.keys(category)[2]
+          .replace('totalPercentUp', 'Total % Up')
+          .replace('percentInside', 'Total % Inside Expected Move')
+          .replace('amOver2XemPercent', 'Actual ≥ 2x Expected Move')
+          .replace('amUnder2XemPercent', 'Actual ≤ 2x Expected Move')
+          .replace('amUnder175XemPercent', 'Actual ≤ 1.75x Expected Move')
+          .replace('amUnder150XemPercent', 'Actual ≤ 1.5x Expected Move')
+          .replace('amUnder125XemPercent', 'Actual ≤ 1.25x Expected Move')
+          .replace('underEMPercent', '≤ The Expected Move')
+          .replace('amUnder75XemPercent', 'Actual ≤ .75x Expected Move')
+          .replace('percentHalfEM', 'Actual ≤ .5x Expected Move')
+          .replace('aboveAvgEM', 'Above Avg % Expected Move - % Inside')
+          .replace('belowAvgEM', 'Below Avg % Expected Move - % Inside')
+          .replace('q1PercentInside', 'Q1 - % Inside Expected Move')
+          .replace('q2PercentInside', 'Q2 - % Inside Expected Move')
+          .replace('q3PercentInside', 'Q3 - % Inside Expected Move')
+          .replace('q4PercentInside', 'Q4 - % Inside Expected Move')
+        }</a></td>
         <td>{Object.values(category)[2]}%</td>
       </tr>
     )};
@@ -463,13 +483,11 @@ class ProsCons extends Component {
     return (
       <div className="tableContainer">
         <h3>Pros & Cons</h3>
-        <h3>Still in Development</h3>
-        <h3>Thank you for your patience</h3>
         <table className="table table-striped table-hover table-bordered">
           <thead>
             <tr>
-              <th className="titleCol"><Link style={{ textDecoration: 'none', color:'black'}} to={`/results/${this.props.match.params.stock}`}>{this.props.match.params.stock}</Link> Pros</th>
-              <th></th>
+              <th className="titleCol"><Link style={{ textDecoration: 'none', color:'black'}} to={`/results/${this.props.match.params.stock}`}>{this.props.match.params.stock} Pros - </Link> Ranked the Top 10</th>
+              <th className="blankCol"></th>
             </tr>
           </thead>
           <tbody>
@@ -480,8 +498,8 @@ class ProsCons extends Component {
         <table className="table table-striped table-hover table-bordered">
           <thead className="thead-dark">
             <tr>
-              <th className="titleCol"><Link style={{ textDecoration: 'none', color:'black'}} to={`/results/${this.props.match.params.stock}`}>{this.props.match.params.stock}</Link> Cons</th>
-              <th></th>
+              <th className="titleCol"><Link style={{ textDecoration: 'none', color:'black'}} to={`/results/${this.props.match.params.stock}`}>{this.props.match.params.stock} Cons - </Link> Ranked the Bottom 10</th>
+              <th className="blankCol"></th>
             </tr>
           </thead>
           <tbody>
