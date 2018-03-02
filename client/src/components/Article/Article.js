@@ -10,7 +10,7 @@ const Article = props => (
 		Leading up to a company releasing its earnings report its stock’s implied volatility will usually increase to price in the uncertainty around this event. There is the potential for the stock price to have a big move after the announcement and EarningStats.com is a great resource to give you information about how the stock has behaved in the past. 
 	</p>
 	<p>
-		We focus only on the stocks with the most liquid options markets and higher priced stocks whose options offer larger premiums.  We are most interested in the stock’s expected move vs. the actual move. 
+		We focus only on the stocks with the most liquid options markets and higher priced stocks whose options offer larger premiums.  We are most interested in the stock’s expected move vs. the actual move. If you are new to options, we recommend you start <a href="https://www.tastytrade.com/tt/home" className="link" target="_blank" rel="noopener noreferrer">here</a>
 	</p>
 	<p>	
 		<b>Expected Move: </b>There are three basic ways of calculating an expected range for an asset like stocks: the formula, the delta or the ballpark estimate using option prices.
