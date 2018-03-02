@@ -486,7 +486,7 @@ class ProsCons extends Component {
         <table className="table table-striped table-hover table-bordered">
           <thead>
             <tr>
-              <th className="titleCol"><Link style={{ textDecoration: 'none', color:'black'}} to={`/results/${this.props.match.params.stock}`}>{this.props.match.params.stock} Pros - </Link> Ranked the Top 10</th>
+              <th className="titleCol"><Link style={{ textDecoration: 'none', color:'black'}} to={`/results/${this.props.match.params.stock}`}>{this.props.match.params.stock} Pros - </Link> Ranked in the Top 10</th>
               <th className="blankCol"></th>
             </tr>
           </thead>
@@ -498,7 +498,7 @@ class ProsCons extends Component {
         <table className="table table-striped table-hover table-bordered">
           <thead className="thead-dark">
             <tr>
-              <th className="titleCol"><Link style={{ textDecoration: 'none', color:'black'}} to={`/results/${this.props.match.params.stock}`}>{this.props.match.params.stock} Cons - </Link> Ranked the Bottom 10</th>
+              <th className="titleCol"><Link style={{ textDecoration: 'none', color:'black'}} to={`/results/${this.props.match.params.stock}`}>{this.props.match.params.stock} Cons - </Link> Ranked in the Bottom 10</th>
               <th className="blankCol"></th>
             </tr>
           </thead>
