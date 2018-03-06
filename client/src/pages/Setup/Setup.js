@@ -37,16 +37,17 @@ class Setup extends Component {
     // Getting the value and name of the input which triggered the change
     const value = event.target.value;
     const name = event.target.name;
-this.stockCall1();
-this.stockCall2();
-this.stockCall3();
-this.stockPut1();
-this.stockPut2();
-this.stockPut3();
+      this.stockCall1();
+      this.stockCall2();
+      this.stockCall3();
+      this.stockPut1();
+      this.stockPut2();
+      this.stockPut3();
 
     this.setState({
       [name]: value
     });
+
   };
 
   stockCall1 = () => {
@@ -259,15 +260,15 @@ this.stockPut3();
             </tr>                                                                               
             <tr>
               <td className="titleCol"><b>Enter Call Strike &ensp; →</b></td>
-              <td className="dataInputCol"><input type="text" name="call1" className="form-control userInput" value={this.state.call1} onChange={this.handleInputChange} tabIndex="4" /></td>
-              <td className="dataInputCol"><input type="text" name="call2" className="form-control userInput" value={this.state.call2} onChange={this.handleInputChange} tabIndex="9" /></td>
-              <td className="dataInputCol"><input type="text" name="call3" className="form-control userInput" value={this.state.call3} onChange={this.handleInputChange} tabIndex="14" /></td>
+              <td className="dataInputCol"><input type='text' name="call1" placeholder="0.00" className="form-control userInput" value={this.state.call1} onChange={this.handleInputChange} tabIndex="4" /></td>
+              <td className="dataInputCol"><input type="text" name="call2" placeholder="0.00" className="form-control userInput" value={this.state.call2} onChange={this.handleInputChange} tabIndex="9" /></td>
+              <td className="dataInputCol"><input type="text" name="call3" placeholder="0.00" className="form-control userInput" value={this.state.call3} onChange={this.handleInputChange} tabIndex="14" /></td>
             </tr>
             <tr>
               <td className="titleCol"><b>Enter Put Strike &ensp; →</b></td>
-              <td className="dataInputCol"><input type="text" name="put1" className="form-control userInput" value={this.state.put1} onChange={this.handleInputChange} tabIndex="5" /></td>
-              <td className="dataInputCol"><input type="text" name="put2" className="form-control userInput" value={this.state.put2} onChange={this.handleInputChange} tabIndex="10" /></td>
-              <td className="dataInputCol"><input type="text" name="put3" className="form-control userInput" value={this.state.put3} onChange={this.handleInputChange} tabIndex="15" /></td>
+              <td className="dataInputCol"><input type="text" name="put1" placeholder="0.00" className="form-control userInput" value={this.state.put1} onChange={this.handleInputChange} tabIndex="5" /></td>
+              <td className="dataInputCol"><input type="text" name="put2" placeholder="0.00" className="form-control userInput" value={this.state.put2} onChange={this.handleInputChange} tabIndex="10" /></td>
+              <td className="dataInputCol"><input type="text" name="put3" placeholder="0.00" className="form-control userInput" value={this.state.put3} onChange={this.handleInputChange} tabIndex="15" /></td>
             </tr>
             <tr>
               <td className="titleCol">Downside % Change</td>
