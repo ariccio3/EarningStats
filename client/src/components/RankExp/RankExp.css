@@ -26,7 +26,7 @@ h3 {
 		margin-left: 5px;
 	}
 	.criteria {
-		/*margin: 0 auto;*/
+		display:inline-block;
 		float: none;
 		white-space: nowrap;
 	}
