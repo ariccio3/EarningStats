@@ -14,10 +14,21 @@ h3 {
 	text-align: center;
 }
 
+.criteria {
+		margin: 0 auto;
+		float: none;
+		white-space: nowrap;
+	}
+
 @media screen and (max-width: 768px) {
 	.article {
 		margin-right: 5px;
 		margin-left: 5px;
+	}
+	.criteria {
+		/*margin: 0 auto;*/
+		float: none;
+		white-space: nowrap;
 	}
 }
 
@@ -25,4 +36,5 @@ h3 {
 	.article {
 		padding-bottom:50px
 	}
+	
 }

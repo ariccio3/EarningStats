@@ -19,7 +19,7 @@ const RankExp = props => (
 		their expected moves at the top and those that have not at the bottom. The fact that the ranking is sorted this way is not important because you can use this list a number of 
 		different ways depending on your trading style. 
 		<br /><br />
-	
+	</p>
 		<ul className="criteria">
 			<li>Actual ≥ 2x Expected</li>
 			<li>Actual ≤ 2x Expected</li>
@@ -35,7 +35,7 @@ const RankExp = props => (
 			<li>Actual Move vs. Expected Move % Difference</li>
 			<li># of Occurences</li><br />
 		</ul>
-	</p>
+	
 	<p>
 		One way to use this information is for <i>position sizing</i> similar to the Kelly criterion. If you like to sell options during an earnings event because you think 
 		the volatility is overstated maybe increase your size on the stocks toward the top of the list and reduce your trade size on the stocks at the bottom of the list. 
