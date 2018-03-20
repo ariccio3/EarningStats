@@ -1,0 +1,30 @@
+* {
+    /*border: solid red 1px;*/
+}
+
+h3 {
+	margin-top: 0;
+}
+
+.rankImg {
+	display: block;
+	float: left;
+	margin-right: 8px;
+	margin-bottom: 15px;
+}
+
+.criteria {
+	margin: 0 auto;
+	float: none;
+	white-space: nowrap;
+}
+
+@media screen and (min-width: 769px) {
+	.container {
+		margin: 0 auto;
+		border: 1px solid #92b6d5;
+	}
+	h3 {
+	margin-top: 10px;
+}
+}

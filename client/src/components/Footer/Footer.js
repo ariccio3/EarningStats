@@ -19,7 +19,7 @@ const Footer = () =>
         <p><a href="https://start.tastyworks.com#/login?referralCode=6V6M2885JH" target="_blank" rel="noopener noreferrer">Open Brokerage Acct</a></p>
         <p><a href="https://www.tastytrade.com/tt/shows/step-up-to-options" target="_blank" rel="noopener noreferrer">New to Options?</a></p>
         <p><Link to="/setup">Trade SetUp</Link></p>
-
+        <p><Link to="/rank">EarningStats Rank</Link></p>
     </div>
   </footer>;
 
