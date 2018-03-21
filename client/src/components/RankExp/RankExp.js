@@ -6,12 +6,12 @@ const RankExp = props => (
 	<p>
 		EarningStats is great for giving you how often a stock in our watchlist has stayed within its Expected (1 standard deviation) Move for as far back as 2003. 
 		It also looks at this data from a few different angles and sorts the stocks so you can put context around where it ranks among the other stocks in the watchlist. 
-		The Pros & Cons page will show you which of the stats that the stock ranks in the Top 10 and the Bottom 10 so you can quickly see the its stengths and/or its weaknesses.
+		The Pros & Cons page will show you which of the stats that the stock ranks in the Top 10 and the Bottom 10 so you can quickly see its stengths and/or its weaknesses.
 	</p>
 	<p>
-		This information can be interesting to stock and option traders for any strategy. Long/short stock, long/short/nuetral options. Its good to know that if you were 
+		This information can be interesting to stock and option traders for any strategy. Long/short stock, long/short/neutral options. Its good to know that if you were 
 		thinking of selling a straddle or tight strangle in NFLX, it has only stayed inside its expected range 40% of the time after earnings. Or if you were thinking of 
-		buying a call in JNJ, as an earnings trade, that stock has stayed within its expected move over 90% of the time.
+		buying a call in JNJ as an earnings trade, that stock has stayed within its expected move over 90% of the time.
 	</p>	  
 	<p>
 		The EarningStats Predicatability Rank goes a step further and weights each of the statistics that are listed below and then ranks each stock in each of these categories relative 
@@ -33,7 +33,10 @@ const RankExp = props => (
 			<li>Above Avg % Expected Move % Inside</li>
 			<li>Below Avg % Expected Move % Inside</li>
 			<li>Actual Move vs. Expected Move % Difference</li>
-			<li># of Occurences</li><br />
+			<li># of Occurences</li>
+			<li>Average Stock Volume</li>
+			<li><a href="https://www.tastyworks.com/technology.html" className="link" target="_blank" rel="noopener noreferrer">tastyworks</a> Option Liquidity Rank</li>
+			<br />
 		</ul>
 	
 	<p>

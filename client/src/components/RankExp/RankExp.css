@@ -2,10 +2,6 @@
     /*border: solid red 1px;*/
 }
 
-.formula {
-	text-align: center;
-}
-
 .link {
 	color: black;
 }
@@ -21,10 +17,7 @@ h3 {
 	}
 
 @media screen and (max-width: 768px) {
-	.article {
-		margin-right: 5px;
-		margin-left: 5px;
-	}
+
 	.criteria {
 		display:inline-block;
 		float: none;
@@ -33,8 +26,6 @@ h3 {
 }
 
 @media screen and (min-width: 769px) {
-	.article {
-		padding-bottom:50px
-	}
+
 	
 }
