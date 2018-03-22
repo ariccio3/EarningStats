@@ -22,6 +22,12 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>
             <tr>
+              <td><Link to="/results/MU">MU</Link></td>
+              <td>Micron Tech</td>
+              <td>3/22/2018</td>
+              <td>amc</td>
+            </tr>
+            <tr>
               <td><Link to="/results/NKE">NKE</Link></td>
               <td>Nike</td>
               <td>3/22/2018</td>
