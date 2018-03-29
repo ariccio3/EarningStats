@@ -62,12 +62,6 @@ class EarningsCalendar extends Component {
               <td>American Express</td>
               <td>4/18/2018</td>
               <td>amc</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/V">V</Link></td>
-              <td>Visa</td>
-              <td>4/26/2018</td>
-              <td>amc</td>
             </tr>
             <tr>
               <td><Link to="/results/GOOG">GOOG</Link></td>
@@ -82,12 +76,6 @@ class EarningsCalendar extends Component {
               <td>bmo</td>
             </tr>
             <tr>
-              <td><Link to="/results/CMG">CMG</Link></td>
-              <td>Chipotle Mexican Grill</td>
-              <td>4/25/2018</td>
-              <td>amc</td>
-            </tr>
-            <tr>
               <td><Link to="/results/WYNN">WYNN</Link></td>
               <td>Wynn Resorts</td>
               <td>4/24/2018</td>
@@ -100,10 +88,10 @@ class EarningsCalendar extends Component {
               <td>bmo</td>
             </tr>
             <tr>
-              <td><Link to="/results/CELG">CELG</Link></td>
-              <td>Celgene</td>
-              <td>4/26/2018</td>
-              <td>bmo</td>
+              <td><Link to="/results/CMG">CMG</Link></td>
+              <td>Chipotle Mexican Grill</td>
+              <td>4/25/2018</td>
+              <td>amc</td>
             </tr>
             <tr>
               <td><Link to="/results/AMGN">AMGN</Link></td>
@@ -124,6 +112,12 @@ class EarningsCalendar extends Component {
               <td>amc</td>
             </tr>
             <tr>
+              <td><Link to="/results/CELG">CELG</Link></td>
+              <td>Celgene</td>
+              <td>4/26/2018</td>
+              <td>bmo</td>
+            </tr>
+            <tr>
               <td><Link to="/results/MSFT">MSFT</Link></td>
               <td>MicroSoft</td>
               <td>4/26/2018</td>
@@ -140,6 +134,12 @@ class EarningsCalendar extends Component {
               <td>United Parcel Service</td>
               <td>4/26/2018</td>
               <td>bmo</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/V">V</Link></td>
+              <td>Visa</td>
+              <td>4/26/2018</td>
+              <td>amc</td>
             </tr> 
             <tr>
               <td><Link to="/results/CVX">CVX</Link></td>
@@ -250,17 +250,23 @@ class EarningsCalendar extends Component {
               <td>bmo</td>
             </tr>
             <tr>
+              <td><Link to="/results/AVGO">AVGO</Link></td>
+              <td>Avago Technologies</td>
+              <td>5/31/2018</td>
+              <td>amc</td>
+            </tr>
+            <tr>
               <td><Link to="/results/COST">COST</Link></td>
               <td>Costco</td>
               <td>5/31/2018</td>
               <td>amc</td>
             </tr>
             <tr>
-              <td><Link to="/results/AVGO">AVGO</Link></td>
-              <td>Avago Technologies</td>
-              <td>5/31/2018</td>
+              <td><Link to="/results/LULU">LULU</Link></td>
+              <td>lululemon</td>
+              <td>5/31/18</td>
               <td>amc</td>
-            </tr>
+            </tr> 
             <tr>
               <td><Link to="/results/ADBE">ADBE</Link></td>
               <td>Adobe</td>
@@ -285,12 +291,6 @@ class EarningsCalendar extends Component {
               <td>6/28/18</td>
               <td>amc</td>
             </tr>
-            <tr>
-              <td><Link to="/results/LULU">LULU</Link></td>
-              <td>lululemon</td>
-              <td>5/31/18</td>
-              <td>amc</td>
-            </tr> 
             <tr>
               <td><Link to="/results/STZ">STZ</Link></td>
               <td>Constellation Brands</td>
