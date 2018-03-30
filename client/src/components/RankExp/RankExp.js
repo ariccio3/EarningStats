@@ -15,7 +15,7 @@ const RankExp = props => (
 	</p>	  
 	<p>
 		The EarningStats Predicatability Rank goes a step further and weights each of the statistics that are listed below and then ranks each stock in each of these categories relative 
-		to all the other stocks in the EarningStats watchlist. The result is the list ordered list you see to the left that is sorted by the stocks that have historically stayed inside 
+		to all the other stocks in the EarningStats watchlist. The result is the list you see to the left that is sorted by the stocks that have historically stayed inside 
 		their expected moves at the top and those that have not at the bottom. The fact that the ranking is sorted this way is not important because you can use this list a number of 
 		different ways depending on your trading style. 
 		<br /><br />
