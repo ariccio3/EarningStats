@@ -94,6 +94,18 @@ class EarningsCalendar extends Component {
               <td>amc</td>
             </tr>
             <tr>
+              <td><Link to="/results/FB">FB</Link></td>
+              <td>Facebook</td>
+              <td>4/25/2018</td>
+              <td>amc</td>
+            </tr>
+            <tr>
+              <td><Link to="/results/V">V</Link></td>
+              <td>Visa</td>
+              <td>4/25/2018</td>
+              <td>amc</td>
+            </tr> 
+            <tr>
               <td><Link to="/results/AMGN">AMGN</Link></td>
               <td>Amgen</td>
               <td>4/26/2018</td>
@@ -112,12 +124,6 @@ class EarningsCalendar extends Component {
               <td>amc</td>
             </tr>
             <tr>
-              <td><Link to="/results/CELG">CELG</Link></td>
-              <td>Celgene</td>
-              <td>4/26/2018</td>
-              <td>bmo</td>
-            </tr>
-            <tr>
               <td><Link to="/results/MSFT">MSFT</Link></td>
               <td>MicroSoft</td>
               <td>4/26/2018</td>
@@ -134,12 +140,6 @@ class EarningsCalendar extends Component {
               <td>United Parcel Service</td>
               <td>4/26/2018</td>
               <td>bmo</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/V">V</Link></td>
-              <td>Visa</td>
-              <td>4/26/2018</td>
-              <td>amc</td>
             </tr> 
             <tr>
               <td><Link to="/results/CVX">CVX</Link></td>
@@ -166,12 +166,6 @@ class EarningsCalendar extends Component {
               <td>amc</td>
             </tr>
             <tr>
-              <td><Link to="/results/FB">FB</Link></td>
-              <td>Facebook</td>
-              <td>4/25/2018</td>
-              <td>amc</td>
-            </tr>
-            <tr>
               <td><Link to="/results/GILD">GILD</Link></td>
               <td>Gilead Sciences</td>
               <td>5/1/2018</td>
@@ -183,6 +177,12 @@ class EarningsCalendar extends Component {
               <td>5/2/2018</td>
               <td>amc</td>
             </tr> 
+            <tr>
+              <td><Link to="/results/CELG">CELG</Link></td>
+              <td>Celgene</td>
+              <td>5/4/2018</td>
+              <td>bmo</td>
+            </tr>
             <tr>
               <td><Link to="/results/DIS">DIS</Link></td>
               <td>Disney</td>
@@ -204,19 +204,13 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/NVDA">NVDA</Link></td>
               <td>NVIDIA</td>
-              <td>5/10/2018/</td>
+              <td>5/10/2018</td>
               <td>amc</td>
             </tr>
             <tr>
               <td><Link to="/results/HD">HD</Link></td>
               <td>Home Depot</td>
               <td>5/15/2018</td>
-              <td>bmo</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/TGT">TGT</Link></td>
-              <td>Target</td>
-              <td>5/23/2018</td>
               <td>bmo</td>
             </tr>
             <tr>
@@ -250,6 +244,12 @@ class EarningsCalendar extends Component {
               <td>bmo</td>
             </tr>
             <tr>
+              <td><Link to="/results/TGT">TGT</Link></td>
+              <td>Target</td>
+              <td>5/23/2018</td>
+              <td>bmo</td>
+            </tr>
+            <tr>
               <td><Link to="/results/AVGO">AVGO</Link></td>
               <td>Avago Technologies</td>
               <td>5/31/2018</td>
@@ -264,37 +264,37 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/LULU">LULU</Link></td>
               <td>lululemon</td>
-              <td>5/31/18</td>
+              <td>5/31/2018</td>
               <td>amc</td>
             </tr> 
             <tr>
               <td><Link to="/results/ADBE">ADBE</Link></td>
               <td>Adobe</td>
-              <td>6/14/18</td>
+              <td>6/14/2018</td>
               <td>amc</td>
             </tr>
             <tr>
               <td><Link to="/results/FDX">FDX</Link></td>
               <td>FedEx</td>
-              <td>6/19/18</td>
+              <td>6/19/2018</td>
               <td>amc</td>
             </tr>
             <tr>
               <td><Link to="/results/MU">MU</Link></td>
               <td>Micron Tech</td>
-              <td>6/28/18</td>
+              <td>6/28/2018</td>
               <td>amc</td>
             </tr>
             <tr>
               <td><Link to="/results/NKE">NKE</Link></td>
               <td>Nike</td>
-              <td>6/28/18</td>
+              <td>6/28/2018</td>
               <td>amc</td>
             </tr>
             <tr>
               <td><Link to="/results/STZ">STZ</Link></td>
               <td>Constellation Brands</td>
-              <td>TBD</td>
+              <td>6/28/2018</td>
               <td>bmo</td>
             </tr>                                                                                                                                                                                                                                         
           </tbody>            
