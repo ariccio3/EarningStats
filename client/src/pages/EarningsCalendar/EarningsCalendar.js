@@ -22,28 +22,10 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>
             <tr>
-              <td><Link to="/results/NFLX">NFLX</Link></td>
-              <td>Netflix</td>
-              <td>4/16/2018</td>
-              <td>amc</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/GS">GS</Link></td>
-              <td>Goldman Sachs</td>
-              <td>4/17/2018</td>
-              <td>bmo</td>
-            </tr>
-            <tr>
               <td><Link to="/results/IBM">IBM</Link></td>
               <td>International Business Machines</td>
               <td>4/17/2018</td>
               <td>amc</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/JNJ">JNJ</Link></td>
-              <td>Johnson &amp; Johnson</td>
-              <td>4/17/2018</td>
-              <td>bmo</td>
             </tr>
             <tr>
               <td><Link to="/results/AXP">AXP</Link></td>
@@ -296,7 +278,25 @@ class EarningsCalendar extends Component {
               <td>JPMorgan Chase</td>
               <td>4/13/2018</td>
               <td>bmo</td>
-            </tr>                                                                                                                                                                                                                                      
+            </tr>
+            <tr className="passed">
+              <td><Link to="/results/NFLX">NFLX</Link></td>
+              <td>Netflix</td>
+              <td>4/16/2018</td>
+              <td>amc</td>
+            </tr>
+            <tr className="passed">
+              <td><Link to="/results/GS">GS</Link></td>
+              <td>Goldman Sachs</td>
+              <td>4/17/2018</td>
+              <td>bmo</td>
+            </tr>
+            <tr className="passed">
+              <td><Link to="/results/JNJ">JNJ</Link></td>
+              <td>Johnson &amp; Johnson</td>
+              <td>4/17/2018</td>
+              <td>bmo</td>
+            </tr>                                                                                                                                                                                                                                   
           </tbody>            
        </table><br/>
       </div>         
