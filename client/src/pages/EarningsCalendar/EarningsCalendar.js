@@ -22,12 +22,6 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>
             <tr>
-              <td><Link to="/results/IBM">IBM</Link></td>
-              <td>International Business Machines</td>
-              <td>4/17/2018</td>
-              <td>amc</td>
-            </tr>
-            <tr>
               <td><Link to="/results/AXP">AXP</Link></td>
               <td>American Express</td>
               <td>4/18/2018</td>
@@ -76,6 +70,18 @@ class EarningsCalendar extends Component {
               <td>amc</td>
             </tr> 
             <tr>
+              <td><Link to="/results/PEP">PEP</Link></td>
+              <td>Pepsi</td>
+              <td>4/26/2018</td>
+              <td>bmo</td>
+            </tr>
+            <tr>
+              <td><Link to="/results/UPS">UPS</Link></td>
+              <td>United Parcel Service</td>
+              <td>4/26/2018</td>
+              <td>bmo</td>
+            </tr> 
+            <tr>
               <td><Link to="/results/AMGN">AMGN</Link></td>
               <td>Amgen</td>
               <td>4/26/2018</td>
@@ -88,29 +94,11 @@ class EarningsCalendar extends Component {
               <td>amc</td>
             </tr>
             <tr>
-              <td><Link to="/results/BIDU">BIDU</Link></td>
-              <td>Baidu</td>
-              <td>4/26/2018</td>
-              <td>amc</td>
-            </tr>
-            <tr>
               <td><Link to="/results/MSFT">MSFT</Link></td>
               <td>MicroSoft</td>
               <td>4/26/2018</td>
               <td>amc</td>
             </tr>
-            <tr>
-              <td><Link to="/results/PEP">PEP</Link></td>
-              <td>Pepsi</td>
-              <td>4/26/2018</td>
-              <td>bmo</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/UPS">UPS</Link></td>
-              <td>United Parcel Service</td>
-              <td>4/26/2018</td>
-              <td>bmo</td>
-            </tr> 
             <tr>
               <td><Link to="/results/CVX">CVX</Link></td>
               <td>Cheveron</td>
@@ -148,6 +136,18 @@ class EarningsCalendar extends Component {
               <td>amc</td>
             </tr> 
             <tr>
+              <td><Link to="/results/BIDU">BIDU</Link></td>
+              <td>Baidu</td>
+              <td>5/3/2018</td>
+              <td>amc</td>
+            </tr>
+            <tr>
+              <td><Link to="/results/BABA">BABA</Link></td>
+              <td>Alibaba</td>
+              <td>5/4/2018</td>
+              <td>bmo</td>
+            </tr>
+            <tr>
               <td><Link to="/results/CELG">CELG</Link></td>
               <td>Celgene</td>
               <td>5/4/2018</td>
@@ -163,7 +163,7 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/BKNG">BKNG</Link></td>
               <td>Booking</td>
               <td>5/9/2018</td>
-              <td>amc</td>
+              <td>bmo</td>
             </tr>
             <tr>
               <td><Link to="/results/NTES">NTES</Link></td>
@@ -182,16 +182,10 @@ class EarningsCalendar extends Component {
               <td>Home Depot</td>
               <td>5/15/2018</td>
               <td>bmo</td>
-            </tr>
+            </tr>        
             <tr>
-              <td><Link to="/results/ADSK">ADSK</Link></td>
-              <td>Autodesk</td>
-              <td>5/17/2018</td>
-              <td>amc</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/BABA">BABA</Link></td>
-              <td>Alibaba</td>
+              <td><Link to="/results/WMT">WMT</Link></td>
+              <td>Walmart</td>
               <td>5/17/2018</td>
               <td>bmo</td>
             </tr>
@@ -200,12 +194,6 @@ class EarningsCalendar extends Component {
               <td>SalesForce</td>
               <td>5/17/2018</td>
               <td>amc</td>
-            </tr>        
-            <tr>
-              <td><Link to="/results/WMT">WMT</Link></td>
-              <td>Walmart</td>
-              <td>5/17/2018</td>
-              <td>bmo</td>
             </tr>
             <tr>
               <td><Link to="/results/DE">DE</Link></td>
@@ -218,6 +206,12 @@ class EarningsCalendar extends Component {
               <td>Target</td>
               <td>5/23/2018</td>
               <td>bmo</td>
+            </tr>
+            <tr>
+              <td><Link to="/results/ADSK">ADSK</Link></td>
+              <td>Autodesk</td>
+              <td>5/24/2018</td>
+              <td>amc</td>
             </tr>
             <tr>
               <td><Link to="/results/AVGO">AVGO</Link></td>
@@ -250,6 +244,12 @@ class EarningsCalendar extends Component {
               <td>amc</td>
             </tr>
             <tr>
+              <td><Link to="/results/STZ">STZ</Link></td>
+              <td>Constellation Brands</td>
+              <td>6/28/2018</td>
+              <td>bmo</td>
+            </tr>
+            <tr>
               <td><Link to="/results/MU">MU</Link></td>
               <td>Micron Tech</td>
               <td>6/28/2018</td>
@@ -260,12 +260,6 @@ class EarningsCalendar extends Component {
               <td>Nike</td>
               <td>6/28/2018</td>
               <td>amc</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/STZ">STZ</Link></td>
-              <td>Constellation Brands</td>
-              <td>6/28/2018</td>
-              <td>bmo</td>
             </tr>
             <tr className="passed">
               <td><Link to="/results/C">C</Link></td>
@@ -296,6 +290,12 @@ class EarningsCalendar extends Component {
               <td>Johnson &amp; Johnson</td>
               <td>4/17/2018</td>
               <td>bmo</td>
+            </tr>
+            <tr className="passed">
+              <td><Link to="/results/IBM">IBM</Link></td>
+              <td>International Business Machines</td>
+              <td>4/17/2018</td>
+              <td>amc</td>
             </tr>                                                                                                                                                                                                                                   
           </tbody>            
        </table><br/>
