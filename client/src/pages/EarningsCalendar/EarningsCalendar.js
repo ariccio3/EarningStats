@@ -38,6 +38,12 @@ class EarningsCalendar extends Component {
               <td>Wynn Resorts</td>
               <td>4/24/2018</td>
               <td>bmo</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/AMGN">AMGN</Link></td>
+              <td>Amgen</td>
+              <td>4/24/2018</td>
+              <td>amc</td>
             </tr>
             <tr>
               <td><Link to="/results/BA">BA</Link></td>
@@ -74,12 +80,6 @@ class EarningsCalendar extends Component {
               <td>United Parcel Service</td>
               <td>4/26/2018</td>
               <td>bmo</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/AMGN">AMGN</Link></td>
-              <td>Amgen</td>
-              <td>4/26/2018</td>
-              <td>amc</td>
             </tr>
             <tr>
               <td><Link to="/results/AMZN">AMZN</Link></td>
