@@ -22,22 +22,10 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>
             <tr>
-              <td><Link to="/results/GOOGL">GOOGL</Link></td>
-              <td>Google</td>
-              <td>4/23/2018</td>
-              <td>amc</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/CAT">CAT</Link></td>
-              <td>Caterpillar</td>
-              <td>4/24/2018</td>
-              <td>bmo</td>
-            </tr>
-            <tr>
               <td><Link to="/results/WYNN">WYNN</Link></td>
               <td>Wynn Resorts</td>
               <td>4/24/2018</td>
-              <td>bmo</td>
+              <td>amc</td>
             </tr> 
             <tr>
               <td><Link to="/results/AMGN">AMGN</Link></td>
@@ -296,7 +284,19 @@ class EarningsCalendar extends Component {
               <td>American Express</td>
               <td>4/18/2018</td>
               <td>amc</td>
-            </tr>                                                                                                                                                                                                                                  
+            </tr>    
+            <tr className="passed">
+              <td><Link to="/results/GOOGL">GOOGL</Link></td>
+              <td>Google</td>
+              <td>4/23/2018</td>
+              <td>amc</td>
+            </tr>
+            <tr className="passed">
+              <td><Link to="/results/CAT">CAT</Link></td>
+              <td>Caterpillar</td>
+              <td>4/24/2018</td>
+              <td>bmo</td>
+            </tr>                                                                                                                                                                                                                              
           </tbody>            
        </table><br/>
       </div>         
