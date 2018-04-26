@@ -22,36 +22,6 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>
             <tr>
-              <td><Link to="/results/CMG">CMG</Link></td>
-              <td>Chipotle Mexican Grill</td>
-              <td>4/25/2018</td>
-              <td>amc</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/FB">FB</Link></td>
-              <td>Facebook</td>
-              <td>4/25/2018</td>
-              <td>amc</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/V">V</Link></td>
-              <td>Visa</td>
-              <td>4/25/2018</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/PEP">PEP</Link></td>
-              <td>Pepsi</td>
-              <td>4/26/2018</td>
-              <td>bmo</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/UPS">UPS</Link></td>
-              <td>United Parcel Service</td>
-              <td>4/26/2018</td>
-              <td>bmo</td>
-            </tr>
-            <tr>
               <td><Link to="/results/AMZN">AMZN</Link></td>
               <td>Amazon</td>
               <td>4/26/2018</td>
@@ -296,7 +266,37 @@ class EarningsCalendar extends Component {
               <td>Boeing</td>
               <td>4/25/2018</td>
               <td>bmo</td>
-            </tr>                                                                                                                                                                                                                           
+            </tr> 
+            <tr className="passed">
+              <td><Link to="/results/CMG">CMG</Link></td>
+              <td>Chipotle Mexican Grill</td>
+              <td>4/25/2018</td>
+              <td>amc</td>
+            </tr>
+            <tr className="passed">
+              <td><Link to="/results/FB">FB</Link></td>
+              <td>Facebook</td>
+              <td>4/25/2018</td>
+              <td>amc</td>
+            </tr>
+            <tr className="passed">
+              <td><Link to="/results/V">V</Link></td>
+              <td>Visa</td>
+              <td>4/25/2018</td>
+              <td>amc</td>
+            </tr> 
+            <tr className="passed">
+              <td><Link to="/results/PEP">PEP</Link></td>
+              <td>Pepsi</td>
+              <td>4/26/2018</td>
+              <td>bmo</td>
+            </tr>
+            <tr className="passed">
+              <td><Link to="/results/UPS">UPS</Link></td>
+              <td>United Parcel Service</td>
+              <td>4/26/2018</td>
+              <td>bmo</td>
+            </tr>                                                                                                                                                                                                                          
           </tbody>            
        </table><br/>
       </div>         
