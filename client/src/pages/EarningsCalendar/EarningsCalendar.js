@@ -22,30 +22,6 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>
             <tr>
-              <td><Link to="/results/AMZN">AMZN</Link></td>
-              <td>Amazon</td>
-              <td>4/26/2018</td>
-              <td>amc</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/MSFT">MSFT</Link></td>
-              <td>MicroSoft</td>
-              <td>4/26/2018</td>
-              <td>amc</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/CVX">CVX</Link></td>
-              <td>Cheveron</td>
-              <td>4/27/2018</td>
-              <td>bmo</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/XOM">XOM</Link></td>
-              <td>Exxon Mobil</td>
-              <td>4/27/2018</td>
-              <td>bmo</td>
-            </tr>
-            <tr>
               <td><Link to="/results/MCD">MCD</Link></td>
               <td>McDonalds</td>
               <td>4/30/2018</td>
@@ -67,12 +43,6 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/TSLA">TSLA</Link></td>
               <td>Tesla</td>
               <td>5/2/2018</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/BIDU">BIDU</Link></td>
-              <td>Baidu</td>
-              <td>5/3/2018</td>
               <td>amc</td>
             </tr>
             <tr>
@@ -296,7 +266,37 @@ class EarningsCalendar extends Component {
               <td>United Parcel Service</td>
               <td>4/26/2018</td>
               <td>bmo</td>
-            </tr>                                                                                                                                                                                                                          
+            </tr>  
+            <tr className="passed">
+              <td><Link to="/results/AMZN">AMZN</Link></td>
+              <td>Amazon</td>
+              <td>4/26/2018</td>
+              <td>amc</td>
+            </tr> 
+            <tr className="passed">
+              <td><Link to="/results/BIDU">BIDU</Link></td>
+              <td>Baidu</td>
+              <td>4/26/2018</td>
+              <td>amc</td>
+            </tr>
+            <tr className="passed">
+              <td><Link to="/results/MSFT">MSFT</Link></td>
+              <td>MicroSoft</td>
+              <td>4/26/2018</td>
+              <td>amc</td>
+            </tr>
+            <tr className="passed">
+              <td><Link to="/results/CVX">CVX</Link></td>
+              <td>Cheveron</td>
+              <td>4/27/2018</td>
+              <td>bmo</td>
+            </tr>
+            <tr className="passed">
+              <td><Link to="/results/XOM">XOM</Link></td>
+              <td>Exxon Mobil</td>
+              <td>4/27/2018</td>
+              <td>bmo</td>
+            </tr>                                                                                                                                                                                                                        
           </tbody>            
        </table><br/>
       </div>         
