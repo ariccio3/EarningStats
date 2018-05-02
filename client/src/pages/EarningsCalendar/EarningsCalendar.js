@@ -22,18 +22,6 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>
             <tr>
-              <td><Link to="/results/AAPL">AAPL</Link></td>
-              <td>Apple</td>
-              <td>5/1/2018</td>
-              <td>amc</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/GILD">GILD</Link></td>
-              <td>Gilead Sciences</td>
-              <td>5/1/2018</td>
-              <td>amc</td>
-            </tr>
-            <tr>
               <td><Link to="/results/TSLA">TSLA</Link></td>
               <td>Tesla</td>
               <td>5/2/2018</td>
@@ -88,12 +76,6 @@ class EarningsCalendar extends Component {
               <td>bmo</td>
             </tr>
             <tr>
-              <td><Link to="/results/CRM">CRM</Link></td>
-              <td>SalesForce</td>
-              <td>5/17/2018</td>
-              <td>amc</td>
-            </tr>
-            <tr>
               <td><Link to="/results/DE">DE</Link></td>
               <td>Deere &amp; Company</td>
               <td>5/18/2018</td>
@@ -108,6 +90,12 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/ADSK">ADSK</Link></td>
               <td>Autodesk</td>
+              <td>5/24/2018</td>
+              <td>amc</td>
+            </tr>
+            <tr>
+              <td><Link to="/results/CRM">CRM</Link></td>
+              <td>SalesForce</td>
               <td>5/24/2018</td>
               <td>amc</td>
             </tr>
@@ -296,7 +284,19 @@ class EarningsCalendar extends Component {
               <td>McDonalds</td>
               <td>4/30/2018</td>
               <td>bmo</td>
-            </tr>                                                                                                                                                                                                                       
+            </tr>  
+            <tr className="passed">
+              <td><Link to="/results/AAPL">AAPL</Link></td>
+              <td>Apple</td>
+              <td>5/1/2018</td>
+              <td>amc</td>
+            </tr>
+            <tr className="passed">
+              <td><Link to="/results/GILD">GILD</Link></td>
+              <td>Gilead Sciences</td>
+              <td>5/1/2018</td>
+              <td>amc</td>
+            </tr>                                                                                                                                                                                                                     
           </tbody>            
        </table><br/>
       </div>         
