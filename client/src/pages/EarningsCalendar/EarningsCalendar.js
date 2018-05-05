@@ -31,7 +31,7 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/BKNG">BKNG</Link></td>
               <td>Booking</td>
               <td>5/9/2018</td>
-              <td>bmo</td>
+              <td>amc</td>
             </tr>
             <tr>
               <td><Link to="/results/NVDA">NVDA</Link></td>
