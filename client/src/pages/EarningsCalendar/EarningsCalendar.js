@@ -60,13 +60,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/CRM">CRM</Link></td>
               <td>SalesForce</td>
-              <td>5/24/2018</td>
-              <td>amc</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/AVGO">AVGO</Link></td>
-              <td>Avago Technologies</td>
-              <td>5/31/2018</td>
+              <td>5/29/2018</td>
               <td>amc</td>
             </tr>
             <tr>
@@ -81,6 +75,12 @@ class EarningsCalendar extends Component {
               <td>5/31/2018</td>
               <td>amc</td>
             </tr> 
+            <tr>
+              <td><Link to="/results/AVGO">AVGO</Link></td>
+              <td>Avago Technologies</td>
+              <td>6/7/2018</td>
+              <td>amc</td>
+            </tr>
             <tr>
               <td><Link to="/results/ADBE">ADBE</Link></td>
               <td>Adobe</td>
