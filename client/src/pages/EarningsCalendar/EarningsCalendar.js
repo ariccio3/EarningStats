@@ -22,12 +22,6 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>
             <tr>
-              <td><Link to="/results/HD">HD</Link></td>
-              <td>Home Depot</td>
-              <td>5/15/2018</td>
-              <td>bmo</td>
-            </tr>  
-            <tr>
               <td><Link to="/results/NTES">NTES</Link></td>
               <td>NetEase</td>
               <td>5/16/2018</td>
@@ -296,7 +290,13 @@ class EarningsCalendar extends Component {
               <td>NVIDIA</td>
               <td>5/10/2018</td>
               <td>amc</td>
-            </tr>                                                                                                                                                                                              
+            </tr>    
+            <tr className="passed">
+              <td><Link to="/results/HD">HD</Link></td>
+              <td>Home Depot</td>
+              <td>5/15/2018</td>
+              <td>bmo</td>
+            </tr>                                                                                                                                                                                            
           </tbody>            
        </table><br/>
       </div>         
