@@ -22,24 +22,6 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>
             <tr>
-              <td><Link to="/results/NTES">NTES</Link></td>
-              <td>NetEase</td>
-              <td>5/16/2018</td>
-              <td>amc</td>
-            </tr>      
-            <tr>
-              <td><Link to="/results/WMT">WMT</Link></td>
-              <td>Walmart</td>
-              <td>5/17/2018</td>
-              <td>bmo</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/DE">DE</Link></td>
-              <td>Deere &amp; Company</td>
-              <td>5/18/2018</td>
-              <td>bmo</td>
-            </tr>
-            <tr>
               <td><Link to="/results/TGT">TGT</Link></td>
               <td>Target</td>
               <td>5/23/2018</td>
@@ -296,7 +278,25 @@ class EarningsCalendar extends Component {
               <td>Home Depot</td>
               <td>5/15/2018</td>
               <td>bmo</td>
-            </tr>                                                                                                                                                                                            
+            </tr>    
+            <tr className="passed">
+              <td><Link to="/results/NTES">NTES</Link></td>
+              <td>NetEase</td>
+              <td>5/16/2018</td>
+              <td>amc</td>
+            </tr>      
+            <tr className="passed">
+              <td><Link to="/results/WMT">WMT</Link></td>
+              <td>Walmart</td>
+              <td>5/17/2018</td>
+              <td>bmo</td>
+            </tr>
+            <tr className="passed">
+              <td><Link to="/results/DE">DE</Link></td>
+              <td>Deere &amp; Company</td>
+              <td>5/18/2018</td>
+              <td>bmo</td>
+            </tr>                                                                                                                                                                                        
           </tbody>            
        </table><br/>
       </div>         
