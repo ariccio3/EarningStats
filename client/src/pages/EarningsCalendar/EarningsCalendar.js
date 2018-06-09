@@ -22,12 +22,6 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>
             <tr>
-              <td><Link to="/results/AVGO">AVGO</Link></td>
-              <td>Avago Technologies</td>
-              <td>6/7/2018</td>
-              <td>amc</td>
-            </tr>
-            <tr>
               <td><Link to="/results/ADBE">ADBE</Link></td>
               <td>Adobe</td>
               <td>6/14/2018</td>
@@ -48,7 +42,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/STZ">STZ</Link></td>
               <td>Constellation Brands</td>
-              <td>6/28/2018</td>
+              <td>6/29/2018</td>
               <td>bmo</td>
             </tr>
             <tr>
@@ -296,7 +290,13 @@ class EarningsCalendar extends Component {
               <td>lululemon</td>
               <td>5/31/2018</td>
               <td>amc</td>
-            </tr>                                                                                                                                                                                     
+            </tr>   
+            <tr className="passed">
+              <td><Link to="/results/AVGO">AVGO</Link></td>
+              <td>Avago Technologies</td>
+              <td>6/7/2018</td>
+              <td>amc</td>
+            </tr>                                                                                                                                                                                  
           </tbody>            
        </table><br/>
       </div>         
