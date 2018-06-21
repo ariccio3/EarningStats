@@ -308,7 +308,7 @@ class EarningsCalendar extends Component {
               <td>Micron Tech</td>
               <td>6/20/2018</td>
               <td>amc</td>
-            </tr>                                                                                                                                                                           
+            </tr>                                                                                                                                               
           </tbody>            
        </table><br/>
       </div>         
