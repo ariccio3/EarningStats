@@ -296,7 +296,19 @@ class EarningsCalendar extends Component {
               <td>Adobe</td>
               <td>6/14/2018</td>
               <td>amc</td>
-            </tr>                                                                                                                                                                              
+            </tr>   
+            <tr className="passed">
+              <td><Link to="/results/FDX">FDX</Link></td>
+              <td>FedEx</td>
+              <td>6/19/2018</td>
+              <td>amc</td>
+            </tr>
+            <tr className="passed">
+              <td><Link to="/results/MU">MU</Link></td>
+              <td>Micron Tech</td>
+              <td>6/20/2018</td>
+              <td>amc</td>
+            </tr>                                                                                                                                                                           
           </tbody>            
        </table><br/>
       </div>         
