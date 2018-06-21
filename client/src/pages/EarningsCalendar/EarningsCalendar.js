@@ -22,15 +22,9 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>
             <tr>
-              <td><Link to="/results/FDX">FDX</Link></td>
-              <td>FedEx</td>
-              <td>6/19/2018</td>
-              <td>amc</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/MU">MU</Link></td>
-              <td>Micron Tech</td>
-              <td>6/20/2018</td>
+              <td><Link to="/results/NKE">NKE</Link></td>
+              <td>Nike</td>
+              <td>6/28/2018</td>
               <td>amc</td>
             </tr>
             <tr>
@@ -38,12 +32,6 @@ class EarningsCalendar extends Component {
               <td>Constellation Brands</td>
               <td>6/29/2018</td>
               <td>bmo</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/NKE">NKE</Link></td>
-              <td>Nike</td>
-              <td>6/28/2018</td>
-              <td>amc</td>
             </tr>
             <tr className="passed">
               <td><Link to="/results/C">C</Link></td>
