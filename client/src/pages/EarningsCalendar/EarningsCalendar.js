@@ -22,18 +22,6 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>
             <tr>
-              <td><Link to="/results/NKE">NKE</Link></td>
-              <td>Nike</td>
-              <td>6/28/2018</td>
-              <td>amc</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/STZ">STZ</Link></td>
-              <td>Constellation Brands</td>
-              <td>6/29/2018</td>
-              <td>bmo</td>
-            </tr> 
-            <tr>
               <td><Link to="/results/PEP">PEP</Link></td>
               <td>Pepsi</td>
               <td>7/10/2018</td>
@@ -290,13 +278,25 @@ class EarningsCalendar extends Component {
               <td>Micron Tech</td>
               <td>9/25/2018</td>
               <td>amc</td>
-            </tr>   
+            </tr>      
+            <tr>
+              <td><Link to="/results/NKE">NKE</Link></td>
+              <td>Nike</td>
+              <td>9/25/2018</td>
+              <td>amc</td>
+            </tr> 
             <tr>
               <td><Link to="/results/COST">COST</Link></td>
               <td>Costco</td>
               <td>10/4/2018</td>
               <td>amc</td>
-            </tr>                                                                                                                                            
+            </tr>
+            <tr>
+              <td><Link to="/results/STZ">STZ</Link></td>
+              <td>Constellation Brands</td>
+              <td>10/4/2018</td>
+              <td>bmo</td>
+            </tr>                                                                                                                                         
           </tbody>            
        </table><br/>
       </div>         
