@@ -13,7 +13,7 @@ const Article = props => (
 	</p>
 	<p>
 		We focus only on the stocks with the most liquid options markets and higher priced stocks whose options offer larger premiums.  We are most interested in the 
-		stock’s expected move vs. the actual move. If you are new to options, we recommend you start <a href="https://www.tastytrade.com/tt/home" className="link" target="_blank" rel="noopener noreferrer">here</a>
+		stock’s expected move vs. the actual move. If you are new to options, we recommend you start <a href="https://www.tastytrade.com/tt/home" className="link" target="_blank" rel="noopener noreferrer">here.</a>
 	</p>
 	<p>	
 		<b>Expected Move: </b>There are three basic ways of calculating an expected range for an asset like stocks: the formula, the delta or the ballpark estimate 
