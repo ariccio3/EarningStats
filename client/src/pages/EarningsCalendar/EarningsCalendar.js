@@ -22,12 +22,6 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>
             <tr>
-              <td><Link to="/results/PEP">PEP</Link></td>
-              <td>Pepsi</td>
-              <td>7/10/2018</td>
-              <td>bmo</td>
-            </tr>
-            <tr>
               <td><Link to="/results/C">C</Link></td>
               <td>CitiGroup</td>
               <td>7/13/2018</td>
@@ -296,7 +290,13 @@ class EarningsCalendar extends Component {
               <td>Constellation Brands</td>
               <td>10/4/2018</td>
               <td>bmo</td>
-            </tr>                                                                                                                                         
+            </tr>      
+            <tr className="passed">
+              <td><Link to="/results/PEP">PEP</Link></td>
+              <td>Pepsi</td>
+              <td>7/10/2018</td>
+              <td>bmo</td>
+            </tr>                                                                                                                                   
           </tbody>            
        </table><br/>
       </div>         
