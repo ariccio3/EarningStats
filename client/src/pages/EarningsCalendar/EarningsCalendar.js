@@ -53,7 +53,7 @@ class EarningsCalendar extends Component {
             </tr>   
             <tr>
               <td><Link to="/results/MSFT">MSFT</Link></td>
-              <td>MicroSoft</td>
+              <td>Microsoft</td>
               <td>7/19/2018</td>
               <td>amc</td>
             </tr> 
@@ -61,18 +61,6 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/GOOGL">GOOGL</Link></td>
               <td>Google</td>
               <td>7/23/2018</td>
-              <td>amc</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/WYNN">WYNN</Link></td>
-              <td>Wynn Resorts</td>
-              <td>7/25/2018</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/AMGN">AMGN</Link></td>
-              <td>Amgen</td>
-              <td>7/25/2018</td>
               <td>amc</td>
             </tr>
             <tr>
@@ -100,11 +88,23 @@ class EarningsCalendar extends Component {
               <td>amc</td>
             </tr> 
             <tr>
+              <td><Link to="/results/WYNN">WYNN</Link></td>
+              <td>Wynn Resorts</td>
+              <td>7/25/2018</td>
+              <td>amc</td>
+            </tr> 
+            <tr>
               <td><Link to="/results/CELG">CELG</Link></td>
               <td>Celgene</td>
               <td>7/26/2018</td>
               <td>bmo</td>
             </tr>  
+            <tr>
+              <td><Link to="/results/MCD">MCD</Link></td>
+              <td>McDonalds</td>
+              <td>7/26/2018</td>
+              <td>bmo</td>
+            </tr> 
             <tr>
               <td><Link to="/results/UPS">UPS</Link></td>
               <td>United Parcel Service</td>
@@ -117,6 +117,12 @@ class EarningsCalendar extends Component {
               <td>7/26/2018</td>
               <td>amc</td>
             </tr> 
+            <tr>
+              <td><Link to="/results/AMGN">AMGN</Link></td>
+              <td>Amgen</td>
+              <td>7/26/2018</td>
+              <td>amc</td>
+            </tr>
             <tr>
               <td><Link to="/results/BIDU">BIDU</Link></td>
               <td>Baidu</td>
@@ -139,12 +145,6 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/XOM">XOM</Link></td>
               <td>Exxon Mobil</td>
               <td>7/27/2018</td>
-              <td>bmo</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/MCD">MCD</Link></td>
-              <td>McDonalds</td>
-              <td>7/24/2018</td>
               <td>bmo</td>
             </tr>  
             <tr>
@@ -252,7 +252,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/FDX">FDX</Link></td>
               <td>FedEx</td>
-              <td>9/18/2018</td>
+              <td>9/17/2018</td>
               <td>amc</td>
             </tr>
             <tr>
@@ -276,25 +276,25 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/STZ">STZ</Link></td>
               <td>Constellation Brands</td>
-              <td>10/4/2018</td>
+              <td>10/5/2018</td>
               <td>bmo</td>
             </tr>      
-            <tr className="passed">
+            <tr>
               <td><Link to="/results/PEP">PEP</Link></td>
               <td>Pepsi</td>
-              <td>7/10/2018</td>
+              <td>10/4/2018</td>
               <td>bmo</td>
             </tr>   
-            <tr className="passed">
+            <tr>
               <td><Link to="/results/C">C</Link></td>
               <td>CitiGroup</td>
-              <td>7/13/2018</td>
+              <td>10/12/2018</td>
               <td>bmo</td>
             </tr>
-            <tr className="passed">
+            <tr>
               <td><Link to="/results/JPM">JPM</Link></td>
               <td>JPMorgan Chase</td>
-              <td>7/13/2018</td>
+              <td>10/12/2018</td>
               <td>bmo</td>
             </tr>                                                                                                                                
           </tbody>            
