@@ -21,3 +21,8 @@ table {
 thead {
 	background-color: #d3e1ee;	
 }
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
