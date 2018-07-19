@@ -67,7 +67,7 @@ class Navbar extends Component {
       <nav className="navbar navbar-dark bg-primary navbar-fixed-top">
         <div className="container-fluid">
             <Link className="navbar-brand" to="/"><span className="glyphicon glyphicon-stats" aria-hidden="true"></span>
-              &nbsp;EarningStats
+              EarningStats
             </Link>
           <div className="formBox">
             <form>
