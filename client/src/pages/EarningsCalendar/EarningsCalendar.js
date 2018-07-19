@@ -20,37 +20,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <td><Link to="/results/NFLX">NFLX</Link></td>
-              <td>Netflix</td>
-              <td>7/16/2018</td>
-              <td>amc</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/GS">GS</Link></td>
-              <td>Goldman Sachs</td>
-              <td>7/17/2018</td>
-              <td>bmo</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/JNJ">JNJ</Link></td>
-              <td>Johnson &amp; Johnson</td>
-              <td>7/17/2018</td>
-              <td>bmo</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/IBM">IBM</Link></td>
-              <td>International Business Machines</td>
-              <td>7/18/2018</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/AXP">AXP</Link></td>
-              <td>American Express</td>
-              <td>7/18/2018</td>
-              <td>amc</td>
-            </tr>   
+          <tbody>  
             <tr>
               <td><Link to="/results/MSFT">MSFT</Link></td>
               <td>Microsoft</td>
@@ -296,6 +266,36 @@ class EarningsCalendar extends Component {
               <td>JPMorgan Chase</td>
               <td>10/12/2018</td>
               <td>bmo</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/NFLX">NFLX</Link></td>
+              <td>Netflix</td>
+              <td>10/15/2018</td>
+              <td>amc</td>
+            </tr>
+            <tr>
+              <td><Link to="/results/GS">GS</Link></td>
+              <td>Goldman Sachs</td>
+              <td>10/16/2018</td>
+              <td>bmo</td>
+            </tr>
+            <tr>
+              <td><Link to="/results/JNJ">JNJ</Link></td>
+              <td>Johnson &amp; Johnson</td>
+              <td>10/16/2018</td>
+              <td>bmo</td>
+            </tr>
+            <tr>
+              <td><Link to="/results/IBM">IBM</Link></td>
+              <td>International Business Machines</td>
+              <td>10/17/2018</td>
+              <td>amc</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/AXP">AXP</Link></td>
+              <td>American Express</td>
+              <td>10/17/2018</td>
+              <td>amc</td>
             </tr>                                                                                                                                
           </tbody>            
        </table><br/>

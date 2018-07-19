@@ -578,10 +578,7 @@ class Results extends Component {
         <table className="table table-striped table-hover table-bordered">
           <thead>
             <tr>
-              <th className="col-xs-8">Totals &emsp;
-                {/*<a href={`${this.props.match.params.stock}`} className="glyphicon glyphicon-stats" style={{ textDecoration: 'none', color:'black'}}>
-                </a>*/}
-              </th>
+              <th className="col-xs-8">Totals &emsp;</th>
               <th className="col-xs-2"><Link style={{ textDecoration: 'none', color:'black'}} to={`/proscons/${this.props.match.params.stock}`}>{this.props.match.params.stock}</Link></th>
               <th title="EarningStats Watchlist" className="col-xs-2"><Link to="/annual" style={{ textDecoration: 'none', color:'black'}}>ES{this.watchListCount()}</Link></th>
             </tr>
