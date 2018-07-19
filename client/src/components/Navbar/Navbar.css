@@ -55,7 +55,7 @@ button {
 @media screen and (max-width: 768px) {
 	.navbar-brand {
 		padding-left: 2px;
-		font-size: 125%;
+		font-size: 110%;
 	}
 
 	.form-control {
