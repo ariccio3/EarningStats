@@ -34,6 +34,12 @@ class EarningsCalendar extends Component {
               <td>bmo</td>
             </tr>
             <tr>
+              <td><Link to="/results/UPS">UPS</Link></td>
+              <td>United Parcel Service</td>
+              <td>7/25/2018</td>
+              <td>bmo</td>
+            </tr>  
+            <tr>
               <td><Link to="/results/FB">FB</Link></td>
               <td>Facebook</td>
               <td>7/25/2018</td>
@@ -52,12 +58,6 @@ class EarningsCalendar extends Component {
               <td>amc</td>
             </tr> 
             <tr>
-              <td><Link to="/results/WYNN">WYNN</Link></td>
-              <td>Wynn Resorts</td>
-              <td>7/25/2018</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
               <td><Link to="/results/CELG">CELG</Link></td>
               <td>Celgene</td>
               <td>7/26/2018</td>
@@ -70,12 +70,6 @@ class EarningsCalendar extends Component {
               <td>bmo</td>
             </tr> 
             <tr>
-              <td><Link to="/results/UPS">UPS</Link></td>
-              <td>United Parcel Service</td>
-              <td>7/26/2018</td>
-              <td>bmo</td>
-            </tr>  
-            <tr>
               <td><Link to="/results/AMZN">AMZN</Link></td>
               <td>Amazon</td>
               <td>7/26/2018</td>
@@ -87,12 +81,6 @@ class EarningsCalendar extends Component {
               <td>7/26/2018</td>
               <td>amc</td>
             </tr>
-            <tr>
-              <td><Link to="/results/BIDU">BIDU</Link></td>
-              <td>Baidu</td>
-              <td>7/26/2018</td>
-              <td>amc</td>
-            </tr> 
             <tr>
               <td><Link to="/results/CMG">CMG</Link></td>
               <td>Chipotle Mexican Grill</td>
@@ -122,13 +110,25 @@ class EarningsCalendar extends Component {
               <td>Apple</td>
               <td>7/31/2018</td>
               <td>amc</td>
-            </tr>     
+            </tr>    
+            <tr>
+              <td><Link to="/results/BIDU">BIDU</Link></td>
+              <td>Baidu</td>
+              <td>7/31/2018</td>
+              <td>amc</td>
+            </tr>  
             <tr>
               <td><Link to="/results/TSLA">TSLA</Link></td>
               <td>Tesla</td>
               <td>8/1/2018</td>
               <td>amc</td>
             </tr>    
+            <tr>
+              <td><Link to="/results/WYNN">WYNN</Link></td>
+              <td>Wynn Resorts</td>
+              <td>8/1/2018</td>
+              <td>amc</td>
+            </tr> 
             <tr>
               <td><Link to="/results/BABA">BABA</Link></td>
               <td>Alibaba</td>
