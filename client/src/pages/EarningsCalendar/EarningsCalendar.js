@@ -22,54 +22,6 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>
             <tr>
-              <td><Link to="/results/GOOGL">GOOGL</Link></td>
-              <td>Google</td>
-              <td>7/23/2018</td>
-              <td>amc</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/BA">BA</Link></td>
-              <td>Boeing</td>
-              <td>7/25/2018</td>
-              <td>bmo</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/UPS">UPS</Link></td>
-              <td>United Parcel Service</td>
-              <td>7/25/2018</td>
-              <td>bmo</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/FB">FB</Link></td>
-              <td>Facebook</td>
-              <td>7/25/2018</td>
-              <td>amc</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/V">V</Link></td>
-              <td>Visa</td>
-              <td>7/25/2018</td>
-              <td>amc</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/GILD">GILD</Link></td>
-              <td>Gilead Sciences</td>
-              <td>7/25/2018</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/CELG">CELG</Link></td>
-              <td>Celgene</td>
-              <td>7/26/2018</td>
-              <td>bmo</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/MCD">MCD</Link></td>
-              <td>McDonalds</td>
-              <td>7/26/2018</td>
-              <td>bmo</td>
-            </tr> 
-            <tr>
               <td><Link to="/results/AMZN">AMZN</Link></td>
               <td>Amazon</td>
               <td>7/26/2018</td>
@@ -296,7 +248,55 @@ class EarningsCalendar extends Component {
               <td>Microsoft</td>
               <td>7/19/2018</td>
               <td>amc</td>
-            </tr>                                                                                                                              
+            </tr>   
+            <tr>
+              <td><Link to="/results/GOOGL">GOOGL</Link></td>
+              <td>Google</td>
+              <td>7/23/2018</td>
+              <td>amc</td>
+            </tr>
+            <tr>
+              <td><Link to="/results/BA">BA</Link></td>
+              <td>Boeing</td>
+              <td>7/25/2018</td>
+              <td>bmo</td>
+            </tr>
+            <tr>
+              <td><Link to="/results/UPS">UPS</Link></td>
+              <td>United Parcel Service</td>
+              <td>7/25/2018</td>
+              <td>bmo</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/FB">FB</Link></td>
+              <td>Facebook</td>
+              <td>7/25/2018</td>
+              <td>amc</td>
+            </tr>
+            <tr>
+              <td><Link to="/results/V">V</Link></td>
+              <td>Visa</td>
+              <td>7/25/2018</td>
+              <td>amc</td>
+            </tr>
+            <tr>
+              <td><Link to="/results/GILD">GILD</Link></td>
+              <td>Gilead Sciences</td>
+              <td>7/25/2018</td>
+              <td>amc</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/CELG">CELG</Link></td>
+              <td>Celgene</td>
+              <td>7/26/2018</td>
+              <td>bmo</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/MCD">MCD</Link></td>
+              <td>McDonalds</td>
+              <td>7/26/2018</td>
+              <td>bmo</td>
+            </tr>                                                                                                                            
           </tbody>            
        </table><br/>
       </div>         
