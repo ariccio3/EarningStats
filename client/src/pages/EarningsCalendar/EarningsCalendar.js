@@ -22,36 +22,6 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>
             <tr>
-              <td><Link to="/results/AMZN">AMZN</Link></td>
-              <td>Amazon</td>
-              <td>7/26/2018</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/AMGN">AMGN</Link></td>
-              <td>Amgen</td>
-              <td>7/26/2018</td>
-              <td>amc</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/CMG">CMG</Link></td>
-              <td>Chipotle Mexican Grill</td>
-              <td>7/26/2018</td>
-              <td>amc</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/CVX">CVX</Link></td>
-              <td>Cheveron</td>
-              <td>7/27/2018</td>
-              <td>bmo</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/XOM">XOM</Link></td>
-              <td>Exxon Mobil</td>
-              <td>7/27/2018</td>
-              <td>bmo</td>
-            </tr>  
-            <tr>
               <td><Link to="/results/CAT">CAT</Link></td>
               <td>Caterpillar</td>
               <td>7/30/2018</td>
@@ -296,7 +266,37 @@ class EarningsCalendar extends Component {
               <td>McDonalds</td>
               <td>10/26/2018</td>
               <td>bmo</td>
-            </tr>                                                                                                                            
+            </tr>   
+            <tr>
+              <td><Link to="/results/AMZN">AMZN</Link></td>
+              <td>Amazon</td>
+              <td>7/26/2018</td>
+              <td>amc</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/AMGN">AMGN</Link></td>
+              <td>Amgen</td>
+              <td>7/26/2018</td>
+              <td>amc</td>
+            </tr>
+            <tr>
+              <td><Link to="/results/CMG">CMG</Link></td>
+              <td>Chipotle Mexican Grill</td>
+              <td>7/26/2018</td>
+              <td>amc</td>
+            </tr>
+            <tr>
+              <td><Link to="/results/CVX">CVX</Link></td>
+              <td>Cheveron</td>
+              <td>7/27/2018</td>
+              <td>bmo</td>
+            </tr>
+            <tr>
+              <td><Link to="/results/XOM">XOM</Link></td>
+              <td>Exxon Mobil</td>
+              <td>7/27/2018</td>
+              <td>bmo</td>
+            </tr>                                                                                                                           
           </tbody>            
        </table><br/>
       </div>         
