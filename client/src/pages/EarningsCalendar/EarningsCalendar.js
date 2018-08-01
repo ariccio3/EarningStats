@@ -22,18 +22,6 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody> 
             <tr>
-              <td><Link to="/results/AAPL">AAPL</Link></td>
-              <td>Apple</td>
-              <td>7/31/2018</td>
-              <td>amc</td>
-            </tr>    
-            <tr>
-              <td><Link to="/results/BIDU">BIDU</Link></td>
-              <td>Baidu</td>
-              <td>7/31/2018</td>
-              <td>amc</td>
-            </tr>  
-            <tr>
               <td><Link to="/results/TSLA">TSLA</Link></td>
               <td>Tesla</td>
               <td>8/1/2018</td>
@@ -290,7 +278,19 @@ class EarningsCalendar extends Component {
               <td>Facebook</td>
               <td>10/31/2018</td>
               <td>amc</td>
-            </tr>                                                                                                                 
+            </tr>       
+            <tr>
+              <td><Link to="/results/AAPL">AAPL</Link></td>
+              <td>Apple</td>
+              <td>7/31/2018</td>
+              <td>amc</td>
+            </tr>    
+            <tr>
+              <td><Link to="/results/BIDU">BIDU</Link></td>
+              <td>Baidu</td>
+              <td>7/31/2018</td>
+              <td>amc</td>
+            </tr>                                                                                                            
           </tbody>            
        </table><br/>
       </div>         
