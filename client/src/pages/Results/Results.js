@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import API from "../../utils/API";
-import "./Results.css";
+import "./results.css";
 import { Link } from "react-router-dom";
-// import AAPL from "./AAPL.JPG";
-// import "./AAPL.JPG";
 
 class Results extends Component {
   state = {
@@ -739,7 +737,12 @@ class Results extends Component {
               <td>Average % Actual Move</td>
               <td>{this.stockAvgActualMove()}%</td>
               <td>{this.watchListAvgActualMove()}%</td>
-            </tr>            
+            </tr>        
+            <tr>
+              <td>Avg Expected vs. Avg Actual Ratio</td>
+              <td>{Math.floor((1-(this.stockAvgActualMove() / this.stockAvgExpectedMove())) *100)}%</td>
+              <td>{Math.floor((1-(this.watchListAvgActualMove() / this.watchListAvgExpectedMove())) *100)}%</td>
+            </tr>         
             <tr>
               <td><strong><Link to="/sorted/belowavgem" style={{ textDecoration: 'none' }}>Below Avg % Expected Move % Inside &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
               <td>{this.stockBelowAvgExpectedMove()}%</td>
