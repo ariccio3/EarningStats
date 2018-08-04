@@ -44,19 +44,19 @@ class EarningsCalendar extends Component {
               <td>Home Depot</td>
               <td>8/14/2018</td>
               <td>bmo</td>
-            </tr>      
-            <tr>
-              <td><Link to="/results/NVDA">NVDA</Link></td>
-              <td>NVIDIA</td>
-              <td>8/16/2018</td>
-              <td>amc</td>
             </tr>    
             <tr>
               <td><Link to="/results/WMT">WMT</Link></td>
               <td>Walmart</td>
               <td>8/16/2018</td>
               <td>bmo</td>
-            </tr>
+            </tr>     
+            <tr>
+              <td><Link to="/results/NVDA">NVDA</Link></td>
+              <td>NVIDIA</td>
+              <td>8/16/2018</td>
+              <td>amc</td>
+            </tr> 
             <tr>
               <td><Link to="/results/DE">DE</Link></td>
               <td>Deere &amp; Company</td>
@@ -182,7 +182,13 @@ class EarningsCalendar extends Component {
               <td>American Express</td>
               <td>10/17/2018</td>
               <td>amc</td>
-            </tr>   
+            </tr>     
+            <tr>
+              <td><Link to="/results/CAT">CAT</Link></td>
+              <td>Caterpillar</td>
+              <td>10/23/2018</td>
+              <td>bmo</td>
+            </tr>     
             <tr>
               <td><Link to="/results/MCD">MCD</Link></td>
               <td>McDonalds</td>
@@ -224,7 +230,13 @@ class EarningsCalendar extends Component {
               <td>Amgen</td>
               <td>10/25/2018</td>
               <td>amc</td>
-            </tr>
+            </tr>  
+            <tr>
+              <td><Link to="/results/BIDU">BIDU</Link></td>
+              <td>Baidu</td>
+              <td>10/25/2018</td>
+              <td>amc</td>
+            </tr>  
             <tr>
               <td><Link to="/results/CMG">CMG</Link></td>
               <td>Chipotle Mexican Grill</td>
@@ -242,7 +254,13 @@ class EarningsCalendar extends Component {
               <td>Microsoft</td>
               <td>10/25/2018</td>
               <td>amc</td>
-            </tr> 
+            </tr>    
+            <tr>
+              <td><Link to="/results/WYNN">WYNN</Link></td>
+              <td>Wynn Resorts</td>
+              <td>10/25/2018</td>
+              <td>amc</td>
+            </tr>   
             <tr>
               <td><Link to="/results/CVX">CVX</Link></td>
               <td>Cheveron</td>
@@ -254,43 +272,25 @@ class EarningsCalendar extends Component {
               <td>Exxon Mobil</td>
               <td>10/26/2018</td>
               <td>bmo</td>
-            </tr>     
+            </tr>    
             <tr>
-              <td><Link to="/results/CAT">CAT</Link></td>
-              <td>Caterpillar</td>
+              <td><Link to="/results/AAPL">AAPL</Link></td>
+              <td>Apple</td>
               <td>10/30/2018</td>
-              <td>bmo</td>
-            </tr>        
+              <td>amc</td>
+            </tr>          
             <tr>
               <td><Link to="/results/FB">FB</Link></td>
               <td>Facebook</td>
               <td>10/31/2018</td>
               <td>amc</td>
-            </tr>       
-            <tr>
-              <td><Link to="/results/AAPL">AAPL</Link></td>
-              <td>Apple</td>
-              <td>7/31/2018</td>
-              <td>amc</td>
             </tr>    
-            <tr>
-              <td><Link to="/results/BIDU">BIDU</Link></td>
-              <td>Baidu</td>
-              <td>7/31/2018</td>
-              <td>amc</td>
-            </tr>     
             <tr>
               <td><Link to="/results/TSLA">TSLA</Link></td>
               <td>Tesla</td>
-              <td>8/1/2018</td>
+              <td>10/31/2018</td>
               <td>amc</td>
-            </tr>    
-            <tr>
-              <td><Link to="/results/WYNN">WYNN</Link></td>
-              <td>Wynn Resorts</td>
-              <td>8/1/2018</td>
-              <td>amc</td>
-            </tr>                                                                                                          
+            </tr>                                                                                                        
           </tbody>            
        </table><br/>
       </div>         
