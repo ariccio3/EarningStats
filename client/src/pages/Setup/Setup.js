@@ -117,8 +117,8 @@ class Setup extends Component {
   };  
 
   render() {
-console.log(this.state.em1);
-console.log(this.state.price1);
+console.log(this.state.setupList);
+// console.log(this.state.price1);
 
     return (
       <div className="tableContainer"> 
