@@ -164,12 +164,24 @@ class EarningsCalendar extends Component {
               <td>American Express</td>
               <td>10/17/2018</td>
               <td>amc</td>
-            </tr>     
+            </tr>  
+            <tr>
+              <td><Link to="/results/PYPL">PYPL</Link></td>
+              <td>PayPal</td>
+              <td>10/18/2018</td>
+              <td>amc</td>
+            </tr>      
             <tr>
               <td><Link to="/results/CAT">CAT</Link></td>
               <td>Caterpillar</td>
               <td>10/23/2018</td>
               <td>bmo</td>
+            </tr>    
+            <tr>
+              <td><Link to="/results/TXN">TXN</Link></td>
+              <td>Texas Instruments</td>
+              <td>10/23/2018</td>
+              <td>amc</td>
             </tr>     
             <tr>
               <td><Link to="/results/MCD">MCD</Link></td>
@@ -260,7 +272,13 @@ class EarningsCalendar extends Component {
               <td>Apple</td>
               <td>10/30/2018</td>
               <td>amc</td>
-            </tr>          
+            </tr>     
+            <tr>
+              <td><Link to="/results/EA">EA</Link></td>
+              <td>Electronic Arts</td>
+              <td>10/30/2018</td>
+              <td>amc</td>
+            </tr>        
             <tr>
               <td><Link to="/results/FB">FB</Link></td>
               <td>Facebook</td>
@@ -285,6 +303,12 @@ class EarningsCalendar extends Component {
               <td>11/6/2018</td>
               <td>amc</td>
             </tr>     
+            <tr>
+              <td><Link to="/results/SQ">SQ</Link></td>
+              <td>Square</td>
+              <td>11/7/2018</td>
+              <td>amc</td>
+            </tr>  
             <tr>
               <td><Link to="/results/NTES">NTES</Link></td>
               <td>NetEase</td>
