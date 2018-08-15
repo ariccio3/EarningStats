@@ -20,13 +20,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>
           </thead>
-          <tbody>   
-            <tr>
-              <td><Link to="/results/HD">HD</Link></td>
-              <td>Home Depot</td>
-              <td>8/14/2018</td>
-              <td>bmo</td>
-            </tr>    
+          <tbody>    
             <tr>
               <td><Link to="/results/WMT">WMT</Link></td>
               <td>Walmart</td>
@@ -54,7 +48,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/CRM">CRM</Link></td>
               <td>SalesForce</td>
-              <td>8/22/2018</td>
+              <td>8/29/2018</td>
               <td>amc</td>
             </tr>   
             <tr>
@@ -314,6 +308,12 @@ class EarningsCalendar extends Component {
               <td>NetEase</td>
               <td>11/14/2018</td>
               <td>amc</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/HD">HD</Link></td>
+              <td>Home Depot</td>
+              <td>11/14/2018</td>
+              <td>bmo</td>
             </tr>                                                                                                      
           </tbody>            
        </table><br/>
