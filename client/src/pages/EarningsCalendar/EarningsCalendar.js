@@ -20,25 +20,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>
           </thead>
-          <tbody>    
-            <tr>
-              <td><Link to="/results/WMT">WMT</Link></td>
-              <td>Walmart</td>
-              <td>8/16/2018</td>
-              <td>bmo</td>
-            </tr>     
-            <tr>
-              <td><Link to="/results/NVDA">NVDA</Link></td>
-              <td>NVIDIA</td>
-              <td>8/16/2018</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/DE">DE</Link></td>
-              <td>Deere &amp; Company</td>
-              <td>8/17/2018</td>
-              <td>bmo</td>
-            </tr>   
+          <tbody>   
             <tr>
               <td><Link to="/results/TGT">TGT</Link></td>
               <td>Target</td>
@@ -313,6 +295,24 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/HD">HD</Link></td>
               <td>Home Depot</td>
               <td>11/14/2018</td>
+              <td>bmo</td>
+            </tr>    
+            <tr>
+              <td><Link to="/results/WMT">WMT</Link></td>
+              <td>Walmart</td>
+              <td>11/16/2018</td>
+              <td>bmo</td>
+            </tr>     
+            <tr>
+              <td><Link to="/results/NVDA">NVDA</Link></td>
+              <td>NVIDIA</td>
+              <td>11/16/2018</td>
+              <td>amc</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/DE">DE</Link></td>
+              <td>Deere &amp; Company</td>
+              <td>11/17/2018</td>
               <td>bmo</td>
             </tr>                                                                                                      
           </tbody>            
