@@ -26,13 +26,7 @@ class EarningsCalendar extends Component {
               <td>Target</td>
               <td>8/22/2018</td>
               <td>bmo</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/CRM">CRM</Link></td>
-              <td>SalesForce</td>
-              <td>8/29/2018</td>
-              <td>amc</td>
-            </tr>   
+            </tr>  
             <tr>
               <td><Link to="/results/BABA">BABA</Link></td>
               <td>Alibaba</td>
@@ -46,17 +40,23 @@ class EarningsCalendar extends Component {
               <td>amc</td>
             </tr>
             <tr>
-              <td><Link to="/results/AVGO">AVGO</Link></td>
-              <td>Avago Technologies</td>
-              <td>8/23/2018</td>
+              <td><Link to="/results/CRM">CRM</Link></td>
+              <td>SalesForce</td>
+              <td>8/29/2018</td>
               <td>amc</td>
-            </tr>  
+            </tr>   
             <tr>
               <td><Link to="/results/LULU">LULU</Link></td>
               <td>lululemon</td>
               <td>8/30/2018</td>
               <td>amc</td>
             </tr>  
+            <tr>
+              <td><Link to="/results/AVGO">AVGO</Link></td>
+              <td>Avago Technologies</td>
+              <td>9/6/2018</td>
+              <td>amc</td>
+            </tr> 
             <tr>
               <td><Link to="/results/ADBE">ADBE</Link></td>
               <td>Adobe</td>
@@ -84,7 +84,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/PEP">PEP</Link></td>
               <td>Pepsi</td>
-              <td>10/4/2018</td>
+              <td>10/2/2018</td>
               <td>bmo</td>
             </tr> 
             <tr>

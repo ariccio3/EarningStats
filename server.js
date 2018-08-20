@@ -20,8 +20,9 @@ mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/earnings_data",
     {
     	useMongoClient: true
-  }
-);
+  }, function(err) {
+    // err handle
+});
 
 // Start the API server
 app.listen(PORT, function() {

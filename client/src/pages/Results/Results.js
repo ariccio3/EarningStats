@@ -740,8 +740,8 @@ class Results extends Component {
             </tr>        
             <tr>
               <td>Avg Expected vs. Avg Actual Ratio</td>
-              <td>{Math.floor((1-(this.stockAvgActualMove() / this.stockAvgExpectedMove())) *100)}%</td>
-              <td>{Math.floor((1-(this.watchListAvgActualMove() / this.watchListAvgExpectedMove())) *100)}%</td>
+              <td>{Math.floor(1-(this.stockAvgActualMove() / this.stockAvgExpectedMove()) *100)}%</td>
+              <td>{Math.floor(1-(this.watchListAvgActualMove() / this.watchListAvgExpectedMove()) *100)}%</td>
             </tr>         
             <tr>
               <td><strong><Link to="/sorted/belowavgem" style={{ textDecoration: 'none' }}>Below Avg % Expected Move % Inside &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
