@@ -739,7 +739,7 @@ class Results extends Component {
               <td>{this.watchListAvgActualMove()}%</td>
             </tr>        
             <tr>
-              <td>Avg Expected vs. Avg Actual Ratio</td>
+              <td>Avg Actual Move vs. Expected Move Ratio</td>
               <td>{Math.floor((this.stockAvgActualMove() / this.stockAvgExpectedMove()) *100)}%</td>
               <td>{Math.floor((this.watchListAvgActualMove() / this.watchListAvgExpectedMove()) *100)}%</td>
             </tr>         
