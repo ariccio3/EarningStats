@@ -312,7 +312,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/PEP">PEP</Link></td>
               <td>Pepsi</td>
-              <td>1/2/2018</td>
+              <td>1/2/2019</td>
               <td>bmo</td>
             </tr>                                                                  
           </tbody>            
