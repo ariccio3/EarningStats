@@ -174,7 +174,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/AMGN">AMGN</Link></td>
               <td>Amgen</td>
-              <td>10/26/2018</td>
+              <td>10/30/2018</td>
               <td>amc</td>
             </tr>   
             <tr>
@@ -192,7 +192,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/FB">FB</Link></td>
               <td>Facebook</td>
-              <td>10/31/2018</td>
+              <td>10/30/2018</td>
               <td>amc</td>
             </tr>    
             <tr>
@@ -264,7 +264,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/TGT">TGT</Link></td>
               <td>Target</td>
-              <td>11/21/2018</td>
+              <td>11/20/2018</td>
               <td>bmo</td>
             </tr>
             <tr>
