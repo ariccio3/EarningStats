@@ -21,7 +21,6 @@ const RankExp = props => (
 		<br /><br />
 	</p>
 		<ul className="criteria">
-			<li>Actual ≥ 2x Expected</li>
 			<li>Actual ≤ 2x Expected</li>
 			<li>Actual ≤ 1.75x Expected</li>
 			<li>Actual ≤ 1.5x Expected</li>
