@@ -22,18 +22,6 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>  
             <tr>
-              <td><Link to="/results/C">C</Link></td>
-              <td>CitiGroup</td>
-              <td>10/12/2018</td>
-              <td>bmo</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/JPM">JPM</Link></td>
-              <td>JPMorgan Chase</td>
-              <td>10/12/2018</td>
-              <td>bmo</td>
-            </tr> 
-            <tr>
               <td><Link to="/results/GS">GS</Link></td>
               <td>Goldman Sachs</td>
               <td>10/16/2018</td>
@@ -314,7 +302,19 @@ class EarningsCalendar extends Component {
               <td>Costco</td>
               <td>1/4/2019</td>
               <td>amc</td>
-            </tr>                                                      
+            </tr>    
+            <tr>
+              <td><Link to="/results/C">C</Link></td>
+              <td>CitiGroup</td>
+              <td>1/12/2019</td>
+              <td>bmo</td>
+            </tr>
+            <tr>
+              <td><Link to="/results/JPM">JPM</Link></td>
+              <td>JPMorgan Chase</td>
+              <td>1/12/2019</td>
+              <td>bmo</td>
+            </tr>                                                   
           </tbody>            
        </table><br/>
       </div>         
