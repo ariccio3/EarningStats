@@ -22,30 +22,6 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>  
             <tr>
-              <td><Link to="/results/GS">GS</Link></td>
-              <td>Goldman Sachs</td>
-              <td>10/16/2018</td>
-              <td>bmo</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/JNJ">JNJ</Link></td>
-              <td>Johnson &amp; Johnson</td>
-              <td>10/16/2018</td>
-              <td>bmo</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/IBM">IBM</Link></td>
-              <td>International Business Machines</td>
-              <td>10/16/2018</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/NFLX">NFLX</Link></td>
-              <td>Netflix</td>
-              <td>10/16/2018</td>
-              <td>amc</td>
-            </tr>
-            <tr>
               <td><Link to="/results/AXP">AXP</Link></td>
               <td>American Express</td>
               <td>10/18/2018</td>
@@ -314,7 +290,31 @@ class EarningsCalendar extends Component {
               <td>Pepsi</td>
               <td>2/13/2019</td>
               <td>bmo</td>
-            </tr>                                                 
+            </tr>       
+            <tr>
+              <td><Link to="/results/GS">GS</Link></td>
+              <td>Goldman Sachs</td>
+              <td>2/16/2019</td>
+              <td>bmo</td>
+            </tr>
+            <tr>
+              <td><Link to="/results/JNJ">JNJ</Link></td>
+              <td>Johnson &amp; Johnson</td>
+              <td>2/16/2019</td>
+              <td>bmo</td>
+            </tr>
+            <tr>
+              <td><Link to="/results/IBM">IBM</Link></td>
+              <td>International Business Machines</td>
+              <td>2/16/2019</td>
+              <td>amc</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/NFLX">NFLX</Link></td>
+              <td>Netflix</td>
+              <td>2/16/2019</td>
+              <td>amc</td>
+            </tr>                                          
           </tbody>            
        </table><br/>
       </div>         
