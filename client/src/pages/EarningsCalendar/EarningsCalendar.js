@@ -20,19 +20,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>
           </thead>
-          <tbody>  
-            <tr>
-              <td><Link to="/results/AXP">AXP</Link></td>
-              <td>American Express</td>
-              <td>10/18/2018</td>
-              <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/PYPL">PYPL</Link></td>
-              <td>PayPal</td>
-              <td>10/18/2018</td>
-              <td>amc</td>
-            </tr>    
+          <tbody>   
             <tr>
               <td><Link to="/results/CAT">CAT</Link></td>
               <td>Caterpillar</td>
@@ -313,6 +301,18 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/NFLX">NFLX</Link></td>
               <td>Netflix</td>
               <td>2/16/2019</td>
+              <td>amc</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/AXP">AXP</Link></td>
+              <td>American Express</td>
+              <td>2/18/2019</td>
+              <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/PYPL">PYPL</Link></td>
+              <td>PayPal</td>
+              <td>2/18/2019</td>
               <td>amc</td>
             </tr>                                          
           </tbody>            
