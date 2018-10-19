@@ -60,10 +60,10 @@ class Rank extends Component {
           <area shape="rect" coords="3,1214,75,1187" href="http://www.earningstats.com/results/FB" alt="" / >
           <area shape="rect" coords="3,1241,75,1214" href="http://www.earningstats.com/results/NTES" alt="" / >
           <area shape="rect" coords="3,1268,75,1241" href="http://www.earningstats.com/results/GOOGL" alt="" / >
-          <area shape="rect" coords="3,1187,75,1160" href="http://www.earningstats.com/results/LULU" alt="" / >
-          <area shape="rect" coords="3,1214,75,1187" href="http://www.earningstats.com/results/AMZN" alt="" / >
-          <area shape="rect" coords="3,1241,75,1214" href="http://www.earningstats.com/results/BKNG" alt="" / >
-          <area shape="rect" coords="3,1268,75,1241" href="http://www.earningstats.com/results/NFLX" alt="" / >
+          <area shape="rect" coords="3,1295,75,1268" href="http://www.earningstats.com/results/LULU" alt="" / >
+          <area shape="rect" coords="3,1322,75,1295" href="http://www.earningstats.com/results/AMZN" alt="" / >
+          <area shape="rect" coords="3,1349,75,1322" href="http://www.earningstats.com/results/BKNG" alt="" / >
+          <area shape="rect" coords="3,1376,75,1349" href="http://www.earningstats.com/results/NFLX" alt="" / >
 
         </map>
 
