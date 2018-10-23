@@ -314,7 +314,19 @@ class EarningsCalendar extends Component {
               <td>Pepsi</td>
               <td>2/13/2019</td>
               <td>bmo</td>
-            </tr>                                       
+            </tr>     
+            <tr>
+              <td><Link to="/results/CAT">CAT</Link></td>
+              <td>Caterpillar</td>
+              <td>2/23/2018</td>
+              <td>bmo</td>
+            </tr>       
+            <tr>
+              <td><Link to="/results/MCD">MCD</Link></td>
+              <td>McDonalds</td>
+              <td>2/23/2018</td>
+              <td>bmo</td>
+            </tr>                                     
           </tbody>            
        </table><br/>
       </div>         
