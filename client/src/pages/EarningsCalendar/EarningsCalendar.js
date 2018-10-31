@@ -20,31 +20,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>
           </thead>
-          <tbody>    
-            <tr>
-              <td><Link to="/results/AMGN">AMGN</Link></td>
-              <td>Amgen</td>
-              <td>10/30/2018</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/BIDU">BIDU</Link></td>
-              <td>Baidu</td>
-              <td>10/30/2018</td>
-              <td>amc</td>
-            </tr>      
-            <tr>
-              <td><Link to="/results/EA">EA</Link></td>
-              <td>Electronic Arts</td>
-              <td>10/30/2018</td>
-              <td>amc</td>
-            </tr>        
-            <tr>
-              <td><Link to="/results/FB">FB</Link></td>
-              <td>Facebook</td>
-              <td>10/30/2018</td>
-              <td>amc</td>
-            </tr>   
+          <tbody>      
             <tr>
               <td><Link to="/results/AAPL">AAPL</Link></td>
               <td>Apple</td>
@@ -314,7 +290,31 @@ class EarningsCalendar extends Component {
               <td>Google</td>
               <td>2/25/2019</td>
               <td>amc</td>
-            </tr>                     
+            </tr>   
+            <tr>
+              <td><Link to="/results/AMGN">AMGN</Link></td>
+              <td>Amgen</td>
+              <td>2/30/2019</td>
+              <td>amc</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/BIDU">BIDU</Link></td>
+              <td>Baidu</td>
+              <td>2/30/2019</td>
+              <td>amc</td>
+            </tr>      
+            <tr>
+              <td><Link to="/results/EA">EA</Link></td>
+              <td>Electronic Arts</td>
+              <td>2/30/2019</td>
+              <td>amc</td>
+            </tr>        
+            <tr>
+              <td><Link to="/results/FB">FB</Link></td>
+              <td>Facebook</td>
+              <td>2/30/2019</td>
+              <td>amc</td>
+            </tr>                   
           </tbody>            
        </table><br/>
       </div>         
