@@ -20,19 +20,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>
           </thead>
-          <tbody>      
-            <tr>
-              <td><Link to="/results/SQ">SQ</Link></td>
-              <td>Square</td>
-              <td>11/7/2018</td>
-              <td>amc</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/WYNN">WYNN</Link></td>
-              <td>Wynn Resorts</td>
-              <td>11/7/2018</td>
-              <td>amc</td>
-            </tr>   
+          <tbody>    
             <tr>
               <td><Link to="/results/DIS">DIS</Link></td>
               <td>Disney</td>
@@ -68,10 +56,10 @@ class EarningsCalendar extends Component {
               <td>Target</td>
               <td>11/20/2018</td>
               <td>bmo</td>
-            </tr> 
+            </tr>    
             <tr>
-              <td><Link to="/results/CRM">CRM</Link></td>
-              <td>SalesForce</td>
+              <td><Link to="/results/ADSK">ADSK</Link></td>
+              <td>Autodesk</td>
               <td>11/20/2018</td>
               <td>amc</td>
             </tr> 
@@ -80,10 +68,10 @@ class EarningsCalendar extends Component {
               <td>Deere &amp; Company</td>
               <td>11/21/2018</td>
               <td>bmo</td>
-            </tr>    
+            </tr>      
             <tr>
-              <td><Link to="/results/ADSK">ADSK</Link></td>
-              <td>Autodesk</td>
+              <td><Link to="/results/CRM">CRM</Link></td>
+              <td>SalesForce</td>
               <td>11/27/2018</td>
               <td>amc</td>
             </tr>         
@@ -314,7 +302,19 @@ class EarningsCalendar extends Component {
               <td>Booking</td>
               <td>3/5/2019</td>
               <td>amc</td>
-            </tr>                  
+            </tr>      
+            <tr>
+              <td><Link to="/results/SQ">SQ</Link></td>
+              <td>Square</td>
+              <td>3/7/2019</td>
+              <td>amc</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/WYNN">WYNN</Link></td>
+              <td>Wynn Resorts</td>
+              <td>3/7/2019</td>
+              <td>amc</td>
+            </tr>            
           </tbody>            
        </table><br/>
       </div>         
