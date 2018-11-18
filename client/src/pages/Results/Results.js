@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import API from "../../utils/API";
 import "./results.css";
 import { Link } from "react-router-dom";
+import AAPL from "./Charts/AAPL.JPG";
 
 class Results extends Component {
   state = {
@@ -783,7 +784,7 @@ class Results extends Component {
           </tbody>
         </table>
       <table>
-        <tr><Link to={`/results/charts/${this.props.match.params.stock}` + '.JPG'}><img src={require('./Charts/' + this.props.match.params.stock + '.JPG')} alt="" className="responsive"/></Link></tr>
+        <tr><a href={this.props.match.params.stock}><img src={require('./Charts/' + this.props.match.params.stock + '.JPG')} alt="" className="responsive"/></a></tr>
       </table>  
     </div>
     );
