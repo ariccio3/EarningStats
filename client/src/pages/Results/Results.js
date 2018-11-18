@@ -783,7 +783,7 @@ class Results extends Component {
           </tbody>
         </table>
       <table>
-        <tr><img src={require('./Charts/' + this.props.match.params.stock + '.JPG')} alt="" className="responsive"/></tr>
+        <tr><Link to={`/Charts/${this.props.match.params.stock}`}><img src={require('./Charts/' + this.props.match.params.stock + '.JPG')} alt="" className="responsive"/></Link></tr>
       </table>  
     </div>
     );
