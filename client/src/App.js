@@ -32,6 +32,7 @@ import Rank from "./pages/Rank";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import NoMatch from "./pages/NoMatch";
+{/*import Charts from "./pages/Results/Charts";*/}
 
 const App = () =>
   <Router>
