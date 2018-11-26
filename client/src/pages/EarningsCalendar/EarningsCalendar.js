@@ -20,19 +20,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>
           </thead>
-          <tbody>    
-            <tr>
-              <td><Link to="/results/ADSK">ADSK</Link></td>
-              <td>Autodesk</td>
-              <td>11/20/2018</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/DE">DE</Link></td>
-              <td>Deere &amp; Company</td>
-              <td>11/21/2018</td>
-              <td>bmo</td>
-            </tr>      
+          <tbody>       
             <tr>
               <td><Link to="/results/CRM">CRM</Link></td>
               <td>SalesForce</td>
@@ -72,7 +60,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/MU">MU</Link></td>
               <td>Micron Tech</td>
-              <td>12/19/2018</td>
+              <td>12/18/2018</td>
               <td>amc</td>
             </tr>         
             <tr>
@@ -110,7 +98,13 @@ class EarningsCalendar extends Component {
               <td>American Express</td>
               <td>1/16/2019</td>
               <td>amc</td>
-            </tr>  
+            </tr> 
+            <tr>
+              <td><Link to="/results/JNJ">JNJ</Link></td>
+              <td>Johnson &amp; Johnson</td>
+              <td>1/22/2019</td>
+              <td>bmo</td>
+            </tr> 
             <tr>
               <td><Link to="/results/IBM">IBM</Link></td>
               <td>International Business Machines</td>
@@ -118,203 +112,209 @@ class EarningsCalendar extends Component {
               <td>amc</td>
             </tr> 
             <tr>
-              <td><Link to="/results/JNJ">JNJ</Link></td>
-              <td>Johnson &amp; Johnson</td>
-              <td>1/22/2019</td>
-              <td>bmo</td>
-            </tr>
-            <tr>
               <td><Link to="/results/NFLX">NFLX</Link></td>
               <td>Netflix</td>
               <td>1/22/2019</td>
               <td>amc</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/TXN">TXN</Link></td>
+              <td>Texas Instruments</td>
+              <td>1/22/2019</td>
+              <td>amc</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/WYNN">WYNN</Link></td>
+              <td>Wynn Resorts</td>
+              <td>1/22/2019</td>
+              <td>amc</td>
+            </tr>     
+            <tr>
+              <td><Link to="/results/CAT">CAT</Link></td>
+              <td>Caterpillar</td>
+              <td>1/24/2019</td>
+              <td>bmo</td>
+            </tr>
+            <tr>
+              <td><Link to="/results/CELG">CELG</Link></td>
+              <td>Celgene</td>
+              <td>1/24/2019</td>
+              <td>bmo</td>
+            </tr>    
+            <tr>
+              <td><Link to="/results/MCD">MCD</Link></td>
+              <td>McDonalds</td>
+              <td>1/29/2019</td>
+              <td>bmo</td>
+            </tr>       
+            <tr>
+              <td><Link to="/results/AAPL">AAPL</Link></td>
+              <td>Apple</td>
+              <td>1/29/2019</td>
+              <td>amc</td>
             </tr>  
+            <tr>
+              <td><Link to="/results/BA">BA</Link></td>
+              <td>Boeing</td>
+              <td>1/30/2019</td>
+              <td>bmo</td>
+            </tr>         
+            <tr>
+              <td><Link to="/results/FB">FB</Link></td>
+              <td>Facebook</td>
+              <td>1/30/2019</td>
+              <td>amc</td>
+            </tr>     
             <tr>
               <td><Link to="/results/PYPL">PYPL</Link></td>
               <td>PayPal</td>
               <td>1/30/2019</td>
               <td>amc</td>
-            </tr>      
-            <tr>
-              <td><Link to="/results/PEP">PEP</Link></td>
-              <td>Pepsi</td>
-              <td>2/13/2019</td>
-              <td>bmo</td>
-            </tr>     
-            <tr>
-              <td><Link to="/results/CAT">CAT</Link></td>
-              <td>Caterpillar</td>
-              <td>2/23/2019</td>
-              <td>bmo</td>
-            </tr>       
-            <tr>
-              <td><Link to="/results/MCD">MCD</Link></td>
-              <td>McDonalds</td>
-              <td>2/23/2019</td>
-              <td>bmo</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/TXN">TXN</Link></td>
-              <td>Texas Instruments</td>
-              <td>2/23/2019</td>
-              <td>amc</td>
             </tr> 
             <tr>
-              <td><Link to="/results/BA">BA</Link></td>
-              <td>Boeing</td>
-              <td>2/24/2019</td>
+              <td><Link to="/results/BABA">BABA</Link></td>
+              <td>Alibaba</td>
+              <td>1/31/2019</td>
               <td>bmo</td>
             </tr>   
             <tr>
               <td><Link to="/results/UPS">UPS</Link></td>
               <td>United Parcel Service</td>
-              <td>2/24/2019</td>
-              <td>bmo</td>
-            </tr>       
-            <tr>
-              <td><Link to="/results/MSFT">MSFT</Link></td>
-              <td>Microsoft</td>
-              <td>2/24/2019</td>
-              <td>amc</td>
-            </tr>    
-            <tr>
-              <td><Link to="/results/TSLA">TSLA</Link></td>
-              <td>Tesla</td>
-              <td>2/24/2019</td>
-              <td>amc</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/V">V</Link></td>
-              <td>Visa</td>
-              <td>2/24/2019</td>
-              <td>amc</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/CELG">CELG</Link></td>
-              <td>Celgene</td>
-              <td>2/25/2019</td>
+              <td>1/31/2019</td>
               <td>bmo</td>
             </tr>    
             <tr>
               <td><Link to="/results/AMZN">AMZN</Link></td>
               <td>Amazon</td>
-              <td>2/25/2019</td>
+              <td>1/31/2019</td>
               <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/CMG">CMG</Link></td>
-              <td>Chipotle Mexican Grill</td>
-              <td>2/25/2019</td>
-              <td>amc</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/GOOGL">GOOGL</Link></td>
-              <td>Google</td>
-              <td>2/25/2019</td>
-              <td>amc</td>
-            </tr>   
+            </tr>     
             <tr>
               <td><Link to="/results/AMGN">AMGN</Link></td>
               <td>Amgen</td>
-              <td>2/30/2019</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/BIDU">BIDU</Link></td>
-              <td>Baidu</td>
-              <td>2/30/2019</td>
-              <td>amc</td>
-            </tr>      
-            <tr>
-              <td><Link to="/results/EA">EA</Link></td>
-              <td>Electronic Arts</td>
-              <td>2/30/2019</td>
-              <td>amc</td>
-            </tr>        
-            <tr>
-              <td><Link to="/results/FB">FB</Link></td>
-              <td>Facebook</td>
-              <td>2/30/2019</td>
-              <td>amc</td>
-            </tr>       
-            <tr>
-              <td><Link to="/results/AAPL">AAPL</Link></td>
-              <td>Apple</td>
-              <td>3/1/2019</td>
+              <td>1/31/2019</td>
               <td>amc</td>
             </tr>  
             <tr>
-              <td><Link to="/results/BABA">BABA</Link></td>
-              <td>Alibaba</td>
-              <td>3/2/2019</td>
-              <td>bmo</td>
-            </tr>   
+              <td><Link to="/results/GOOGL">GOOGL</Link></td>
+              <td>Google</td>
+              <td>1/31/2019</td>
+              <td>amc</td>
+            </tr>         
+            <tr>
+              <td><Link to="/results/MSFT">MSFT</Link></td>
+              <td>Microsoft</td>
+              <td>1/31/2019</td>
+              <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/V">V</Link></td>
+              <td>Visa</td>
+              <td>1/31/2019</td>
+              <td>amc</td>
+            </tr>    
             <tr>
               <td><Link to="/results/CVX">CVX</Link></td>
               <td>Cheveron</td>
-              <td>3/2/2019</td>
+              <td>2/1/2019</td>
               <td>bmo</td>
             </tr>  
             <tr>
               <td><Link to="/results/XOM">XOM</Link></td>
               <td>Exxon Mobil</td>
-              <td>3/2/2019</td>
+              <td>2/1/2019</td>
               <td>bmo</td>
             </tr>  
             <tr>
+              <td><Link to="/results/CMG">CMG</Link></td>
+              <td>Chipotle Mexican Grill</td>
+              <td>2/5/2019</td>
+              <td>amc</td>
+            </tr>
+            <tr>
+              <td><Link to="/results/DIS">DIS</Link></td>
+              <td>Disney</td>
+              <td>2/5/2019</td>
+              <td>amc</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/EA">EA</Link></td>
+              <td>Electronic Arts</td>
+              <td>2/5/2019</td>
+              <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/NTES">NTES</Link></td>
+              <td>NetEase</td>
+              <td>2/6/2019</td>
+              <td>amc</td>
+            </tr>    
+            <tr>
+              <td><Link to="/results/TSLA">TSLA</Link></td>
+              <td>Tesla</td>
+              <td>2/6/2019</td>
+              <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/NVDA">NVDA</Link></td>
+              <td>NVIDIA</td>
+              <td>2/7/2019</td>
+              <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/BIDU">BIDU</Link></td>
+              <td>Baidu</td>
+              <td>2/14/2019</td>
+              <td>amc</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/DE">DE</Link></td>
+              <td>Deere &amp; Company</td>
+              <td>2/15/2019</td>
+              <td>bmo</td>
+            </tr>      
+            <tr>
+              <td><Link to="/results/PEP">PEP</Link></td>
+              <td>Pepsi</td>
+              <td>2/15/2019</td>
+              <td>bmo</td>
+            </tr>      
+            <tr>
+              <td><Link to="/results/WMT">WMT</Link></td>
+              <td>Walmart</td>
+              <td>2/19/2019</td>
+              <td>bmo</td>
+            </tr>              
+            <tr>
+              <td><Link to="/results/HD">HD</Link></td>
+              <td>Home Depot</td>
+              <td>2/26/2019</td>
+              <td>bmo</td>
+            </tr>   
+            <tr>
               <td><Link to="/results/BKNG">BKNG</Link></td>
               <td>Booking</td>
-              <td>3/5/2019</td>
+              <td>2/27/2019</td>
               <td>amc</td>
             </tr>      
             <tr>
               <td><Link to="/results/SQ">SQ</Link></td>
               <td>Square</td>
-              <td>3/7/2019</td>
-              <td>amc</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/WYNN">WYNN</Link></td>
-              <td>Wynn Resorts</td>
-              <td>3/7/2019</td>
+              <td>2/27/2019</td>
               <td>amc</td>
             </tr>     
             <tr>
-              <td><Link to="/results/DIS">DIS</Link></td>
-              <td>Disney</td>
-              <td>3/8/2019</td>
-              <td>amc</td>
-            </tr>            
-            <tr>
-              <td><Link to="/results/HD">HD</Link></td>
-              <td>Home Depot</td>
-              <td>3/13/2019</td>
-              <td>bmo</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/NTES">NTES</Link></td>
-              <td>NetEase</td>
-              <td>3/14/2019</td>
-              <td>amc</td>
-            </tr>    
-            <tr>
-              <td><Link to="/results/WMT">WMT</Link></td>
-              <td>Walmart</td>
-              <td>3/15/2019</td>
-              <td>bmo</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/NVDA">NVDA</Link></td>
-              <td>NVIDIA</td>
-              <td>3/15/2019</td>
-              <td>amc</td>
-            </tr>      
-            <tr>
               <td><Link to="/results/TGT">TGT</Link></td>
               <td>Target</td>
-              <td>3/20/2019</td>
+              <td>3/5/2019</td>
               <td>bmo</td>
             </tr>   
+            <tr>
+              <td><Link to="/results/ADSK">ADSK</Link></td>
+              <td>Autodesk</td>
+              <td>3/5/2019</td>
+              <td>amc</td>
+            </tr> 
           </tbody>            
        </table><br/>
       </div>         
