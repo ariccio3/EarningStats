@@ -23,7 +23,7 @@ class EarningsCalendar extends Component {
           <tbody>      
             <tr>
               <td><Link to="/results/AVGO">AVGO</Link></td>
-              <td>Avago Technologies</td>
+              <td>Broadcom</td>
               <td>12/6/2018</td>
               <td>amc</td>
             </tr>        
@@ -292,6 +292,12 @@ class EarningsCalendar extends Component {
               <td>amc</td>
             </tr>      
             <tr>
+              <td><Link to="/results/CRM">CRM</Link></td>
+              <td>SalesForce</td>
+              <td>2/27/2019</td>
+              <td>amc</td>
+            </tr>       
+            <tr>
               <td><Link to="/results/SQ">SQ</Link></td>
               <td>Square</td>
               <td>2/27/2019</td>
@@ -308,11 +314,17 @@ class EarningsCalendar extends Component {
               <td>Autodesk</td>
               <td>3/5/2019</td>
               <td>amc</td>
+            </tr>      
+            <tr>
+              <td><Link to="/results/AVGO">AVGO</Link></td>
+              <td>Broadcom</td>
+              <td>3/14/2019</td>
+              <td>amc</td>
             </tr>        
             <tr>
-              <td><Link to="/results/CRM">CRM</Link></td>
-              <td>SalesForce</td>
-              <td>3/27/2019</td>
+              <td><Link to="/results/LULU">LULU</Link></td>
+              <td>lululemon</td>
+              <td>3/26/2019</td>
               <td>amc</td>
             </tr> 
           </tbody>            
