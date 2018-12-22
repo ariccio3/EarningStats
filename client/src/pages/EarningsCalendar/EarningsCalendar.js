@@ -20,25 +20,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>
           </thead>
-          <tbody>    
-            <tr>
-              <td><Link to="/results/FDX">FDX</Link></td>
-              <td>FedEx</td>
-              <td>12/18/2018</td>
-              <td>amc</td>
-            </tr>     
-            <tr>
-              <td><Link to="/results/MU">MU</Link></td>
-              <td>Micron Tech</td>
-              <td>12/18/2018</td>
-              <td>amc</td>
-            </tr>         
-            <tr>
-              <td><Link to="/results/NKE">NKE</Link></td>
-              <td>Nike</td>
-              <td>12/20/2018</td>
-              <td>amc</td>
-            </tr>     
+          <tbody>      
             <tr>
               <td><Link to="/results/STZ">STZ</Link></td>
               <td>Constellation Brands</td>
@@ -308,13 +290,31 @@ class EarningsCalendar extends Component {
               <td>Broadcom</td>
               <td>3/14/2019</td>
               <td>amc</td>
-            </tr>        
+            </tr>  
+            <tr>
+              <td><Link to="/results/FDX">FDX</Link></td>
+              <td>FedEx</td>
+              <td>3/19/2019</td>
+              <td>amc</td>
+            </tr>     
+            <tr>
+              <td><Link to="/results/MU">MU</Link></td>
+              <td>Micron Tech</td>
+              <td>3/21/2019</td>
+              <td>amc</td>
+            </tr>         
+            <tr>
+              <td><Link to="/results/NKE">NKE</Link></td>
+              <td>Nike</td>
+              <td>3/21/2019</td>
+              <td>amc</td>
+            </tr>       
             <tr>
               <td><Link to="/results/LULU">LULU</Link></td>
               <td>lululemon</td>
               <td>3/26/2019</td>
               <td>amc</td>
-            </tr>  
+            </tr>    
           </tbody>            
        </table><br/>
       </div>         
