@@ -22,24 +22,6 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>    
             <tr>
-              <td><Link to="/results/AXP">AXP</Link></td>
-              <td>American Express</td>
-              <td>1/17/2019</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/NFLX">NFLX</Link></td>
-              <td>Netflix</td>
-              <td>1/17/2019</td>
-              <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/JNJ">JNJ</Link></td>
-              <td>Johnson &amp; Johnson</td>
-              <td>1/22/2019</td>
-              <td>bmo</td>
-            </tr> 
-            <tr>
               <td><Link to="/results/IBM">IBM</Link></td>
               <td>International Business Machines</td>
               <td>1/22/2019</td>
@@ -306,13 +288,31 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/JPM">JPM</Link></td>
               <td>JPMorgan Chase</td>
-              <td>1/15/2019</td>
+              <td>4/15/2019</td>
               <td>bmo</td>
             </tr>     
             <tr>
               <td><Link to="/results/GS">GS</Link></td>
               <td>Goldman Sachs</td>
-              <td>1/16/2019</td>
+              <td>4/16/2019</td>
+              <td>bmo</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/AXP">AXP</Link></td>
+              <td>American Express</td>
+              <td>4/17/2019</td>
+              <td>amc</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/NFLX">NFLX</Link></td>
+              <td>Netflix</td>
+              <td>4/17/2019</td>
+              <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/JNJ">JNJ</Link></td>
+              <td>Johnson &amp; Johnson</td>
+              <td>4/22/2019</td>
               <td>bmo</td>
             </tr> 
           </tbody>            
