@@ -28,17 +28,17 @@ class EarningsCalendar extends Component {
               <td>amc</td>
             </tr>  
             <tr>
-              <td><Link to="/results/TXN">TXN</Link></td>
-              <td>Texas Instruments</td>
-              <td>1/22/2019</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
               <td><Link to="/results/WYNN">WYNN</Link></td>
               <td>Wynn Resorts</td>
               <td>1/22/2019</td>
               <td>amc</td>
-            </tr>     
+            </tr>  
+            <tr>
+              <td><Link to="/results/TXN">TXN</Link></td>
+              <td>Texas Instruments</td>
+              <td>1/23/2019</td>
+              <td>amc</td>
+            </tr>    
             <tr>
               <td><Link to="/results/CAT">CAT</Link></td>
               <td>Caterpillar</td>
