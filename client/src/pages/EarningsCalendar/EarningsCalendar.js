@@ -40,7 +40,7 @@ class EarningsCalendar extends Component {
               <td>amc</td>
             </tr>     
             <tr>
-              <td style="border-bottom:1pt solid black;"><Link to="/results/AMGN">AMGN</Link></td>
+              <td><Link to="/results/AMGN">AMGN</Link></td>
               <td>Amgen</td>
               <td>1/29/2019</td>
               <td>amc</td>
