@@ -12,7 +12,6 @@ class EarningsCalendar extends Component {
       <div className="tableContainer"> 
         <h4>EarningStats Watchlist Earnings Calendar</h4> 
         <table className="table table-striped table-hover table-bordered">
-          <caption>Week of 1/21/2019 - 1/25/2019</caption>
           <thead>
             <tr>
               <th className="stock">Stock</th>
@@ -27,21 +26,21 @@ class EarningsCalendar extends Component {
               <td>Texas Instruments</td>
               <td>1/23/2019</td>
               <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/WYNN">WYNN</Link></td>
-              <td>Wynn Resorts</td>
-              <td>1/24/2019</td>
-              <td>amc</td>
             </tr>    
             <tr>
               <td><Link to="/results/CAT">CAT</Link></td>
               <td>Caterpillar</td>
               <td>1/28/2019</td>
               <td>bmo</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/WYNN">WYNN</Link></td>
+              <td>Wynn Resorts</td>
+              <td>1/28/2019</td>
+              <td>amc</td>
             </tr>     
             <tr>
-              <td><Link to="/results/AMGN">AMGN</Link></td>
+              <td style="border-bottom:1pt solid black;"><Link to="/results/AMGN">AMGN</Link></td>
               <td>Amgen</td>
               <td>1/29/2019</td>
               <td>amc</td>
