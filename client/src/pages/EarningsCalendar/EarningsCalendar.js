@@ -22,18 +22,6 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>    
             <tr>
-              <td><Link to="/results/CAT">CAT</Link></td>
-              <td>Caterpillar</td>
-              <td>1/28/2019</td>
-              <td>bmo</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/WYNN">WYNN</Link></td>
-              <td>Wynn Resorts</td>
-              <td>1/28/2019</td>
-              <td>amc</td>
-            </tr>     
-            <tr>
               <td><Link to="/results/AMGN">AMGN</Link></td>
               <td>Amgen</td>
               <td>1/29/2019</td>
@@ -93,6 +81,12 @@ class EarningsCalendar extends Component {
               <td>1/30/2019</td>
               <td>amc</td>
             </tr>  
+            <tr>
+              <td><Link to="/results/WYNN">WYNN</Link></td>
+              <td>Wynn Resorts</td>
+              <td>1/30/2019</td>
+              <td>amc</td>
+            </tr>   
             <tr>
               <td><Link to="/results/UPS">UPS</Link></td>
               <td>United Parcel Service</td>
@@ -314,6 +308,12 @@ class EarningsCalendar extends Component {
               <td>Texas Instruments</td>
               <td>4/23/2019</td>
               <td>amc</td>
+            </tr>    
+            <tr>
+              <td><Link to="/results/CAT">CAT</Link></td>
+              <td>Caterpillar</td>
+              <td>1/28/2019</td>
+              <td>bmo</td>
             </tr>  
           </tbody>            
        </table><br/>
