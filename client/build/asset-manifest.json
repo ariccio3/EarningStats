@@ -1,13 +1,13 @@
 {
   "main.css": "static/css/main.f5a96a40.css",
   "main.css.map": "static/css/main.f5a96a40.css.map",
-  "main.js": "static/js/main.473bc9ae.js",
-  "main.js.map": "static/js/main.473bc9ae.js.map",
+  "main.js": "static/js/main.24fa1cb6.js",
+  "main.js.map": "static/js/main.24fa1cb6.js.map",
   "static\\media\\AAPL.JPG": "static/media/AAPL.91a8ffe6.JPG",
   "static\\media\\ADBE.JPG": "static/media/ADBE.5657984e.JPG",
   "static\\media\\ADSK.JPG": "static/media/ADSK.b3525fd9.JPG",
   "static\\media\\AMGN.JPG": "static/media/AMGN.2b9f561d.JPG",
-  "static\\media\\AMZN.JPG": "static/media/AMZN.43ab0bd3.JPG",
+  "static\\media\\AMZN.JPG": "static/media/AMZN.2b2c2c4f.JPG",
   "static\\media\\AVGO.JPG": "static/media/AVGO.cfb45a08.JPG",
   "static\\media\\AXP.JPG": "static/media/AXP.658861a6.JPG",
   "static\\media\\BA.JPG": "static/media/BA.1363a809.JPG",
@@ -20,7 +20,7 @@
   "static\\media\\CMG.JPG": "static/media/CMG.218869aa.JPG",
   "static\\media\\COST.JPG": "static/media/COST.b7ae30e1.JPG",
   "static\\media\\CRM.JPG": "static/media/CRM.0d642d16.JPG",
-  "static\\media\\CVX.JPG": "static/media/CVX.bd4d3c1e.JPG",
+  "static\\media\\CVX.JPG": "static/media/CVX.311c3a37.JPG",
   "static\\media\\DE.JPG": "static/media/DE.3e1f3c82.JPG",
   "static\\media\\DIS.JPG": "static/media/DIS.5a22856a.JPG",
   "static\\media\\EA.JPG": "static/media/EA.7a8757ee.JPG",
@@ -55,6 +55,6 @@
   "static\\media\\V.JPG": "static/media/V.c279f9fe.JPG",
   "static\\media\\WMT.JPG": "static/media/WMT.fd2bb1d6.JPG",
   "static\\media\\WYNN.JPG": "static/media/WYNN.9a157984.JPG",
-  "static\\media\\XOM.JPG": "static/media/XOM.249cc156.JPG",
+  "static\\media\\XOM.JPG": "static/media/XOM.d47178b3.JPG",
   "static\\media\\paypal-donate-button.png": "static/media/paypal-donate-button.5687b713.png"
 }
