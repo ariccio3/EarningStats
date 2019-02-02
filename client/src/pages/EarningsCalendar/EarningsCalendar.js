@@ -51,10 +51,10 @@ class EarningsCalendar extends Component {
               <td>2/6/2019</td>
               <td>amc</td>
             </tr>
-            </tbody>
-            </table>
+          </tbody>
+        </table>
 
-            <table className="table table-striped table-hover table-bordered">
+        <table className="table table-striped table-hover table-bordered">
           <thead>
             <tr>
               <th className="stock">Stock</th>
@@ -88,10 +88,10 @@ class EarningsCalendar extends Component {
               <td>2/15/2019</td>
               <td>bmo</td>
             </tr>  
-            </tbody> 
-            </table>
+          </tbody> 
+        </table>
 
-            <table className="table table-striped table-hover table-bordered">
+        <table className="table table-striped table-hover table-bordered">
           <thead>
             <tr>
               <th className="stock">Stock</th>
@@ -113,10 +113,10 @@ class EarningsCalendar extends Component {
               <td>2/20/2019</td>
               <td>amc</td>
             </tr> 
-            </tbody>
-            </table>
+          </tbody>
+        </table>
 
-            <table className="table table-striped table-hover table-bordered">
+        <table className="table table-striped table-hover table-bordered">
           <thead>
             <tr>
               <th className="stock">Stock</th>
@@ -149,7 +149,20 @@ class EarningsCalendar extends Component {
               <td>Square</td>
               <td>2/27/2019</td>
               <td>amc</td>
-            </tr>     
+            </tr> 
+          </tbody>
+        </table>
+
+        <table className="table table-striped table-hover table-bordered">
+          <thead>
+            <tr>
+              <th className="stock">Stock</th>
+              <th className="company">Company</th>
+              <th className="date">Date</th>
+              <th className="time">Time</th>
+            </tr>
+          </thead>
+          <tbody> 
             <tr>
               <td><Link to="/results/TGT">TGT</Link></td>
               <td>Target</td>
@@ -167,7 +180,20 @@ class EarningsCalendar extends Component {
               <td>Costco</td>
               <td>3/7/2019</td>
               <td>amc</td>
-            </tr>  
+            </tr>   
+          </tbody>
+        </table>
+
+        <table className="table table-striped table-hover table-bordered">
+          <thead>
+            <tr>
+              <th className="stock">Stock</th>
+              <th className="company">Company</th>
+              <th className="date">Date</th>
+              <th className="time">Time</th>
+            </tr>
+          </thead>
+          <tbody> 
             <tr>
               <td><Link to="/results/ADBE">ADBE</Link></td>
               <td>Adobe</td>
@@ -185,7 +211,20 @@ class EarningsCalendar extends Component {
               <td>Ulta Beauty</td>
               <td>3/14/2019</td>
               <td>amc</td>
-            </tr> 
+            </tr>  
+          </tbody>
+        </table>
+
+        <table className="table table-striped table-hover table-bordered">
+          <thead>
+            <tr>
+              <th className="stock">Stock</th>
+              <th className="company">Company</th>
+              <th className="date">Date</th>
+              <th className="time">Time</th>
+            </tr>
+          </thead>
+          <tbody> 
             <tr>
               <td><Link to="/results/FDX">FDX</Link></td>
               <td>FedEx</td>
@@ -197,13 +236,39 @@ class EarningsCalendar extends Component {
               <td>Nike</td>
               <td>3/21/2019</td>
               <td>amc</td>
-            </tr>       
+            </tr>     
+          </tbody>
+        </table>
+
+        <table className="table table-striped table-hover table-bordered">
+          <thead>
+            <tr>
+              <th className="stock">Stock</th>
+              <th className="company">Company</th>
+              <th className="date">Date</th>
+              <th className="time">Time</th>
+            </tr>
+          </thead>
+          <tbody>    
             <tr>
               <td><Link to="/results/LULU">LULU</Link></td>
               <td>lululemon</td>
               <td>3/26/2019</td>
               <td>amc</td>
-            </tr>        
+            </tr>   
+          </tbody>
+        </table>
+
+        <table className="table table-striped table-hover table-bordered">
+          <thead>
+            <tr>
+              <th className="stock">Stock</th>
+              <th className="company">Company</th>
+              <th className="date">Date</th>
+              <th className="time">Time</th>
+            </tr>
+          </thead>
+          <tbody>       
             <tr>
               <td><Link to="/results/STZ">STZ</Link></td>
               <td>Constellation Brands</td>
