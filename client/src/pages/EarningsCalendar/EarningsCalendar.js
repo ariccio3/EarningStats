@@ -22,18 +22,6 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>   
             <tr>
-              <td><Link to="/results/GILD">GILD</Link></td>
-              <td>Gilead Sciences</td>
-              <td>2/4/2019</td>
-              <td>amc</td>
-            </tr>    
-            <tr>
-              <td><Link to="/results/GOOGL">GOOGL</Link></td>
-              <td>Google</td>
-              <td>2/4/2019</td>
-              <td>amc</td>
-            </tr>  
-            <tr>
               <td><Link to="/results/DIS">DIS</Link></td>
               <td>Disney</td>
               <td>2/5/2019</td>
@@ -416,15 +404,27 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/CVX">CVX</Link></td>
               <td>Cheveron</td>
-              <td>4/1/2019</td>
+              <td>5/1/2019</td>
               <td>bmo</td>
             </tr>  
             <tr>
               <td><Link to="/results/XOM">XOM</Link></td>
               <td>Exxon Mobil</td>
-              <td>4/1/2019</td>
+              <td>5/1/2019</td>
               <td>bmo</td>
             </tr> 
+            <tr>
+              <td><Link to="/results/GILD">GILD</Link></td>
+              <td>Gilead Sciences</td>
+              <td>5/4/2019</td>
+              <td>amc</td>
+            </tr>    
+            <tr>
+              <td><Link to="/results/GOOGL">GOOGL</Link></td>
+              <td>Google</td>
+              <td>5/4/2019</td>
+              <td>amc</td>
+            </tr>  
           </tbody>            
        </table><br/>
       </div>         
