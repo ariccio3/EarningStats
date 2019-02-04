@@ -22,6 +22,12 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>   
             <tr>
+              <td><Link to="/results/GILD">GILD</Link></td>
+              <td>Gilead Sciences</td>
+              <td>2/4/2019</td>
+              <td>amc</td>
+            </tr>    
+            <tr>
               <td><Link to="/results/GOOGL">GOOGL</Link></td>
               <td>Google</td>
               <td>2/4/2019</td>
