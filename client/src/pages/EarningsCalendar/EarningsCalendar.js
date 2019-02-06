@@ -20,25 +20,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>
           </thead>
-          <tbody>   
-            <tr>
-              <td><Link to="/results/DIS">DIS</Link></td>
-              <td>Disney</td>
-              <td>2/5/2019</td>
-              <td>amc</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/EA">EA</Link></td>
-              <td>Electronic Arts</td>
-              <td>2/5/2019</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/TTWO">TTWO</Link></td>
-              <td>Take-Two Interactive</td>
-              <td>2/6/2019</td>
-              <td>bmo</td>
-            </tr>   
+          <tbody>    
             <tr>
               <td><Link to="/results/CMG">CMG</Link></td>
               <td>Chipotle Mexican Grill</td>
@@ -424,6 +406,24 @@ class EarningsCalendar extends Component {
               <td>Google</td>
               <td>5/4/2019</td>
               <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/DIS">DIS</Link></td>
+              <td>Disney</td>
+              <td>5/5/2019</td>
+              <td>amc</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/EA">EA</Link></td>
+              <td>Electronic Arts</td>
+              <td>5/5/2019</td>
+              <td>amc</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/TTWO">TTWO</Link></td>
+              <td>Take-Two Interactive</td>
+              <td>5/6/2019</td>
+              <td>bmo</td>
             </tr>  
           </tbody>            
        </table><br/>
