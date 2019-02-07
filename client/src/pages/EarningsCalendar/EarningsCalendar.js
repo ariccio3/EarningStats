@@ -11,24 +11,6 @@ class EarningsCalendar extends Component {
     return (
       <div className="tableContainer"> 
         <h4>EarningStats Watchlist Earnings Calendar</h4> 
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>
-          </thead>
-          <tbody>    
-            <tr>
-              <td><Link to="/results/CMG">CMG</Link></td>
-              <td>Chipotle Mexican Grill</td>
-              <td>2/6/2019</td>
-              <td>amc</td>
-            </tr>
-          </tbody>
-        </table>
 
         <table className="table table-striped table-hover table-bordered">
           <thead>
@@ -424,7 +406,13 @@ class EarningsCalendar extends Component {
               <td>Take-Two Interactive</td>
               <td>5/6/2019</td>
               <td>bmo</td>
-            </tr>  
+            </tr>   
+            <tr>
+              <td><Link to="/results/CMG">CMG</Link></td>
+              <td>Chipotle Mexican Grill</td>
+              <td>5/6/2019</td>
+              <td>amc</td>
+            </tr>
           </tbody>            
        </table><br/>
       </div>         
