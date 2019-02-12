@@ -32,7 +32,7 @@ import Rank from "./pages/Rank";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import NoMatch from "./pages/NoMatch";
-{/*import Charts from "./pages/Results/Charts";*/}
+import Dashboard from "./pages/Dashboard";
 
 const App = () =>
   <Router>
@@ -67,6 +67,7 @@ const App = () =>
           <Route exact path="/sorted/belowavgem" component={BelowAvgEM} />
           <Route exact path="/proscons/:stock" component={ProsCons}  {...this.props}/>
           <Route exact path="/setup" component={Setup} />
+          <Route exact path="/dashboard" component={Dashboard} />
           <Route exact path="/rank" component={Rank} />          
           <Route component={NoMatch} />
           <Route exact path="sitemap.xml" />
