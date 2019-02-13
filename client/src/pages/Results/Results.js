@@ -574,6 +574,7 @@ class Results extends Component {
       // console.log(this.state.stocks);
     return (
       <div className="tableContainer">  
+        <h2><Link to="/dashboard">New! Dashboard</Link></h2>
         <table className="table table-striped table-hover table-bordered">
           <thead>
             <tr>
