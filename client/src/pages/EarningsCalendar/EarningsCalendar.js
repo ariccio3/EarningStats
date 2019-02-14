@@ -21,25 +21,13 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>
           </thead>
-          <tbody> 
+          <tbody>   
             <tr>
-              <td><Link to="/results/NVDA">NVDA</Link></td>
-              <td>NVIDIA</td>
-              <td>2/14/2019</td>
-              <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/DE">DE</Link></td>
-              <td>Deere &amp; Company</td>
-              <td>2/15/2019</td>
+              <td><Link to="/results/WMT">WMT</Link></td>
+              <td>Walmart</td>
+              <td>2/19/2019</td>
               <td>bmo</td>
-            </tr>      
-            <tr>
-              <td><Link to="/results/PEP">PEP</Link></td>
-              <td>Pepsi</td>
-              <td>2/15/2019</td>
-              <td>bmo</td>
-            </tr>  
+            </tr> 
           </tbody> 
         </table>
 
@@ -52,13 +40,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>
           </thead>
-          <tbody>    
-            <tr>
-              <td><Link to="/results/WMT">WMT</Link></td>
-              <td>Walmart</td>
-              <td>2/19/2019</td>
-              <td>bmo</td>
-            </tr> 
+          <tbody>   
             <tr>
               <td><Link to="/results/NTES">NTES</Link></td>
               <td>NetEase</td>
@@ -413,6 +395,24 @@ class EarningsCalendar extends Component {
               <td>5/6/2019</td>
               <td>amc</td>
             </tr>
+            <tr>
+              <td><Link to="/results/NVDA">NVDA</Link></td>
+              <td>NVIDIA</td>
+              <td>2/14/2019</td>
+              <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/DE">DE</Link></td>
+              <td>Deere &amp; Company</td>
+              <td>2/15/2019</td>
+              <td>bmo</td>
+            </tr>      
+            <tr>
+              <td><Link to="/results/PEP">PEP</Link></td>
+              <td>Pepsi</td>
+              <td>2/15/2019</td>
+              <td>bmo</td>
+            </tr>  
           </tbody>            
        </table><br/>
       </div>         
