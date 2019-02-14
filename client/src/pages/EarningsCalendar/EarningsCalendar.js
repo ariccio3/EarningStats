@@ -29,12 +29,6 @@ class EarningsCalendar extends Component {
               <td>amc</td>
             </tr>  
             <tr>
-              <td><Link to="/results/BIDU">BIDU</Link></td>
-              <td>Baidu</td>
-              <td>2/14/2019</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
               <td><Link to="/results/DE">DE</Link></td>
               <td>Deere &amp; Company</td>
               <td>2/15/2019</td>
@@ -69,6 +63,12 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/NTES">NTES</Link></td>
               <td>NetEase</td>
               <td>2/20/2019</td>
+              <td>amc</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/BIDU">BIDU</Link></td>
+              <td>Baidu</td>
+              <td>2/21/2019</td>
               <td>amc</td>
             </tr> 
           </tbody>
