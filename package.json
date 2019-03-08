@@ -8,7 +8,8 @@
     "client": "node scripts/start-client.js",
     "start": "concurrently \"nodemon server.js\" \"npm run client\"",
     "build": "node scripts/build.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "echo Skip build on Heroku"
   },
   "author": "",
   "license": "ISC",
@@ -32,5 +33,6 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:ariccio3/EarningStats.git"
-  }
+  },
+  "heroku-run-build-script": true
 }
