@@ -23,37 +23,6 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody> 
             <tr>
-              <td><Link to="/results/ADBE">ADBE</Link></td>
-              <td>Adobe</td>
-              <td>3/14/2019</td>
-              <td>amc</td>
-            </tr>     
-            <tr>
-              <td><Link to="/results/AVGO">AVGO</Link></td>
-              <td>Broadcom</td>
-              <td>3/14/2019</td>
-              <td>amc</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/ULTA">ULTA</Link></td>
-              <td>Ulta Beauty</td>
-              <td>3/14/2019</td>
-              <td>amc</td>
-            </tr>  
-          </tbody>
-        </table>
-
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>
-          </thead>
-          <tbody> 
-            <tr>
               <td><Link to="/results/FDX">FDX</Link></td>
               <td>FedEx</td>
               <td>3/19/2019</td>
@@ -81,15 +50,9 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/LULU">LULU</Link></td>
               <td>lululemon</td>
-              <td>3/26/2019</td>
+              <td>3/27/2019</td>
               <td>amc</td>
-            </tr>          
-            <tr>
-              <td><Link to="/results/STZ">STZ</Link></td>
-              <td>Constellation Brands</td>
-              <td>3/28/2019</td>
-              <td>bmo</td>
-            </tr>    
+            </tr>  
           </tbody>
         </table>
 
@@ -102,7 +65,13 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>
           </thead>
-          <tbody> 
+          <tbody>         
+            <tr>
+              <td><Link to="/results/STZ">STZ</Link></td>
+              <td>Constellation Brands</td>
+              <td>4/4/2019</td>
+              <td>bmo</td>
+            </tr>    
             <tr>
               <td><Link to="/results/JPM">JPM</Link></td>
               <td>JPMorgan Chase</td>
@@ -118,7 +87,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/NFLX">NFLX</Link></td>
               <td>Netflix</td>
-              <td>4/15/2019</td>
+              <td>4/16/2019</td>
               <td>amc</td>
             </tr>     
             <tr>
@@ -355,6 +324,24 @@ class EarningsCalendar extends Component {
               <td>6/7/2019</td>
               <td>amc</td>
             </tr> 
+            <tr>
+              <td><Link to="/results/ADBE">ADBE</Link></td>
+              <td>Adobe</td>
+              <td>6/14/2019</td>
+              <td>amc</td>
+            </tr>     
+            <tr>
+              <td><Link to="/results/AVGO">AVGO</Link></td>
+              <td>Broadcom</td>
+              <td>6/14/2019</td>
+              <td>amc</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/ULTA">ULTA</Link></td>
+              <td>Ulta Beauty</td>
+              <td>6/14/2019</td>
+              <td>amc</td>
+            </tr>  
           </tbody>            
        </table><br/>
       </div>         
