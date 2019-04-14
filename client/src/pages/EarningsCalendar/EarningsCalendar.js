@@ -21,36 +21,11 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>
           </thead>
-          <tbody>   
+          <tbody>    
             <tr>
-              <td><Link to="/results/JPM">JPM</Link></td>
-              <td>JPMorgan Chase</td>
-              <td>4/12/2019</td>
-              <td>bmo</td>
-            </tr>   
-          </tbody>
-        </table>
-
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>
-          </thead>
-          <tbody>         
-            <tr>
-              <td><Link to="/results/C">C</Link></td>
-              <td>CitiGroup</td>
-              <td>4/15/2019</td>
-              <td>bmo</td>
-            </tr>    
-            <tr>
-              <td><Link to="/results/GS">GS</Link></td>
-              <td>Goldman Sachs</td>
-              <td>4/15/2019</td>
+              <td><Link to="/results/JNJ">JNJ</Link></td>
+              <td>Johnson &amp; Johnson</td>
+              <td>4/16/2019</td>
               <td>bmo</td>
             </tr> 
             <tr>
@@ -58,12 +33,6 @@ class EarningsCalendar extends Component {
               <td>Netflix</td>
               <td>4/16/2019</td>
               <td>amc</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/JNJ">JNJ</Link></td>
-              <td>Johnson &amp; Johnson</td>
-              <td>4/16/2019</td>
-              <td>bmo</td>
             </tr>  
             <tr>
               <td><Link to="/results/IBM">IBM</Link></td>
@@ -119,10 +88,22 @@ class EarningsCalendar extends Component {
               <td>Facebook</td>
               <td>4/24/2019</td>
               <td>amc</td>
-            </tr>    
+            </tr>             
+            <tr>
+              <td><Link to="/results/MSFT">MSFT</Link></td>
+              <td>Microsoft</td>
+              <td>4/24/2019</td>
+              <td>amc</td>
+            </tr>   
             <tr>
               <td><Link to="/results/PYPL">PYPL</Link></td>
               <td>PayPal</td>
+              <td>4/24/2019</td>
+              <td>amc</td>
+            </tr>       
+            <tr>
+              <td><Link to="/results/TSLA">TSLA</Link></td>
+              <td>Tesla</td>
               <td>4/24/2019</td>
               <td>amc</td>
             </tr>  
@@ -155,13 +136,7 @@ class EarningsCalendar extends Component {
               <td>Baidu</td>
               <td>4/25/2019</td>
               <td>amc</td>
-            </tr>           
-            <tr>
-              <td><Link to="/results/MSFT">MSFT</Link></td>
-              <td>Microsoft</td>
-              <td>4/25/2019</td>
-              <td>amc</td>
-            </tr>     
+            </tr>    
             <tr>
               <td><Link to="/results/CVX">CVX</Link></td>
               <td>Cheveron</td>
@@ -216,19 +191,7 @@ class EarningsCalendar extends Component {
               <td>Square</td>
               <td>5/1/2019</td>
               <td>amc</td>
-            </tr>      
-            <tr>
-              <td><Link to="/results/TSLA">TSLA</Link></td>
-              <td>Tesla</td>
-              <td>5/1/2019</td>
-              <td>amc</td>
             </tr>  
-            <tr>
-              <td><Link to="/results/BABA">BABA</Link></td>
-              <td>Alibaba</td>
-              <td>5/3/2019</td>
-              <td>bmo</td>
-            </tr>   
           </tbody>
         </table>
 
@@ -272,7 +235,13 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>
           </thead>
-          <tbody>              
+          <tbody>    
+            <tr>
+              <td><Link to="/results/BABA">BABA</Link></td>
+              <td>Alibaba</td>
+              <td>5/15/2019</td>
+              <td>bmo</td>
+            </tr>            
             <tr>
               <td><Link to="/results/TTWO">TTWO</Link></td>
               <td>Take-Two Interactive</td>
@@ -286,17 +255,17 @@ class EarningsCalendar extends Component {
               <td>amc</td>
             </tr> 
             <tr>
-              <td><Link to="/results/NVDA">NVDA</Link></td>
-              <td>NVIDIA</td>
-              <td>5/15/2019</td>
-              <td>amc</td>
-            </tr>  
-            <tr>
               <td><Link to="/results/WMT">WMT</Link></td>
               <td>Walmart</td>
               <td>5/16/2019</td>
               <td>bmo</td>
-            </tr>  
+            </tr> 
+            <tr>
+              <td><Link to="/results/NVDA">NVDA</Link></td>
+              <td>NVIDIA</td>
+              <td>5/16/2019</td>
+              <td>amc</td>
+            </tr>   
             <tr>
               <td><Link to="/results/DE">DE</Link></td>
               <td>Deere &amp; Company</td>
@@ -453,6 +422,24 @@ class EarningsCalendar extends Component {
               <td>7/4/2019</td>
               <td>bmo</td>
             </tr>  
+            <tr>
+              <td><Link to="/results/JPM">JPM</Link></td>
+              <td>JPMorgan Chase</td>
+              <td>7/12/2019</td>
+              <td>bmo</td>
+            </tr>          
+            <tr>
+              <td><Link to="/results/C">C</Link></td>
+              <td>CitiGroup</td>
+              <td>4/15/2019</td>
+              <td>bmo</td>
+            </tr>    
+            <tr>
+              <td><Link to="/results/GS">GS</Link></td>
+              <td>Goldman Sachs</td>
+              <td>4/15/2019</td>
+              <td>bmo</td>
+            </tr> 
           </tbody>
         </table>
 
