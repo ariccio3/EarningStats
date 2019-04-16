@@ -21,19 +21,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>
           </thead>
-          <tbody>  
-            <tr>
-              <td><Link to="/results/NFLX">NFLX</Link></td>
-              <td>Netflix</td>
-              <td>4/16/2019</td>
-              <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/IBM">IBM</Link></td>
-              <td>International Business Machines</td>
-              <td>4/16/2019</td>
-              <td>amc</td>
-            </tr>  
+          <tbody>   
             <tr>
               <td><Link to="/results/AXP">AXP</Link></td>
               <td>American Express</td>
@@ -439,6 +427,18 @@ class EarningsCalendar extends Component {
               <td>Johnson &amp; Johnson</td>
               <td>7/16/2019</td>
               <td>bmo</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/NFLX">NFLX</Link></td>
+              <td>Netflix</td>
+              <td>7/16/2019</td>
+              <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/IBM">IBM</Link></td>
+              <td>International Business Machines</td>
+              <td>7/16/2019</td>
+              <td>amc</td>
             </tr> 
           </tbody>
         </table>
