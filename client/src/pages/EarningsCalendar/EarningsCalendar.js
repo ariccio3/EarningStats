@@ -12,24 +12,6 @@ class EarningsCalendar extends Component {
       <div className="tableContainer"> 
         <h4>EarningStats Watchlist Earnings Calendar</h4> 
 
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>
-          </thead>
-          <tbody>   
-            <tr>
-              <td><Link to="/results/AXP">AXP</Link></td>
-              <td>American Express</td>
-              <td>4/18/2019</td>
-              <td>bmo</td>
-            </tr>    
-          </tbody>
-        </table>
 
         <table className="table table-striped table-hover table-bordered">
           <thead>
@@ -440,6 +422,12 @@ class EarningsCalendar extends Component {
               <td>7/16/2019</td>
               <td>amc</td>
             </tr> 
+            <tr>
+              <td><Link to="/results/AXP">AXP</Link></td>
+              <td>American Express</td>
+              <td>7/18/2019</td>
+              <td>bmo</td>
+            </tr>   
           </tbody>
         </table>
 
