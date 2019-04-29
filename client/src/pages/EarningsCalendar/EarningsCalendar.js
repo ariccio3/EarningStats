@@ -331,6 +331,12 @@ class EarningsCalendar extends Component {
               <td>amc</td>
             </tr> 
             <tr>
+              <td><Link to="/results/PEP">PEP</Link></td>
+              <td>Pepsico</td>
+              <td>7/17/2019</td>
+              <td>amc</td>
+            </tr> 
+            <tr>
               <td><Link to="/results/AXP">AXP</Link></td>
               <td>American Express</td>
               <td>7/18/2019</td>
