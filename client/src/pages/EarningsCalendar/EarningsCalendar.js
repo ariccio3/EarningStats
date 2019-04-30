@@ -21,19 +21,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>
           </thead>
-          <tbody>               
-            <tr>
-              <td><Link to="/results/GOOGL">GOOGL</Link></td>
-              <td>Google</td>
-              <td>4/29/2019</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/MCD">MCD</Link></td>
-              <td>McDonalds</td>
-              <td>4/30/2019</td>
-              <td>bmo</td>
-            </tr> 
+          <tbody>  
             <tr>
               <td><Link to="/results/AMGN">AMGN</Link></td>
               <td>Amgen</td>
@@ -51,7 +39,13 @@ class EarningsCalendar extends Component {
               <td>Wynn Resorts</td>
               <td>4/30/2019</td>
               <td>amc</td>
-            </tr>      
+            </tr>    
+            <tr>
+              <td><Link to="/results/ADP">ADP</Link></td>
+              <td>ADP</td>
+              <td>5/1/2019</td>
+              <td>bmo</td>
+            </tr>        
             <tr>
               <td><Link to="/results/SQ">SQ</Link></td>
               <td>Square</td>
@@ -106,7 +100,7 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/TTWO">TTWO</Link></td>
               <td>Take-Two Interactive</td>
               <td>5/13/2019</td>
-              <td>bmo</td>
+              <td>amc</td>
             </tr>    
             <tr>
               <td><Link to="/results/BABA">BABA</Link></td>
@@ -359,13 +353,19 @@ class EarningsCalendar extends Component {
               <td>Caterpillar</td>
               <td>7/24/2019</td>
               <td>bmo</td>
-            </tr>      
+            </tr>    
+            <tr>
+              <td><Link to="/results/DPZ">DPZ</Link></td>
+              <td>Dominos Pizza</td>
+              <td>7/24/2019</td>
+              <td>bmo</td>
+            </tr>   
             <tr>
               <td><Link to="/results/CMG">CMG</Link></td>
               <td>Chipotle Mexican Grill</td>
               <td>7/24/2019</td>
               <td>amc</td>
-            </tr>
+            </tr>   
             <tr>
               <td><Link to="/results/FB">FB</Link></td>
               <td>Facebook</td>
@@ -419,7 +419,19 @@ class EarningsCalendar extends Component {
               <td>Exxon Mobil</td>
               <td>7/26/2019</td>
               <td>bmo</td>
-            </tr>  
+            </tr>               
+            <tr>
+              <td><Link to="/results/GOOGL">GOOGL</Link></td>
+              <td>Google</td>
+              <td>7/29/2019</td>
+              <td>amc</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/MCD">MCD</Link></td>
+              <td>McDonalds</td>
+              <td>7/30/2019</td>
+              <td>bmo</td>
+            </tr> 
           </tbody>
         </table>
 
