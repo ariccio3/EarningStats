@@ -33,12 +33,6 @@ class EarningsCalendar extends Component {
               <td>Apple</td>
               <td>4/30/2019</td>
               <td>amc</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/WYNN">WYNN</Link></td>
-              <td>Wynn Resorts</td>
-              <td>4/30/2019</td>
-              <td>amc</td>
             </tr>    
             <tr>
               <td><Link to="/results/ADP">ADP</Link></td>
@@ -50,6 +44,12 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/SQ">SQ</Link></td>
               <td>Square</td>
               <td>5/1/2019</td>
+              <td>amc</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/WYNN">WYNN</Link></td>
+              <td>Wynn Resorts</td>
+              <td>5/2/2019</td>
               <td>amc</td>
             </tr>  
           </tbody>
