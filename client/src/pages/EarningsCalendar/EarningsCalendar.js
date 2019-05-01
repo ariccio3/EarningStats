@@ -21,25 +21,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>
           </thead>
-          <tbody>  
-            <tr>
-              <td><Link to="/results/AMGN">AMGN</Link></td>
-              <td>Amgen</td>
-              <td>4/30/2019</td>
-              <td>amc</td>
-            </tr>      
-            <tr>
-              <td><Link to="/results/AAPL">AAPL</Link></td>
-              <td>Apple</td>
-              <td>4/30/2019</td>
-              <td>amc</td>
-            </tr>    
-            <tr>
-              <td><Link to="/results/ADP">ADP</Link></td>
-              <td>ADP</td>
-              <td>5/1/2019</td>
-              <td>bmo</td>
-            </tr>        
+          <tbody>      
             <tr>
               <td><Link to="/results/SQ">SQ</Link></td>
               <td>Square</td>
@@ -432,6 +414,24 @@ class EarningsCalendar extends Component {
               <td>7/30/2019</td>
               <td>bmo</td>
             </tr> 
+            <tr>
+              <td><Link to="/results/AMGN">AMGN</Link></td>
+              <td>Amgen</td>
+              <td>7/30/2019</td>
+              <td>amc</td>
+            </tr>      
+            <tr>
+              <td><Link to="/results/AAPL">AAPL</Link></td>
+              <td>Apple</td>
+              <td>7/30/2019</td>
+              <td>amc</td>
+            </tr>    
+            <tr>
+              <td><Link to="/results/ADP">ADP</Link></td>
+              <td>ADP</td>
+              <td>8/1/2019</td>
+              <td>bmo</td>
+            </tr>    
           </tbody>
         </table>
 
