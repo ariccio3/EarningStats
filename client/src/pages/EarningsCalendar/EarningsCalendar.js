@@ -12,30 +12,7 @@ class EarningsCalendar extends Component {
       <div className="tableContainer"> 
         <h4>EarningStats Watchlist Earnings Calendar</h4> 
 
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>
-          </thead>
-          <tbody>      
-            <tr>
-              <td><Link to="/results/SQ">SQ</Link></td>
-              <td>Square</td>
-              <td>5/1/2019</td>
-              <td>amc</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/WYNN">WYNN</Link></td>
-              <td>Wynn Resorts</td>
-              <td>5/2/2019</td>
-              <td>amc</td>
-            </tr>  
-          </tbody>
-        </table>
+
 
         <table className="table table-striped table-hover table-bordered">
           <thead>
@@ -53,6 +30,12 @@ class EarningsCalendar extends Component {
               <td>5/7/2019</td>
               <td>amc</td>
             </tr>   
+            <tr>
+              <td><Link to="/results/WYNN">WYNN</Link></td>
+              <td>Wynn Resorts</td>
+              <td>5/7/2019</td>
+              <td>amc</td>
+            </tr>  
             <tr>
               <td><Link to="/results/DIS">DIS</Link></td>
               <td>Disney</td>
@@ -431,7 +414,13 @@ class EarningsCalendar extends Component {
               <td>ADP</td>
               <td>8/1/2019</td>
               <td>bmo</td>
-            </tr>    
+            </tr>     
+            <tr>
+              <td><Link to="/results/SQ">SQ</Link></td>
+              <td>Square</td>
+              <td>8/1/2019</td>
+              <td>amc</td>
+            </tr>  
           </tbody>
         </table>
 
