@@ -34,6 +34,7 @@ const RankExp = props => (
 			<li>Actual Move vs. Expected Move % Difference</li>
 			<li># of Occurences</li>
 			<li>Average Stock Volume</li>
+			<li>Stock Price</li>
 			<li><a href="https://www.tastyworks.com/technology.html" className="link" target="_blank" rel="noopener noreferrer">
 			<b><font color="black">tasty</font><font color="gray">works</font><font color="crimson">.</font></b></a> Option Liquidity Rank</li>
 			<br />
