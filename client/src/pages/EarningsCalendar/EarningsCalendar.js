@@ -23,25 +23,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>
           </thead>
-          <tbody>               
-            <tr>
-              <td><Link to="/results/AGN">AGN</Link></td>
-              <td>Allergan</td>
-              <td>5/7/2019</td>
-              <td>bmo</td>
-            </tr>               
-            <tr>
-              <td><Link to="/results/EA">EA</Link></td>
-              <td>Electronic Arts</td>
-              <td>5/7/2019</td>
-              <td>amc</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/WYNN">WYNN</Link></td>
-              <td>Wynn Resorts</td>
-              <td>5/7/2019</td>
-              <td>amc</td>
-            </tr>  
+          <tbody>   
             <tr>
               <td><Link to="/results/DIS">DIS</Link></td>
               <td>Disney</td>
@@ -51,6 +33,12 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/BKNG">BKNG</Link></td>
               <td>Booking</td>
+              <td>5/9/2019</td>
+              <td>amc</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/WYNN">WYNN</Link></td>
+              <td>Wynn Resorts</td>
               <td>5/9/2019</td>
               <td>amc</td>
             </tr>   
@@ -139,7 +127,7 @@ class EarningsCalendar extends Component {
               <td>Target</td>
               <td>5/22/2019</td>
               <td>bmo</td>
-            </tr> 
+            </tr>  
             <tr>
               <td><Link to="/results/ADSK">ADSK</Link></td>
               <td>Autodesk</td>
@@ -432,7 +420,19 @@ class EarningsCalendar extends Component {
               <td>Square</td>
               <td>8/1/2019</td>
               <td>amc</td>
-            </tr>  
+            </tr>              
+            <tr>
+              <td><Link to="/results/AGN">AGN</Link></td>
+              <td>Allergan</td>
+              <td>8/7/2019</td>
+              <td>bmo</td>
+            </tr>               
+            <tr>
+              <td><Link to="/results/EA">EA</Link></td>
+              <td>Electronic Arts</td>
+              <td>8/7/2019</td>
+              <td>amc</td>
+            </tr>   
           </tbody>
         </table>
 
