@@ -64,16 +64,16 @@ class Rank extends Component {
           <area shape="rect" coords="3,1321,75,1294" href="http://www.earningstats.com/results/ADSK" alt="" / >
           <area shape="rect" coords="3,1348,75,1321" href="http://www.earningstats.com/results/IBM" alt="" / >
           <area shape="rect" coords="3,1375,75,1348" href="http://www.earningstats.com/results/ULTA" alt="" / >
-          <area shape="rect" coords="3,1321,75,1375" href="http://www.earningstats.com/results/AAPL" alt="" / >
-          <area shape="rect" coords="3,1348,75,1321" href="http://www.earningstats.com/results/BIDU" alt="" / >
-          <area shape="rect" coords="3,1375,75,1348" href="http://www.earningstats.com/results/NTES" alt="" / >
-          <area shape="rect" coords="3,1402,75,1375" href="http://www.earningstats.com/results/ROKU" alt="" / >
-          <area shape="rect" coords="3,1429,75,1402" href="http://www.earningstats.com/results/FB" alt="" / >
-          <area shape="rect" coords="3,1456,75,1429" href="http://www.earningstats.com/results/LULU" alt="" / >
-          <area shape="rect" coords="3,1483,75,1456" href="http://www.earningstats.com/results/GOOGL" alt="" / >
-          <area shape="rect" coords="3,1510,75,1483" href="http://www.earningstats.com/results/AMZN" alt="" / >
-          <area shape="rect" coords="3,1537,75,1510" href="http://www.earningstats.com/results/NFLX" alt="" / >
-          <area shape="rect" coords="3,1564,75,1537" href="http://www.earningstats.com/results/BKNG" alt="" / >
+          <area shape="rect" coords="3,1402,75,1375" href="http://www.earningstats.com/results/AAPL" alt="" / >
+          <area shape="rect" coords="3,1429,75,1402" href="http://www.earningstats.com/results/BIDU" alt="" / >
+          <area shape="rect" coords="3,1456,75,1429" href="http://www.earningstats.com/results/NTES" alt="" / >
+          <area shape="rect" coords="3,1483,75,1456" href="http://www.earningstats.com/results/ROKU" alt="" / >
+          <area shape="rect" coords="3,1510,75,1483" href="http://www.earningstats.com/results/FB" alt="" / >
+          <area shape="rect" coords="3,1537,75,1510" href="http://www.earningstats.com/results/LULU" alt="" / >
+          <area shape="rect" coords="3,1564,75,1537" href="http://www.earningstats.com/results/GOOGL" alt="" / >
+          <area shape="rect" coords="3,1591,75,1564" href="http://www.earningstats.com/results/AMZN" alt="" / >
+          <area shape="rect" coords="3,1618,75,1591" href="http://www.earningstats.com/results/NFLX" alt="" / >
+          <area shape="rect" coords="3,1645,75,1618" href="http://www.earningstats.com/results/BKNG" alt="" / >
 
         </map>
 
