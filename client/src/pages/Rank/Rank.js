@@ -15,31 +15,31 @@ class Rank extends Component {
           
         <map name="stockmap">
           <area shape="rect" coords="3,52,75,25" href="http://www.earningstats.com/results/CVX" alt="" / >
-          <area shape="rect" coords="3,80,75,52" href="http://www.earningstats.com/results/AGN" alt="" / >
-          <area shape="rect" coords="3,108,75,80" href="http://www.earningstats.com/results/JNJ" alt="" / >
-          <area shape="rect" coords="3,135,75,108" href="http://www.earningstats.com/results/C" alt="" / >
-          <area shape="rect" coords="3,163,75,135" href="http://www.earningstats.com/results/HD" alt="" / >
-          <area shape="rect" coords="3,189,75,163" href="http://www.earningstats.com/results/XOM" alt="" / >
-          <area shape="rect" coords="3,215,75,189" href="http://www.earningstats.com/results/MCD" alt="" / >
-          <area shape="rect" coords="3,244,75,215" href="http://www.earningstats.com/results/JPM" alt="" / >
-          <area shape="rect" coords="3,270,75,244" href="http://www.earningstats.com/results/GS" alt="" / >
-          <area shape="rect" coords="3,298,75,270" href="http://www.earningstats.com/results/AXP" alt="" / >
-          <area shape="rect" coords="3,324,75,298" href="http://www.earningstats.com/results/ADP" alt="" / >
-          <area shape="rect" coords="3,351,75,324" href="http://www.earningstats.com/results/DIS" alt="" / >
-          <area shape="rect" coords="3,377,75,351" href="http://www.earningstats.com/results/PEP" alt="" / >
-          <area shape="rect" coords="3,403,75,377" href="http://www.earningstats.com/results/DPZ" alt="" / >
-          <area shape="rect" coords="3,431,75,403" href="http://www.earningstats.com/results/SQ" alt="" / >
-          <area shape="rect" coords="3,459,75,431" href="http://www.earningstats.com/results/WYNN" alt="" / >
-          <area shape="rect" coords="3,487,75,459" href="http://www.earningstats.com/results/BA" alt="" / >
-          <area shape="rect" coords="3,514,75,487" href="http://www.earningstats.com/results/UPS" alt="" / >
-          <area shape="rect" coords="3,541,75,514" href="http://www.earningstats.com/results/AMGN" alt="" / >
-          <area shape="rect" coords="3,568,75,541" href="http://www.earningstats.com/results/UNH" alt="" / >
-          <area shape="rect" coords="3,594,75,568" href="http://www.earningstats.com/results/V" alt="" / >
-          <area shape="rect" coords="3,622,75,594" href="http://www.earningstats.com/results/SBUX" alt="" / >
-          <area shape="rect" coords="3,649,75,622" href="http://www.earningstats.com/results/BIIB" alt="" / >
-          <area shape="rect" coords="3,676,75,649" href="http://www.earningstats.com/results/FDX" alt="" / >
-          <area shape="rect" coords="3,703,75,676" href="http://www.earningstats.com/results/COST" alt="" / >
-          <area shape="rect" coords="3,729,75,703" href="http://www.earningstats.com/results/CRM" alt="" / >
+          <area shape="rect" coords="3,79,75,52" href="http://www.earningstats.com/results/AGN" alt="" / >
+          <area shape="rect" coords="3,106,75,79" href="http://www.earningstats.com/results/JNJ" alt="" / >
+          <area shape="rect" coords="3,135,75,106" href="http://www.earningstats.com/results/C" alt="" / >
+          <area shape="rect" coords="3,160,75,135" href="http://www.earningstats.com/results/HD" alt="" / >
+          <area shape="rect" coords="3,187,75,160" href="http://www.earningstats.com/results/XOM" alt="" / >
+          <area shape="rect" coords="3,214,75,187" href="http://www.earningstats.com/results/MCD" alt="" / >
+          <area shape="rect" coords="3,241,75,214" href="http://www.earningstats.com/results/JPM" alt="" / >
+          <area shape="rect" coords="3,268,75,241" href="http://www.earningstats.com/results/GS" alt="" / >
+          <area shape="rect" coords="3,295,75,268" href="http://www.earningstats.com/results/AXP" alt="" / >
+          <area shape="rect" coords="3,322,75,295" href="http://www.earningstats.com/results/ADP" alt="" / >
+          <area shape="rect" coords="3,349,75,322" href="http://www.earningstats.com/results/DIS" alt="" / >
+          <area shape="rect" coords="3,376,75,349" href="http://www.earningstats.com/results/PEP" alt="" / >
+          <area shape="rect" coords="3,403,75,376" href="http://www.earningstats.com/results/DPZ" alt="" / >
+          <area shape="rect" coords="3,430,75,403" href="http://www.earningstats.com/results/SQ" alt="" / >
+          <area shape="rect" coords="3,457,75,430" href="http://www.earningstats.com/results/WYNN" alt="" / >
+          <area shape="rect" coords="3,484,75,457" href="http://www.earningstats.com/results/BA" alt="" / >
+          <area shape="rect" coords="3,511,75,484" href="http://www.earningstats.com/results/UPS" alt="" / >
+          <area shape="rect" coords="3,538,75,511" href="http://www.earningstats.com/results/AMGN" alt="" / >
+          <area shape="rect" coords="3,565,75,538" href="http://www.earningstats.com/results/UNH" alt="" / >
+          <area shape="rect" coords="3,592,75,565" href="http://www.earningstats.com/results/V" alt="" / >
+          <area shape="rect" coords="3,619,75,592" href="http://www.earningstats.com/results/SBUX" alt="" / >
+          <area shape="rect" coords="3,646,75,619" href="http://www.earningstats.com/results/BIIB" alt="" / >
+          <area shape="rect" coords="3,673,75,646" href="http://www.earningstats.com/results/FDX" alt="" / >
+          <area shape="rect" coords="3,700,75,673" href="http://www.earningstats.com/results/COST" alt="" / >
+          <area shape="rect" coords="3,729,75,700" href="http://www.earningstats.com/results/CRM" alt="" / >
           <area shape="rect" coords="3,756,75,729" href="http://www.earningstats.com/results/WMT" alt="" / >
           <area shape="rect" coords="3,783,75,756" href="http://www.earningstats.com/results/DE" alt="" / >
           <area shape="rect" coords="3,810,75,783" href="http://www.earningstats.com/results/AVGO" alt="" / >
