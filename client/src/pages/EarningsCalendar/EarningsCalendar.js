@@ -23,13 +23,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>
           </thead>
-          <tbody>                        
-            <tr>
-              <td><Link to="/results/HD">HD</Link></td>
-              <td>Home Depot</td>
-              <td>5/21/2019</td>
-              <td>bmo</td>
-            </tr>                         
+          <tbody>                       
             <tr>
               <td><Link to="/results/LOW">LOW</Link></td>
               <td>Lowe's</td>
@@ -97,11 +91,25 @@ class EarningsCalendar extends Component {
               <td>SalesForce</td>
               <td>6/4/2019</td>
               <td>amc</td>
-            </tr>                
+            </tr>    
+          </tbody>
+        </table>
+
+
+        <table className="table table-striped table-hover table-bordered">
+          <thead>
+            <tr>
+              <th className="stock">Stock</th>
+              <th className="company">Company</th>
+              <th className="date">Date</th>
+              <th className="time">Time</th>
+            </tr>
+          </thead>
+          <tbody>                
             <tr>
               <td><Link to="/results/AVGO">AVGO</Link></td>
               <td>Broadcom</td>
-              <td>6/6/2019</td>
+              <td>6/13/2019</td>
               <td>amc</td>
             </tr>   
           </tbody>
@@ -448,7 +456,13 @@ class EarningsCalendar extends Component {
               <td>Deere &amp; Company</td>
               <td>8/17/2019</td>
               <td>bmo</td>
-            </tr>  
+            </tr>                         
+            <tr>
+              <td><Link to="/results/HD">HD</Link></td>
+              <td>Home Depot</td>
+              <td>8/21/2019</td>
+              <td>bmo</td>
+            </tr>   
           </tbody>
         </table>
 
