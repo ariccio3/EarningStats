@@ -13,25 +13,7 @@ class EarningsCalendar extends Component {
         <h4>EarningStats Watchlist Earnings Calendar</h4> 
 
 
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>
-          </thead>
-          <tbody>               
-            <tr>
-              <td><Link to="/results/CRM">CRM</Link></td>
-              <td>SalesForce</td>
-              <td>6/4/2019</td>
-              <td>amc</td>
-            </tr>    
-          </tbody>
-        </table>
-
+ 
 
         <table className="table table-striped table-hover table-bordered">
           <thead>
@@ -421,21 +403,27 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/ADSK">ADSK</Link></td>
               <td>Autodesk</td>
-              <td>5/23/2019</td>
+              <td>8/23/2019</td>
               <td>amc</td>
             </tr>                
             <tr>
               <td><Link to="/results/COST">COST</Link></td>
               <td>Costco</td>
-              <td>5/30/2019</td>
+              <td>8/30/2019</td>
               <td>amc</td>
             </tr>    
             <tr>
               <td><Link to="/results/ULTA">ULTA</Link></td>
               <td>Ulta Beauty</td>
-              <td>5/30/2019</td>
+              <td>8/30/2019</td>
               <td>amc</td>
-            </tr> 
+            </tr>             
+            <tr>
+              <td><Link to="/results/CRM">CRM</Link></td>
+              <td>SalesForce</td>
+              <td>9/4/2019</td>
+              <td>amc</td>
+            </tr>   
           </tbody>
         </table>
 
