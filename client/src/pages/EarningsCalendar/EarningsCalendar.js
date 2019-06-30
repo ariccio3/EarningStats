@@ -11,7 +11,7 @@ class EarningsCalendar extends Component {
     return (
       <div className="tableContainer"> 
         <h4>EarningStats Watchlist Earnings Calendar</h4> 
-        <small style="text-align:right;" >* earnings date not confirmed by company yet</small>
+        <p><small style="text-align:right;" >* earnings date not confirmed by company yet</small></p>
 
 
 
@@ -26,7 +26,13 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>           
+          <tbody> 
+            <tr>
+              <td><Link to="/results/PEP">PEP</Link></td>
+              <td>Pepsico</td>
+              <td>7/9/2019</td>
+              <td>bmo</td>
+            </tr>           
             <tr>
               <td><Link to="/results/C">C</Link></td>
               <td>CitiGroup</td>
@@ -64,15 +70,9 @@ class EarningsCalendar extends Component {
               <td>amc</td>
             </tr> 
             <tr>
-              <td><Link to="/results/PEP">PEP</Link></td>
-              <td>Pepsico</td>
-              <td>7/17/2019</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
               <td><Link to="/results/AXP">AXP</Link></td>
               <td>American Express</td>
-              <td>7/18/2019</td>
+              <td>7/19/2019</td>
               <td>bmo</td>
             </tr> 
             <tr>
