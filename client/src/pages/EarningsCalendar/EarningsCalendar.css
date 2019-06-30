@@ -26,9 +26,9 @@ thead {
 	background-color: #d3e1ee;	
 }
 
-p {
+.asteriks {
+	font-size: 10px;
 	text-align: right;
-	font-size: 8px;
 }
 
 .stock {
