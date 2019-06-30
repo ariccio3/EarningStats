@@ -11,7 +11,7 @@ class EarningsCalendar extends Component {
     return (
       <div className="tableContainer"> 
         <h4>EarningStats Watchlist Earnings Calendar</h4> 
-        <p style="text-align:right;"><small>* earnings date not confirmed by company yet</small></p>
+        <p style="text-align:right;">* earnings date not confirmed by company yet</p>
 
 
 
@@ -90,7 +90,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/TXN">TXN</Link></td>
               <td>Texas Instruments</td>
-              <td>7/23/2019</td>
+              <td>7/23/2019*</td>
               <td>amc</td>
             </tr>     
             <tr>
@@ -114,67 +114,67 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/CMG">CMG</Link></td>
               <td>Chipotle Mexican Grill</td>
-              <td>7/24/2019</td>
+              <td>7/23/2019</td>
               <td>amc</td>
             </tr>   
             <tr>
               <td><Link to="/results/FB">FB</Link></td>
               <td>Facebook</td>
-              <td>7/24/2019</td>
+              <td>7/24/2019*</td>
               <td>amc</td>
             </tr>             
             <tr>
               <td><Link to="/results/MSFT">MSFT</Link></td>
               <td>Microsoft</td>
-              <td>7/24/2019</td>
+              <td>7/18/2019*</td>
               <td>amc</td>
             </tr>   
             <tr>
               <td><Link to="/results/PYPL">PYPL</Link></td>
               <td>PayPal</td>
-              <td>7/24/2019</td>
+              <td>7/24/2019*</td>
               <td>amc</td>
             </tr>       
             <tr>
               <td><Link to="/results/TSLA">TSLA</Link></td>
               <td>Tesla</td>
-              <td>7/24/2019</td>
+              <td>7/31/2019*</td>
               <td>amc</td>
             </tr>  
             <tr>
               <td><Link to="/results/V">V</Link></td>
               <td>Visa</td>
-              <td>7/24/2019</td>
+              <td>7/24/2019*</td>
               <td>amc</td>
             </tr>  
             <tr>
               <td><Link to="/results/MA">MA</Link></td>
               <td>Mastercard</td>
-              <td>7/25/2019</td>
+              <td>7/30/2019</td>
               <td>bmo</td>
             </tr>    
             <tr>
               <td><Link to="/results/UPS">UPS</Link></td>
               <td>United Parcel Service</td>
-              <td>7/25/2019</td>
+              <td>7/24/2019</td>
               <td>bmo</td>
             </tr> 
             <tr>
               <td><Link to="/results/AMZN">AMZN</Link></td>
               <td>Amazon</td>
-              <td>7/25/2019</td>
+              <td>7/25/2019*</td>
               <td>amc</td>
             </tr>   
             <tr>
               <td><Link to="/results/SBUX">SBUX</Link></td>
               <td>Starbucks</td>
-              <td>7/25/2019</td>
+              <td>7/25/2019*</td>
               <td>amc</td>
             </tr>   
             <tr>
               <td><Link to="/results/CVX">CVX</Link></td>
               <td>Cheveron</td>
-              <td>7/26/2019</td>
+              <td>7/26/2019*</td>
               <td>bmo</td>
             </tr>   
             <tr>
