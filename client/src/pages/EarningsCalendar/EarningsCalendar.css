@@ -26,6 +26,11 @@ thead {
 	background-color: #d3e1ee;	
 }
 
+p {
+	text-align: right;
+	font-size: 8px;
+}
+
 .stock {
 	width: 15%;
 }

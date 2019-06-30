@@ -11,7 +11,7 @@ class EarningsCalendar extends Component {
     return (
       <div className="tableContainer"> 
         <h4>EarningStats Watchlist Earnings Calendar</h4> 
-        <p style="text-align:right;">* earnings date not confirmed by company yet</p>
+        <p>* earnings date not confirmed by company yet</p>
 
 
 
