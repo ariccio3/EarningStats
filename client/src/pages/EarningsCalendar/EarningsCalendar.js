@@ -15,8 +15,6 @@ class EarningsCalendar extends Component {
 
 
 
- 
-
         <table className="table table-striped table-hover table-bordered">
           <thead>
             <tr>
@@ -26,33 +24,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody> 
-            <tr>
-              <td><Link to="/results/PEP">PEP</Link></td>
-              <td>Pepsico</td>
-              <td>7/9/2019</td>
-              <td>bmo</td>
-            </tr>    
-          </tbody>
-        </table>
-
-
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
-          <tbody>        
-            <tr>
-              <td><Link to="/results/C">C</Link></td>
-              <td>CitiGroup</td>
-              <td>7/15/2019</td>
-              <td>bmo</td>
-            </tr>     
+          <tbody>     
             <tr>
               <td><Link to="/results/DPZ">DPZ</Link></td>
               <td>Dominos Pizza</td>
@@ -174,7 +146,13 @@ class EarningsCalendar extends Component {
               <td>PayPal</td>
               <td>7/24/2019</td>
               <td>amc</td>
-            </tr>            
+            </tr>      
+            <tr>
+              <td><Link to="/results/TSLA">TSLA</Link></td>
+              <td>Tesla</td>
+              <td>7/24/2019</td>
+              <td>amc</td>
+            </tr>          
             <tr>
               <td><Link to="/results/AGN">AGN</Link></td>
               <td>Allergan</td>
@@ -234,7 +212,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/AAPL">AAPL</Link></td>
               <td>Apple</td>
-              <td>7/30/2019*</td>
+              <td>7/30/2019</td>
               <td>amc</td>
             </tr>    
             <tr>
@@ -259,12 +237,6 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/QCOM">QCOM</Link></td>
               <td>QualComm</td>
               <td>7/31/2019</td>
-              <td>amc</td>
-            </tr>    
-            <tr>
-              <td><Link to="/results/TSLA">TSLA</Link></td>
-              <td>Tesla</td>
-              <td>7/31/2019*</td>
               <td>amc</td>
             </tr>      
             <tr>
@@ -304,17 +276,17 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>    
-            <tr>
-              <td><Link to="/results/DIS">DIS</Link></td>
-              <td>Disney</td>
-              <td>8/6/2019*</td>
-              <td>amc</td>
-            </tr>               
+          <tbody>              
             <tr>
               <td><Link to="/results/TTWO">TTWO</Link></td>
               <td>Take-Two Interactive</td>
-              <td>8/6/2019*</td>
+              <td>8/5/2019</td>
+              <td>amc</td>
+            </tr>     
+            <tr>
+              <td><Link to="/results/DIS">DIS</Link></td>
+              <td>Disney</td>
+              <td>8/6/2019</td>
               <td>amc</td>
             </tr>   
             <tr>
@@ -364,7 +336,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/DE">DE</Link></td>
               <td>Deere &amp; Company</td>
-              <td>8/16/2019</td>
+              <td>8/16/2019*</td>
               <td>bmo</td>
             </tr>  
           </tbody>
@@ -466,7 +438,6 @@ class EarningsCalendar extends Component {
           </tbody>
         </table>
 
-
         <table className="table table-striped table-hover table-bordered">
           <thead>
             <tr>
@@ -480,13 +451,27 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/FDX">FDX</Link></td>
               <td>FedEx</td>
-              <td>9/25/2019</td>
+              <td>9/17/2019</td>
               <td>amc</td>
-            </tr>          
+            </tr>       
+          </tbody>
+        </table>  
+
+
+        <table className="table table-striped table-hover table-bordered">
+          <thead>
+            <tr>
+              <th className="stock">Stock</th>
+              <th className="company">Company</th>
+              <th className="date">Date</th>
+              <th className="time">Time</th>
+            </tr>        
+          </thead>
+          <tbody>         
             <tr>
               <td><Link to="/results/ACN">ACN</Link></td>
               <td>accenture</td>
-              <td>9/26/2019*</td>
+              <td>9/26/2019</td>
               <td>bmo</td>
             </tr>          
             <tr>
@@ -508,7 +493,13 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>           
+          <tbody>  
+            <tr>
+              <td><Link to="/results/PEP">PEP</Link></td>
+              <td>Pepsico</td>
+              <td>10/1/20198</td>
+              <td>bmo</td>
+            </tr>           
             <tr>
               <td><Link to="/results/STZ">STZ</Link></td>  
               <td>Constellation Brands</td>
@@ -523,6 +514,27 @@ class EarningsCalendar extends Component {
             </tr>  
           </tbody>
         </table>
+
+
+        <table className="table table-striped table-hover table-bordered">
+          <thead>
+            <tr>
+              <th className="stock">Stock</th>
+              <th className="company">Company</th>
+              <th className="date">Date</th>
+              <th className="time">Time</th>
+            </tr>        
+          </thead>
+          <tbody>       
+            <tr>
+              <td><Link to="/results/C">C</Link></td>
+              <td>CitiGroup</td>
+              <td>TBA</td>
+              <td>bmo</td>
+            </tr>    
+          </tbody>
+        </table>
+
 
       </div>         
     );
