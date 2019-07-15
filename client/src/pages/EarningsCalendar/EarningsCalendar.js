@@ -511,29 +511,18 @@ class EarningsCalendar extends Component {
               <td>Costco</td>
               <td>10/3/2019</td>
               <td>amc</td>
+            </tr>       
+            <tr>
+              <td><Link to="/results/C">C</Link></td>
+              <td>CitiGroup</td>
+              <td>10/15/2019</td>
+              <td>bmo</td>
             </tr>  
           </tbody>
         </table>
 
 
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
-          <tbody>       
-            <tr>
-              <td><Link to="/results/C">C</Link></td>
-              <td>CitiGroup</td>
-              <td>TBA</td>
-              <td>bmo</td>
-            </tr>    
-          </tbody>
-        </table>
+
 
 
       </div>         
