@@ -26,30 +26,6 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>     
             <tr>
-              <td><Link to="/results/DPZ">DPZ</Link></td>
-              <td>Dominos Pizza</td>
-              <td>7/16/2019</td>
-              <td>bmo</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/GS">GS</Link></td>
-              <td>Goldman Sachs</td>
-              <td>7/16/2019</td>
-              <td>bmo</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/JPM">JPM</Link></td>
-              <td>JPMorgan Chase</td>
-              <td>7/16/2019</td>
-              <td>bmo</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/JNJ">JNJ</Link></td>
-              <td>Johnson &amp; Johnson</td>
-              <td>7/16/2019</td>
-              <td>bmo</td>
-            </tr>   
-            <tr>
               <td><Link to="/results/IBM">IBM</Link></td>
               <td>International Business Machines</td>
               <td>7/17/2019</td>
@@ -516,6 +492,30 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/C">C</Link></td>
               <td>CitiGroup</td>
               <td>10/15/2019</td>
+              <td>bmo</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/DPZ">DPZ</Link></td>
+              <td>Dominos Pizza</td>
+              <td>10/16/2019</td>
+              <td>bmo</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/GS">GS</Link></td>
+              <td>Goldman Sachs</td>
+              <td>10/16/2019</td>
+              <td>bmo</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/JPM">JPM</Link></td>
+              <td>JPMorgan Chase</td>
+              <td>10/16/2019</td>
+              <td>bmo</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/JNJ">JNJ</Link></td>
+              <td>Johnson &amp; Johnson</td>
+              <td>10/16/2019</td>
               <td>bmo</td>
             </tr>  
           </tbody>
