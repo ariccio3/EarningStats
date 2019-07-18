@@ -24,25 +24,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>     
-            <tr>
-              <td><Link to="/results/IBM">IBM</Link></td>
-              <td>International Business Machines</td>
-              <td>7/17/2019</td>
-              <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/NFLX">NFLX</Link></td>
-              <td>Netflix</td>
-              <td>7/17/2019</td>
-              <td>amc</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/UNH">UNH</Link></td>
-              <td>United Health</td>
-              <td>7/18/2019</td>
-              <td>bmo</td>
-            </tr>          
+          <tbody>           
             <tr>
               <td><Link to="/results/MSFT">MSFT</Link></td>
               <td>Microsoft</td>
@@ -517,7 +499,25 @@ class EarningsCalendar extends Component {
               <td>Johnson &amp; Johnson</td>
               <td>10/16/2019</td>
               <td>bmo</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/IBM">IBM</Link></td>
+              <td>International Business Machines</td>
+              <td>10/17/2019</td>
+              <td>amc</td>
             </tr>  
+            <tr>
+              <td><Link to="/results/NFLX">NFLX</Link></td>
+              <td>Netflix</td>
+              <td>10/17/2019</td>
+              <td>amc</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/UNH">UNH</Link></td>
+              <td>United Health</td>
+              <td>10/18/2019</td>
+              <td>bmo</td>
+            </tr>   
           </tbody>
         </table>
 
