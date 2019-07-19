@@ -15,30 +15,6 @@ class EarningsCalendar extends Component {
 
 
 
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
-          <tbody>           
-            <tr>
-              <td><Link to="/results/MSFT">MSFT</Link></td>
-              <td>Microsoft</td>
-              <td>7/18/2019</td>
-              <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/AXP">AXP</Link></td>
-              <td>American Express</td>
-              <td>7/19/2019</td>
-              <td>bmo</td>
-            </tr>  
-          </tbody>
-        </table>
 
 
         <table className="table table-striped table-hover table-bordered">
@@ -517,7 +493,19 @@ class EarningsCalendar extends Component {
               <td>United Health</td>
               <td>10/18/2019</td>
               <td>bmo</td>
-            </tr>   
+            </tr>            
+            <tr>
+              <td><Link to="/results/MSFT">MSFT</Link></td>
+              <td>Microsoft</td>
+              <td>10/18/2019</td>
+              <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/AXP">AXP</Link></td>
+              <td>American Express</td>
+              <td>10/19/2019</td>
+              <td>bmo</td>
+            </tr>  
           </tbody>
         </table>
 
