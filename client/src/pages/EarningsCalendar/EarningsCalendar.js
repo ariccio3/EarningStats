@@ -86,12 +86,6 @@ class EarningsCalendar extends Component {
               <td>Tesla</td>
               <td>7/24/2019</td>
               <td>amc</td>
-            </tr>          
-            <tr>
-              <td><Link to="/results/AGN">AGN</Link></td>
-              <td>Allergan</td>
-              <td>7/25/2019*</td>
-              <td>bmo</td>
             </tr> 
             <tr>
               <td><Link to="/results/AMZN">AMZN</Link></td>
