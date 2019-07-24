@@ -26,43 +26,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>  
-            <tr>
-              <td><Link to="/results/CMG">CMG</Link></td>
-              <td>Chipotle Mexican Grill</td>
-              <td>7/23/2019</td>
-              <td>amc</td>
-            </tr>        
-            <tr>
-              <td><Link to="/results/TXN">TXN</Link></td>
-              <td>Texas Instruments</td>
-              <td>7/23/2019</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/V">V</Link></td>
-              <td>Visa</td>
-              <td>7/23/2019</td>
-              <td>amc</td>
-            </tr>     
-            <tr>
-              <td><Link to="/results/BA">BA</Link></td>
-              <td>Boeing</td>
-              <td>7/24/2019</td>
-              <td>bmo</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/CAT">CAT</Link></td>
-              <td>Caterpillar</td>
-              <td>7/24/2019</td>
-              <td>bmo</td>
-            </tr>     
-            <tr>
-              <td><Link to="/results/UPS">UPS</Link></td>
-              <td>United Parcel Service</td>
-              <td>7/24/2019</td>
-              <td>bmo</td>
-            </tr>     
+          <tbody>      
             <tr>
               <td><Link to="/results/FB">FB</Link></td>
               <td>Facebook</td>
@@ -220,7 +184,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/ROKU">ROKU</Link></td>
               <td>Roku</td>
-              <td>8/7/2019*</td>
+              <td>8/7/2019</td>
               <td>amc</td>
             </tr>  
             <tr>
@@ -500,6 +464,42 @@ class EarningsCalendar extends Component {
               <td>10/23/2019</td>
               <td>bmo</td>
             </tr>  
+            <tr>
+              <td><Link to="/results/CMG">CMG</Link></td>
+              <td>Chipotle Mexican Grill</td>
+              <td>10/23/2019</td>
+              <td>amc</td>
+            </tr>        
+            <tr>
+              <td><Link to="/results/TXN">TXN</Link></td>
+              <td>Texas Instruments</td>
+              <td>10/23/2019</td>
+              <td>amc</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/V">V</Link></td>
+              <td>Visa</td>
+              <td>10/23/2019</td>
+              <td>amc</td>
+            </tr>     
+            <tr>
+              <td><Link to="/results/BA">BA</Link></td>
+              <td>Boeing</td>
+              <td>10/24/2019</td>
+              <td>bmo</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/CAT">CAT</Link></td>
+              <td>Caterpillar</td>
+              <td>10/24/2019</td>
+              <td>bmo</td>
+            </tr>     
+            <tr>
+              <td><Link to="/results/UPS">UPS</Link></td>
+              <td>United Parcel Service</td>
+              <td>10/24/2019</td>
+              <td>bmo</td>
+            </tr> 
           </tbody>
         </table>
 
