@@ -26,25 +26,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>      
-            <tr>
-              <td><Link to="/results/FB">FB</Link></td>
-              <td>Facebook</td>
-              <td>7/24/2019</td>
-              <td>amc</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/PYPL">PYPL</Link></td>
-              <td>PayPal</td>
-              <td>7/24/2019</td>
-              <td>amc</td>
-            </tr>      
-            <tr>
-              <td><Link to="/results/TSLA">TSLA</Link></td>
-              <td>Tesla</td>
-              <td>7/24/2019</td>
-              <td>amc</td>
-            </tr> 
+          <tbody>    
             <tr>
               <td><Link to="/results/AMZN">AMZN</Link></td>
               <td>Amazon</td>
@@ -499,6 +481,24 @@ class EarningsCalendar extends Component {
               <td>United Parcel Service</td>
               <td>10/24/2019</td>
               <td>bmo</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/FB">FB</Link></td>
+              <td>Facebook</td>
+              <td>10/24/2019</td>
+              <td>amc</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/PYPL">PYPL</Link></td>
+              <td>PayPal</td>
+              <td>10/24/2019</td>
+              <td>amc</td>
+            </tr>      
+            <tr>
+              <td><Link to="/results/TSLA">TSLA</Link></td>
+              <td>Tesla</td>
+              <td>10/24/2019</td>
+              <td>amc</td>
             </tr> 
           </tbody>
         </table>
