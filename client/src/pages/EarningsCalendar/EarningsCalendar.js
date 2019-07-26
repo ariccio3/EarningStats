@@ -17,43 +17,6 @@ class EarningsCalendar extends Component {
 
 
 
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
-          <tbody>    
-            <tr>
-              <td><Link to="/results/AMZN">AMZN</Link></td>
-              <td>Amazon</td>
-              <td>7/25/2019</td>
-              <td>amc</td>
-            </tr>                
-            <tr>
-              <td><Link to="/results/GOOGL">GOOGL</Link></td>
-              <td>Google</td>
-              <td>7/25/2019</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/SBUX">SBUX</Link></td>
-              <td>Starbucks</td>
-              <td>7/25/2019</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/MCD">MCD</Link></td>
-              <td>McDonalds</td>
-              <td>7/26/2019</td>
-              <td>bmo</td>
-            </tr>
-          </tbody>
-        </table>
-
 
         <table className="table table-striped table-hover table-bordered">
           <thead>
@@ -499,7 +462,31 @@ class EarningsCalendar extends Component {
               <td>Tesla</td>
               <td>10/24/2019</td>
               <td>amc</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/AMZN">AMZN</Link></td>
+              <td>Amazon</td>
+              <td>10/25/2019</td>
+              <td>amc</td>
+            </tr>                
+            <tr>
+              <td><Link to="/results/GOOGL">GOOGL</Link></td>
+              <td>Google</td>
+              <td>10/25/2019</td>
+              <td>amc</td>
             </tr> 
+            <tr>
+              <td><Link to="/results/SBUX">SBUX</Link></td>
+              <td>Starbucks</td>
+              <td>10/25/2019</td>
+              <td>amc</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/MCD">MCD</Link></td>
+              <td>McDonalds</td>
+              <td>10/26/2019</td>
+              <td>bmo</td>
+            </tr>
           </tbody>
         </table>
 
