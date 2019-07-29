@@ -45,12 +45,6 @@ class EarningsCalendar extends Component {
               <td>Apple</td>
               <td>7/30/2019</td>
               <td>amc</td>
-            </tr>    
-            <tr>
-              <td><Link to="/results/BIDU">BIDU</Link></td>
-              <td>Baidu</td>
-              <td>7/30/2019*</td>
-              <td>amc</td>
             </tr>             
             <tr>
               <td><Link to="/results/EA">EA</Link></td>
@@ -183,7 +177,13 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>                         
+          <tbody>    
+            <tr>
+              <td><Link to="/results/BIDU">BIDU</Link></td>
+              <td>Baidu</td>
+              <td>8/19/2019</td>
+              <td>amc</td>
+            </tr>                         
             <tr>
               <td><Link to="/results/HD">HD</Link></td>
               <td>Home Depot</td>
@@ -207,13 +207,7 @@ class EarningsCalendar extends Component {
               <td>Alibaba</td>
               <td>8/22/2019*</td>
               <td>bmo</td>
-            </tr>    
-            <tr>
-              <td><Link to="/results/ADSK">ADSK</Link></td>
-              <td>Autodesk</td>
-              <td>8/22/2019*</td>
-              <td>amc</td>
-            </tr>   
+            </tr>  
           </tbody>
         </table>
 
@@ -227,7 +221,13 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>             
+          <tbody>     
+            <tr>
+              <td><Link to="/results/ADSK">ADSK</Link></td>
+              <td>Autodesk</td>
+              <td>8/27/2019*</td>
+              <td>amc</td>
+            </tr>             
             <tr>
               <td><Link to="/results/CRM">CRM</Link></td>
               <td>SalesForce</td>
