@@ -27,31 +27,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>  
-            <tr>
-              <td><Link to="/results/AMGN">AMGN</Link></td>
-              <td>Amgen</td>
-              <td>7/30/2019</td>
-              <td>amc</td>
-            </tr>      
-            <tr>
-              <td><Link to="/results/AAPL">AAPL</Link></td>
-              <td>Apple</td>
-              <td>7/30/2019</td>
-              <td>amc</td>
-            </tr>             
-            <tr>
-              <td><Link to="/results/EA">EA</Link></td>
-              <td>Electronic Arts</td>
-              <td>7/30/2019</td>
-              <td>amc</td>
-            </tr>      
-            <tr>
-              <td><Link to="/results/ADP">ADP</Link></td>
-              <td>ADP</td>
-              <td>7/31/2019</td>
-              <td>bmo</td>
-            </tr>   
+          <tbody>   
             <tr>
               <td><Link to="/results/QCOM">QCOM</Link></td>
               <td>QualComm</td>
@@ -485,6 +461,30 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/MA">MA</Link></td>
               <td>Mastercard</td>
               <td>10/30/2019</td>
+              <td>bmo</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/AMGN">AMGN</Link></td>
+              <td>Amgen</td>
+              <td>10/30/2019</td>
+              <td>amc</td>
+            </tr>      
+            <tr>
+              <td><Link to="/results/AAPL">AAPL</Link></td>
+              <td>Apple</td>
+              <td>10/30/2019</td>
+              <td>amc</td>
+            </tr>             
+            <tr>
+              <td><Link to="/results/EA">EA</Link></td>
+              <td>Electronic Arts</td>
+              <td>10/30/2019</td>
+              <td>amc</td>
+            </tr>      
+            <tr>
+              <td><Link to="/results/ADP">ADP</Link></td>
+              <td>ADP</td>
+              <td>10/31/2019</td>
               <td>bmo</td>
             </tr>  
           </tbody>
