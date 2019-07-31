@@ -39,12 +39,6 @@ class EarningsCalendar extends Component {
               <td>Square</td>
               <td>8/1/2019</td>
               <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/WYNN">WYNN</Link></td>
-              <td>Wynn Resorts</td>
-              <td>8/1/2019*</td>
-              <td>amc</td>
             </tr>    
             <tr>
               <td><Link to="/results/CVX">CVX</Link></td>
@@ -85,9 +79,21 @@ class EarningsCalendar extends Component {
               <td>amc</td>
             </tr>   
             <tr>
+              <td><Link to="/results/WYNN">WYNN</Link></td>
+              <td>Wynn Resorts</td>
+              <td>8/6/2019</td>
+              <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/BKNG">BKNG</Link></td>
+              <td>Booking</td>
+              <td>8/7/2019</td>
+              <td>amc</td>
+            </tr>
+            <tr>
               <td><Link to="/results/NTES">NTES</Link></td>
               <td>NetEase</td>
-              <td>8/7/2019*</td>
+              <td>8/7/2019</td>
               <td>amc</td>
             </tr>         
             <tr>
@@ -95,13 +101,7 @@ class EarningsCalendar extends Component {
               <td>Roku</td>
               <td>8/7/2019</td>
               <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/BKNG">BKNG</Link></td>
-              <td>Booking</td>
-              <td>8/8/2019*</td>
-              <td>amc</td>
-            </tr>  
+            </tr>    
           </tbody>
         </table>
 
