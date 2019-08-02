@@ -27,44 +27,6 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>   
-            <tr>
-              <td><Link to="/results/QCOM">QCOM</Link></td>
-              <td>QualComm</td>
-              <td>7/31/2019</td>
-              <td>amc</td>
-            </tr>      
-            <tr>
-              <td><Link to="/results/SQ">SQ</Link></td>
-              <td>Square</td>
-              <td>8/1/2019</td>
-              <td>amc</td>
-            </tr>    
-            <tr>
-              <td><Link to="/results/CVX">CVX</Link></td>
-              <td>Cheveron</td>
-              <td>8/2/2019</td>
-              <td>bmo</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/XOM">XOM</Link></td>
-              <td>Exxon Mobil</td>
-              <td>8/2/2019</td>
-              <td>bmo</td>
-            </tr>  
-          </tbody>
-        </table>
-
-
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
           <tbody>              
             <tr>
               <td><Link to="/results/TTWO">TTWO</Link></td>
@@ -485,6 +447,30 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/ADP">ADP</Link></td>
               <td>ADP</td>
               <td>10/31/2019</td>
+              <td>bmo</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/QCOM">QCOM</Link></td>
+              <td>QualComm</td>
+              <td>10/31/2019</td>
+              <td>amc</td>
+            </tr>       
+            <tr>
+              <td><Link to="/results/SQ">SQ</Link></td>
+              <td>Square</td>
+              <td>11/1/2019</td>
+              <td>amc</td>
+            </tr>    
+            <tr>
+              <td><Link to="/results/CVX">CVX</Link></td>
+              <td>Cheveron</td>
+              <td>11/2/2019</td>
+              <td>bmo</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/XOM">XOM</Link></td>
+              <td>Exxon Mobil</td>
+              <td>11/2/2019</td>
               <td>bmo</td>
             </tr>  
           </tbody>
