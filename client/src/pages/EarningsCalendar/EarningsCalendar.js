@@ -27,19 +27,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>    
-            <tr>
-              <td><Link to="/results/DIS">DIS</Link></td>
-              <td>Disney</td>
-              <td>8/6/2019</td>
-              <td>amc</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/WYNN">WYNN</Link></td>
-              <td>Wynn Resorts</td>
-              <td>8/6/2019</td>
-              <td>amc</td>
-            </tr>  
+          <tbody>
             <tr>
               <td><Link to="/results/BKNG">BKNG</Link></td>
               <td>Booking</td>
@@ -471,6 +459,18 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/TTWO">TTWO</Link></td>
               <td>Take-Two Interactive</td>
               <td>11/5/2019</td>
+              <td>amc</td>
+            </tr>      
+            <tr>
+              <td><Link to="/results/DIS">DIS</Link></td>
+              <td>Disney</td>
+              <td>11/6/2019</td>
+              <td>amc</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/WYNN">WYNN</Link></td>
+              <td>Wynn Resorts</td>
+              <td>11/6/2019</td>
               <td>amc</td>
             </tr>   
           </tbody>
