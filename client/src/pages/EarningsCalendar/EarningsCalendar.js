@@ -16,40 +16,6 @@ class EarningsCalendar extends Component {
 
 
 
-
-
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
-          <tbody>
-            <tr>
-              <td><Link to="/results/BKNG">BKNG</Link></td>
-              <td>Booking</td>
-              <td>8/7/2019</td>
-              <td>amc</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/NTES">NTES</Link></td>
-              <td>NetEase</td>
-              <td>8/7/2019</td>
-              <td>amc</td>
-            </tr>         
-            <tr>
-              <td><Link to="/results/ROKU">ROKU</Link></td>
-              <td>Roku</td>
-              <td>8/7/2019</td>
-              <td>amc</td>
-            </tr>    
-          </tbody>
-        </table>
-
-
         <table className="table table-striped table-hover table-bordered">
           <thead>
             <tr>
@@ -473,6 +439,24 @@ class EarningsCalendar extends Component {
               <td>11/6/2019</td>
               <td>amc</td>
             </tr>   
+            <tr>
+              <td><Link to="/results/BKNG">BKNG</Link></td>
+              <td>Booking</td>
+              <td>11/7/2019</td>
+              <td>amc</td>
+            </tr>
+            <tr>
+              <td><Link to="/results/NTES">NTES</Link></td>
+              <td>NetEase</td>
+              <td>11/7/2019</td>
+              <td>amc</td>
+            </tr>         
+            <tr>
+              <td><Link to="/results/ROKU">ROKU</Link></td>
+              <td>Roku</td>
+              <td>11/7/2019</td>
+              <td>amc</td>
+            </tr>  
           </tbody>
         </table>
 
