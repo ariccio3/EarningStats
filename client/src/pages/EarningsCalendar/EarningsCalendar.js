@@ -24,19 +24,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>    
-            <tr>
-              <td><Link to="/results/BIDU">BIDU</Link></td>
-              <td>Baidu</td>
-              <td>8/19/2019</td>
-              <td>amc</td>
-            </tr>                         
-            <tr>
-              <td><Link to="/results/HD">HD</Link></td>
-              <td>Home Depot</td>
-              <td>8/20/2019</td>
-              <td>bmo</td>
-            </tr>                     
+          <tbody>                     
             <tr>
               <td><Link to="/results/LOW">LOW</Link></td>
               <td>Lowe's</td>
@@ -104,7 +92,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/AVGO">AVGO</Link></td>
               <td>Broadcom</td>
-              <td>9/12/2019*</td>
+              <td>9/12/2019</td>
               <td>amc</td>
             </tr>   
           </tbody>
@@ -441,7 +429,25 @@ class EarningsCalendar extends Component {
               <td>Deere &amp; Company</td>
               <td>11/16/2019</td>
               <td>bmo</td>
-            </tr>  
+            </tr>   
+            <tr>
+              <td><Link to="/results/AGN">AGN</Link></td>
+              <td>Allergan</td>
+              <td>11/16/2019</td>
+              <td>bmo</td>
+            </tr>    
+            <tr>
+              <td><Link to="/results/BIDU">BIDU</Link></td>
+              <td>Baidu</td>
+              <td>11/19/2019</td>
+              <td>amc</td>
+            </tr>                         
+            <tr>
+              <td><Link to="/results/HD">HD</Link></td>
+              <td>Home Depot</td>
+              <td>11/20/2019</td>
+              <td>bmo</td>
+            </tr>   
           </tbody>
         </table>
 
