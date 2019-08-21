@@ -24,19 +24,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>                     
-            <tr>
-              <td><Link to="/results/LOW">LOW</Link></td>
-              <td>Lowe's</td>
-              <td>8/21/2019</td>
-              <td>bmo</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/TGT">TGT</Link></td>
-              <td>Target</td>
-              <td>8/21/2019</td>
-              <td>bmo</td>
-            </tr>           
+          <tbody>           
             <tr>
               <td><Link to="/results/CRM">CRM</Link></td>
               <td>SalesForce</td>
@@ -447,7 +435,19 @@ class EarningsCalendar extends Component {
               <td>Home Depot</td>
               <td>11/20/2019</td>
               <td>bmo</td>
+            </tr>                       
+            <tr>
+              <td><Link to="/results/LOW">LOW</Link></td>
+              <td>Lowe's</td>
+              <td>11/21/2019</td>
+              <td>bmo</td>
             </tr>   
+            <tr>
+              <td><Link to="/results/TGT">TGT</Link></td>
+              <td>Target</td>
+              <td>11/21/2019</td>
+              <td>bmo</td>
+            </tr> 
           </tbody>
         </table>
 
