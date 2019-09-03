@@ -86,18 +86,18 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>         
+          <tbody>           
+            <tr>
+              <td><Link to="/results/NKE">NKE</Link></td>
+              <td>Nike</td>
+              <td>9/24/2019*</td>
+              <td>amc</td>
+            </tr>        
             <tr>
               <td><Link to="/results/ACN">ACN</Link></td>
               <td>accenture</td>
               <td>9/26/2019</td>
               <td>bmo</td>
-            </tr>          
-            <tr>
-              <td><Link to="/results/NKE">NKE</Link></td>
-              <td>Nike</td>
-              <td>9/26/2019*</td>
-              <td>amc</td>
             </tr>       
           </tbody>
         </table>
@@ -116,7 +116,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/PEP">PEP</Link></td>
               <td>Pepsico</td>
-              <td>10/1/20198</td>
+              <td>10/3/20198</td>
               <td>bmo</td>
             </tr>           
             <tr>
