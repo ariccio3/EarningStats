@@ -27,18 +27,6 @@ class EarningsCalendar extends Component {
             </tr>        
           </thead>
           <tbody>          
-            <tr>
-              <td><Link to="/results/ADBE">ADBE</Link></td>
-              <td>Adobe</td>
-              <td>9/17/2019</td>
-              <td>amc</td>
-            </tr>             
-            <tr>
-              <td><Link to="/results/FDX">FDX</Link></td>
-              <td>FedEx</td>
-              <td>9/17/2019</td>
-              <td>amc</td>
-            </tr>       
           </tbody>
         </table>  
 
@@ -414,7 +402,19 @@ class EarningsCalendar extends Component {
               <td>Ulta Beauty</td>
               <td>12/15/2019</td>
               <td>amc</td>
-            </tr> 
+            </tr>      
+            <tr>
+              <td><Link to="/results/ADBE">ADBE</Link></td>
+              <td>Adobe</td>
+              <td>12/17/2019</td>
+              <td>amc</td>
+            </tr>             
+            <tr>
+              <td><Link to="/results/FDX">FDX</Link></td>
+              <td>FedEx</td>
+              <td>12/17/2019</td>
+              <td>amc</td>
+            </tr>  
           </tbody>
         </table>
 
