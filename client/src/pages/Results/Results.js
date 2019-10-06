@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import API from "../../utils/API";
 import "./results.css";
 import { Link } from "react-router-dom";
-import AAPL from "./Charts/AAPL.JPG";
 
 class Results extends Component {
   state = {
