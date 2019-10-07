@@ -159,6 +159,12 @@ class EarningsCalendar extends Component {
               <td>bmo</td>
             </tr>      
             <tr>
+              <td><Link to="/results/XLNX">XLNX</Link></td>
+              <td>XILINX Inc</td>
+              <td>10/23/2019</td>
+              <td>amc</td>
+            </tr>      
+            <tr>
               <td><Link to="/results/MSFT">MSFT</Link></td>
               <td>Microsoft</td>
               <td>10/23/2019*</td>
@@ -261,7 +267,13 @@ class EarningsCalendar extends Component {
               <td>Apple</td>
               <td>10/30/2019</td>
               <td>amc</td>
-            </tr>     
+            </tr>         
+            <tr>
+              <td><Link to="/results/ANET">ANET</Link></td>
+              <td>Arista Networks</td>
+              <td>10/31/2019</td>
+              <td>amc</td>
+            </tr> 
             <tr>
               <td><Link to="/results/BABA">BABA</Link></td>
               <td>Alibaba</td>
