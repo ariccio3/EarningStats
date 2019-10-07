@@ -291,7 +291,13 @@ class EarningsCalendar extends Component {
               <td>Exxon Mobil</td>
               <td>11/1/2019</td>
               <td>bmo</td>
-            </tr>   
+            </tr>  
+            <tr>
+              <td><Link to="/results/AGN">AGN</Link></td>
+              <td>Allergan</td>
+              <td>11/4/2019*</td>
+              <td>bmo</td>
+            </tr>  
           </tbody>
         </table>
 
@@ -306,12 +312,6 @@ class EarningsCalendar extends Component {
             </tr>        
           </thead>
           <tbody>  
-            <tr>
-              <td><Link to="/results/AGN">AGN</Link></td>
-              <td>Allergan</td>
-              <td>11/4/2019*</td>
-              <td>bmo</td>
-            </tr> 
             <tr>
               <td><Link to="/results/BKNG">BKNG</Link></td>
               <td>Booking</td>
