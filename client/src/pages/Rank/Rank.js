@@ -15,10 +15,10 @@ class Rank extends Component {
           
         <map name="stockmap">
           <area shape="rect" coords="3,50,75,25" href="http://www.earningstats.com/results/AGN" alt="" / >
-          <area shape="rect" coords="3,79,75,50" href="http://www.earningstats.com/results/CVX" alt="" / >
-          <area shape="rect" coords="3,104,75,79" href="http://www.earningstats.com/results/JNJ" alt="" / >
-          <area shape="rect" coords="3,135,75,104" href="http://www.earningstats.com/results/C" alt="" / >
-          <area shape="rect" coords="3,158,75,135" href="http://www.earningstats.com/results/HD" alt="" / >
+          <area shape="rect" coords="3,75,75,50" href="http://www.earningstats.com/results/CVX" alt="" / >
+          <area shape="rect" coords="3,100,75,75" href="http://www.earningstats.com/results/JNJ" alt="" / >
+          <area shape="rect" coords="3,125,75,100" href="http://www.earningstats.com/results/C" alt="" / >
+          <area shape="rect" coords="3,150,75,125" href="http://www.earningstats.com/results/HD" alt="" / >
           <area shape="rect" coords="3,187,75,158" href="http://www.earningstats.com/results/JPM" alt="" / >
           <area shape="rect" coords="3,212,75,187" href="http://www.earningstats.com/results/XOM" alt="" / >
           <area shape="rect" coords="3,241,75,212" href="http://www.earningstats.com/results/ADP" alt="" / >
