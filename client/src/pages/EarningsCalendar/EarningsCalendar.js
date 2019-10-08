@@ -27,26 +27,6 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>          
-            <tr>
-              <td><Link to="/results/DPZ">DPZ</Link></td>
-              <td>Dominos Pizza</td>
-              <td>10/8/2019</td>
-              <td>bmo</td>
-            </tr>  
-          </tbody>
-        </table>
-
-
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
           <tbody>       
             <tr>
               <td><Link to="/results/C">C</Link></td>
@@ -570,7 +550,13 @@ class EarningsCalendar extends Component {
               <td>Constellation Brands</td>
               <td>1/8/2019</td>
               <td>bmo</td>
-            </tr>   
+            </tr>        
+            <tr>
+              <td><Link to="/results/DPZ">DPZ</Link></td>
+              <td>Dominos Pizza</td>
+              <td>1/8/2019</td>
+              <td>bmo</td>
+            </tr>  
           </tbody>
         </table>
 
