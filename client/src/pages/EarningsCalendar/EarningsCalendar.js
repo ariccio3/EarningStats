@@ -27,37 +27,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>       
-            <tr>
-              <td><Link to="/results/C">C</Link></td>
-              <td>CitiGroup</td>
-              <td>10/15/2019</td>
-              <td>bmo</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/GS">GS</Link></td>
-              <td>Goldman Sachs</td>
-              <td>10/15/2019</td>
-              <td>bmo</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/JPM">JPM</Link></td>
-              <td>JPMorgan Chase</td>
-              <td>10/15/2019</td>
-              <td>bmo</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/JNJ">JNJ</Link></td>
-              <td>Johnson &amp; Johnson</td>
-              <td>10/15/2019</td>
-              <td>bmo</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/UNH">UNH</Link></td>
-              <td>United Health</td>
-              <td>10/15/2019</td>
-              <td>bmo</td>
-            </tr>   
+          <tbody>   
             <tr>
               <td><Link to="/results/NFLX">NFLX</Link></td>
               <td>Netflix</td>
@@ -555,6 +525,36 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/DPZ">DPZ</Link></td>
               <td>Dominos Pizza</td>
               <td>1/8/2019</td>
+              <td>bmo</td>
+            </tr>       
+            <tr>
+              <td><Link to="/results/C">C</Link></td>
+              <td>CitiGroup</td>
+              <td>1/15/2019</td>
+              <td>bmo</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/GS">GS</Link></td>
+              <td>Goldman Sachs</td>
+              <td>1/15/2019</td>
+              <td>bmo</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/JNJ">JNJ</Link></td>
+              <td>Johnson &amp; Johnson</td>
+              <td>1/15/2019</td>
+              <td>bmo</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/JPM">JPM</Link></td>
+              <td>JPMorgan Chase</td>
+              <td>1/15/2019</td>
+              <td>bmo</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/UNH">UNH</Link></td>
+              <td>United Health</td>
+              <td>1/15/2019</td>
               <td>bmo</td>
             </tr>  
           </tbody>
