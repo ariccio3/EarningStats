@@ -15,29 +15,6 @@ class EarningsCalendar extends Component {
 
 
 
-
-
-
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
-          <tbody>  
-            <tr>
-              <td><Link to="/results/AXP">AXP</Link></td>
-              <td>American Express</td>
-              <td>10/18/2019</td>
-              <td>bmo</td>
-            </tr>   
-          </tbody>
-        </table>
-
-
         <table className="table table-striped table-hover table-bordered">
           <thead>
             <tr>
@@ -500,63 +477,69 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/PEP">PEP</Link></td>
               <td>Pepsico</td>
-              <td>1/3/2019*</td>
+              <td>1/3/2020</td>
               <td>bmo</td>
             </tr>           
             <tr>
               <td><Link to="/results/STZ">STZ</Link></td>  
               <td>Constellation Brands</td>
-              <td>1/8/2019</td>
+              <td>1/8/2020</td>
               <td>bmo</td>
             </tr>        
             <tr>
               <td><Link to="/results/DPZ">DPZ</Link></td>
               <td>Dominos Pizza</td>
-              <td>1/8/2019</td>
+              <td>1/8/2020</td>
               <td>bmo</td>
             </tr>       
             <tr>
               <td><Link to="/results/C">C</Link></td>
               <td>CitiGroup</td>
-              <td>1/15/2019</td>
+              <td>1/15/2020</td>
               <td>bmo</td>
             </tr>   
             <tr>
               <td><Link to="/results/GS">GS</Link></td>
               <td>Goldman Sachs</td>
-              <td>1/15/2019</td>
+              <td>1/15/2020</td>
               <td>bmo</td>
             </tr>   
             <tr>
               <td><Link to="/results/JNJ">JNJ</Link></td>
               <td>Johnson &amp; Johnson</td>
-              <td>1/15/2019</td>
+              <td>1/15/2020</td>
               <td>bmo</td>
             </tr>  
             <tr>
               <td><Link to="/results/JPM">JPM</Link></td>
               <td>JPMorgan Chase</td>
-              <td>1/15/2019</td>
+              <td>1/15/2020</td>
               <td>bmo</td>
             </tr>  
             <tr>
               <td><Link to="/results/UNH">UNH</Link></td>
               <td>United Health</td>
-              <td>1/15/2019</td>
+              <td>1/15/2020</td>
               <td>bmo</td>
             </tr>    
             <tr>
               <td><Link to="/results/NFLX">NFLX</Link></td>
               <td>Netflix</td>
-              <td>1/16/2019</td>
+              <td>1/16/2020</td>
               <td>amc</td>
             </tr>   
             <tr>
               <td><Link to="/results/IBM">IBM</Link></td>
               <td>International Business Machines</td>
-              <td>1/16/2019</td>
+              <td>1/16/2020</td>
               <td>amc</td>
             </tr> 
+            <tr>
+              <td><Link to="/results/AXP">AXP</Link></td>
+              <td>American Express</td>
+              <td>1/18/2020</td>
+              <td>bmo</td>
+            </tr>  
           </tbody>
         </table>
 
