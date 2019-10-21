@@ -100,7 +100,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/AMZN">AMZN</Link></td>
               <td>Amazon</td>
-              <td>10/24/2019*</td>
+              <td>10/24/2019</td>
               <td>amc</td>
             </tr>     
             <tr>
@@ -174,7 +174,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/SBUX">SBUX</Link></td>
               <td>Starbucks</td>
-              <td>10/30/2019*</td>
+              <td>10/30/2019</td>
               <td>amc</td>
             </tr>      
             <tr>
@@ -182,7 +182,13 @@ class EarningsCalendar extends Component {
               <td>Apple</td>
               <td>10/30/2019</td>
               <td>amc</td>
-            </tr>         
+            </tr>   
+            <tr>
+              <td><Link to="/results/TWLO">TWLO</Link></td>
+              <td>twilio</td>
+              <td>10/30/2019</td>
+              <td>amc</td>
+            </tr>       
             <tr>
               <td><Link to="/results/ANET">ANET</Link></td>
               <td>Arista Networks</td>
@@ -206,13 +212,7 @@ class EarningsCalendar extends Component {
               <td>Exxon Mobil</td>
               <td>11/1/2019</td>
               <td>bmo</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/AGN">AGN</Link></td>
-              <td>Allergan</td>
-              <td>11/4/2019*</td>
-              <td>bmo</td>
-            </tr>  
+            </tr>   
           </tbody>
         </table>
 
@@ -228,17 +228,17 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>  
             <tr>
+              <td><Link to="/results/AGN">AGN</Link></td>
+              <td>Allergan</td>
+              <td>11/5/2019*</td>
+              <td>bmo</td>
+            </tr> 
+            <tr>
               <td><Link to="/results/BKNG">BKNG</Link></td>
               <td>Booking</td>
               <td>11/5/2019*</td>
               <td>amc</td>
             </tr>  
-            <tr>
-              <td><Link to="/results/TWLO">TWLO</Link></td>
-              <td>twilio</td>
-              <td>11/5/2019*</td>
-              <td>amc</td>
-            </tr> 
             <tr>
               <td><Link to="/results/QCOM">QCOM</Link></td>
               <td>QualComm</td>
@@ -248,7 +248,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/ROKU">ROKU</Link></td>
               <td>Roku</td>
-              <td>11/6/2019*</td>
+              <td>11/6/2019</td>
               <td>amc</td>
             </tr>    
             <tr>
@@ -304,7 +304,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/NVDA">NVDA</Link></td>
               <td>NVIDIA</td>
-              <td>11/14/2019*</td>
+              <td>11/14/2019</td>
               <td>amc</td>
             </tr>     
           </tbody>
