@@ -26,24 +26,6 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>      
             <tr>
-              <td><Link to="/results/BIIB">BIIB</Link></td>
-              <td>Biogen</td>
-              <td>10/22/2019</td>
-              <td>bmo</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/MCD">MCD</Link></td>
-              <td>McDonalds</td>
-              <td>10/22/2019</td>
-              <td>bmo</td>
-            </tr>      
-            <tr>
-              <td><Link to="/results/UPS">UPS</Link></td>
-              <td>United Parcel Service</td>
-              <td>10/22/2019</td>
-              <td>bmo</td>
-            </tr>    
-            <tr>
               <td><Link to="/results/CMG">CMG</Link></td>
               <td>Chipotle Mexican Grill</td>
               <td>10/22/2019</td>
@@ -539,7 +521,25 @@ class EarningsCalendar extends Component {
               <td>American Express</td>
               <td>1/18/2020</td>
               <td>bmo</td>
+            </tr>     
+            <tr>
+              <td><Link to="/results/BIIB">BIIB</Link></td>
+              <td>Biogen</td>
+              <td>1/22/2020</td>
+              <td>bmo</td>
             </tr>  
+            <tr>
+              <td><Link to="/results/MCD">MCD</Link></td>
+              <td>McDonalds</td>
+              <td>1/22/2020</td>
+              <td>bmo</td>
+            </tr>      
+            <tr>
+              <td><Link to="/results/UPS">UPS</Link></td>
+              <td>United Parcel Service</td>
+              <td>1/22/2020</td>
+              <td>bmo</td>
+            </tr> 
           </tbody>
         </table>
 
