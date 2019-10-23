@@ -24,31 +24,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>      
-            <tr>
-              <td><Link to="/results/CMG">CMG</Link></td>
-              <td>Chipotle Mexican Grill</td>
-              <td>10/22/2019</td>
-              <td>amc</td>
-            </tr>        
-            <tr>
-              <td><Link to="/results/TXN">TXN</Link></td>
-              <td>Texas Instruments</td>
-              <td>10/22/2019</td>
-              <td>amc</td>
-            </tr>      
-            <tr>
-              <td><Link to="/results/BA">BA</Link></td>
-              <td>Boeing</td>
-              <td>10/23/2019</td>
-              <td>bmo</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/CAT">CAT</Link></td>
-              <td>Caterpillar</td>
-              <td>10/23/2019</td>
-              <td>bmo</td>
-            </tr>      
+          <tbody>       
             <tr>
               <td><Link to="/results/XLNX">XLNX</Link></td>
               <td>XILINX Inc</td>
@@ -539,7 +515,31 @@ class EarningsCalendar extends Component {
               <td>United Parcel Service</td>
               <td>1/22/2020</td>
               <td>bmo</td>
-            </tr> 
+            </tr>   
+            <tr>
+              <td><Link to="/results/CMG">CMG</Link></td>
+              <td>Chipotle Mexican Grill</td>
+              <td>1/22/2020</td>
+              <td>amc</td>
+            </tr>        
+            <tr>
+              <td><Link to="/results/TXN">TXN</Link></td>
+              <td>Texas Instruments</td>
+              <td>1/22/2020</td>
+              <td>amc</td>
+            </tr>      
+            <tr>
+              <td><Link to="/results/BA">BA</Link></td>
+              <td>Boeing</td>
+              <td>1/23/2020</td>
+              <td>bmo</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/CAT">CAT</Link></td>
+              <td>Caterpillar</td>
+              <td>1/23/2020</td>
+              <td>bmo</td>
+            </tr>   
           </tbody>
         </table>
 
