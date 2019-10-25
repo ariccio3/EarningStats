@@ -15,37 +15,6 @@ class EarningsCalendar extends Component {
 
 
 
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
-          <tbody>         
-            <tr>
-              <td><Link to="/results/AMZN">AMZN</Link></td>
-              <td>Amazon</td>
-              <td>10/24/2019</td>
-              <td>amc</td>
-            </tr>     
-            <tr>
-              <td><Link to="/results/GILD">GILD</Link></td>
-              <td>Gilead Sciences</td>
-              <td>10/24/2019</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/V">V</Link></td>
-              <td>Visa</td>
-              <td>10/24/2019</td>
-              <td>amc</td>
-            </tr>  
-          </tbody>
-        </table>
-
 
         <table className="table table-striped table-hover table-bordered">
           <thead>
@@ -539,7 +508,25 @@ class EarningsCalendar extends Component {
               <td>XILINX Inc</td>
               <td>1/23/2020</td>
               <td>amc</td>
-            </tr>    
+            </tr>          
+            <tr>
+              <td><Link to="/results/AMZN">AMZN</Link></td>
+              <td>Amazon</td>
+              <td>1/24/2020</td>
+              <td>amc</td>
+            </tr>     
+            <tr>
+              <td><Link to="/results/GILD">GILD</Link></td>
+              <td>Gilead Sciences</td>
+              <td>1/24/2020</td>
+              <td>amc</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/V">V</Link></td>
+              <td>Visa</td>
+              <td>1/24/2020</td>
+              <td>amc</td>
+            </tr> 
           </tbody>
         </table>
 
