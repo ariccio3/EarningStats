@@ -25,29 +25,11 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>              
-            <tr>
-              <td><Link to="/results/GOOGL">GOOGL</Link></td>
-              <td>Google</td>
-              <td>10/28/2019</td>
-              <td>amc</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/MA">MA</Link></td>
-              <td>Mastercard</td>
-              <td>10/29/2019</td>
-              <td>bmo</td>
-            </tr>  
+          <tbody>  
             <tr>
               <td><Link to="/results/AMGN">AMGN</Link></td>
               <td>Amgen</td>
               <td>10/29/2019</td>
-              <td>amc</td>
-            </tr>     
-            <tr>
-              <td><Link to="/results/BIDU">BIDU</Link></td>
-              <td>Baidu</td>
-              <td>10/29/2019*</td>
               <td>amc</td>
             </tr>            
             <tr>
@@ -95,7 +77,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/BABA">BABA</Link></td>
               <td>Alibaba</td>
-              <td>11/1/2019*</td>
+              <td>11/1/2019</td>
               <td>bmo</td>
             </tr>  
             <tr>
@@ -135,7 +117,13 @@ class EarningsCalendar extends Component {
               <td>Booking</td>
               <td>11/5/2019*</td>
               <td>amc</td>
-            </tr>  
+            </tr>    
+            <tr>
+              <td><Link to="/results/BIDU">BIDU</Link></td>
+              <td>Baidu</td>
+              <td>11/6/2019</td>
+              <td>amc</td>
+            </tr>    
             <tr>
               <td><Link to="/results/QCOM">QCOM</Link></td>
               <td>QualComm</td>
@@ -203,7 +191,7 @@ class EarningsCalendar extends Component {
               <td>NVIDIA</td>
               <td>11/14/2019</td>
               <td>amc</td>
-            </tr>     
+            </tr>    
           </tbody>
         </table>
 
@@ -526,6 +514,18 @@ class EarningsCalendar extends Component {
               <td>Visa</td>
               <td>1/24/2020</td>
               <td>amc</td>
+            </tr>              
+            <tr>
+              <td><Link to="/results/GOOGL">GOOGL</Link></td>
+              <td>Google</td>
+              <td>1/28/2020</td>
+              <td>amc</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/MA">MA</Link></td>
+              <td>Mastercard</td>
+              <td>1/29/2020</td>
+              <td>bmo</td>
             </tr> 
           </tbody>
         </table>
