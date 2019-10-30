@@ -25,25 +25,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>  
-            <tr>
-              <td><Link to="/results/AMGN">AMGN</Link></td>
-              <td>Amgen</td>
-              <td>10/29/2019</td>
-              <td>amc</td>
-            </tr>            
-            <tr>
-              <td><Link to="/results/EA">EA</Link></td>
-              <td>Electronic Arts</td>
-              <td>10/29/2019</td>
-              <td>amc</td>
-            </tr>       
-            <tr>
-              <td><Link to="/results/ADP">ADP</Link></td>
-              <td>ADP</td>
-              <td>10/30/2019</td>
-              <td>bmo</td>
-            </tr>   
+          <tbody>    
             <tr>
               <td><Link to="/results/FB">FB</Link></td>
               <td>Facebook</td>
@@ -109,15 +91,9 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/AGN">AGN</Link></td>
               <td>Allergan</td>
-              <td>11/5/2019*</td>
+              <td>11/5/2019</td>
               <td>bmo</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/BKNG">BKNG</Link></td>
-              <td>Booking</td>
-              <td>11/5/2019*</td>
-              <td>amc</td>
-            </tr>    
+            </tr>   
             <tr>
               <td><Link to="/results/BIDU">BIDU</Link></td>
               <td>Baidu</td>
@@ -140,6 +116,12 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/SQ">SQ</Link></td>
               <td>Square</td>
               <td>11/6/2019</td>
+              <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/BKNG">BKNG</Link></td>
+              <td>Booking</td>
+              <td>11/7/2019</td>
               <td>amc</td>
             </tr>       
             <tr>
@@ -525,6 +507,24 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/MA">MA</Link></td>
               <td>Mastercard</td>
               <td>1/29/2020</td>
+              <td>bmo</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/AMGN">AMGN</Link></td>
+              <td>Amgen</td>
+              <td>1/29/2020</td>
+              <td>amc</td>
+            </tr>            
+            <tr>
+              <td><Link to="/results/EA">EA</Link></td>
+              <td>Electronic Arts</td>
+              <td>1/29/2020</td>
+              <td>amc</td>
+            </tr>       
+            <tr>
+              <td><Link to="/results/ADP">ADP</Link></td>
+              <td>ADP</td>
+              <td>1/30/2020</td>
               <td>bmo</td>
             </tr> 
           </tbody>
