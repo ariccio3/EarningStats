@@ -16,42 +16,6 @@ class EarningsCalendar extends Component {
 
 
 
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
-          <tbody>       
-            <tr>
-              <td><Link to="/results/ANET">ANET</Link></td>
-              <td>Arista Networks</td>
-              <td>10/31/2019</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/BABA">BABA</Link></td>
-              <td>Alibaba</td>
-              <td>11/1/2019</td>
-              <td>bmo</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/CVX">CVX</Link></td>
-              <td>Cheveron</td>
-              <td>11/1/2019</td>
-              <td>bmo</td>
-            </tr>    
-            <tr>
-              <td><Link to="/results/XOM">XOM</Link></td>
-              <td>Exxon Mobil</td>
-              <td>11/1/2019</td>
-              <td>bmo</td>
-            </tr>   
-          </tbody>
-        </table>
 
 
         <table className="table table-striped table-hover table-bordered">
@@ -526,7 +490,31 @@ class EarningsCalendar extends Component {
               <td>twilio</td>
               <td>1/30/2020</td>
               <td>amc</td>
+            </tr>    
+            <tr>
+              <td><Link to="/results/ANET">ANET</Link></td>
+              <td>Arista Networks</td>
+              <td>1/31/2020</td>
+              <td>amc</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/BABA">BABA</Link></td>
+              <td>Alibaba</td>
+              <td>2/1/2020</td>
+              <td>bmo</td>
             </tr>  
+            <tr>
+              <td><Link to="/results/CVX">CVX</Link></td>
+              <td>Cheveron</td>
+              <td>2/1/2020</td>
+              <td>bmo</td>
+            </tr>    
+            <tr>
+              <td><Link to="/results/XOM">XOM</Link></td>
+              <td>Exxon Mobil</td>
+              <td>2/1/2020</td>
+              <td>bmo</td>
+            </tr>   
           </tbody>
         </table>
 
