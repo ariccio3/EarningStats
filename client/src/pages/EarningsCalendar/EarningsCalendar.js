@@ -27,37 +27,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>    
-            <tr>
-              <td><Link to="/results/BIDU">BIDU</Link></td>
-              <td>Baidu</td>
-              <td>11/6/2019</td>
-              <td>amc</td>
-            </tr>    
-            <tr>
-              <td><Link to="/results/QCOM">QCOM</Link></td>
-              <td>QualComm</td>
-              <td>11/6/2019</td>
-              <td>amc</td>
-            </tr>            
-            <tr>
-              <td><Link to="/results/ROKU">ROKU</Link></td>
-              <td>Roku</td>
-              <td>11/6/2019</td>
-              <td>amc</td>
-            </tr>    
-            <tr>
-              <td><Link to="/results/SQ">SQ</Link></td>
-              <td>Square</td>
-              <td>11/6/2019</td>
-              <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/WYNN">WYNN</Link></td>
-              <td>Wynn Resorts</td>
-              <td>11/6/2019</td>
-              <td>amc</td>
-            </tr>   
+          <tbody>   
             <tr>
               <td><Link to="/results/BKNG">BKNG</Link></td>
               <td>Booking</td>
@@ -514,7 +484,37 @@ class EarningsCalendar extends Component {
               <td>Allergan</td>
               <td>2/5/2020</td>
               <td>bmo</td>
+            </tr>     
+            <tr>
+              <td><Link to="/results/BIDU">BIDU</Link></td>
+              <td>Baidu</td>
+              <td>2/6/2020</td>
+              <td>amc</td>
+            </tr>    
+            <tr>
+              <td><Link to="/results/QCOM">QCOM</Link></td>
+              <td>QualComm</td>
+              <td>2/6/2020</td>
+              <td>amc</td>
+            </tr>            
+            <tr>
+              <td><Link to="/results/ROKU">ROKU</Link></td>
+              <td>Roku</td>
+              <td>2/6/2020</td>
+              <td>amc</td>
+            </tr>    
+            <tr>
+              <td><Link to="/results/SQ">SQ</Link></td>
+              <td>Square</td>
+              <td>2/6/2020</td>
+              <td>amc</td>
             </tr>  
+            <tr>
+              <td><Link to="/results/WYNN">WYNN</Link></td>
+              <td>Wynn Resorts</td>
+              <td>2/6/2020</td>
+              <td>amc</td>
+            </tr> 
           </tbody>
         </table>
 
