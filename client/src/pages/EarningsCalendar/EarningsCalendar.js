@@ -17,7 +17,6 @@ class EarningsCalendar extends Component {
 
 
 
-
         <table className="table table-striped table-hover table-bordered">
           <thead>
             <tr>
@@ -28,50 +27,6 @@ class EarningsCalendar extends Component {
             </tr>        
           </thead>
           <tbody>   
-            <tr>
-              <td><Link to="/results/BKNG">BKNG</Link></td>
-              <td>Booking</td>
-              <td>11/7/2019</td>
-              <td>amc</td>
-            </tr>       
-            <tr>
-              <td><Link to="/results/DIS">DIS</Link></td>
-              <td>Disney</td>
-              <td>11/7/2019</td>
-              <td>amc</td>
-            </tr>            
-            <tr>
-              <td><Link to="/results/TTWO">TTWO</Link></td>
-              <td>Take-Two Interactive</td>
-              <td>11/7/2019</td>
-              <td>amc</td>
-            </tr>  
-          </tbody>
-        </table>
-
-
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
-          <tbody>  
-            <tr>
-              <td><Link to="/results/NTES">NTES</Link></td>
-              <td>NetEase</td>
-              <td>11/13/2019*</td>
-              <td>amc</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/WMT">WMT</Link></td>
-              <td>Walmart</td>
-              <td>11/14/2019</td>
-              <td>bmo</td>
-            </tr>  
             <tr>
               <td><Link to="/results/NVDA">NVDA</Link></td>
               <td>NVIDIA</td>
@@ -109,7 +64,13 @@ class EarningsCalendar extends Component {
               <td>Target</td>
               <td>11/20/2019</td>
               <td>bmo</td>
-            </tr>          
+            </tr>   
+            <tr>
+              <td><Link to="/results/NTES">NTES</Link></td>
+              <td>NetEase</td>
+              <td>11/20/2019</td>
+              <td>amc</td>
+            </tr>         
             <tr>
               <td><Link to="/results/CRM">CRM</Link></td>
               <td>SalesForce</td>
@@ -514,6 +475,30 @@ class EarningsCalendar extends Component {
               <td>Wynn Resorts</td>
               <td>2/6/2020</td>
               <td>amc</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/BKNG">BKNG</Link></td>
+              <td>Booking</td>
+              <td>2/7/2020</td>
+              <td>amc</td>
+            </tr>       
+            <tr>
+              <td><Link to="/results/DIS">DIS</Link></td>
+              <td>Disney</td>
+              <td>2/7/2020</td>
+              <td>amc</td>
+            </tr>            
+            <tr>
+              <td><Link to="/results/TTWO">TTWO</Link></td>
+              <td>Take-Two Interactive</td>
+              <td>2/7/2020</td>
+              <td>amc</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/WMT">WMT</Link></td>
+              <td>Walmart</td>
+              <td>2/14/2020</td>
+              <td>bmo</td>
             </tr> 
           </tbody>
         </table>
