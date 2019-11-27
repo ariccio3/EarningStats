@@ -17,31 +17,6 @@ class EarningsCalendar extends Component {
 
 
 
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
-          <tbody>        
-            <tr>
-              <td><Link to="/results/ADSK">ADSK</Link></td>
-              <td>Autodesk</td>
-              <td>11/26/2019</td>
-              <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/DE">DE</Link></td>
-              <td>Deere &amp; Company</td>
-              <td>11/27/2019</td>
-              <td>bmo</td>
-            </tr>  
-          </tbody>
-        </table>
-
 
         <table className="table table-striped table-hover table-bordered">
           <thead>
@@ -471,6 +446,18 @@ class EarningsCalendar extends Component {
               <td>NetEase</td>
               <td>2/20/2020</td>
               <td>amc</td>
+            </tr>    
+            <tr>
+              <td><Link to="/results/ADSK">ADSK</Link></td>
+              <td>Autodesk</td>
+              <td>2/26/2020</td>
+              <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/DE">DE</Link></td>
+              <td>Deere &amp; Company</td>
+              <td>2/27/2020</td>
+              <td>bmo</td>
             </tr>  
           </tbody>
         </table>
