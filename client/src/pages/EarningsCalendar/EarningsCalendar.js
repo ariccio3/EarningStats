@@ -38,7 +38,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/ADBE">ADBE</Link></td>
               <td>Adobe</td>
-              <td>12/12/2019*</td>
+              <td>12/12/2019</td>
               <td>amc</td>
             </tr>           
             <tr>
@@ -81,7 +81,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/NKE">NKE</Link></td>
               <td>Nike</td>
-              <td>12/19/2019*</td>
+              <td>12/19/2019</td>
               <td>amc</td>
             </tr>  
           </tbody>
