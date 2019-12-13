@@ -17,39 +17,6 @@ class EarningsCalendar extends Component {
 
 
 
-
-
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
-          <tbody>      
-            <tr>
-              <td><Link to="/results/ADBE">ADBE</Link></td>
-              <td>Adobe</td>
-              <td>12/12/2019</td>
-              <td>amc</td>
-            </tr>           
-            <tr>
-              <td><Link to="/results/AVGO">AVGO</Link></td>
-              <td>Broadcom</td>
-              <td>12/12/2019</td>
-              <td>amc</td>
-            </tr>             
-            <tr>
-              <td><Link to="/results/COST">COST</Link></td>
-              <td>Costco</td>
-              <td>12/12/2019</td>
-              <td>amc</td>
-            </tr> 
-          </tbody>
-        </table>
-
         <table className="table table-striped table-hover table-bordered">
           <thead>
             <tr>
@@ -444,6 +411,24 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/LULU">LULU</Link></td>
               <td>lululemon</td>
               <td>3/11/2020</td>
+              <td>amc</td>
+            </tr>     
+            <tr>
+              <td><Link to="/results/ADBE">ADBE</Link></td>
+              <td>Adobe</td>
+              <td>3/12/2020</td>
+              <td>amc</td>
+            </tr>           
+            <tr>
+              <td><Link to="/results/AVGO">AVGO</Link></td>
+              <td>Broadcom</td>
+              <td>3/12/2020</td>
+              <td>amc</td>
+            </tr>             
+            <tr>
+              <td><Link to="/results/COST">COST</Link></td>
+              <td>Costco</td>
+              <td>3/12/2020</td>
               <td>amc</td>
             </tr> 
           </tbody>
