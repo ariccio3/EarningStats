@@ -584,7 +584,7 @@ class Results extends Component {
           </thead>
           <tbody>
             <tr>
-              <td>Total Earnings Reports Analyzed</td>
+              <td>Total Earnings Events Analyzed</td>
               <td>{this.state.stocks.length}</td>
               <td>{this.state.watchList.length}</td>
             </tr>
