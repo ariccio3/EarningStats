@@ -48,13 +48,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>     
-            <tr>
-              <td><Link to="/results/PEP">PEP</Link></td>
-              <td>Pepsico</td>
-              <td>2/13/2020</td>
-              <td>bmo</td>
-            </tr>      
+          <tbody>      
             <tr>
               <td><Link to="/results/C">C</Link></td>
               <td>CitiGroup</td>
@@ -97,27 +91,27 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>    
             <tr>
-              <td><Link to="/results/JNJ">JNJ</Link></td>
-              <td>Johnson &amp; Johnson</td>
-              <td>1/22/2020</td>
-              <td>bmo</td>
-            </tr> 
-            <tr>
               <td><Link to="/results/IBM">IBM</Link></td>
               <td>International Business Machines</td>
-              <td>1/22/2020*</td>
+              <td>1/21/2020*</td>
               <td>amc</td>
             </tr> 
             <tr>
               <td><Link to="/results/NFLX">NFLX</Link></td>
               <td>Netflix</td>
-              <td>1/22/2020</td>
+              <td>1/21/2020</td>
               <td>amc</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/JNJ">JNJ</Link></td>
+              <td>Johnson &amp; Johnson</td>
+              <td>1/22/2020</td>
+              <td>bmo</td>
             </tr>      
             <tr>
               <td><Link to="/results/TXN">TXN</Link></td>
               <td>Texas Instruments</td>
-              <td>1/22/2020*</td>
+              <td>1/22/2020</td>
               <td>amc</td>
             </tr> 
             <tr>
@@ -146,15 +140,15 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/AAPL">AAPL</Link></td>
               <td>Apple</td>
-              <td>1/28/2020*</td>
+              <td>1/28/2020</td>
               <td>amc</td>
-            </tr>            
+            </tr>     
             <tr>
-              <td><Link to="/results/EA">EA</Link></td>
-              <td>Electronic Arts</td>
+              <td><Link to="/results/AMGN">AMGN</Link></td>
+              <td>Amgen</td>
               <td>1/28/2020*</td>
               <td>amc</td>
-            </tr> 
+            </tr>  
             <tr>
               <td><Link to="/results/SBUX">SBUX</Link></td>
               <td>Starbucks</td>
@@ -186,21 +180,21 @@ class EarningsCalendar extends Component {
               <td>bmo</td>
             </tr>   
             <tr>
+              <td><Link to="/results/MA">MA</Link></td>
+              <td>Mastercard</td>
+              <td>1/29/2020</td>
+              <td>bmo</td>
+            </tr>  
+            <tr>
               <td><Link to="/results/MCD">MCD</Link></td>
               <td>McDonalds</td>
               <td>1/29/2020*</td>
               <td>bmo</td>
-            </tr>     
-            <tr>
-              <td><Link to="/results/AMGN">AMGN</Link></td>
-              <td>Amgen</td>
-              <td>1/29/2020</td>
-              <td>amc</td>
-            </tr>     
+            </tr>      
             <tr>
               <td><Link to="/results/FB">FB</Link></td>
               <td>Facebook</td>
-              <td>1/29/2020*</td>
+              <td>1/29/2020</td>
               <td>amc</td>
             </tr>   
             <tr>
@@ -218,7 +212,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/NOW">NOW</Link></td>
               <td>ServiceNow</td>
-              <td>1/29/2020*</td>
+              <td>1/29/2020</td>
               <td>amc</td>
             </tr>  
             <tr>
@@ -238,13 +232,7 @@ class EarningsCalendar extends Component {
               <td>Biogen</td>
               <td>1/30/2020</td>
               <td>bmo</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/MA">MA</Link></td>
-              <td>Mastercard</td>
-              <td>1/30/2020*</td>
-              <td>bmo</td>
-            </tr>   
+            </tr>    
             <tr>
               <td><Link to="/results/UPS">UPS</Link></td>
               <td>United Parcel Service</td>
@@ -256,7 +244,13 @@ class EarningsCalendar extends Component {
               <td>Amazon</td>
               <td>1/30/2020*</td>
               <td>amc</td>
-            </tr>  
+            </tr>           
+            <tr>
+              <td><Link to="/results/EA">EA</Link></td>
+              <td>Electronic Arts</td>
+              <td>1/30/2020</td>
+              <td>amc</td>
+            </tr> 
             <tr>
               <td><Link to="/results/WYNN">WYNN</Link></td>
               <td>Wynn Resorts</td>
@@ -272,7 +266,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/CVX">CVX</Link></td>
               <td>Cheveron</td>
-              <td>1/31/2020*</td>
+              <td>1/31/2020</td>
               <td>bmo</td>
             </tr>    
             <tr>
@@ -362,7 +356,13 @@ class EarningsCalendar extends Component {
               <td>twilio</td>
               <td>2/11/2020*</td>
               <td>amc</td>
-            </tr>    
+            </tr>      
+            <tr>
+              <td><Link to="/results/PEP">PEP</Link></td>
+              <td>Pepsico</td>
+              <td>2/13/2020</td>
+              <td>bmo</td>
+            </tr>   
             <tr>
               <td><Link to="/results/ANET">ANET</Link></td>
               <td>Arista Networks</td>
@@ -395,7 +395,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/WMT">WMT</Link></td>
               <td>Walmart</td>
-              <td>2/18/2020*</td>
+              <td>2/18/2020</td>
               <td>bmo</td>
             </tr>   
             <tr>
@@ -544,7 +544,24 @@ class EarningsCalendar extends Component {
               <td>ULTA Beauty</td>
               <td>3/12/2020</td>
               <td>amc</td>
-            </tr>                        
+            </tr>    
+          </tbody>
+        </table>
+
+
+
+
+
+        <table className="table table-striped table-hover table-bordered">
+          <thead>
+            <tr>
+              <th className="stock">Stock</th>
+              <th className="company">Company</th>
+              <th className="date">Date</th>
+              <th className="time">Time</th>
+            </tr>        
+          </thead>
+          <tbody>                       
             <tr>
               <td><Link to="/results/FDX">FDX</Link></td>
               <td>FedEx</td>
