@@ -75,7 +75,7 @@ class Results extends Component {
         count++;
       } 
     } 
-    return count;
+    return Math.round(count);
   };
 
   watchListInsideEM = () => {
