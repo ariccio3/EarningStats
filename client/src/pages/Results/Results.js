@@ -503,7 +503,7 @@ class Results extends Component {
         insideCount++;
       }
     }
-    let aboveAvgEMPercentInside = Math.floor(insideCount / allCount * 100);
+    let aboveAvgEMPercentInside = Math.round(insideCount / allCount * 100);
     return aboveAvgEMPercentInside;
   };
 
@@ -521,7 +521,7 @@ class Results extends Component {
         insideCount++;
       }
     }
-    let aboveAvgEMPercentInside = Math.floor(insideCount / allCount * 100);
+    let aboveAvgEMPercentInside = Math.round(insideCount / allCount * 100);
     return aboveAvgEMPercentInside;
   };
   // //***
@@ -539,7 +539,7 @@ class Results extends Component {
         insideCount++;
       }
     }
-    let aboveAvgEMPercentInside = Math.floor(insideCount / allCount * 100);
+    let aboveAvgEMPercentInside = Math.round(insideCount / allCount * 100);
     return aboveAvgEMPercentInside;
   };
 
@@ -557,7 +557,7 @@ class Results extends Component {
         insideCount++;
       }
     }
-    let aboveAvgEMPercentInside = Math.floor(insideCount / allCount * 100);
+    let aboveAvgEMPercentInside = Math.round(insideCount / allCount * 100);
     return aboveAvgEMPercentInside;
   };
   //***
@@ -601,7 +601,7 @@ class Results extends Component {
             <tr>
               <td><strong><Link to="/sorted/totalpercentup" style={{ textDecoration: 'none' }}>Total % Up &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
               <td><strong>{Math.round(this.stockTotalUp() / this.state.stocks.length *100)}%</strong></td>
-              <td><strong>{Math.floor(this.watchListTotalUp() / this.state.watchList.length *100)}%</strong></td>
+              <td><strong>{Math.round(this.watchListTotalUp() / this.state.watchList.length *100)}%</strong></td>
             </tr>
             <tr>
               <td>Total # Inside Expected Move</td>
@@ -616,7 +616,7 @@ class Results extends Component {
             <tr>
               <td><strong><Link to="/sorted/percentinside" style={{ textDecoration: 'none' }}>Total % Inside Expected Move &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
               <td><strong>{Math.round(this.stockTotalInsideEM() / this.state.stocks.length *100)}%</strong></td>
-              <td><strong>{Math.floor(this.watchListInsideEM() / this.state.watchList.length *100)}%</strong></td>
+              <td><strong>{Math.round(this.watchListInsideEM() / this.state.watchList.length *100)}%</strong></td>
             </tr>
           </tbody>
         </table>
@@ -632,43 +632,43 @@ class Results extends Component {
           <tbody>        
             <tr>
               <td><strong><Link to="/sorted/amover2xempercent" style={{ textDecoration: 'none' }}>Actual ≥ 2x Expected &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
-              <td><strong>{Math.floor(this.stockDoubleEM() / this.state.stocks.length *100)}%</strong></td>
-              <td><strong>{Math.floor(this.watchListDoubleEM() / this.state.watchList.length *100)}%</strong></td>
+              <td><strong>{Math.round(this.stockDoubleEM() / this.state.stocks.length *100)}%</strong></td>
+              <td><strong>{Math.round(this.watchListDoubleEM() / this.state.watchList.length *100)}%</strong></td>
             </tr> 
             <tr>
               <td><strong><Link to="/sorted/amunder2xempercent" style={{ textDecoration: 'none' }}>Actual ≤ 2x Expected &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
-              <td><strong>{Math.floor(this.stockUnder2EM() / this.state.stocks.length *100)}%</strong></td>
-              <td><strong>{Math.floor(this.watchListUnder2EM() / this.state.watchList.length *100)}%</strong></td>
+              <td><strong>{Math.round(this.stockUnder2EM() / this.state.stocks.length *100)}%</strong></td>
+              <td><strong>{Math.round(this.watchListUnder2EM() / this.state.watchList.length *100)}%</strong></td>
             </tr>
             <tr>
               <td><strong><Link to="/sorted/amunder175xempercent" style={{ textDecoration: 'none' }}>Actual ≤ 1.75x Expected &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
-              <td><strong>{Math.floor(this.stockUnder175EM() / this.state.stocks.length *100)}%</strong></td>
-              <td><strong>{Math.floor(this.watchListUnder175EM() / this.state.watchList.length *100)}%</strong></td>
+              <td><strong>{Math.round(this.stockUnder175EM() / this.state.stocks.length *100)}%</strong></td>
+              <td><strong>{Math.round(this.watchListUnder175EM() / this.state.watchList.length *100)}%</strong></td>
             </tr> 
             <tr>
               <td><strong><Link to="/sorted/amunder150xempercent" style={{ textDecoration: 'none' }}>Actual ≤ 1.5x Expected &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
-              <td><strong>{Math.floor(this.stockUnder15EM() / this.state.stocks.length *100)}%</strong></td>
-              <td><strong>{Math.floor(this.watchListUnder15EM() / this.state.watchList.length *100)}%</strong></td>
+              <td><strong>{Math.round(this.stockUnder15EM() / this.state.stocks.length *100)}%</strong></td>
+              <td><strong>{Math.round(this.watchListUnder15EM() / this.state.watchList.length *100)}%</strong></td>
             </tr> 
             <tr>
               <td><strong><Link to="/sorted/amunder125xempercent" style={{ textDecoration: 'none' }}>Actual ≤ 1.25x Expected &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
-              <td><strong>{Math.floor(this.stockUnder125EM() / this.state.stocks.length *100)}%</strong></td>
-              <td><strong>{Math.floor(this.watchListUnder125EM() / this.state.watchList.length *100)}%</strong></td>
+              <td><strong>{Math.round(this.stockUnder125EM() / this.state.stocks.length *100)}%</strong></td>
+              <td><strong>{Math.round(this.watchListUnder125EM() / this.state.watchList.length *100)}%</strong></td>
             </tr> 
             <tr>
               <td><strong><Link to="/sorted/underempercent" style={{ textDecoration: 'none' }}>≤ The Expected Move &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
-              <td><strong>{Math.floor(this.stockUnderEM() / this.state.stocks.length *100)}%</strong></td>
-              <td><strong>{Math.floor(this.watchListUnderEM() / this.state.watchList.length *100)}%</strong></td>
+              <td><strong>{Math.round(this.stockUnderEM() / this.state.stocks.length *100)}%</strong></td>
+              <td><strong>{Math.round(this.watchListUnderEM() / this.state.watchList.length *100)}%</strong></td>
             </tr> 
             <tr>
               <td><strong><Link to="/sorted/amunder75xempercent" style={{ textDecoration: 'none' }}>Actual ≤ .75x Expected &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
-              <td><strong>{Math.floor(this.stockUnder75EM() / this.state.stocks.length *100)}%</strong></td>
-              <td><strong>{Math.floor(this.watchListUnder75EM() / this.state.watchList.length *100)}%</strong></td>
+              <td><strong>{Math.round(this.stockUnder75EM() / this.state.stocks.length *100)}%</strong></td>
+              <td><strong>{Math.round(this.watchListUnder75EM() / this.state.watchList.length *100)}%</strong></td>
             </tr> 
             <tr>
               <td><strong><Link to="/sorted/percenthalfem" style={{ textDecoration: 'none' }}>Actual ≤ .5x Expected &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
-              <td><strong>{Math.floor(this.stockNumHalfEM() / this.state.stocks.length *100)}%</strong></td>
-              <td><strong>{Math.floor(this.watchListNumHalfEM() / this.state.watchList.length *100)}%</strong></td>
+              <td><strong>{Math.round(this.stockNumHalfEM() / this.state.stocks.length *100)}%</strong></td>
+              <td><strong>{Math.round(this.watchListNumHalfEM() / this.state.watchList.length *100)}%</strong></td>
             </tr>                                                                                                                                                 
           </tbody>
         </table>
@@ -699,8 +699,8 @@ class Results extends Component {
             </tr>            
             <tr>
               <td><strong><Link to="/sorted/outsidepercentup" style={{ textDecoration: 'none' }}>% Up &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
-              <td><strong>{Math.floor(this.stockOutsideNumUp() / this.state.stocks.length *100)}%</strong></td>
-              <td><strong>{Math.floor(this.watchListOutsideNumUp() / this.state.watchList.length *100)}%</strong></td>
+              <td><strong>{Math.round(this.stockOutsideNumUp() / this.state.stocks.length *100)}%</strong></td>
+              <td><strong>{Math.round(this.watchListOutsideNumUp() / this.state.watchList.length *100)}%</strong></td>
             </tr>
             <tr>
               <td># Down</td>
@@ -709,8 +709,8 @@ class Results extends Component {
             </tr>            
             <tr>
               <td><strong><Link to="/sorted/outsidepercentdown" style={{ textDecoration: 'none' }}>% Down &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
-              <td><strong>{Math.floor(this.stockOutsideNumDown() / this.state.stocks.length *100)}%</strong></td>
-              <td><strong>{Math.floor(this.watchListOutsideNumDown() / this.state.watchList.length *100)}%</strong></td>
+              <td><strong>{Math.round(this.stockOutsideNumDown() / this.state.stocks.length *100)}%</strong></td>
+              <td><strong>{Math.round(this.watchListOutsideNumDown() / this.state.watchList.length *100)}%</strong></td>
             </tr>            
           </tbody>
         </table>                 
@@ -741,8 +741,8 @@ class Results extends Component {
             </tr>        
             <tr>
               <td>Avg Actual Move vs. Expected Move Ratio</td>
-              <td>{Math.floor((this.stockAvgActualMove() / this.stockAvgExpectedMove()) *100)}%</td>
-              <td>{Math.floor((this.watchListAvgActualMove() / this.watchListAvgExpectedMove()) *100)}%</td>
+              <td>{Math.round((this.stockAvgActualMove() / this.stockAvgExpectedMove()) *100)}%</td>
+              <td>{Math.round((this.watchListAvgActualMove() / this.watchListAvgExpectedMove()) *100)}%</td>
             </tr>         
             <tr>
               <td><strong><Link to="/sorted/belowavgem" style={{ textDecoration: 'none' }}>Below Avg % Expected Move % Inside &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
@@ -763,23 +763,23 @@ class Results extends Component {
           <tbody>
             <tr>
               <td><strong><Link to="/sorted/q1percentinside" style={{ textDecoration: 'none' }}>Q1 - % Inside Expected Move &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
-              <td>{Math.floor(this.stockQone())}%</td>
-              <td>{Math.floor(this.watchListQone())}%</td>
+              <td>{Math.round(this.stockQone())}%</td>
+              <td>{Math.round(this.watchListQone())}%</td>
             </tr>
             <tr>
               <td><strong><Link to="/sorted/q2percentinside" style={{ textDecoration: 'none' }}>Q2 - % Inside Expected Move &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
-              <td>{Math.floor(this.stockQtwo())}%</td>
-              <td>{Math.floor(this.watchListQtwo())}%</td>
+              <td>{Math.round(this.stockQtwo())}%</td>
+              <td>{Math.round(this.watchListQtwo())}%</td>
             </tr>
             <tr>
               <td><strong><Link to="/sorted/q3percentinside" style={{ textDecoration: 'none' }}>Q3 - % Inside Expected Move &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
-              <td>{Math.floor(this.stockQthree())}%</td>
-              <td>{Math.floor(this.watchListQthree())}%</td>
+              <td>{Math.round(this.stockQthree())}%</td>
+              <td>{Math.round(this.watchListQthree())}%</td>
             </tr>
             <tr>
               <td><strong><Link to="/sorted/q4percentinside" style={{ textDecoration: 'none' }}>Q4 - % Inside Expected Move &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
-              <td>{Math.floor(this.stockQfour())}%</td>
-              <td>{Math.floor(this.watchListQfour())}%</td>
+              <td>{Math.round(this.stockQfour())}%</td>
+              <td>{Math.round(this.watchListQfour())}%</td>
             </tr>            
           </tbody>
         </table>
