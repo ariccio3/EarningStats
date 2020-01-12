@@ -75,7 +75,7 @@ class Results extends Component {
         count++;
       } 
     } 
-    return Math.round(count);
+    return count;
   };
 
   watchListInsideEM = () => {
@@ -600,7 +600,7 @@ class Results extends Component {
             </tr>
             <tr>
               <td><strong><Link to="/sorted/totalpercentup" style={{ textDecoration: 'none' }}>Total % Up &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
-              <td><strong>{Math.floor(this.stockTotalUp() / this.state.stocks.length *100)}%</strong></td>
+              <td><strong>{Math.round(this.stockTotalUp() / this.state.stocks.length *100)}%</strong></td>
               <td><strong>{Math.floor(this.watchListTotalUp() / this.state.watchList.length *100)}%</strong></td>
             </tr>
             <tr>
@@ -615,7 +615,7 @@ class Results extends Component {
             </tr>
             <tr>
               <td><strong><Link to="/sorted/percentinside" style={{ textDecoration: 'none' }}>Total % Inside Expected Move &nbsp;<i className="fa fa-sort" aria-hidden="true"></i></Link></strong></td>
-              <td><strong>{Math.floor(this.stockTotalInsideEM() / this.state.stocks.length *100)}%</strong></td>
+              <td><strong>{Math.round(this.stockTotalInsideEM() / this.state.stocks.length *100)}%</strong></td>
               <td><strong>{Math.floor(this.watchListInsideEM() / this.state.watchList.length *100)}%</strong></td>
             </tr>
           </tbody>
