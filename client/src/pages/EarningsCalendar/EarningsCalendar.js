@@ -15,41 +15,6 @@ class EarningsCalendar extends Component {
 
 
 
-
-
-
-
-
-
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
-          <tbody>   
-            <tr>
-              <td><Link to="/results/GS">GS</Link></td>
-              <td>Goldman Sachs</td>
-              <td>1/15/2020</td>
-              <td>bmo</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/UNH">UNH</Link></td>
-              <td>United Health</td>
-              <td>1/15/2020</td>
-              <td>bmo</td>
-            </tr>  
-          </tbody>
-        </table>
-
-
-
-
-
         <table className="table table-striped table-hover table-bordered">
           <thead>
             <tr>
@@ -604,6 +569,18 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/JPM">JPM</Link></td>
               <td>JPMorgan Chase</td>
               <td>4/14/2020</td>
+              <td>bmo</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/GS">GS</Link></td>
+              <td>Goldman Sachs</td>
+              <td>4/15/2020</td>
+              <td>bmo</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/UNH">UNH</Link></td>
+              <td>United Health</td>
+              <td>4/15/2020</td>
               <td>bmo</td>
             </tr>  
           </tbody>
