@@ -24,25 +24,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>    
-            <tr>
-              <td><Link to="/results/IBM">IBM</Link></td>
-              <td>International Business Machines</td>
-              <td>1/21/2020</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/NFLX">NFLX</Link></td>
-              <td>Netflix</td>
-              <td>1/21/2020</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/JNJ">JNJ</Link></td>
-              <td>Johnson &amp; Johnson</td>
-              <td>1/22/2020</td>
-              <td>bmo</td>
-            </tr>      
+          <tbody>       
             <tr>
               <td><Link to="/results/TXN">TXN</Link></td>
               <td>Texas Instruments</td>
@@ -583,6 +565,24 @@ class EarningsCalendar extends Component {
               <td>4/15/2020</td>
               <td>bmo</td>
             </tr>  
+            <tr>
+              <td><Link to="/results/IBM">IBM</Link></td>
+              <td>International Business Machines</td>
+              <td>4/21/2020</td>
+              <td>amc</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/NFLX">NFLX</Link></td>
+              <td>Netflix</td>
+              <td>4/21/2020</td>
+              <td>amc</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/JNJ">JNJ</Link></td>
+              <td>Johnson &amp; Johnson</td>
+              <td>4/22/2020</td>
+              <td>bmo</td>
+            </tr>   
           </tbody>
         </table>
 
