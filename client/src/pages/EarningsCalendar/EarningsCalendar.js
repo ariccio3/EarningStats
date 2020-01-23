@@ -24,13 +24,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>       
-            <tr>
-              <td><Link to="/results/TXN">TXN</Link></td>
-              <td>Texas Instruments</td>
-              <td>1/22/2020</td>
-              <td>amc</td>
-            </tr> 
+          <tbody> 
             <tr>
               <td><Link to="/results/AXP">AXP</Link></td>
               <td>American Express</td>
@@ -582,7 +576,13 @@ class EarningsCalendar extends Component {
               <td>Johnson &amp; Johnson</td>
               <td>4/22/2020</td>
               <td>bmo</td>
-            </tr>   
+            </tr>        
+            <tr>
+              <td><Link to="/results/TXN">TXN</Link></td>
+              <td>Texas Instruments</td>
+              <td>4/22/2020</td>
+              <td>amc</td>
+            </tr>  
           </tbody>
         </table>
 
