@@ -50,13 +50,7 @@ class EarningsCalendar extends Component {
               <td>Visa</td>
               <td>1/30/2020</td>
               <td>amc</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/WYNN">WYNN</Link></td>
-              <td>Wynn Resorts</td>
-              <td>1/30/2020*</td>
-              <td>amc</td>
-            </tr>    
+            </tr>   
             <tr>
               <td><Link to="/results/CAT">CAT</Link></td>
               <td>Caterpillar</td>
@@ -144,6 +138,12 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/TTWO">TTWO</Link></td>
               <td>Take-Two Interactive</td>
               <td>2/6/2020</td>
+              <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/WYNN">WYNN</Link></td>
+              <td>Wynn Resorts</td>
+              <td>2/6/2020*</td>
               <td>amc</td>
             </tr>  
           </tbody>
