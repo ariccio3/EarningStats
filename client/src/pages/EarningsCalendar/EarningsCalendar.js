@@ -26,49 +26,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>        
-            <tr>
-              <td><Link to="/results/FB">FB</Link></td>
-              <td>Facebook</td>
-              <td>1/29/2020</td>
-              <td>amc</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/MSFT">MSFT</Link></td>
-              <td>Microsoft</td>
-              <td>1/29/2020</td>
-              <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/PYPL">PYPL</Link></td>
-              <td>PayPal</td>
-              <td>1/29/2020</td>
-              <td>amc</td>
-            </tr>         
-            <tr>
-              <td><Link to="/results/NOW">NOW</Link></td>
-              <td>ServiceNow</td>
-              <td>1/29/2020</td>
-              <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/TSLA">TSLA</Link></td>
-              <td>Tesla</td>
-              <td>1/29/2020</td>
-              <td>amc</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/BIIB">BIIB</Link></td>
-              <td>Biogen</td>
-              <td>1/30/2020</td>
-              <td>bmo</td>
-            </tr>    
-            <tr>
-              <td><Link to="/results/UPS">UPS</Link></td>
-              <td>United Parcel Service</td>
-              <td>1/30/2020</td>
-              <td>bmo</td>
-            </tr>           
+          <tbody>                
             <tr>
               <td><Link to="/results/AMZN">AMZN</Link></td>
               <td>Amazon</td>
@@ -568,6 +526,48 @@ class EarningsCalendar extends Component {
               <td>4/29/2020</td>
               <td>bmo</td>
             </tr> 
+            <tr>
+              <td><Link to="/results/FB">FB</Link></td>
+              <td>Facebook</td>
+              <td>4/29/2020</td>
+              <td>amc</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/MSFT">MSFT</Link></td>
+              <td>Microsoft</td>
+              <td>4/29/2020</td>
+              <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/PYPL">PYPL</Link></td>
+              <td>PayPal</td>
+              <td>4/29/2020</td>
+              <td>amc</td>
+            </tr>         
+            <tr>
+              <td><Link to="/results/NOW">NOW</Link></td>
+              <td>ServiceNow</td>
+              <td>4/29/2020</td>
+              <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/TSLA">TSLA</Link></td>
+              <td>Tesla</td>
+              <td>4/29/2020</td>
+              <td>amc</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/BIIB">BIIB</Link></td>
+              <td>Biogen</td>
+              <td>4/30/2020</td>
+              <td>bmo</td>
+            </tr>    
+            <tr>
+              <td><Link to="/results/UPS">UPS</Link></td>
+              <td>United Parcel Service</td>
+              <td>4/30/2020</td>
+              <td>bmo</td>
+            </tr>   
           </tbody>
         </table>
 
