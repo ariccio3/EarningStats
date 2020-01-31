@@ -26,65 +26,6 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>                
-            <tr>
-              <td><Link to="/results/AMZN">AMZN</Link></td>
-              <td>Amazon</td>
-              <td>1/30/2020</td>
-              <td>amc</td>
-            </tr>     
-            <tr>
-              <td><Link to="/results/AMGN">AMGN</Link></td>
-              <td>Amgen</td>
-              <td>1/30/2020</td>
-              <td>amc</td>
-            </tr>           
-            <tr>
-              <td><Link to="/results/EA">EA</Link></td>
-              <td>Electronic Arts</td>
-              <td>1/30/2020</td>
-              <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/V">V</Link></td>
-              <td>Visa</td>
-              <td>1/30/2020</td>
-              <td>amc</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/CAT">CAT</Link></td>
-              <td>Caterpillar</td>
-              <td>1/31/2020</td>
-              <td>bmo</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/CVX">CVX</Link></td>
-              <td>Cheveron</td>
-              <td>1/31/2020</td>
-              <td>bmo</td>
-            </tr>    
-            <tr>
-              <td><Link to="/results/XOM">XOM</Link></td>
-              <td>Exxon Mobil</td>
-              <td>1/31/2020</td>
-              <td>bmo</td>
-            </tr>   
-          </tbody>
-        </table>
-
-
-
-
-
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
           <tbody>                   
             <tr>
               <td><Link to="/results/GOOGL">GOOGL</Link></td>
@@ -566,6 +507,48 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/UPS">UPS</Link></td>
               <td>United Parcel Service</td>
               <td>4/30/2020</td>
+              <td>bmo</td>
+            </tr>            
+            <tr>
+              <td><Link to="/results/AMZN">AMZN</Link></td>
+              <td>Amazon</td>
+              <td>4/30/2020</td>
+              <td>amc</td>
+            </tr>     
+            <tr>
+              <td><Link to="/results/AMGN">AMGN</Link></td>
+              <td>Amgen</td>
+              <td>4/30/2020</td>
+              <td>amc</td>
+            </tr>           
+            <tr>
+              <td><Link to="/results/EA">EA</Link></td>
+              <td>Electronic Arts</td>
+              <td>4/30/2020</td>
+              <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/V">V</Link></td>
+              <td>Visa</td>
+              <td>4/30/2020</td>
+              <td>amc</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/CAT">CAT</Link></td>
+              <td>Caterpillar</td>
+              <td>4/31/2020</td>
+              <td>bmo</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/CVX">CVX</Link></td>
+              <td>Cheveron</td>
+              <td>4/31/2020</td>
+              <td>bmo</td>
+            </tr>    
+            <tr>
+              <td><Link to="/results/XOM">XOM</Link></td>
+              <td>Exxon Mobil</td>
+              <td>4/31/2020</td>
               <td>bmo</td>
             </tr>   
           </tbody>
