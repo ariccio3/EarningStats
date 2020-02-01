@@ -34,12 +34,6 @@ class EarningsCalendar extends Component {
               <td>amc</td>
             </tr> 
             <tr>
-              <td><Link to="/results/AGN">AGN</Link></td>
-              <td>Allergan</td>
-              <td>2/4/2020*</td>
-              <td>bmo</td>
-            </tr> 
-            <tr>
               <td><Link to="/results/CMG">CMG</Link></td>
               <td>Chipotle Mexican Grill</td>
               <td>2/4/2020</td>
@@ -68,13 +62,7 @@ class EarningsCalendar extends Component {
               <td>twilio</td>
               <td>2/5/2020</td>
               <td>amc</td>
-            </tr>    
-            <tr>
-              <td><Link to="/results/BIDU">BIDU</Link></td>
-              <td>Baidu</td>
-              <td>2/6/2020</td>
-              <td>amc</td>
-            </tr>           
+            </tr>          
             <tr>
               <td><Link to="/results/TTWO">TTWO</Link></td>
               <td>Take-Two Interactive</td>
@@ -84,9 +72,15 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/WYNN">WYNN</Link></td>
               <td>Wynn Resorts</td>
-              <td>2/6/2020*</td>
+              <td>2/6/2020</td>
               <td>amc</td>
             </tr>  
+            <tr>
+              <td><Link to="/results/AGN">AGN</Link></td>
+              <td>Allergan</td>
+              <td>2/10/2020</td>
+              <td>bmo</td>
+            </tr> 
           </tbody>
         </table>
 
@@ -103,7 +97,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>    
+          <tbody>   
             <tr>
               <td><Link to="/results/BABA">BABA</Link></td>
               <td>Alibaba</td>
@@ -214,6 +208,12 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/ADSK">ADSK</Link></td>
               <td>Autodesk</td>
               <td>2/27/2020*</td>
+              <td>amc</td>
+            </tr>     
+            <tr>
+              <td><Link to="/results/BIDU">BIDU</Link></td>
+              <td>Baidu</td>
+              <td>2/27/2020</td>
               <td>amc</td>
             </tr> 
             <tr>
