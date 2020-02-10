@@ -26,77 +26,6 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>                   
-            <tr>
-              <td><Link to="/results/GOOGL">GOOGL</Link></td>
-              <td>Google</td>
-              <td>2/3/2020</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/CMG">CMG</Link></td>
-              <td>Chipotle Mexican Grill</td>
-              <td>2/4/2020</td>
-              <td>amc</td>
-            </tr>         
-            <tr>
-              <td><Link to="/results/DIS">DIS</Link></td>
-              <td>Disney</td>
-              <td>2/4/2020</td>
-              <td>amc</td>
-            </tr>       
-            <tr>
-              <td><Link to="/results/GILD">GILD</Link></td>
-              <td>Gilead Sciences</td>
-              <td>2/4/2020</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/QCOM">QCOM</Link></td>
-              <td>QualComm</td>
-              <td>2/5/2020</td>
-              <td>amc</td>
-            </tr>     
-            <tr>
-              <td><Link to="/results/TWLO">TWLO</Link></td>
-              <td>twilio</td>
-              <td>2/5/2020</td>
-              <td>amc</td>
-            </tr>          
-            <tr>
-              <td><Link to="/results/TTWO">TTWO</Link></td>
-              <td>Take-Two Interactive</td>
-              <td>2/6/2020</td>
-              <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/WYNN">WYNN</Link></td>
-              <td>Wynn Resorts</td>
-              <td>2/6/2020</td>
-              <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/AGN">AGN</Link></td>
-              <td>Allergan</td>
-              <td>2/10/2020</td>
-              <td>bmo</td>
-            </tr> 
-          </tbody>
-        </table>
-
-
-
-
-
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
           <tbody>   
             <tr>
               <td><Link to="/results/BABA">BABA</Link></td>
@@ -119,7 +48,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/NVDA">NVDA</Link></td>
               <td>NVIDIA</td>
-              <td>2/13/2020*</td>
+              <td>2/13/2020</td>
               <td>amc</td>
             </tr>             
             <tr>
@@ -191,7 +120,13 @@ class EarningsCalendar extends Component {
               <td>Home Depot</td>
               <td>2/25/2020</td>
               <td>bmo</td>
-            </tr>                        
+            </tr>           
+            <tr>
+              <td><Link to="/results/CRM">CRM</Link></td>
+              <td>SalesForce</td>
+              <td>2/25/2020</td>
+              <td>amc</td>
+            </tr>                      
             <tr>
               <td><Link to="/results/LOW">LOW</Link></td>
               <td>Lowe's</td>
@@ -207,7 +142,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/ADSK">ADSK</Link></td>
               <td>Autodesk</td>
-              <td>2/27/2020*</td>
+              <td>2/27/2020</td>
               <td>amc</td>
             </tr>     
             <tr>
@@ -238,13 +173,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>             
-            <tr>
-              <td><Link to="/results/CRM">CRM</Link></td>
-              <td>SalesForce</td>
-              <td>3/2/2020*</td>
-              <td>amc</td>
-            </tr> 
+          <tbody>     
             <tr>
               <td><Link to="/results/TGT">TGT</Link></td>
               <td>Target</td>
@@ -324,7 +253,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/NKE">NKE</Link></td>
               <td>Nike</td>
-              <td>3/19/2019*</td>
+              <td>3/19/2020*</td>
               <td>amc</td>
             </tr>   
           </tbody>
@@ -549,6 +478,60 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/XOM">XOM</Link></td>
               <td>Exxon Mobil</td>
               <td>4/31/2020</td>
+              <td>bmo</td>
+            </tr>                  
+            <tr>
+              <td><Link to="/results/GOOGL">GOOGL</Link></td>
+              <td>Google</td>
+              <td>5/3/2020</td>
+              <td>amc</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/CMG">CMG</Link></td>
+              <td>Chipotle Mexican Grill</td>
+              <td>5/4/2020</td>
+              <td>amc</td>
+            </tr>         
+            <tr>
+              <td><Link to="/results/DIS">DIS</Link></td>
+              <td>Disney</td>
+              <td>5/4/2020</td>
+              <td>amc</td>
+            </tr>       
+            <tr>
+              <td><Link to="/results/GILD">GILD</Link></td>
+              <td>Gilead Sciences</td>
+              <td>5/4/2020</td>
+              <td>amc</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/QCOM">QCOM</Link></td>
+              <td>QualComm</td>
+              <td>5/5/2020</td>
+              <td>amc</td>
+            </tr>     
+            <tr>
+              <td><Link to="/results/TWLO">TWLO</Link></td>
+              <td>twilio</td>
+              <td>5/5/2020</td>
+              <td>amc</td>
+            </tr>          
+            <tr>
+              <td><Link to="/results/TTWO">TTWO</Link></td>
+              <td>Take-Two Interactive</td>
+              <td>5/6/2020</td>
+              <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/WYNN">WYNN</Link></td>
+              <td>Wynn Resorts</td>
+              <td>5/6/2020</td>
+              <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/AGN">AGN</Link></td>
+              <td>Allergan</td>
+              <td>5/10/2020</td>
               <td>bmo</td>
             </tr>   
           </tbody>
