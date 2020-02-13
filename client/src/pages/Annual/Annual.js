@@ -64,6 +64,12 @@ class Annual extends Component {
           </thead>
           <tbody>
             <tr>
+              <td>2020</td>
+              <td>{this.inside('20')}</td>
+              <td>{this.outside('20')}</td>
+              <td>{Math.floor(this.inside('20') / this.total('20') *100)}%</td>
+            </tr>
+            <tr>
               <td>2019</td>
               <td>{this.inside('19')}</td>
               <td>{this.outside('19')}</td>

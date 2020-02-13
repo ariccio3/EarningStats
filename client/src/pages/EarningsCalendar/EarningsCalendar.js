@@ -17,50 +17,6 @@ class EarningsCalendar extends Component {
 
 
 
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
-          <tbody>   
-            <tr>
-              <td><Link to="/results/BABA">BABA</Link></td>
-              <td>Alibaba</td>
-              <td>2/13/2020</td>
-              <td>bmo</td>
-            </tr>    
-            <tr>
-              <td><Link to="/results/PEP">PEP</Link></td>
-              <td>Pepsico</td>
-              <td>2/13/2020</td>
-              <td>bmo</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/ANET">ANET</Link></td>
-              <td>Arista Networks</td>
-              <td>2/13/2020</td>
-              <td>amc</td>
-            </tr>    
-            <tr>
-              <td><Link to="/results/NVDA">NVDA</Link></td>
-              <td>NVIDIA</td>
-              <td>2/13/2020</td>
-              <td>amc</td>
-            </tr>             
-            <tr>
-              <td><Link to="/results/ROKU">ROKU</Link></td>
-              <td>Roku</td>
-              <td>2/13/2020</td>
-              <td>amc</td>
-            </tr>  
-          </tbody>
-        </table>
-
-
 
 
 
@@ -533,6 +489,36 @@ class EarningsCalendar extends Component {
               <td>Allergan</td>
               <td>5/10/2020</td>
               <td>bmo</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/BABA">BABA</Link></td>
+              <td>Alibaba</td>
+              <td>5/13/2020</td>
+              <td>bmo</td>
+            </tr>    
+            <tr>
+              <td><Link to="/results/PEP">PEP</Link></td>
+              <td>Pepsico</td>
+              <td>5/13/2020</td>
+              <td>bmo</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/ANET">ANET</Link></td>
+              <td>Arista Networks</td>
+              <td>5/13/2020</td>
+              <td>amc</td>
+            </tr>    
+            <tr>
+              <td><Link to="/results/NVDA">NVDA</Link></td>
+              <td>NVIDIA</td>
+              <td>5/13/2020</td>
+              <td>amc</td>
+            </tr>             
+            <tr>
+              <td><Link to="/results/ROKU">ROKU</Link></td>
+              <td>Roku</td>
+              <td>5/13/2020</td>
+              <td>amc</td>
             </tr>   
           </tbody>
         </table>
