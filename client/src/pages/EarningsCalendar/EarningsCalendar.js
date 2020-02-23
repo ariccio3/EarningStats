@@ -49,6 +49,12 @@ class EarningsCalendar extends Component {
               <td>bmo</td>
             </tr>  
             <tr>
+              <td><Link to="/results/BKNG">BKNG</Link></td>
+              <td>Booking</td>
+              <td>2/26/2020</td>
+              <td>amc</td>
+            </tr>    
+            <tr>
               <td><Link to="/results/NTES">NTES</Link></td>
               <td>NetEase</td>
               <td>2/26/2020</td>
@@ -72,12 +78,6 @@ class EarningsCalendar extends Component {
               <td>2/27/2020</td>
               <td>amc</td>
             </tr> 
-            <tr>
-              <td><Link to="/results/BKNG">BKNG</Link></td>
-              <td>Booking</td>
-              <td>2/27/2020*</td>
-              <td>amc</td>
-            </tr>    
           </tbody>
         </table>
 
@@ -127,13 +127,13 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/ADBE">ADBE</Link></td>
               <td>Adobe</td>
-              <td>3/12/2020*</td>
+              <td>3/12/2020</td>
               <td>amc</td>
             </tr>           
             <tr>
               <td><Link to="/results/AVGO">AVGO</Link></td>
               <td>Broadcom</td>
-              <td>3/12/2020*</td>
+              <td>3/12/2020</td>
               <td>amc</td>
             </tr>   
             <tr>
