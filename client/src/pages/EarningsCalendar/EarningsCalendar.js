@@ -400,7 +400,13 @@ class EarningsCalendar extends Component {
               <td>Exxon Mobil</td>
               <td>4/31/2020</td>
               <td>bmo</td>
-            </tr>                  
+            </tr>     
+            <tr>
+              <td><Link to="/results/SHOP">SHOP</Link></td>
+              <td>Shopify</td>
+              <td>4/31/2020</td>
+              <td>bmo</td>
+            </tr>                 
             <tr>
               <td><Link to="/results/GOOGL">GOOGL</Link></td>
               <td>Google</td>
