@@ -100,13 +100,7 @@ class EarningsCalendar extends Component {
               <td>accenture</td>
               <td>3/19/2020</td>
               <td>bmo</td>
-            </tr>         
-            <tr>
-              <td><Link to="/results/NKE">NKE</Link></td>
-              <td>Nike</td>
-              <td>3/19/2020*</td>
-              <td>amc</td>
-            </tr>   
+            </tr>  
           </tbody>
         </table>
 
@@ -123,11 +117,17 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>       
+          <tbody>           
+            <tr>
+              <td><Link to="/results/NKE">NKE</Link></td>
+              <td>Nike</td>
+              <td>3/24/2020</td>
+              <td>amc</td>
+            </tr>      
             <tr>
               <td><Link to="/results/LULU">LULU</Link></td>
               <td>lululemon</td>
-              <td>3/25/2020</td>
+              <td>3/25/2020*</td>
               <td>amc</td>
             </tr>  
           </tbody>
@@ -148,7 +148,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/STZ">STZ</Link></td>  
               <td>Constellation Brands</td>
-              <td>4/8/2020</td>
+              <td>4/2/2020</td>
               <td>bmo</td>
             </tr>       
             <tr>
