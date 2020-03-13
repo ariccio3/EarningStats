@@ -16,39 +16,6 @@ class EarningsCalendar extends Component {
 
 
 
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
-          <tbody>       
-            <tr>
-              <td><Link to="/results/ADBE">ADBE</Link></td>
-              <td>Adobe</td>
-              <td>3/12/2020</td>
-              <td>amc</td>
-            </tr>           
-            <tr>
-              <td><Link to="/results/AVGO">AVGO</Link></td>
-              <td>Broadcom</td>
-              <td>3/12/2020</td>
-              <td>amc</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/ULTA">ULTA</Link></td>
-              <td>ULTA Beauty</td>
-              <td>3/12/2020</td>
-              <td>amc</td>
-            </tr>    
-          </tbody>
-        </table>
-
-
-
 
 
         <table className="table table-striped table-hover table-bordered">
@@ -120,13 +87,13 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/STZ">STZ</Link></td>  
               <td>Constellation Brands</td>
-              <td>4/2/2020</td>
+              <td>4/3/2020</td>
               <td>bmo</td>
             </tr>       
             <tr>
               <td><Link to="/results/C">C</Link></td>
               <td>CitiGroup</td>
-              <td>4/14/2020</td>
+              <td>4/15/2020</td>
               <td>bmo</td>
             </tr>  
             <tr>
@@ -138,115 +105,115 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/GS">GS</Link></td>
               <td>Goldman Sachs</td>
-              <td>4/15/2020</td>
+              <td>4/13/2020*</td>
               <td>bmo</td>
             </tr>  
             <tr>
               <td><Link to="/results/UNH">UNH</Link></td>
               <td>United Health</td>
-              <td>4/15/2020</td>
+              <td>4/14/2020*</td>
               <td>bmo</td>
             </tr>  
             <tr>
               <td><Link to="/results/IBM">IBM</Link></td>
               <td>International Business Machines</td>
-              <td>4/21/2020</td>
+              <td>4/20/2020*</td>
               <td>amc</td>
             </tr> 
             <tr>
               <td><Link to="/results/NFLX">NFLX</Link></td>
               <td>Netflix</td>
-              <td>4/21/2020</td>
+              <td>4/16/2020*</td>
               <td>amc</td>
             </tr> 
             <tr>
               <td><Link to="/results/JNJ">JNJ</Link></td>
               <td>Johnson &amp; Johnson</td>
-              <td>4/22/2020</td>
+              <td>4/14/2020</td>
               <td>bmo</td>
             </tr>        
             <tr>
               <td><Link to="/results/TXN">TXN</Link></td>
               <td>Texas Instruments</td>
-              <td>4/22/2020</td>
+              <td>4/21/2020*</td>
               <td>amc</td>
             </tr>  
             <tr>
               <td><Link to="/results/AXP">AXP</Link></td>
               <td>American Express</td>
-              <td>4/24/2020</td>
+              <td>4/27/2020*</td>
               <td>bmo</td>
             </tr>     
             <tr>
               <td><Link to="/results/AAPL">AAPL</Link></td>
               <td>Apple</td>
-              <td>4/28/2020</td>
+              <td>4/28/2020*</td>
               <td>amc</td>
             </tr>  
             <tr>
               <td><Link to="/results/SBUX">SBUX</Link></td>
               <td>Starbucks</td>
-              <td>4/28/2020</td>
+              <td>4/28/2020*</td>
               <td>amc</td>
             </tr>        
             <tr>
               <td><Link to="/results/XLNX">XLNX</Link></td>
               <td>XILINX Inc</td>
-              <td>4/28/2020</td>
+              <td>4/22/2020</td>
               <td>amc</td>
             </tr>         
             <tr>
               <td><Link to="/results/ADP">ADP</Link></td>
               <td>ADP</td>
-              <td>4/29/2020</td>
+              <td>4/29/2020*</td>
               <td>bmo</td>
             </tr>   
             <tr>
               <td><Link to="/results/BA">BA</Link></td>
               <td>Boeing</td>
-              <td>4/29/2020</td>
+              <td>4/22/2020*</td>
               <td>bmo</td>
             </tr>   
             <tr>
               <td><Link to="/results/MA">MA</Link></td>
               <td>Mastercard</td>
-              <td>4/29/2020</td>
+              <td>4/28/2020*</td>
               <td>bmo</td>
             </tr>  
             <tr>
               <td><Link to="/results/MCD">MCD</Link></td>
               <td>McDonalds</td>
-              <td>4/29/2020</td>
+              <td>4/28/2020*</td>
               <td>bmo</td>
             </tr> 
             <tr>
               <td><Link to="/results/FB">FB</Link></td>
               <td>Facebook</td>
-              <td>4/29/2020</td>
+              <td>4/22/2020*</td>
               <td>amc</td>
             </tr>   
             <tr>
               <td><Link to="/results/MSFT">MSFT</Link></td>
               <td>Microsoft</td>
-              <td>4/29/2020</td>
+              <td>4/22/2020*</td>
               <td>amc</td>
             </tr>  
             <tr>
               <td><Link to="/results/PYPL">PYPL</Link></td>
               <td>PayPal</td>
-              <td>4/29/2020</td>
+              <td>4/22/2020*</td>
               <td>amc</td>
             </tr>         
             <tr>
               <td><Link to="/results/NOW">NOW</Link></td>
               <td>ServiceNow</td>
-              <td>4/29/2020</td>
+              <td>4/22/2020*</td>
               <td>amc</td>
             </tr>  
             <tr>
               <td><Link to="/results/TSLA">TSLA</Link></td>
               <td>Tesla</td>
-              <td>4/29/2020</td>
+              <td>4/22/2020*</td>
               <td>amc</td>
             </tr>   
             <tr>
@@ -464,7 +431,25 @@ class EarningsCalendar extends Component {
               <td>Costco</td>
               <td>6/5/2020</td>
               <td>amc</td>
+            </tr>      
+            <tr>
+              <td><Link to="/results/ADBE">ADBE</Link></td>
+              <td>Adobe</td>
+              <td>6/12/2020</td>
+              <td>amc</td>
+            </tr>           
+            <tr>
+              <td><Link to="/results/AVGO">AVGO</Link></td>
+              <td>Broadcom</td>
+              <td>6/12/2020</td>
+              <td>amc</td>
             </tr>   
+            <tr>
+              <td><Link to="/results/ULTA">ULTA</Link></td>
+              <td>ULTA Beauty</td>
+              <td>6/12/2020</td>
+              <td>amc</td>
+            </tr>  
           </tbody>
         </table>
 
