@@ -27,13 +27,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>                       
-            <tr>
-              <td><Link to="/results/FDX">FDX</Link></td>
-              <td>FedEx</td>
-              <td>3/17/2020</td>
-              <td>amc</td>
-            </tr>        
+          <tbody>        
             <tr>
               <td><Link to="/results/ACN">ACN</Link></td>
               <td>accenture</td>
@@ -449,7 +443,13 @@ class EarningsCalendar extends Component {
               <td>ULTA Beauty</td>
               <td>6/12/2020</td>
               <td>amc</td>
-            </tr>  
+            </tr>                     
+            <tr>
+              <td><Link to="/results/FDX">FDX</Link></td>
+              <td>FedEx</td>
+              <td>6/17/2020</td>
+              <td>amc</td>
+            </tr>    
           </tbody>
         </table>
 
