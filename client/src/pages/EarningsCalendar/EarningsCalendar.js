@@ -36,7 +36,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/LULU">LULU</Link></td>
               <td>lululemon</td>
-              <td>3/25/2020*</td>
+              <td>3/26/2020</td>
               <td>amc</td>
             </tr>  
           </tbody>
