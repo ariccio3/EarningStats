@@ -30,19 +30,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>   
-            <tr>
-              <td><Link to="/results/JPM">JPM</Link></td>
-              <td>JPMorgan Chase</td>
-              <td>4/14/2020</td>
-              <td>bmo</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/JNJ">JNJ</Link></td>
-              <td>Johnson &amp; Johnson</td>
-              <td>4/14/2020</td>
-              <td>bmo</td>
-            </tr>       
+          <tbody>        
             <tr>
               <td><Link to="/results/C">C</Link></td>
               <td>CitiGroup</td>
@@ -575,6 +563,36 @@ class EarningsCalendar extends Component {
             </tr>  
           </tbody>
         </table>
+
+
+
+
+        <table className="table table-striped table-hover table-bordered">
+          <thead>
+            <tr>
+              <th className="stock">Stock</th>
+              <th className="company">Company</th>
+              <th className="date">Date</th>
+              <th className="time">Time</th>
+            </tr>        
+          </thead>
+          <tbody>   
+            <tr>
+              <td><Link to="/results/JPM">JPM</Link></td>
+              <td>JPMorgan Chase</td>
+              <td>7/14/2020</td>
+              <td>bmo</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/JNJ">JNJ</Link></td>
+              <td>Johnson &amp; Johnson</td>
+              <td>7/14/2020</td>
+              <td>bmo</td>
+            </tr>   
+          </tbody>
+        </table>
+
+
 
       </div>         
     );
