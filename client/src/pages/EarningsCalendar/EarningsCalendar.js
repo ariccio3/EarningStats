@@ -28,25 +28,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>           
-            <tr>
-              <td><Link to="/results/XLNX">XLNX</Link></td>
-              <td>XILINX Inc</td>
-              <td>4/22/2020</td>
-              <td>amc</td>
-            </tr>         
-            <tr>
-              <td><Link to="/results/DPZ">DPZ</Link></td>
-              <td>Dominos Pizza</td>
-              <td>4/23/2020</td>
-              <td>bmo</td>
-            </tr>         
-            <tr>
-              <td><Link to="/results/AMZN">AMZN</Link></td>
-              <td>Amazon</td>
-              <td>4/23/2020</td>
-              <td>amc</td>
-            </tr>    
+          <tbody>   
             <tr>
               <td><Link to="/results/AXP">AXP</Link></td>
               <td>American Express</td>
@@ -145,7 +127,13 @@ class EarningsCalendar extends Component {
               <td>McDonalds</td>
               <td>4/30/2020</td>
               <td>bmo</td>
-            </tr>   
+            </tr>         
+            <tr>
+              <td><Link to="/results/AMZN">AMZN</Link></td>
+              <td>Amazon</td>
+              <td>4/30/2020</td>
+              <td>amc</td>
+            </tr>    
             <tr>
               <td><Link to="/results/AAPL">AAPL</Link></td>
               <td>Apple</td>
@@ -571,7 +559,19 @@ class EarningsCalendar extends Component {
               <td>Biogen</td>
               <td>7/22/2020</td>
               <td>bmo</td>
-            </tr> 
+            </tr>          
+            <tr>
+              <td><Link to="/results/XLNX">XLNX</Link></td>
+              <td>XILINX Inc</td>
+              <td>7/22/2020</td>
+              <td>amc</td>
+            </tr>         
+            <tr>
+              <td><Link to="/results/DPZ">DPZ</Link></td>
+              <td>Dominos Pizza</td>
+              <td>7/23/2020</td>
+              <td>bmo</td>
+            </tr>  
           </tbody>
         </table>
 

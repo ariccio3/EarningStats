@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.844e4bea.css",
   "main.css.map": "static/css/main.844e4bea.css.map",
-  "main.js": "static/js/main.e166ad15.js",
-  "main.js.map": "static/js/main.e166ad15.js.map",
+  "main.js": "static/js/main.a2dc6641.js",
+  "main.js.map": "static/js/main.a2dc6641.js.map",
   "static\\media\\AAPL.JPG": "static/media/AAPL.f4ab4c1f.JPG",
   "static\\media\\ACN.JPG": "static/media/ACN.9e74e124.JPG",
   "static\\media\\ADBE.JPG": "static/media/ADBE.7313d50b.JPG",
@@ -27,7 +27,7 @@
   "static\\media\\CVX.JPG": "static/media/CVX.137ba83a.JPG",
   "static\\media\\DE.JPG": "static/media/DE.b62a4cea.JPG",
   "static\\media\\DIS.JPG": "static/media/DIS.5788c465.JPG",
-  "static\\media\\DPZ.JPG": "static/media/DPZ.bc89989e.JPG",
+  "static\\media\\DPZ.JPG": "static/media/DPZ.9f7fff7b.JPG",
   "static\\media\\EA.JPG": "static/media/EA.405fb4b6.JPG",
   "static\\media\\FB.JPG": "static/media/FB.f331384c.JPG",
   "static\\media\\FDX.JPG": "static/media/FDX.19d46f76.JPG",
@@ -68,7 +68,7 @@
   "static\\media\\V.JPG": "static/media/V.63545d91.JPG",
   "static\\media\\WMT.JPG": "static/media/WMT.b64ad52d.JPG",
   "static\\media\\WYNN.JPG": "static/media/WYNN.eb097f5a.JPG",
-  "static\\media\\XLNX.JPG": "static/media/XLNX.ef5efb83.JPG",
+  "static\\media\\XLNX.JPG": "static/media/XLNX.30dbb01d.JPG",
   "static\\media\\XOM.JPG": "static/media/XOM.31e9157c.JPG",
   "static\\media\\paypal-donate-button.png": "static/media/paypal-donate-button.5687b713.png"
 }
