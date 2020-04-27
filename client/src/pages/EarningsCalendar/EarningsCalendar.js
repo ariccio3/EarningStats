@@ -124,12 +124,6 @@ class EarningsCalendar extends Component {
               <td>Amgen</td>
               <td>4/30/2020</td>
               <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/BIDU">BIDU</Link></td>
-              <td>Baidu</td>
-              <td>4/30/2020*</td>
-              <td>amc</td>
             </tr>      
             <tr>
               <td><Link to="/results/GILD">GILD</Link></td>
@@ -219,11 +213,17 @@ class EarningsCalendar extends Component {
               <td>amc</td>
             </tr>  
             <tr>
+              <td><Link to="/results/BIDU">BIDU</Link></td>
+              <td>Baidu</td>
+              <td>5/7/2020*</td>
+              <td>amc</td>
+            </tr>   
+            <tr>
               <td><Link to="/results/BKNG">BKNG</Link></td>
               <td>Booking</td>
               <td>5/7/2020*</td>
               <td>amc</td>
-            </tr>             
+            </tr>            
             <tr>
               <td><Link to="/results/ROKU">ROKU</Link></td>
               <td>Roku</td>
@@ -262,13 +262,7 @@ class EarningsCalendar extends Component {
               <td>Alibaba</td>
               <td>5/14/2020*</td>
               <td>bmo</td>
-            </tr>    
-            <tr>
-              <td><Link to="/results/NVDA">NVDA</Link></td>
-              <td>NVIDIA</td>
-              <td>5/14/2020*</td>
-              <td>amc</td>
-            </tr>  
+            </tr>   
           </tbody>
         </table>
 
@@ -306,6 +300,12 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/ADSK">ADSK</Link></td>
               <td>Autodesk</td>
               <td>5/21/2020*</td>
+              <td>amc</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/NVDA">NVDA</Link></td>
+              <td>NVIDIA</td>
+              <td>5/21/2020</td>
               <td>amc</td>
             </tr>  
             <tr>
