@@ -28,19 +28,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>        
-            <tr>
-              <td><Link to="/results/UPS">UPS</Link></td>
-              <td>United Parcel Service</td>
-              <td>4/28/2020</td>
-              <td>bmo</td>
-            </tr>      
-            <tr>
-              <td><Link to="/results/CAT">CAT</Link></td>
-              <td>Caterpillar</td>
-              <td>4/28/2020</td>
-              <td>bmo</td>
-            </tr>                
+          <tbody>                  
             <tr>
               <td><Link to="/results/GOOGL">GOOGL</Link></td>
               <td>Google</td>
@@ -556,7 +544,19 @@ class EarningsCalendar extends Component {
               <td>American Express</td>
               <td>7/24/2020</td>
               <td>bmo</td>
-            </tr>   
+            </tr>        
+            <tr>
+              <td><Link to="/results/UPS">UPS</Link></td>
+              <td>United Parcel Service</td>
+              <td>7/28/2020</td>
+              <td>bmo</td>
+            </tr>      
+            <tr>
+              <td><Link to="/results/CAT">CAT</Link></td>
+              <td>Caterpillar</td>
+              <td>7/28/2020</td>
+              <td>bmo</td>
+            </tr> 
           </tbody>
         </table>
 
