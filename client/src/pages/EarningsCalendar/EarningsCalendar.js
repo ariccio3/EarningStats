@@ -28,37 +28,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>                  
-            <tr>
-              <td><Link to="/results/GOOGL">GOOGL</Link></td>
-              <td>Google</td>
-              <td>4/28/2020</td>
-              <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/SBUX">SBUX</Link></td>
-              <td>Starbucks</td>
-              <td>4/28/2020</td>
-              <td>amc</td>
-            </tr>      
-            <tr>
-              <td><Link to="/results/ADP">ADP</Link></td>
-              <td>ADP</td>
-              <td>4/29/2020</td>
-              <td>bmo</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/BA">BA</Link></td>
-              <td>Boeing</td>
-              <td>4/29/2020</td>
-              <td>bmo</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/MA">MA</Link></td>
-              <td>Mastercard</td>
-              <td>4/29/2020</td>
-              <td>bmo</td>
-            </tr> 
+          <tbody>     
             <tr>
               <td><Link to="/results/FB">FB</Link></td>
               <td>Facebook</td>
@@ -555,6 +525,36 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/CAT">CAT</Link></td>
               <td>Caterpillar</td>
               <td>7/28/2020</td>
+              <td>bmo</td>
+            </tr>              
+            <tr>
+              <td><Link to="/results/GOOGL">GOOGL</Link></td>
+              <td>Google</td>
+              <td>7/28/2020</td>
+              <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/SBUX">SBUX</Link></td>
+              <td>Starbucks</td>
+              <td>7/28/2020</td>
+              <td>amc</td>
+            </tr>      
+            <tr>
+              <td><Link to="/results/ADP">ADP</Link></td>
+              <td>ADP</td>
+              <td>7/29/2020</td>
+              <td>bmo</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/BA">BA</Link></td>
+              <td>Boeing</td>
+              <td>7/29/2020</td>
+              <td>bmo</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/MA">MA</Link></td>
+              <td>Mastercard</td>
+              <td>7/29/2020</td>
               <td>bmo</td>
             </tr> 
           </tbody>
