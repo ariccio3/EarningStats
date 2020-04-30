@@ -28,43 +28,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>     
-            <tr>
-              <td><Link to="/results/FB">FB</Link></td>
-              <td>Facebook</td>
-              <td>4/29/2020</td>
-              <td>amc</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/MSFT">MSFT</Link></td>
-              <td>Microsoft</td>
-              <td>4/29/2020</td>
-              <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/QCOM">QCOM</Link></td>
-              <td>QualComm</td>
-              <td>4/29/2020</td>
-              <td>amc</td>
-            </tr>       
-            <tr>
-              <td><Link to="/results/NOW">NOW</Link></td>
-              <td>ServiceNow</td>
-              <td>4/29/2020</td>
-              <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/TSLA">TSLA</Link></td>
-              <td>Tesla</td>
-              <td>4/29/2020</td>
-              <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/MCD">MCD</Link></td>
-              <td>McDonalds</td>
-              <td>4/30/2020</td>
-              <td>bmo</td>
-            </tr>         
+          <tbody>            
             <tr>
               <td><Link to="/results/AMZN">AMZN</Link></td>
               <td>Amazon</td>
@@ -557,6 +521,42 @@ class EarningsCalendar extends Component {
               <td>7/29/2020</td>
               <td>bmo</td>
             </tr> 
+            <tr>
+              <td><Link to="/results/FB">FB</Link></td>
+              <td>Facebook</td>
+              <td>7/29/2020</td>
+              <td>amc</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/MSFT">MSFT</Link></td>
+              <td>Microsoft</td>
+              <td>7/29/2020</td>
+              <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/QCOM">QCOM</Link></td>
+              <td>QualComm</td>
+              <td>7/29/2020</td>
+              <td>amc</td>
+            </tr>       
+            <tr>
+              <td><Link to="/results/NOW">NOW</Link></td>
+              <td>ServiceNow</td>
+              <td>7/29/2020</td>
+              <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/TSLA">TSLA</Link></td>
+              <td>Tesla</td>
+              <td>7/29/2020</td>
+              <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/MCD">MCD</Link></td>
+              <td>McDonalds</td>
+              <td>7/30/2020</td>
+              <td>bmo</td>
+            </tr>  
           </tbody>
         </table>
 
