@@ -18,64 +18,6 @@ class EarningsCalendar extends Component {
 
 
 
-
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
-          <tbody>            
-            <tr>
-              <td><Link to="/results/AMZN">AMZN</Link></td>
-              <td>Amazon</td>
-              <td>4/30/2020</td>
-              <td>amc</td>
-            </tr>    
-            <tr>
-              <td><Link to="/results/AAPL">AAPL</Link></td>
-              <td>Apple</td>
-              <td>4/30/2020</td>
-              <td>amc</td>
-            </tr>      
-            <tr>
-              <td><Link to="/results/AMGN">AMGN</Link></td>
-              <td>Amgen</td>
-              <td>4/30/2020</td>
-              <td>amc</td>
-            </tr>      
-            <tr>
-              <td><Link to="/results/GILD">GILD</Link></td>
-              <td>Gilead Sciences</td>
-              <td>4/30/2020</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/V">V</Link></td>
-              <td>Visa</td>
-              <td>4/30/2020</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/CVX">CVX</Link></td>
-              <td>Cheveron</td>
-              <td>5/1/2020</td>
-              <td>bmo</td>
-            </tr>    
-            <tr>
-              <td><Link to="/results/XOM">XOM</Link></td>
-              <td>Exxon Mobil</td>
-              <td>5/1/2020</td>
-              <td>bmo</td>
-            </tr> 
-          </tbody>
-        </table>
-
-
-
         <table className="table table-striped table-hover table-bordered">
           <thead>
             <tr>
@@ -556,7 +498,49 @@ class EarningsCalendar extends Component {
               <td>McDonalds</td>
               <td>7/30/2020</td>
               <td>bmo</td>
-            </tr>  
+            </tr>      
+            <tr>
+              <td><Link to="/results/AAPL">AAPL</Link></td>
+              <td>Apple</td>
+              <td>7/30/2020</td>
+              <td>amc</td>
+            </tr>      
+            <tr>
+              <td><Link to="/results/AMGN">AMGN</Link></td>
+              <td>Amgen</td>
+              <td>7/30/2020</td>
+              <td>amc</td>
+            </tr>        
+            <tr>
+              <td><Link to="/results/AMZN">AMZN</Link></td>
+              <td>Amazon</td>
+              <td>7/30/2020</td>
+              <td>amc</td>
+            </tr>      
+            <tr>
+              <td><Link to="/results/GILD">GILD</Link></td>
+              <td>Gilead Sciences</td>
+              <td>7/30/2020</td>
+              <td>amc</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/V">V</Link></td>
+              <td>Visa</td>
+              <td>7/30/2020</td>
+              <td>amc</td>
+            </tr> 
+            <tr>
+              <td><Link to="/results/CVX">CVX</Link></td>
+              <td>Cheveron</td>
+              <td>8/1/2020</td>
+              <td>bmo</td>
+            </tr>    
+            <tr>
+              <td><Link to="/results/XOM">XOM</Link></td>
+              <td>Exxon Mobil</td>
+              <td>8/1/2020</td>
+              <td>bmo</td>
+            </tr> 
           </tbody>
         </table>
 
