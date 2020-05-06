@@ -51,17 +51,11 @@ class EarningsCalendar extends Component {
               <td>Wynn Resorts</td>
               <td>5/6/2020</td>
               <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/BIDU">BIDU</Link></td>
-              <td>Baidu</td>
-              <td>5/7/2020*</td>
-              <td>amc</td>
             </tr>   
             <tr>
               <td><Link to="/results/BKNG">BKNG</Link></td>
               <td>Booking</td>
-              <td>5/7/2020*</td>
+              <td>5/7/2020</td>
               <td>amc</td>
             </tr>            
             <tr>
@@ -111,7 +105,13 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>                    
+          <tbody>  
+            <tr>
+              <td><Link to="/results/BIDU">BIDU</Link></td>
+              <td>Baidu</td>
+              <td>5/18/2020</td>
+              <td>amc</td>
+            </tr>                    
             <tr>
               <td><Link to="/results/HD">HD</Link></td>
               <td>Home Depot</td>
