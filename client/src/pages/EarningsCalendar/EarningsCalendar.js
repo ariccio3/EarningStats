@@ -27,25 +27,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>      
-            <tr>
-              <td><Link to="/results/DIS">DIS</Link></td>
-              <td>Disney</td>
-              <td>5/5/2020</td>
-              <td>amc</td>
-            </tr>         
-            <tr>
-              <td><Link to="/results/EA">EA</Link></td>
-              <td>Electronic Arts</td>
-              <td>5/5/2020</td>
-              <td>amc</td>
-            </tr>     
-            <tr>
-              <td><Link to="/results/SHOP">SHOP</Link></td>
-              <td>Shopify</td>
-              <td>5/6/2020</td>
-              <td>bmo</td>
-            </tr>    
+          <tbody>    
             <tr>
               <td><Link to="/results/PYPL">PYPL</Link></td>
               <td>PayPal</td>
@@ -512,7 +494,25 @@ class EarningsCalendar extends Component {
               <td>Allergan</td>
               <td>8/5/2020*</td>
               <td>bmo</td>
-            </tr>  
+            </tr>    
+            <tr>
+              <td><Link to="/results/DIS">DIS</Link></td>
+              <td>Disney</td>
+              <td>8/5/2020</td>
+              <td>amc</td>
+            </tr>         
+            <tr>
+              <td><Link to="/results/EA">EA</Link></td>
+              <td>Electronic Arts</td>
+              <td>8/5/2020</td>
+              <td>amc</td>
+            </tr>     
+            <tr>
+              <td><Link to="/results/SHOP">SHOP</Link></td>
+              <td>Shopify</td>
+              <td>8/6/2020</td>
+              <td>bmo</td>
+            </tr>    
           </tbody>
         </table>
 
