@@ -27,31 +27,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>    
-            <tr>
-              <td><Link to="/results/PYPL">PYPL</Link></td>
-              <td>PayPal</td>
-              <td>5/6/2020</td>
-              <td>amc</td>
-            </tr>       
-            <tr>
-              <td><Link to="/results/SQ">SQ</Link></td>
-              <td>Square</td>
-              <td>5/6/2020</td>
-              <td>amc</td>
-            </tr>      
-            <tr>
-              <td><Link to="/results/TWLO">TWLO</Link></td>
-              <td>twilio</td>
-              <td>5/6/2020</td>
-              <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/WYNN">WYNN</Link></td>
-              <td>Wynn Resorts</td>
-              <td>5/6/2020</td>
-              <td>amc</td>
-            </tr>   
+          <tbody>     
             <tr>
               <td><Link to="/results/BKNG">BKNG</Link></td>
               <td>Booking</td>
@@ -513,6 +489,30 @@ class EarningsCalendar extends Component {
               <td>8/6/2020</td>
               <td>bmo</td>
             </tr>    
+            <tr>
+              <td><Link to="/results/PYPL">PYPL</Link></td>
+              <td>PayPal</td>
+              <td>8/6/2020</td>
+              <td>amc</td>
+            </tr>       
+            <tr>
+              <td><Link to="/results/SQ">SQ</Link></td>
+              <td>Square</td>
+              <td>8/6/2020</td>
+              <td>amc</td>
+            </tr>      
+            <tr>
+              <td><Link to="/results/TWLO">TWLO</Link></td>
+              <td>twilio</td>
+              <td>8/6/2020</td>
+              <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/WYNN">WYNN</Link></td>
+              <td>Wynn Resorts</td>
+              <td>8/6/2020</td>
+              <td>amc</td>
+            </tr>  
           </tbody>
         </table>
 
