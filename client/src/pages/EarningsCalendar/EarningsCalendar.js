@@ -16,35 +16,6 @@ class EarningsCalendar extends Component {
 
 
 
-
-
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
-          <tbody>     
-            <tr>
-              <td><Link to="/results/BKNG">BKNG</Link></td>
-              <td>Booking</td>
-              <td>5/7/2020</td>
-              <td>amc</td>
-            </tr>            
-            <tr>
-              <td><Link to="/results/ROKU">ROKU</Link></td>
-              <td>Roku</td>
-              <td>5/7/2020</td>
-              <td>amc</td>
-            </tr>  
-          </tbody>
-        </table>
-
-
-
         <table className="table table-striped table-hover table-bordered">
           <thead>
             <tr>
@@ -511,6 +482,18 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/WYNN">WYNN</Link></td>
               <td>Wynn Resorts</td>
               <td>8/6/2020</td>
+              <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/BKNG">BKNG</Link></td>
+              <td>Booking</td>
+              <td>8/7/2020</td>
+              <td>amc</td>
+            </tr>            
+            <tr>
+              <td><Link to="/results/ROKU">ROKU</Link></td>
+              <td>Roku</td>
+              <td>8/7/2020</td>
               <td>amc</td>
             </tr>  
           </tbody>
