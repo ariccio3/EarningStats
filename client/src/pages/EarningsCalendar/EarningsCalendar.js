@@ -16,30 +16,7 @@ class EarningsCalendar extends Component {
 
 
 
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
-          <tbody>     
-            <tr>
-              <td><Link to="/results/NTES">NTES</Link></td>
-              <td>NetEase</td>
-              <td>5/13/2020*</td>
-              <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/BABA">BABA</Link></td>
-              <td>Alibaba</td>
-              <td>5/14/2020*</td>
-              <td>bmo</td>
-            </tr>   
-          </tbody>
-        </table>
+
 
 
 
@@ -64,6 +41,12 @@ class EarningsCalendar extends Component {
               <td>Home Depot</td>
               <td>5/19/2020</td>
               <td>bmo</td>
+            </tr>    
+            <tr>
+              <td><Link to="/results/NTES">NTES</Link></td>
+              <td>NetEase</td>
+              <td>5/19/2020</td>
+              <td>amc</td>
             </tr>                       
             <tr>
               <td><Link to="/results/LOW">LOW</Link></td>
@@ -88,7 +71,13 @@ class EarningsCalendar extends Component {
               <td>NVIDIA</td>
               <td>5/21/2020</td>
               <td>amc</td>
-            </tr>  
+            </tr>   
+            <tr>
+              <td><Link to="/results/BABA">BABA</Link></td>
+              <td>Alibaba</td>
+              <td>5/22/2020</td>
+              <td>bmo</td>
+            </tr>   
             <tr>
               <td><Link to="/results/DE">DE</Link></td>
               <td>Deere &amp; Company</td>
