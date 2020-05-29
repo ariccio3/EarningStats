@@ -19,41 +19,6 @@ class EarningsCalendar extends Component {
 
 
 
-
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
-          <tbody>          
-            <tr>
-              <td><Link to="/results/COST">COST</Link></td>
-              <td>Costco</td>
-              <td>5/28/2020</td>
-              <td>amc</td>
-            </tr>        
-            <tr>
-              <td><Link to="/results/CRM">CRM</Link></td>
-              <td>SalesForce</td>
-              <td>5/28/2020</td>
-              <td>amc</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/ULTA">ULTA</Link></td>
-              <td>ULTA Beauty</td>
-              <td>5/28/2020</td>
-              <td>amc</td>
-            </tr>   
-          </tbody>
-        </table>
-
-
-
-
         <table className="table table-striped table-hover table-bordered">
           <thead>
             <tr>
@@ -88,7 +53,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/LULU">LULU</Link></td>
               <td>lululemon</td>
-              <td>6/10/2020*</td>
+              <td>6/11/2020</td>
               <td>amc</td>
             </tr>  
             <tr>
@@ -475,6 +440,24 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/ADSK">ADSK</Link></td>
               <td>Autodesk</td>
               <td>8/27/2020</td>
+              <td>amc</td>
+            </tr>          
+            <tr>
+              <td><Link to="/results/COST">COST</Link></td>
+              <td>Costco</td>
+              <td>8/28/2020</td>
+              <td>amc</td>
+            </tr>        
+            <tr>
+              <td><Link to="/results/CRM">CRM</Link></td>
+              <td>SalesForce</td>
+              <td>8/28/2020</td>
+              <td>amc</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/ULTA">ULTA</Link></td>
+              <td>ULTA Beauty</td>
+              <td>8/28/2020</td>
               <td>amc</td>
             </tr>  
           </tbody>
