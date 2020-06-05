@@ -37,7 +37,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/ADBE">ADBE</Link></td>
               <td>Adobe</td>
-              <td>6/11/2020*</td>
+              <td>6/11/2020</td>
               <td>amc</td>
             </tr>    
           </tbody>
@@ -66,19 +66,34 @@ class EarningsCalendar extends Component {
               <td>Nike</td>
               <td>6/25/2020</td>
               <td>amc</td>
-            </tr>          
+            </tr>   
+          </tbody>
+        </table>
+
+
+
+        <table className="table table-striped table-hover table-bordered">
+          <thead>
             <tr>
-              <td><Link to="/results/STZ">STZ</Link></td>  
-              <td>Constellation Brands</td>
-              <td>6/26/2020*</td>
-              <td>bmo</td>
-            </tr>                      
+              <th className="stock">Stock</th>
+              <th className="company">Company</th>
+              <th className="date">Date</th>
+              <th className="time">Time</th>
+            </tr>        
+          </thead>
+          <tbody>                      
             <tr>
               <td><Link to="/results/FDX">FDX</Link></td>
               <td>FedEx</td>
               <td>6/30/2020</td>
               <td>amc</td>
-            </tr>
+            </tr>       
+            <tr>
+              <td><Link to="/results/STZ">STZ</Link></td>  
+              <td>Constellation Brands</td>
+              <td>7/1/2020</td>
+              <td>bmo</td>
+            </tr>   
           </tbody>
         </table>
 
