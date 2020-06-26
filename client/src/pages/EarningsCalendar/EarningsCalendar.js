@@ -17,34 +17,6 @@ class EarningsCalendar extends Component {
 
 
 
-
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
-          <tbody>        
-            <tr>
-              <td><Link to="/results/ACN">ACN</Link></td>
-              <td>accenture</td>
-              <td>6/25/2020</td>
-              <td>bmo</td>
-            </tr>         
-            <tr>
-              <td><Link to="/results/NKE">NKE</Link></td>
-              <td>Nike</td>
-              <td>6/25/2020</td>
-              <td>amc</td>
-            </tr>   
-          </tbody>
-        </table>
-
-
-
         <table className="table table-striped table-hover table-bordered">
           <thead>
             <tr>
@@ -443,7 +415,19 @@ class EarningsCalendar extends Component {
               <td>Adobe</td>
               <td>8/11/2020</td>
               <td>amc</td>
-            </tr> 
+            </tr>       
+            <tr>
+              <td><Link to="/results/ACN">ACN</Link></td>
+              <td>accenture</td>
+              <td>8/25/2020</td>
+              <td>bmo</td>
+            </tr>         
+            <tr>
+              <td><Link to="/results/NKE">NKE</Link></td>
+              <td>Nike</td>
+              <td>8/25/2020</td>
+              <td>amc</td>
+            </tr>  
           </tbody>
         </table>
 
