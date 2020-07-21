@@ -46,7 +46,7 @@ const RankExp = props => (
 	</p>
 	<p>	
 		 If you want to share how you use the EarningStats Predicatability Rank, please contact us by email or Twitter at the bottom of the page. We would love to hear from you. 
-		 This ranking will be updated 4 times per year at the end of each earnings season. It was last updated 4/5/2020. 
+		 This ranking will be updated 4 times per year at the end of each earnings season. It was last updated 7/19/2020. 
 	</p>
 	<h3><i>ENJOY!!</i></h3>
   </div>
