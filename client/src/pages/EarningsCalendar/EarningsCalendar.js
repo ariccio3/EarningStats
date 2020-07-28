@@ -28,13 +28,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody> 
-            <tr>
-              <td><Link to="/results/MCD">MCD</Link></td>
-              <td>McDonalds</td>
-              <td>7/28/2020</td>
-              <td>bmo</td>
-            </tr>      
+          <tbody>     
             <tr>
               <td><Link to="/results/AMGN">AMGN</Link></td>
               <td>Amgen</td>
@@ -44,7 +38,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/SBUX">SBUX</Link></td>
               <td>Starbucks</td>
-              <td>7/28/2020*</td>
+              <td>7/28/2020</td>
               <td>amc</td>
             </tr>  
             <tr>
@@ -70,12 +64,6 @@ class EarningsCalendar extends Component {
               <td>Shopify</td>
               <td>7/29/2020</td>
               <td>bmo</td>
-            </tr> 
-            <tr>
-              <td><Link to="/results/FB">FB</Link></td>
-              <td>Facebook</td>
-              <td>7/29/2020</td>
-              <td>amc</td>
             </tr>   
             <tr>
               <td><Link to="/results/QCOM">QCOM</Link></td>
@@ -124,7 +112,13 @@ class EarningsCalendar extends Component {
               <td>Electronic Arts</td>
               <td>7/30/2020</td>
               <td>amc</td>
-            </tr>     
+            </tr>    
+            <tr>
+              <td><Link to="/results/FB">FB</Link></td>
+              <td>Facebook</td>
+              <td>7/30/2020</td>
+              <td>amc</td>
+            </tr>  
             <tr>
               <td><Link to="/results/GILD">GILD</Link></td>
               <td>Gilead Sciences</td>
@@ -205,13 +199,7 @@ class EarningsCalendar extends Component {
               <td>Square</td>
               <td>8/5/2020</td>
               <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/BKNG">BKNG</Link></td>
-              <td>Booking</td>
-              <td>8/5/2020*</td>
-              <td>amc</td>
-            </tr>   
+            </tr>    
             <tr>
               <td><Link to="/results/NTES">NTES</Link></td>
               <td>NetEase</td>
@@ -221,9 +209,15 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/ROKU">ROKU</Link></td>
               <td>Roku</td>
-              <td>8/5/2020*</td>
+              <td>8/5/2020</td>
               <td>amc</td>
             </tr>    
+            <tr>
+              <td><Link to="/results/BKNG">BKNG</Link></td>
+              <td>Booking</td>
+              <td>8/6/2020</td>
+              <td>amc</td>
+            </tr> 
           </tbody>
         </table>
 
@@ -531,6 +525,12 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/AXP">AXP</Link></td>
               <td>American Express</td>
               <td>10/24/2020</td>
+              <td>bmo</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/MCD">MCD</Link></td>
+              <td>McDonalds</td>
+              <td>10/28/2020</td>
               <td>bmo</td>
             </tr>  
           </tbody>
