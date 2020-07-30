@@ -28,37 +28,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>    
-            <tr>
-              <td><Link to="/results/QCOM">QCOM</Link></td>
-              <td>QualComm</td>
-              <td>7/29/2020</td>
-              <td>amc</td>
-            </tr>    
-            <tr>
-              <td><Link to="/results/PYPL">PYPL</Link></td>
-              <td>PayPal</td>
-              <td>7/29/2020</td>
-              <td>amc</td>
-            </tr>   
-            <tr>
-              <td><Link to="/results/NOW">NOW</Link></td>
-              <td>ServiceNow</td>
-              <td>7/29/2020</td>
-              <td>amc</td>
-            </tr>      
-            <tr>
-              <td><Link to="/results/SBUX">MA</Link></td>
-              <td>Mastercard</td>
-              <td>7/30/2020</td>
-              <td>bmo</td>
-            </tr>         
-            <tr>
-              <td><Link to="/results/UPS">UPS</Link></td>
-              <td>United Parcel Service</td>
-              <td>7/30/2020</td>
-              <td>bmo</td>
-            </tr>    
+          <tbody>      
             <tr>
               <td><Link to="/results/AAPL">AAPL</Link></td>
               <td>Apple</td>
@@ -531,6 +501,36 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/SHOP">SHOP</Link></td>
               <td>Shopify</td>
               <td>10/29/2020</td>
+              <td>bmo</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/QCOM">QCOM</Link></td>
+              <td>QualComm</td>
+              <td>10/29/2020</td>
+              <td>amc</td>
+            </tr>    
+            <tr>
+              <td><Link to="/results/PYPL">PYPL</Link></td>
+              <td>PayPal</td>
+              <td>10/29/2020</td>
+              <td>amc</td>
+            </tr>   
+            <tr>
+              <td><Link to="/results/NOW">NOW</Link></td>
+              <td>ServiceNow</td>
+              <td>10/29/2020</td>
+              <td>amc</td>
+            </tr>      
+            <tr>
+              <td><Link to="/results/SBUX">MA</Link></td>
+              <td>Mastercard</td>
+              <td>10/30/2020</td>
+              <td>bmo</td>
+            </tr>         
+            <tr>
+              <td><Link to="/results/UPS">UPS</Link></td>
+              <td>United Parcel Service</td>
+              <td>10/30/2020</td>
               <td>bmo</td>
             </tr>  
           </tbody>
