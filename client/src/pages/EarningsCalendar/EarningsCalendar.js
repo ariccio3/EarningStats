@@ -28,81 +28,6 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>      
-            <tr>
-              <td><Link to="/results/AAPL">AAPL</Link></td>
-              <td>Apple</td>
-              <td>7/30/2020</td>
-              <td>amc</td>
-            </tr>        
-            <tr>
-              <td><Link to="/results/AMZN">AMZN</Link></td>
-              <td>Amazon</td>
-              <td>7/30/2020</td>
-              <td>amc</td>
-            </tr>           
-            <tr>
-              <td><Link to="/results/EA">EA</Link></td>
-              <td>Electronic Arts</td>
-              <td>7/30/2020</td>
-              <td>amc</td>
-            </tr>    
-            <tr>
-              <td><Link to="/results/FB">FB</Link></td>
-              <td>Facebook</td>
-              <td>7/30/2020</td>
-              <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/GILD">GILD</Link></td>
-              <td>Gilead Sciences</td>
-              <td>7/30/2020</td>
-              <td>amc</td>
-            </tr>              
-            <tr>
-              <td><Link to="/results/GOOGL">GOOGL</Link></td>
-              <td>Google</td>
-              <td>7/30/2020</td>
-              <td>amc</td>
-            </tr>          
-            <tr>
-              <td><Link to="/results/XLNX">XLNX</Link></td>
-              <td>XILINX Inc</td>
-              <td>7/30/2020</td>
-              <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/CAT">CAT</Link></td>
-              <td>Caterpillar</td>
-              <td>7/31/2020</td>
-              <td>bmo</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/CVX">CVX</Link></td>
-              <td>Cheveron</td>
-              <td>7/31/2020</td>
-              <td>bmo</td>
-            </tr>    
-            <tr>
-              <td><Link to="/results/XOM">XOM</Link></td>
-              <td>Exxon Mobil</td>
-              <td>7/31/2020</td>
-              <td>bmo</td>
-            </tr>    
-          </tbody>
-        </table>
-
-         
-
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
           <tbody>    
             <tr>
               <td><Link to="/results/TTWO">TTWO</Link></td>
@@ -531,6 +456,66 @@ class EarningsCalendar extends Component {
               <td><Link to="/results/UPS">UPS</Link></td>
               <td>United Parcel Service</td>
               <td>10/30/2020</td>
+              <td>bmo</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/AAPL">AAPL</Link></td>
+              <td>Apple</td>
+              <td>10/30/2020</td>
+              <td>amc</td>
+            </tr>        
+            <tr>
+              <td><Link to="/results/AMZN">AMZN</Link></td>
+              <td>Amazon</td>
+              <td>10/30/2020</td>
+              <td>amc</td>
+            </tr>           
+            <tr>
+              <td><Link to="/results/EA">EA</Link></td>
+              <td>Electronic Arts</td>
+              <td>10/30/2020</td>
+              <td>amc</td>
+            </tr>    
+            <tr>
+              <td><Link to="/results/FB">FB</Link></td>
+              <td>Facebook</td>
+              <td>10/30/2020</td>
+              <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/GILD">GILD</Link></td>
+              <td>Gilead Sciences</td>
+              <td>10/30/2020</td>
+              <td>amc</td>
+            </tr>              
+            <tr>
+              <td><Link to="/results/GOOGL">GOOGL</Link></td>
+              <td>Google</td>
+              <td>10/30/2020</td>
+              <td>amc</td>
+            </tr>          
+            <tr>
+              <td><Link to="/results/XLNX">XLNX</Link></td>
+              <td>XILINX Inc</td>
+              <td>10/30/2020</td>
+              <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/CAT">CAT</Link></td>
+              <td>Caterpillar</td>
+              <td>10/31/2020</td>
+              <td>bmo</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/CVX">CVX</Link></td>
+              <td>Cheveron</td>
+              <td>10/31/2020</td>
+              <td>bmo</td>
+            </tr>    
+            <tr>
+              <td><Link to="/results/XOM">XOM</Link></td>
+              <td>Exxon Mobil</td>
+              <td>10/31/2020</td>
               <td>bmo</td>
             </tr>  
           </tbody>
