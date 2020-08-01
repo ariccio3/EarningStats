@@ -50,19 +50,13 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/WYNN">WYNN</Link></td>
               <td>Wynn Resorts</td>
-              <td>8/4/2020*</td>
+              <td>8/4/2020</td>
               <td>amc</td>
             </tr>       
             <tr>
               <td><Link to="/results/SQ">SQ</Link></td>
               <td>Square</td>
               <td>8/5/2020</td>
-              <td>amc</td>
-            </tr>    
-            <tr>
-              <td><Link to="/results/NTES">NTES</Link></td>
-              <td>NetEase</td>
-              <td>8/5/2020*</td>
               <td>amc</td>
             </tr>          
             <tr>
@@ -97,13 +91,13 @@ class EarningsCalendar extends Component {
               <td>Alibaba</td>
               <td>8/13/2020*</td>
               <td>bmo</td>
-            </tr>       
+            </tr>        
             <tr>
-              <td><Link to="/results/NVDA">NVDA</Link></td>
-              <td>NVIDIA</td>
-              <td>8/13/2020*</td>
+              <td><Link to="/results/NTES">NTES</Link></td>
+              <td>NetEase</td>
+              <td>8/13/2020</td>
               <td>amc</td>
-            </tr>  
+            </tr>   
           </tbody>
         </table>
 
@@ -148,7 +142,13 @@ class EarningsCalendar extends Component {
               <td>Target</td>
               <td>8/19/2020</td>
               <td>bmo</td>
-            </tr>        
+            </tr>      
+            <tr>
+              <td><Link to="/results/NVDA">NVDA</Link></td>
+              <td>NVIDIA</td>
+              <td>8/19/2020</td>
+              <td>amc</td>
+            </tr>    
             <tr>
               <td><Link to="/results/CRM">CRM</Link></td>
               <td>SalesForce</td>
@@ -175,13 +175,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>    
-            <tr>
-              <td><Link to="/results/ACN">ACN</Link></td>
-              <td>accenture</td>
-              <td>8/24/2020*</td>
-              <td>bmo</td>
-            </tr>    
+          <tbody>      
             <tr>
               <td><Link to="/results/ADSK">ADSK</Link></td>
               <td>Autodesk</td>
@@ -191,7 +185,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td><Link to="/results/ULTA">ULTA</Link></td>
               <td>ULTA Beauty</td>
-              <td>8/27/2020*</td>
+              <td>8/27/2020</td>
               <td>amc</td>
             </tr>   
           </tbody>
@@ -268,6 +262,12 @@ class EarningsCalendar extends Component {
               <td>Nike</td>
               <td>9/22/2020*</td>
               <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/ACN">ACN</Link></td>
+              <td>accenture</td>
+              <td>9/24/2020</td>
+              <td>bmo</td>
             </tr>      
             <tr>
               <td><Link to="/results/COST">COST</Link></td>
