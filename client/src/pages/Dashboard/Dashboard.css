@@ -1,7 +1,7 @@
 * {
     /*border: solid red 1px;*/
 }
-.container {
+.iframe-container {
   position: relative;
   overflow: hidden;
   width: 100%;
