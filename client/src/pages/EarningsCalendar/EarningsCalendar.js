@@ -34,13 +34,7 @@ class EarningsCalendar extends Component {
               <td>Baidu</td>
               <td>8/13/2020</td>
               <td>amc</td>
-            </tr>         
-            <tr>
-              <td><Link to="/results/NTES">NTES</Link></td>
-              <td>NetEase</td>
-              <td>8/13/2020</td>
-              <td>amc</td>
-            </tr>   
+            </tr>     
           </tbody>
         </table>
 
@@ -502,7 +496,13 @@ class EarningsCalendar extends Component {
               <td>Booking</td>
               <td>11/6/2020</td>
               <td>amc</td>
-            </tr> 
+            </tr>      
+            <tr>
+              <td><Link to="/results/NTES">NTES</Link></td>
+              <td>NetEase</td>
+              <td>8/13/2020</td>
+              <td>bmo</td>
+            </tr>  
           </tbody>
         </table>
 
