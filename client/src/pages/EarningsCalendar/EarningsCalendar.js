@@ -31,18 +31,6 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>                   
             <tr>
-              <td><Link to="/results/HD">HD</Link></td>
-              <td>Home Depot</td>
-              <td>8/18/2020</td>
-              <td>bmo</td>
-            </tr>                   
-            <tr>
-              <td><Link to="/results/WMT">WMT</Link></td>
-              <td>Walmart</td>
-              <td>8/18/2020</td>
-              <td>bmo</td>
-            </tr>                     
-            <tr>
               <td><Link to="/results/LOW">LOW</Link></td>
               <td>Lowe's</td>
               <td>8/19/2020</td>
@@ -488,7 +476,19 @@ class EarningsCalendar extends Component {
               <td>Baidu</td>
               <td>11/13/2020</td>
               <td>amc</td>
-            </tr>   
+            </tr>                  
+            <tr>
+              <td><Link to="/results/HD">HD</Link></td>
+              <td>Home Depot</td>
+              <td>11/18/2020</td>
+              <td>bmo</td>
+            </tr>                   
+            <tr>
+              <td><Link to="/results/WMT">WMT</Link></td>
+              <td>Walmart</td>
+              <td>11/18/2020</td>
+              <td>bmo</td>
+            </tr>      
           </tbody>
         </table>
 
