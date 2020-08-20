@@ -29,19 +29,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>         
-            <tr>
-              <td><Link to="/results/NVDA">NVDA</Link></td>
-              <td>NVIDIA</td>
-              <td>8/19/2020</td>
-              <td>amc</td>
-            </tr>    
-            <tr>
-              <td><Link to="/results/BABA">BABA</Link></td>
-              <td>Alibaba</td>
-              <td>8/20/2020</td>
-              <td>bmo</td>
-            </tr>   
+          <tbody>        
             <tr>
               <td><Link to="/results/DE">DE</Link></td>
               <td>Deere &amp; Company</td>
@@ -488,7 +476,19 @@ class EarningsCalendar extends Component {
               <td>Target</td>
               <td>11/19/2020</td>
               <td>bmo</td>
-            </tr>     
+            </tr>        
+            <tr>
+              <td><Link to="/results/NVDA">NVDA</Link></td>
+              <td>NVIDIA</td>
+              <td>11/19/2020</td>
+              <td>amc</td>
+            </tr>    
+            <tr>
+              <td><Link to="/results/BABA">BABA</Link></td>
+              <td>Alibaba</td>
+              <td>11/20/2020</td>
+              <td>bmo</td>
+            </tr> 
           </tbody>
         </table>
 
