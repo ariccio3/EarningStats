@@ -14,31 +14,6 @@ class EarningsCalendar extends Component {
         <p className="asteriks">* earnings date not confirmed by company yet</p>
 
 
-
-
-
-
-         
-
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
-          <tbody>        
-            <tr>
-              <td><Link to="/results/DE">DE</Link></td>
-              <td>Deere &amp; Company</td>
-              <td>8/21/2020</td>
-              <td>bmo</td>
-            </tr>   
-          </tbody>
-        </table>
-
          
 
         <table className="table table-striped table-hover table-bordered">
@@ -488,7 +463,13 @@ class EarningsCalendar extends Component {
               <td>Alibaba</td>
               <td>11/20/2020</td>
               <td>bmo</td>
-            </tr> 
+            </tr>    
+            <tr>
+              <td><Link to="/results/DE">DE</Link></td>
+              <td>Deere &amp; Company</td>
+              <td>11/21/2020</td>
+              <td>bmo</td>
+            </tr>   
           </tbody>
         </table>
 
