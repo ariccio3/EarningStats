@@ -20,7 +20,7 @@ const Footer = () =>
         <p><a href="https://www.tastytrade.com/tt/shows/step-up-to-options" target="_blank" rel="noopener noreferrer">New to Options?</a></p>
         {/*<p><Link to="/setup">Trade SetUp</Link></p>*/}
         <p><Link to="/rank">EarningStats Rank</Link></p>
-        <p><a href="https://app.powerbi.com/view?r=eyJrIjoiYTVkOWQxOWQtMDI3YS00NmUwLWI1YjktNTJlMTI3MzY2NjlmIiwidCI6ImIwMGE1ZDU0LTI3MzAtNDA2OC04MGIwLTgxNTMwYjhhNDkwZiIsImMiOjJ9">EarningStats Dashboard</a></p>
+        <p><a href="http://www.earningstats.com/dashboard">EarningStats Dashboard</a></p>
     </div>
   </footer>;
 
