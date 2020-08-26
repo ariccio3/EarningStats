@@ -25,19 +25,7 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>      
-            <tr>
-              <td><Link to="/results/ADSK">ADSK</Link></td>
-              <td>Autodesk</td>
-              <td>8/25/2020</td>
-              <td>amc</td>
-            </tr>  
-            <tr>
-              <td><Link to="/results/CRM">CRM</Link></td>
-              <td>SalesForce</td>
-              <td>8/25/2020</td>
-              <td>amc</td>
-            </tr>    
+          <tbody>     
             <tr>
               <td><Link to="/results/ULTA">ULTA</Link></td>
               <td>ULTA Beauty</td>
@@ -64,17 +52,31 @@ class EarningsCalendar extends Component {
               <td>Broadcom</td>
               <td>9/3/2020</td>
               <td>amc</td>
-            </tr>          
-            <tr>
-              <td><Link to="/results/LULU">LULU</Link></td>
-              <td>lululemon</td>
-              <td>9/3/2020*</td>
-              <td>amc</td>
             </tr>  
           </tbody>
         </table>
 
          
+
+        <table className="table table-striped table-hover table-bordered">
+          <thead>
+            <tr>
+              <th className="stock">Stock</th>
+              <th className="company">Company</th>
+              <th className="date">Date</th>
+              <th className="time">Time</th>
+            </tr>        
+          </thead>
+          <tbody>        
+            <tr>
+              <td><Link to="/results/LULU">LULU</Link></td>
+              <td>lululemon</td>
+              <td>9/8/2020</td>
+              <td>amc</td>
+            </tr>  
+          </tbody>
+        </table>
+
 
         <table className="table table-striped table-hover table-bordered">
           <thead>
@@ -469,7 +471,19 @@ class EarningsCalendar extends Component {
               <td>Deere &amp; Company</td>
               <td>11/21/2020</td>
               <td>bmo</td>
-            </tr>   
+            </tr>      
+            <tr>
+              <td><Link to="/results/ADSK">ADSK</Link></td>
+              <td>Autodesk</td>
+              <td>11/25/2020</td>
+              <td>amc</td>
+            </tr>  
+            <tr>
+              <td><Link to="/results/CRM">CRM</Link></td>
+              <td>SalesForce</td>
+              <td>11/25/2020</td>
+              <td>amc</td>
+            </tr>  
           </tbody>
         </table>
 
