@@ -16,26 +16,6 @@ class EarningsCalendar extends Component {
 
        
 
-         
-
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
-          <tbody>                    
-            <tr>
-              <td><Link to="/results/AVGO">AVGO</Link></td>
-              <td>Broadcom</td>
-              <td>9/3/2020</td>
-              <td>amc</td>
-            </tr>  
-          </tbody>
-        </table>
 
          
 
@@ -470,7 +450,13 @@ class EarningsCalendar extends Component {
               <td>ULTA Beauty</td>
               <td>11/27/2020</td>
               <td>amc</td>
-            </tr> 
+            </tr>                  
+            <tr>
+              <td><Link to="/results/AVGO">AVGO</Link></td>
+              <td>Broadcom</td>
+              <td>12/3/2020</td>
+              <td>amc</td>
+            </tr>  
           </tbody>
         </table>
 
