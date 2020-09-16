@@ -14,38 +14,6 @@ class EarningsCalendar extends Component {
         <p className="asteriks">* earnings date not confirmed by company yet</p>
 
 
-       
-
-
-         
-
-
-
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
-          <tbody>  
-            <tr>
-              <td><Link to="/results/ADBE">ADBE</Link></td>
-              <td>Adobe</td>
-              <td>9/15/2020*</td>
-              <td>amc</td>
-            </tr>                      
-            <tr>
-              <td><Link to="/results/FDX">FDX</Link></td>
-              <td>FedEx</td>
-              <td>9/15/2020</td>
-              <td>amc</td>
-            </tr>   
-          </tbody>
-        </table>
-
          
 
         <table className="table table-striped table-hover table-bordered">
@@ -445,6 +413,18 @@ class EarningsCalendar extends Component {
               <td>12/8/2020</td>
               <td>amc</td>
             </tr>  
+            <tr>
+              <td><Link to="/results/ADBE">ADBE</Link></td>
+              <td>Adobe</td>
+              <td>12/15/2020</td>
+              <td>amc</td>
+            </tr>                      
+            <tr>
+              <td><Link to="/results/FDX">FDX</Link></td>
+              <td>FedEx</td>
+              <td>12/15/2020</td>
+              <td>amc</td>
+            </tr> 
           </tbody>
         </table>
 
