@@ -14,26 +14,7 @@ class EarningsCalendar extends Component {
         <p className="asteriks">* earnings date not confirmed by company yet</p>
 
 
-         
 
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
-          <tbody>      
-            <tr>
-              <td><Link to="/results/COST">COST</Link></td>
-              <td>Costco</td>
-              <td>9/24/2020</td>
-              <td>amc</td>
-            </tr>  
-          </tbody>
-        </table>
 
          
 
@@ -424,6 +405,12 @@ class EarningsCalendar extends Component {
               <td>accenture</td>
               <td>12/24/2020</td>
               <td>bmo</td>
+            </tr>     
+            <tr>
+              <td><Link to="/results/COST">COST</Link></td>
+              <td>Costco</td>
+              <td>12/24/2020</td>
+              <td>amc</td>
             </tr> 
           </tbody>
         </table>
