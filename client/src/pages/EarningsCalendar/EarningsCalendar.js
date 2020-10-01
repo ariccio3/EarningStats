@@ -27,31 +27,6 @@ class EarningsCalendar extends Component {
               <th className="time">Time</th>
             </tr>        
           </thead>
-          <tbody>       
-            <tr>
-              <td><Link to="/results/STZ">STZ</Link></td>  
-              <td>Constellation Brands</td>
-              <td>10/1/2020</td>
-              <td>bmo</td>
-            </tr>
-            <tr>
-              <td><Link to="/results/PEP">PEP</Link></td>
-              <td>Pepsico</td>
-              <td>10/1/2020</td>
-              <td>bmo</td>
-            </tr>  
-          </tbody>
-        </table>
-
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Time</th>
-            </tr>        
-          </thead>
           <tbody>         
             <tr>
               <td><Link to="/results/DPZ">DPZ</Link></td>
@@ -567,7 +542,19 @@ class EarningsCalendar extends Component {
               <td>Costco</td>
               <td>12/24/2020</td>
               <td>amc</td>
-            </tr> 
+            </tr>    
+            <tr>
+              <td><Link to="/results/STZ">STZ</Link></td>  
+              <td>Constellation Brands</td>
+              <td>1/1/2021</td>
+              <td>bmo</td>
+            </tr>
+            <tr>
+              <td><Link to="/results/PEP">PEP</Link></td>
+              <td>Pepsico</td>
+              <td>1/1/2021</td>
+              <td>bmo</td>
+            </tr>  
           </tbody>
         </table>
 
