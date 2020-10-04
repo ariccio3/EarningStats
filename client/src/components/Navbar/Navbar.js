@@ -64,13 +64,14 @@ class Navbar extends Component {
   
   render() {
     return (
-      <nav className="navbar navbar-dark bg-primary navbar-fixed-top"> 
+      <nav className="navbar sticky-top navbar-light bg-light"> 
         <div className="container-fluid">
             <Link className="navbar-brand" to="/">
               EarningStats
             </Link>
             
-{/*          <div className="formBox">
+{/*          navbar navbar-dark bg-primary navbar-fixed-top
+            <div className="formBox">
             <form>
               <div className="form-inline">
                 <input
