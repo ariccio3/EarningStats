@@ -69,8 +69,8 @@ class Navbar extends Component {
             <Link className="navbar-brand" to="/">
               EarningStats
             </Link>
-/*            
-          <div className="formBox">
+            
+/*          <div className="formBox">
             <form>
               <div className="form-inline">
                 <input
@@ -88,7 +88,7 @@ class Navbar extends Component {
               </button>
             </form>
           </div>
-*/            
+*/
         </div>
       </nav>
     )
