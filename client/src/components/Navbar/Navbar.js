@@ -64,7 +64,7 @@ class Navbar extends Component {
   
   render() {
     return (
-      <nav className="navbar sticky-top navbar-light bg-light"> 
+      <nav className="navbar navbar-dark bg-primary"> 
         <div className="container-fluid">
             <Link className="navbar-brand" to="/">
               EarningStats
