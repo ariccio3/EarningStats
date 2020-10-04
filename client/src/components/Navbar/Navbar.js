@@ -70,25 +70,7 @@ class Navbar extends Component {
               EarningStats
             </Link>
             
-/*          <div className="formBox">
-            <form>
-              <div className="form-inline">
-                <input
-                  className="form-control"
-                  value={this.state.stocks}
-                  name="stocks"
-                  onChange={this.handleInputChange}
-                  type="text"
-                  placeholder="Enter Stock Ticker"
-                />
-              </div>
-              <button 
-                className="btn btn-dark btn-md" 
-                onClick={this.handleFormSubmit}><i className="fa fa-search" aria-hidden="true"></i>
-              </button>
-            </form>
-          </div>
-*/
+
         </div>
       </nav>
     )
