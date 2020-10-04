@@ -1,5 +1,5 @@
 * {
-    border: solid red 1px;
+    /*border: solid red 1px;*/
 }
 .iframe-container {
   position: relative;
@@ -21,8 +21,7 @@
 
 html,body {
 	z-index: -1;
-	height: 100%;
-	/*margin-top: 70px;*/
+	margin-top: 70px;
 	-webkit-text-size-adjust:none;
     -moz-text-size-adjust:none;
     -ms-text-size-adjust:none;
