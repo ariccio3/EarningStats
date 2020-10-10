@@ -31,19 +31,19 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>  
             <tr>
-              <td><Link to="/results/C">C</Link></td>
+              <td>/*<Link to="/results/C">*/C</Link></td>
               <td>CitiGroup</td>
               <td>10/13/2020</td>
               <td>bmo</td>
             </tr>    
             <tr>
-              <td><Link to="/results/JNJ">JNJ</Link></td>
+              <td>/*<Link to="/results/JNJ">*/JNJ</Link></td>
               <td>Johnson &amp; Johnson</td>
               <td>10/13/2020</td>
               <td>bmo</td>
             </tr>  
             <tr>
-              <td><Link to="/results/JPM">JPM</Link></td>
+              <td>/*<Link to="/results/JPM">*/JPM</Link></td>
               <td>JPMorgan Chase</td>
               <td>10/13/2020</td>
               <td>bmo</td>
