@@ -26,7 +26,7 @@ class EarningsCalendar extends Component {
               <th className="stock">Stock</th>
               <th className="company">Company</th>
               <th className="date">Date</th>
-              <th className="time">Time</th>
+              <th className="time">Period</th>
             </tr>        
           </thead>
           <tbody>  
@@ -69,7 +69,7 @@ class EarningsCalendar extends Component {
               <th className="stock">Stock</th>
               <th className="company">Company</th>
               <th className="date">Date</th>
-              <th className="time">Time</th>
+              <th className="time">Period</th>
             </tr>        
           </thead>
           <tbody> 
@@ -148,7 +148,7 @@ class EarningsCalendar extends Component {
               <th className="stock">Stock</th>
               <th className="company">Company</th>
               <th className="date">Date</th>
-              <th className="time">Time</th>
+              <th className="time">Period</th>
             </tr>        
           </thead>
           <tbody>   
@@ -241,16 +241,16 @@ class EarningsCalendar extends Component {
               <td>Cheveron</td>
               <td>10/30/2020</td>
               <td>bmo</td>
-            </tr>    
-            <tr>
-              <td>{/*<Link to="/results/XOM">*/}XOM{/*</Link>*/}</td>
-              <td>Exxon Mobil</td>
-              <td>10/30/2020</td>
-              <td>bmo</td>
             </tr>      
             <tr>
               <td>{/*<Link to="/results/SBUX">*/}MA{/*</Link>*/}</td>
               <td>Mastercard</td>
+              <td>10/30/2020</td>
+              <td>bmo</td>
+            </tr>    
+            <tr>
+              <td>{/*<Link to="/results/XOM">*/}XOM{/*</Link>*/}</td>
+              <td>Exxon Mobil</td>
               <td>10/30/2020</td>
               <td>bmo</td>
             </tr>   
@@ -263,10 +263,16 @@ class EarningsCalendar extends Component {
               <th className="stock">Stock</th>
               <th className="company">Company</th>
               <th className="date">Date</th>
-              <th className="time">Time</th>
+              <th className="time">Period</th>
             </tr>        
           </thead>
-          <tbody>     
+          <tbody>   
+            <tr>
+              <td>{/*<Link to="/results/ANET">*/}ANET{/*</Link>*/}</td>
+              <td>Arista Networks</td>
+              <td>11/2/2020</td>
+              <td>amc</td>
+            </tr>     
             <tr>
               <td>{/*<Link to="/results/PYPL">*/}PYPL{/*</Link>*/}</td>
               <td>PayPal</td>
@@ -316,13 +322,13 @@ class EarningsCalendar extends Component {
               <td>amc</td>
             </tr>  
             <tr>
-              <td><Link to="/results/TTWO">TTWO</Link></td>
+              <td>{/*<Link to="/results/TTWO">*/}TTWO{/*</Link>*/}</td>
               <td>Take-Two Interactive</td>
               <td>11/5/2020</td>
               <td>amc</td>
             </tr>   
             <tr>
-              <td><Link to="/results/MCD">MCD</Link></td>
+              <td>{/*<Link to="/results/MCD">*/}MCD{/*</Link>*/}</td>
               <td>McDonalds</td>
               <td>11/9/2020</td>
               <td>bmo</td>
@@ -336,7 +342,7 @@ class EarningsCalendar extends Component {
               <th className="stock">Stock</th>
               <th className="company">Company</th>
               <th className="date">Date</th>
-              <th className="time">Time</th>
+              <th className="time">Period</th>
             </tr>        
           </thead>
           <tbody>
@@ -361,7 +367,7 @@ class EarningsCalendar extends Component {
               <th className="stock">Stock</th>
               <th className="company">Company</th>
               <th className="date">Date</th>
-              <th className="time">Time</th>
+              <th className="time">Period</th>
             </tr>        
           </thead>
           <tbody>                 
@@ -404,7 +410,7 @@ class EarningsCalendar extends Component {
               <th className="stock">Stock</th>
               <th className="company">Company</th>
               <th className="date">Date</th>
-              <th className="time">Time</th>
+              <th className="time">Period</th>
             </tr>        
           </thead>
           <tbody>       
@@ -429,7 +435,7 @@ class EarningsCalendar extends Component {
               <th className="stock">Stock</th>
               <th className="company">Company</th>
               <th className="date">Date</th>
-              <th className="time">Time</th>
+              <th className="time">Period</th>
             </tr>        
           </thead>
           <tbody>   
@@ -454,7 +460,7 @@ class EarningsCalendar extends Component {
               <th className="stock">Stock</th>
               <th className="company">Company</th>
               <th className="date">Date</th>
-              <th className="time">Time</th>
+              <th className="time">Period</th>
             </tr>        
           </thead>
           <tbody>  
@@ -491,7 +497,7 @@ class EarningsCalendar extends Component {
               <th className="stock">Stock</th>
               <th className="company">Company</th>
               <th className="date">Date</th>
-              <th className="time">Time</th>
+              <th className="time">Period</th>
             </tr>        
           </thead>
           <tbody>   
@@ -522,7 +528,7 @@ class EarningsCalendar extends Component {
               <th className="stock">Stock</th>
               <th className="company">Company</th>
               <th className="date">Date</th>
-              <th className="time">Time</th>
+              <th className="time">Period</th>
             </tr>        
           </thead>
           <tbody>    
@@ -541,7 +547,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td>{/*<Link to="/results/DPZ">*/}DPZ{/*</Link>*/}</td>
               <td>Dominos Pizza</td>
-              <td>1/8/2020*</td>
+              <td>1/8/2021*</td>
               <td>bmo</td>
             </tr> 
           </tbody>
