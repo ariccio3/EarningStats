@@ -29,25 +29,7 @@ class EarningsCalendar extends Component {
               <th className="time">Period</th>
             </tr>        
           </thead>
-          <tbody>  
-            <tr>
-              <td>{/*<Link to="/results/C">*/}C{/*</Link>*/}</td>
-              <td>CitiGroup</td>
-              <td>10/13/2020</td>
-              <td>bmo</td>
-            </tr>    
-            <tr>
-              <td>{/*<Link to="/results/JNJ">*/}JNJ{/*</Link>*/}</td>
-              <td>Johnson &amp; Johnson</td>
-              <td>10/13/2020</td>
-              <td>bmo</td>
-            </tr>  
-            <tr>
-              <td>{/*<Link to="/results/JPM">*/}JPM{/*</Link>*/}</td>
-              <td>JPMorgan Chase</td>
-              <td>10/13/2020</td>
-              <td>bmo</td>
-            </tr>  
+          <tbody>   
             <tr>
               <td>{/*<Link to="/results/GS">*/}GS{/*</Link>*/}</td>
               <td>Goldman Sachs</td>
@@ -548,6 +530,24 @@ class EarningsCalendar extends Component {
               <td>{/*<Link to="/results/DPZ">*/}DPZ{/*</Link>*/}</td>
               <td>Dominos Pizza</td>
               <td>1/8/2021*</td>
+              <td>bmo</td>
+            </tr> 
+            <tr>
+              <td>{/*<Link to="/results/C">*/}C{/*</Link>*/}</td>
+              <td>CitiGroup</td>
+              <td>1/13/2021</td>
+              <td>bmo</td>
+            </tr>    
+            <tr>
+              <td>{/*<Link to="/results/JNJ">*/}JNJ{/*</Link>*/}</td>
+              <td>Johnson &amp; Johnson</td>
+              <td>1/13/2021</td>
+              <td>bmo</td>
+            </tr>  
+            <tr>
+              <td>{/*<Link to="/results/JPM">*/}JPM{/*</Link>*/}</td>
+              <td>JPMorgan Chase</td>
+              <td>1/13/2021</td>
               <td>bmo</td>
             </tr> 
           </tbody>
