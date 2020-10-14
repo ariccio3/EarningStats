@@ -30,19 +30,6 @@ class EarningsCalendar extends Component {
             </tr>        
           </thead>
           <tbody> 
-          </tbody>
-        </table>
-
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Period</th>
-            </tr>        
-          </thead>
-          <tbody> 
             <tr>
               <td>{/*<Link to="/results/IBM">*/}IBM{/*</Link>*/}</td>
               <td>International Business Machines</td>
