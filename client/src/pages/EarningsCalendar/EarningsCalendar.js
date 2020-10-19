@@ -71,19 +71,7 @@ class EarningsCalendar extends Component {
               <td>XILINX Inc</td>
               <td>10/21/2020</td>
               <td>amc</td>
-            </tr>       
-            <tr>
-              <td>{/*<Link to="/results/AMZN">*/}AMZN{/*</Link>*/}</td>
-              <td>Amazon</td>
-              <td>10/22/2020*</td>
-              <td>amc</td>
-            </tr>   
-            <tr>
-              <td>{/*<Link to="/results/GILD">*/}GILD{/*</Link>*/}</td>
-              <td>Gilead Sciences</td>
-              <td>10/22/2020*</td>
-              <td>amc</td>
-            </tr>  
+            </tr> 
             <tr>
               <td>{/*<Link to="/results/AXP">*/}AXP{/*</Link>*/}</td>
               <td>American Express</td>
@@ -132,7 +120,13 @@ class EarningsCalendar extends Component {
               <td>Boeing</td>
               <td>10/28/2020</td>
               <td>bmo</td>
-            </tr>         
+            </tr>          
+            <tr>
+              <td>{/*<Link to="/results/SBUX">*/}MA{/*</Link>*/}</td>
+              <td>Mastercard</td>
+              <td>10/28/2020</td>
+              <td>bmo</td>
+            </tr>    
             <tr>
               <td>{/*<Link to="/results/UPS">*/}UPS{/*</Link>*/}</td>
               <td>United Parcel Service</td>
@@ -144,7 +138,13 @@ class EarningsCalendar extends Component {
               <td>Amgen</td>
               <td>10/28/2020</td>
               <td>amc</td>
-            </tr>    
+            </tr>      
+            <tr>
+              <td>{/*<Link to="/results/GILD">*/}GILD{/*</Link>*/}</td>
+              <td>Gilead Sciences</td>
+              <td>10/28/2020</td>
+              <td>amc</td>
+            </tr>   
             <tr>
               <td>{/*<Link to="/results/NOW">*/}NOW{/*</Link>*/}</td>
               <td>ServiceNow</td>
@@ -168,13 +168,19 @@ class EarningsCalendar extends Component {
               <td>Shopify</td>
               <td>10/29/2020</td>
               <td>bmo</td>
-            </tr> 
+            </tr>  
             <tr>
               <td>{/*<Link to="/results/AAPL">*/}AAPL{/*</Link>*/}</td>
               <td>Apple</td>
               <td>10/29/2020</td>
               <td>amc</td>
-            </tr> 
+            </tr>      
+            <tr>
+              <td>{/*<Link to="/results/AMZN">*/}AMZN{/*</Link>*/}</td>
+              <td>Amazon</td>
+              <td>10/29/2020</td>
+              <td>amc</td>
+            </tr>
             <tr>
               <td>{/*<Link to="/results/FB">*/}FB{/*</Link>*/}</td>
               <td>Facebook</td>
@@ -198,13 +204,7 @@ class EarningsCalendar extends Component {
               <td>Cheveron</td>
               <td>10/30/2020</td>
               <td>bmo</td>
-            </tr>      
-            <tr>
-              <td>{/*<Link to="/results/SBUX">*/}MA{/*</Link>*/}</td>
-              <td>Mastercard</td>
-              <td>10/30/2020</td>
-              <td>bmo</td>
-            </tr>    
+            </tr>     
             <tr>
               <td>{/*<Link to="/results/XOM">*/}XOM{/*</Link>*/}</td>
               <td>Exxon Mobil</td>
