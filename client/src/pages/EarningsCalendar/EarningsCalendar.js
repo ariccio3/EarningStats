@@ -18,8 +18,6 @@ class EarningsCalendar extends Component {
 
          
 
-
-
         <table className="table table-striped table-hover table-bordered">
           <thead>
             <tr>
@@ -29,25 +27,7 @@ class EarningsCalendar extends Component {
               <th className="time">Period</th>
             </tr>        
           </thead>
-          <tbody>      
-            <tr>
-              <td>{/*<Link to="/results/NFLX">*/}NFLX{/*</Link>*/}</td>
-              <td>Netflix</td>
-              <td>10/20/2020</td>
-              <td>amc</td>
-            </tr>    
-            <tr>
-              <td>{/*<Link to="/results/TXN">*/}TXN{/*</Link>*/}</td>
-              <td>Texas Instruments</td>
-              <td>10/20/2020</td>
-              <td>amc</td>
-            </tr>   
-            <tr>
-              <td>{/*<Link to="/results/BIIB">*/}BIIB{/*</Link>*/}</td>
-              <td>Biogen</td>
-              <td>10/21/2020</td>
-              <td>bmo</td>
-            </tr>  
+          <tbody>   
             <tr>
               <td>{/*<Link to="/results/CMG">*/}CMG{/*</Link>*/}</td>
               <td>Chipotle Mexican Grill</td>
@@ -536,7 +516,25 @@ class EarningsCalendar extends Component {
               <td>International Business Machines</td>
               <td>1/19/2021</td>
               <td>amc</td>
+            </tr>      
+            <tr>
+              <td>{/*<Link to="/results/NFLX">*/}NFLX{/*</Link>*/}</td>
+              <td>Netflix</td>
+              <td>1/20/2021</td>
+              <td>amc</td>
+            </tr>    
+            <tr>
+              <td>{/*<Link to="/results/TXN">*/}TXN{/*</Link>*/}</td>
+              <td>Texas Instruments</td>
+              <td>1/20/2021</td>
+              <td>amc</td>
             </tr>   
+            <tr>
+              <td>{/*<Link to="/results/BIIB">*/}BIIB{/*</Link>*/}</td>
+              <td>Biogen</td>
+              <td>1/21/2021</td>
+              <td>bmo</td>
+            </tr>  
           </tbody>
         </table>
 
