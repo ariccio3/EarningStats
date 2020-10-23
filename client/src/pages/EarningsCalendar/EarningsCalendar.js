@@ -15,28 +15,6 @@ class EarningsCalendar extends Component {
 
 
 
-
-         
-
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Period</th>
-            </tr>        
-          </thead>
-          <tbody>   
-            <tr>
-              <td>{/*<Link to="/results/AXP">*/}AXP{/*</Link>*/}</td>
-              <td>American Express</td>
-              <td>10/23/2020</td>
-              <td>bmo</td>
-            </tr>    
-          </tbody>
-        </table>
-
         <table className="table table-striped table-hover table-bordered">
           <thead>
             <tr>
@@ -534,7 +512,13 @@ class EarningsCalendar extends Component {
               <td>XILINX Inc</td>
               <td>1/21/2021</td>
               <td>amc</td>
-            </tr> 
+            </tr>  
+            <tr>
+              <td>{/*<Link to="/results/AXP">*/}AXP{/*</Link>*/}</td>
+              <td>American Express</td>
+              <td>1/23/2021</td>
+              <td>bmo</td>
+            </tr>  
           </tbody>
         </table>
 
