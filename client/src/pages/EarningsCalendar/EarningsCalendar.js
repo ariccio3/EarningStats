@@ -24,19 +24,7 @@ class EarningsCalendar extends Component {
               <th className="time">Period</th>
             </tr>        
           </thead>
-          <tbody>   
-            <tr>
-              <td>{/*<Link to="/results/TWLO">*/}TWLO{/*</Link>*/}</td>
-              <td>twilio</td>
-              <td>10/26/2020</td>
-              <td>amc</td>
-            </tr>   
-            <tr>
-              <td>{/*<Link to="/results/CAT">*/}CAT{/*</Link>*/}</td>
-              <td>Caterpillar</td>
-              <td>10/27/2020</td>
-              <td>bmo</td>
-            </tr>    
+          <tbody>    
             <tr>
               <td>{/*<Link to="/results/MSFT">*/}MSFT{/*</Link>*/}</td>
               <td>Microsoft</td>
@@ -90,12 +78,6 @@ class EarningsCalendar extends Component {
               <td>Visa</td>
               <td>10/28/2020</td>
               <td>amc</td>
-            </tr>       
-            <tr>
-              <td>{/*<Link to="/results/BABA">*/}BABA{/*</Link>*/}</td>
-              <td>Alibaba</td>
-              <td>10/29/2020*</td>
-              <td>bmo</td>
             </tr>    
             <tr>
               <td>{/*<Link to="/results/SHOP">*/}SHOP{/*</Link>*/}</td>
@@ -181,6 +163,12 @@ class EarningsCalendar extends Component {
               <td>Wynn Resorts</td>
               <td>11/4/2020*</td>
               <td>amc</td>
+            </tr>       
+            <tr>
+              <td>{/*<Link to="/results/BABA">*/}BABA{/*</Link>*/}</td>
+              <td>Alibaba</td>
+              <td>11/5/2020</td>
+              <td>bmo</td>
             </tr>      
             <tr>
               <td>{/*<Link to="/results/BKNG">*/}BKNG{/*</Link>*/}</td>
@@ -519,6 +507,18 @@ class EarningsCalendar extends Component {
               <td>1/23/2021</td>
               <td>bmo</td>
             </tr>  
+            <tr>
+              <td>{/*<Link to="/results/TWLO">*/}TWLO{/*</Link>*/}</td>
+              <td>twilio</td>
+              <td>1/26/2021</td>
+              <td>amc</td>
+            </tr>   
+            <tr>
+              <td>{/*<Link to="/results/CAT">*/}CAT{/*</Link>*/}</td>
+              <td>Caterpillar</td>
+              <td>1/27/2021</td>
+              <td>bmo</td>
+            </tr>   
           </tbody>
         </table>
 
