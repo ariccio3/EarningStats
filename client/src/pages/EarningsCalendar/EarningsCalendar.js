@@ -27,29 +27,11 @@ class EarningsCalendar extends Component {
           </thead>
           <tbody>   
             <tr>
-              <td>{/*<Link to="/results/ANET">*/}ANET{/*</Link>*/}</td>
-              <td>Arista Networks</td>
-              <td>11/2/2020</td>
-              <td>amc</td>
-            </tr>     
-            <tr>
-              <td>{/*<Link to="/results/PYPL">*/}PYPL{/*</Link>*/}</td>
-              <td>PayPal</td>
-              <td>11/2/2020</td>
-              <td>amc</td>
-            </tr> 
-            <tr>
               <td>{/*<Link to="/results/QCOM">*/}QCOM{/*</Link>*/}</td>
               <td>QualComm</td>
               <td>11/4/2020</td>
               <td>amc</td>
-            </tr>     
-            <tr>
-              <td>{/*<Link to="/results/WYNN">*/}WYNN{/*</Link>*/}</td>
-              <td>Wynn Resorts</td>
-              <td>11/4/2020*</td>
-              <td>amc</td>
-            </tr>       
+            </tr>         
             <tr>
               <td>{/*<Link to="/results/BABA">*/}BABA{/*</Link>*/}</td>
               <td>Alibaba</td>
@@ -61,13 +43,7 @@ class EarningsCalendar extends Component {
               <td>Booking</td>
               <td>11/5/2020</td>
               <td>amc</td>
-            </tr>      
-            <tr>
-              <td>{/*<Link to="/results/BIDU">*/}BIDU{/*</Link>*/}</td>
-              <td>Baidu</td>
-              <td>11/5/2020*</td>
-              <td>amc</td>
-            </tr>            
+            </tr>             
             <tr>
               <td>{/*<Link to="/results/EA">*/}EA{/*</Link>*/}</td>
               <td>Electronic Arts</td>
@@ -91,7 +67,13 @@ class EarningsCalendar extends Component {
               <td>Take-Two Interactive</td>
               <td>11/5/2020</td>
               <td>amc</td>
-            </tr>   
+            </tr>     
+            <tr>
+              <td>{/*<Link to="/results/WYNN">*/}WYNN{/*</Link>*/}</td>
+              <td>Wynn Resorts</td>
+              <td>11/5/2020</td>
+              <td>amc</td>
+            </tr> 
             <tr>
               <td>{/*<Link to="/results/MCD">*/}MCD{/*</Link>*/}</td>
               <td>McDonalds</td>
@@ -110,19 +92,19 @@ class EarningsCalendar extends Component {
               <th className="time">Period</th>
             </tr>        
           </thead>
-          <tbody>
+          <tbody>   
+            <tr>
+              <td>{/*<Link to="/results/BIDU">*/}BIDU{/*</Link>*/}</td>
+              <td>Baidu</td>
+              <td>11/12/2020*</td>
+              <td>amc</td>
+            </tr>  
             <tr>
               <td>{/*<Link to="/results/DIS">*/}DIS{/*</Link>*/}</td>
               <td>Disney</td>
               <td>11/12/2020</td>
               <td>amc</td>
-            </tr> 
-            <tr>
-              <td>{/*<Link to="/results/NTES">*/}NTES{/*</Link>*/}</td>
-              <td>NetEase</td>
-              <td>11/12/2020*</td>
-              <td>bmo</td>
-            </tr>     
+            </tr>    
           </tbody>
         </table>
 
@@ -163,8 +145,14 @@ class EarningsCalendar extends Component {
             <tr>
               <td>{/*<Link to="/results/NVDA">*/}NVDA{/*</Link>*/}</td>
               <td>NVIDIA</td>
-              <td>11/18/2020*</td>
+              <td>11/18/2020</td>
               <td>amc</td>
+            </tr>  
+            <tr>
+              <td>{/*<Link to="/results/NTES">*/}NTES{/*</Link>*/}</td>
+              <td>NetEase</td>
+              <td>11/19/2020</td>
+              <td>bmo</td>
             </tr>  
           </tbody>
         </table>
@@ -507,6 +495,18 @@ class EarningsCalendar extends Component {
               <td>1/30/2021</td>
               <td>bmo</td>
             </tr>  
+            <tr>
+              <td>{/*<Link to="/results/ANET">*/}ANET{/*</Link>*/}</td>
+              <td>Arista Networks</td>
+              <td>2/2/2021</td>
+              <td>amc</td>
+            </tr>     
+            <tr>
+              <td>{/*<Link to="/results/PYPL">*/}PYPL{/*</Link>*/}</td>
+              <td>PayPal</td>
+              <td>2/2/2021</td>
+              <td>amc</td>
+            </tr> 
           </tbody>
         </table>
 
