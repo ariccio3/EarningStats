@@ -25,19 +25,7 @@ class EarningsCalendar extends Component {
               <th className="time">Period</th>
             </tr>        
           </thead>
-          <tbody>   
-            <tr>
-              <td>{/*<Link to="/results/QCOM">*/}QCOM{/*</Link>*/}</td>
-              <td>QualComm</td>
-              <td>11/4/2020</td>
-              <td>amc</td>
-            </tr>         
-            <tr>
-              <td>{/*<Link to="/results/BABA">*/}BABA{/*</Link>*/}</td>
-              <td>Alibaba</td>
-              <td>11/5/2020</td>
-              <td>bmo</td>
-            </tr>      
+          <tbody>       
             <tr>
               <td>{/*<Link to="/results/BKNG">*/}BKNG{/*</Link>*/}</td>
               <td>Booking</td>
@@ -507,6 +495,18 @@ class EarningsCalendar extends Component {
               <td>2/2/2021</td>
               <td>amc</td>
             </tr> 
+            <tr>
+              <td>{/*<Link to="/results/QCOM">*/}QCOM{/*</Link>*/}</td>
+              <td>QualComm</td>
+              <td>2/4/2021</td>
+              <td>amc</td>
+            </tr>         
+            <tr>
+              <td>{/*<Link to="/results/BABA">*/}BABA{/*</Link>*/}</td>
+              <td>Alibaba</td>
+              <td>2/5/2021</td>
+              <td>bmo</td>
+            </tr>  
           </tbody>
         </table>
 
