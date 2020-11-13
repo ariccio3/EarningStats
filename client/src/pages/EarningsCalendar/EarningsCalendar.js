@@ -27,25 +27,6 @@ class EarningsCalendar extends Component {
               <th className="time">Period</th>
             </tr>        
           </thead>
-          <tbody> 
-            <tr>
-              <td>{/*<Link to="/results/DIS">*/}DIS{/*</Link>*/}</td>
-              <td>Disney</td>
-              <td>11/12/2020</td>
-              <td>amc</td>
-            </tr>    
-          </tbody>
-        </table>
-
-        <table className="table table-striped table-hover table-bordered">
-          <thead>
-            <tr>
-              <th className="stock">Stock</th>
-              <th className="company">Company</th>
-              <th className="date">Date</th>
-              <th className="time">Period</th>
-            </tr>        
-          </thead>
           <tbody>      
             <tr>
               <td>{/*<Link to="/results/BIDU">*/}BIDU{/*</Link>*/}</td>
@@ -495,6 +476,12 @@ class EarningsCalendar extends Component {
               <td>McDonalds</td>
               <td>2/9/2021</td>
               <td>bmo</td>
+            </tr> 
+            <tr>
+              <td>{/*<Link to="/results/DIS">*/}DIS{/*</Link>*/}</td>
+              <td>Disney</td>
+              <td>2/12/2021</td>
+              <td>amc</td>
             </tr> 
           </tbody>
         </table>
