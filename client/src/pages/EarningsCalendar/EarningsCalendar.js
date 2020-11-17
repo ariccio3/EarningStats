@@ -27,25 +27,7 @@ class EarningsCalendar extends Component {
               <th className="time">Period</th>
             </tr>        
           </thead>
-          <tbody>      
-            <tr>
-              <td>{/*<Link to="/results/BIDU">*/}BIDU{/*</Link>*/}</td>
-              <td>Baidu</td>
-              <td>11/16/2020</td>
-              <td>amc</td>
-            </tr>               
-            <tr>
-              <td>{/*<Link to="/results/HD">*/}HD{/*</Link>*/}</td>
-              <td>Home Depot</td>
-              <td>11/17/2020</td>
-              <td>bmo</td>
-            </tr>                   
-            <tr>
-              <td>{/*<Link to="/results/WMT">*/}WMT{/*</Link>*/}</td>
-              <td>Walmart</td>
-              <td>11/17/2020</td>
-              <td>bmo</td>
-            </tr>                 
+          <tbody>                     
             <tr>
               <td>{/*<Link to="/results/LOW">*/}LOW{/*</Link>*/}</td>
               <td>Lowe's</td>
@@ -482,6 +464,24 @@ class EarningsCalendar extends Component {
               <td>Disney</td>
               <td>2/12/2021</td>
               <td>amc</td>
+            </tr>  
+            <tr>
+              <td>{/*<Link to="/results/BIDU">*/}BIDU{/*</Link>*/}</td>
+              <td>Baidu</td>
+              <td>2/16/2021</td>
+              <td>amc</td>
+            </tr>               
+            <tr>
+              <td>{/*<Link to="/results/HD">*/}HD{/*</Link>*/}</td>
+              <td>Home Depot</td>
+              <td>2/17/2021</td>
+              <td>bmo</td>
+            </tr>                   
+            <tr>
+              <td>{/*<Link to="/results/WMT">*/}WMT{/*</Link>*/}</td>
+              <td>Walmart</td>
+              <td>2/17/2021</td>
+              <td>bmo</td>
             </tr> 
           </tbody>
         </table>
