@@ -27,19 +27,7 @@ class EarningsCalendar extends Component {
               <th className="time">Period</th>
             </tr>        
           </thead>
-          <tbody>                     
-            <tr>
-              <td>{/*<Link to="/results/LOW">*/}LOW{/*</Link>*/}</td>
-              <td>Lowe's</td>
-              <td>11/18/2020</td>
-              <td>bmo</td>
-            </tr>    
-            <tr>
-              <td>{/*<Link to="/results/TGT">*/}TGT{/*</Link>*/}</td>
-              <td>Target</td>
-              <td>11/18/2020</td>
-              <td>bmo</td>
-            </tr>        
+          <tbody>       
             <tr>
               <td>{/*<Link to="/results/NVDA">*/}NVDA{/*</Link>*/}</td>
               <td>NVIDIA</td>
@@ -482,7 +470,19 @@ class EarningsCalendar extends Component {
               <td>Walmart</td>
               <td>2/17/2021</td>
               <td>bmo</td>
-            </tr> 
+            </tr>                   
+            <tr>
+              <td>{/*<Link to="/results/LOW">*/}LOW{/*</Link>*/}</td>
+              <td>Lowe's</td>
+              <td>2/18/2021</td>
+              <td>bmo</td>
+            </tr>    
+            <tr>
+              <td>{/*<Link to="/results/TGT">*/}TGT{/*</Link>*/}</td>
+              <td>Target</td>
+              <td>2/18/2021</td>
+              <td>bmo</td>
+            </tr>    
           </tbody>
         </table>
 
