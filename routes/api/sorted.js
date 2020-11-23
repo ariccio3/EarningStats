@@ -5,7 +5,7 @@ const sortedController = require("../../controllers/sortedController");
   router
   .route("/")
   .get(sortedController.findStock)
-
+/*
  router
   .route("/totalpercentup")
   .get(sortedController.findTotalPercentUp)
@@ -89,5 +89,5 @@ const sortedController = require("../../controllers/sortedController");
  router
   .route("/belowavgem")
   .get(sortedController.findBelowAvgEM) 
-
+*/
 module.exports = router;

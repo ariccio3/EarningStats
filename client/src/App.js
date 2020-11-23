@@ -2,10 +2,10 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 //import Home from "./pages/Home";
 import Home from "./pages/Dashboard";
-import Results from "./pages/Results";
-import Annual from "./pages/Annual";
 import Glossary from "./pages/Glossary";
 import EarningsCalendar from "./pages/EarningsCalendar";
+/*import Results from "./pages/Results";
+import Annual from "./pages/Annual";
 import TotalPercentUp from "./pages/Sorted/totalPercentUp";
 import PercentInside from "./pages/Sorted/percentInside";
 import PercentHalfEM from "./pages/Sorted/percentHalfEM";
@@ -30,10 +30,11 @@ import BelowAvgEM from "./pages/Sorted/belowAvgEM";
 import ProsCons from "./pages/ProsCons";
 import Setup from "./pages/Setup";
 import Rank from "./pages/Rank";
+import Dashboard from "./pages/Dashboard";
+*/
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import NoMatch from "./pages/NoMatch";
-import Dashboard from "./pages/Dashboard";
 
 const App = () =>
   <Router>
@@ -41,35 +42,9 @@ const App = () =>
       <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/results/:stock" component={Results} />
-          <Route exact path="/annual" component={Annual} />
           <Route exact path="/glossary" component={Glossary} />          
           <Route exact path="/earningscalendar" component={EarningsCalendar} />          
-          <Route exact path="/sorted/totalpercentup" component={TotalPercentUp} />
-          <Route exact path="/sorted/percentinside" component={PercentInside} />
-          <Route exact path="/sorted/percenthalfem" component={PercentHalfEM} />
-          <Route exact path="/sorted/doubleem" component={DoubleEM} />
-          <Route exact path="/sorted/backtoback" component={BackToBack} />
-          <Route exact path="/sorted/outsidepercentup" component={OutsidePercentUp} />
-          <Route exact path="/sorted/outsidepercentdown" component={OutsidePercentDown} />
-          <Route exact path="/sorted/avgpercentem" component={AvgPercentEM} />
-          <Route exact path="/sorted/q1percentinside" component={Q1PercentInside} />
-          <Route exact path="/sorted/q2percentinside" component={Q2PercentInside} />
-          <Route exact path="/sorted/q3percentinside" component={Q3PercentInside} />
-          <Route exact path="/sorted/q4percentinside" component={Q4PercentInside} />
-          <Route exact path="/sorted/amover2xempercent" component={AmOver2XemPercent} />
-          <Route exact path="/sorted/amunder2xempercent" component={AmUnder2XemPercent} />
-          <Route exact path="/sorted/amunder175xempercent" component={AmUnder175XemPercent} />
-          <Route exact path="/sorted/amunder150xempercent" component={AmUnder150XemPercent} />
-          <Route exact path="/sorted/amunder125xempercent" component={AmUnder125XemPercent} />
-          <Route exact path="/sorted/underempercent" component={UnderEMPercent} />
-          <Route exact path="/sorted/amunder75xempercent" component={AmUnder75XemPercent} />
-          <Route exact path="/sorted/aboveavgem" component={AboveAvgEM} />
-          <Route exact path="/sorted/belowavgem" component={BelowAvgEM} />
-          <Route exact path="/proscons/:stock" component={ProsCons}  {...this.props}/>
-          <Route exact path="/setup" component={Setup} />
-          <Route exact path="/dashboard" component={Dashboard} />
-          <Route exact path="/rank" component={Rank} />          
+       
           <Route component={NoMatch} />
           <Route exact path="sitemap.xml" />
         </Switch>
