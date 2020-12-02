@@ -27,13 +27,7 @@ class EarningsCalendar extends Component {
               <th className="time">Period</th>
             </tr>        
           </thead>
-          <tbody>   
-            <tr>
-              <td>{/*<Link to="/results/CRM">*/}CRM{/*</Link>*/}</td>
-              <td>SalesForce</td>
-              <td>12/1/2020</td>
-              <td>amc</td>
-            </tr>         
+          <tbody>         
             <tr>
               <td>{/*<Link to="/results/ULTA">*/}ULTA{/*</Link>*/}</td>
               <td>ULTA Beauty</td>
@@ -58,17 +52,11 @@ class EarningsCalendar extends Component {
               <td>Adobe</td>
               <td>12/9/2020</td>
               <td>amc</td>
-            </tr>   
-            <tr>
-              <td>{/*<Link to="/results/LULU">*/}LULU{/*</Link>*/}</td>
-              <td>lululemon</td>
-              <td>12/9/2020*</td>
-              <td>amc</td>
-            </tr>           
+            </tr>         
             <tr>
               <td>{/*<Link to="/results/AVGO">*/}AVGO{/*</Link>*/}</td>
               <td>Broadcom</td>
-              <td>12/10/2020*</td>
+              <td>12/10/2020</td>
               <td>amc</td>
             </tr>       
             <tr>
@@ -76,7 +64,13 @@ class EarningsCalendar extends Component {
               <td>Costco</td>
               <td>12/10/2020</td>
               <td>amc</td>
-            </tr> 
+            </tr>    
+            <tr>
+              <td>{/*<Link to="/results/LULU">*/}LULU{/*</Link>*/}</td>
+              <td>lululemon</td>
+              <td>12/10/2020</td>
+              <td>amc</td>
+            </tr>  
           </tbody>
         </table>
 
@@ -105,7 +99,7 @@ class EarningsCalendar extends Component {
             <tr>
               <td>{/*<Link to="/results/NKE">*/}NKE{/*</Link>*/}</td>
               <td>Nike</td>
-              <td>12/17/2020*</td>
+              <td>12/18/2020</td>
               <td>amc</td>
             </tr> 
           </tbody>
@@ -457,6 +451,12 @@ class EarningsCalendar extends Component {
               <td>2/25/2021</td>
               <td>bmo</td>
             </tr>  
+            <tr>
+              <td>{/*<Link to="/results/CRM">*/}CRM{/*</Link>*/}</td>
+              <td>SalesForce</td>
+              <td>3/1/2021</td>
+              <td>amc</td>
+            </tr>   
           </tbody>
         </table>
 
