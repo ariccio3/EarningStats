@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () =>
   <footer className="footer">
-    <span className="footerText"><b>EarningStats 2003-2020&emsp;|&emsp;Contact: &nbsp;
+    <span className="footerText"><b>EarningStats 2003-2021&emsp;|&emsp;Contact: &nbsp;
     	<a href="mailto:info@earningstats.com"><img src={EmailIcon} alt="info@earningstats.com" className="icons" title="info@earningstats.com" /></a>&nbsp;
     	<a href="https://twitter.com/EarningStats" target="_blank" rel="noopener noreferrer"><img src={TwitterIcon} alt="www.twitter.com/EarningStats" className="icons" title="@EarningStats" /></a></b></span><br/><br/>
     <div className="paypal">
